@@ -1,0 +1,3 @@
+ctime: 1220917154
+tags: [blogging,blosxom]
+author: Desmond Rivet <desmond.rivet@gmail.com>

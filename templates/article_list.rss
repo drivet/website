@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{global.blogtitle}} - {{collection_title}}</title>
+    <link>{{global.blogurl}}</link>
+    <description>{{global.blogdescription}}</description> 
+    <language>{{global.bloglang}}</language> 
+    {% for a in articles: %}
+    <item>
+      <title>{{a.title}}</title>
+      <link>{{a|permalink}}</link>
+      <description>{{a|excerpt|markdown}}</description>
+      <category>{{a.category}}</category>
+      <pubDate>{{a.ctime_tm|dateformat('%a, %d %b %Y %H:%M:%S %Z')}}</pubDate>
+      <guid>{{a|permalink}}</guid>
+      <content:encoded><![CDATA[ {{a|markdown_content}} ]]></content:encoded>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

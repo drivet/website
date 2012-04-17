@@ -1,0 +1,60 @@
+package YAWB;
+
+our $homedir = $ENV{HOMEDIR};
+
+### Anything you put here is accessible to
+### templates, CORE or not
+
+################################################
+### CORE CONFIG
+our $blog_title = "Desmond's Soapbox";
+
+our $blog_description = "Random Brain Dumps";
+
+our $blog_author = "Desmond Rivet";
+
+# Where are this blog's entries kept?
+our $datadir = "$homedir/www/webdata/blog/entries";
+
+# where do we keep or templates?
+our $templatedir = "$homedir/www/webdata/templates";
+
+# What's my preferred base URL for this blog (leave blank for automatic)?
+our $url = "http://www.desmondrivet.net";
+#our $url = "http://www.desmondrivet.net/weblog";
+#our $url = "http://www.desmondrivet.net/cgi-bin/yawb.cgi";
+
+# How many entries should I show on the home page?
+our $num_entries = 10;
+
+# What file extension signifies a blosxom entry?
+our $file_extension = "txt";
+
+# What is the default flavour?
+our $default_flavour = "html";
+
+our $plugin_list = {'YAWB::Plugin::PostedTime' => 'posted_time',
+                    'YAWB::Plugin::Archives' => 'archives',
+                    'YAWB::Plugin::Categories' => 'categories'};
+#                    'YAWB::Plugin::Writeback' => 'writeback'};
+
+our $plugin_state_dir = "$homedir/www/webdata/blog/state";
+
+# any extra TT plugin bases we need
+our @tt_plugin_base = ('Branchcut::Template::Plugin');
+
+################################################
+### EXTRA CONFIG, not part of core functionality
+
+our $root_url = "";
+
+# use in various places
+our $email = 'desmond.rivet@gmail.com';
+
+###### RSS 1.0 optional stuff
+our $rss10_channel_img_url = "";
+our $rss10_channel_img_title = "";
+
+
+1;
+

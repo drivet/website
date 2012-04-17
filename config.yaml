@@ -1,0 +1,22 @@
+metadata: { 
+    blogtitle: "Desmond's Soapbox", 
+    blogdescription: "Musings from a Anglo-Quebecer", 
+    bloglang: "en",
+    blogurl: "http://www.desmondrivet.net/blog"
+}
+
+content_types: {
+    "rss": "application/rss+xml"
+}
+
+page_size: 10
+
+#path_to_articles: /home/dcr/repos/desmondrivet/yawt_flask/entries
+path_to_articles: /home/dcr/blogging/yawt_blog/entries
+ext: txt
+meta_ext: md
+
+# hg ctime 
+repopath: /home/dcr/repos/desmondrivet
+contentpath: yawt_flask/entries
+
