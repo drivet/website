@@ -1,6 +1,0 @@
-package YAWB::Plugin::Cookies;
-
-our $domain = '';
-our $path = '/';
-our $expires = '+10y';
-

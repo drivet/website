@@ -11,10 +11,18 @@ content_types: {
 
 page_size: 10
 
-#path_to_articles: /home/dcr/repos/desmondrivet/yawt_flask/entries
+path_to_templates: /home/dcr/blogging/yawt_blog/templates
 path_to_articles: /home/dcr/blogging/yawt_blog/entries
 ext: txt
 meta_ext: md
+
+plugins: {
+    tagging: 'yawtplugins.tagging',
+    archiving: 'yawtplugins.archiving',
+    search: 'yawtplugins.search',
+    hgctime: 'yawtplugins.hgctime',
+    markdown_c: 'yawtplugins.markdown_c'
+}
 
 # hg ctime 
 repopath: /home/dcr/repos/desmondrivet

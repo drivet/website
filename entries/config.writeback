@@ -1,5 +1,0 @@
-package YAWB::Plugin::Writeback;
-
-our $email_to = "desmond.rivet\@gmail.com";
-our $email_from = "desmond.rivet\@desmondrivet.com";
-our $sendmail = "/usr/lib/sendmail";
