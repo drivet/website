@@ -2,10 +2,10 @@
 <rss version="2.0" 
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{global.blogtitle}} - {{collection_title}}</title>
-    <link>{{global.blogurl}}</link>
-    <description>{{global.blogdescription}}</description> 
-    <language>{{global.bloglang}}</language> 
+    <title>{{blogtitle}} - {{collection_title}}</title>
+    <link>{{blogurl}}</link>
+    <description>{{blogdescription}}</description> 
+    <language>{{bloglang}}</language> 
     {% for a in articles: %}
     <item>
       <title>{{a.title}}</title>

@@ -1,30 +1,22 @@
-metadata: { 
-    blogtitle: "Desmond's Soapbox", 
-    blogdescription: "Musings from a Anglo-Quebecer", 
-    bloglang: "en",
-    blogurl: "http://www.desmondrivet.net/blog"
-}
+blogtitle: "Desmond's Soapbox"
+blogdescription: "Musings from a Anglo-Quebecer"
+bloglang: "en"
+blogurl: "http://www.desmondrivet.net/blog"
+page_size: 10
+path_to_templates: templates
+path_to_articles: entries
+ext: txt
+meta_ext: md
 
+# flavour to content_type
 content_types: {
     "rss": "application/rss+xml"
 }
 
-page_size: 10
-
-path_to_templates: /home/dcr/blogging/yawt_blog/templates
-path_to_articles: /home/dcr/blogging/yawt_blog/entries
-ext: txt
-meta_ext: md
-
 plugins: {
-    tagging: 'yawtplugins.tagging',
-    archiving: 'yawtplugins.archiving',
-    search: 'yawtplugins.search',
-    hgctime: 'yawtplugins.hgctime',
-    markdown_c: 'yawtplugins.markdown_c'
+    tagging: 'yawt.plugins.tagging',
+    archiving: 'yawt.plugins.archiving',
+    search: 'yawt.plugins.search',
+    hgmeta: 'yawt.plugins.hgmeta',
+    markdown_c: 'yawt.plugins.markdown_c'
 }
-
-# hg ctime 
-repopath: /home/dcr/repos/desmondrivet
-contentpath: yawt_flask/entries
-
