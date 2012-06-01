@@ -4,7 +4,7 @@ Okay, this won't be the most exciting entry in the world. There are
 several different ways of logging or recording errors and warnings in
 perl, and I find I easily get confused. So this entry will serve as a
 very, very basic reference for me. Other people may find it useful. Or
-not.
+not. 
 
 ## Core Perl
 
