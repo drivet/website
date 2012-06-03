@@ -1,10 +1,11 @@
 blogtitle: "Desmond's Soapbox"
 blogdescription: "Musings from a Anglo-Quebecer"
 bloglang: "en"
-blogurl: "http://www.desmondrivet.net/blog"
+blogurl: ""
 page_size: 10
 path_to_templates: templates
 path_to_articles: entries
+path_to_static: static
 ext: txt
 meta_ext: md
 

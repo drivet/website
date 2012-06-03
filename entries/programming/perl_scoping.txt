@@ -1,6 +1,6 @@
 Scoping in Perl
 
-I just read a very clear tutorial on Perl scoping mechanisms:
+I just read a very clear tutorial on Perl scoping mechanisms: 
 
 [http://perl.plover.com/FAQs/Namespaces.html](http://perl.plover.com/FAQs/Namespaces.html)
 
