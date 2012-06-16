@@ -4,7 +4,7 @@ bloglang: "en"
 blogurl: ""
 page_size: 10
 path_to_templates: templates
-path_to_articles: entries
+path_to_articles: content
 path_to_static: static
 ext: txt
 meta_ext: md
@@ -20,4 +20,12 @@ plugins: {
     search: 'yawt.plugins.search',
     hgmeta: 'yawt.plugins.hgmeta',
     markdown_c: 'yawt.plugins.markdown_c'
+}
+
+archiving: {
+    base: 'blog'
+}
+
+tagging: {
+    base: 'blog'
 }
