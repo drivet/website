@@ -1,0 +1,53 @@
+{% extends "base_site_template.html" %}
+
+{% block headtags %} 
+    <link rel="stylesheet" tye="text/css" href="{{'static/blog.css'|url}}" />
+{% endblock %}
+
+{% block content %}
+    <div id="sidebar">
+        <form action="{{'blog/search/'|url}}" method="GET">
+            <input id="searchtext" type="text" name="searchtext">
+            <input id="searchbutton" type="submit" value="Search">
+        </form>
+ 
+        {% if categories.categories %}
+        <p id="categorysection">Categories</p>
+        <ul>
+            {% for c in categories.categories.subcategories.values() recursive %}
+            <li><a href="{{c.url}}">{{c.category}} ({{c.count}})</a>
+                {% if c.subcategories %}
+                <ul>{{ loop(c.subcategories) }}</ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if tagging.tags %}
+        <p id="tagsection">Tags</p>
+        <ul>
+            {% for tag, info in tagging.tags.items(): %}
+            <li><a href="{{info.url|url}}">{{tag}} ({{info.count}})</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if archiving.archives %}
+        <p id="archivesection">Archives</p>
+        <ul>
+            {% for item in archiving.archives: %}
+            <li><a href="{{item.url|url}}">{{ "%04d-%02d"|format(item.year, item.month)}}
+                    ({{item.count}})</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+    </div>
+
+    <div id="blogcontent">
+        <h1 id="blogtitle">{{config.blogtitle}}</h1>
+        <h2 id="blogdescription">{{config.blogdescription}}</h2>
+        {% block blogcontent %}{% endblock %}
+    </div>
+{% endblock %}

@@ -1,12 +1,15 @@
-<html>
-    <head>
-        <link rel="stylesheet" tye="text/css" href="{{'static/styles.css'|url}}" />
-        <title>{{ article.title }}</title>
-    </head>
-    <body>
-      <h1>{{ article.title }}</h1>
-      <p>{{ article|markdown_content }}</p>
-      <p>Posted on {{article.ctime_tm|dateformat('%Y/%m/%d %H:%M')}}</p>
-      <p>Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</p>
-    </body>
-</html>
+{% extends "base_site_template.html" %}
+
+{% block browsertitle %}
+    {{ article.title }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ article.title }}</h1>
+    <p>{{ article|markdown_content }}</p>
+
+    <div id="lastmodified">
+        Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}
+    </div>
+
+{% endblock %}

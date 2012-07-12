@@ -1,5 +1,5 @@
-blogtitle: "Desmond's Soapbox"
-blogdescription: "Musings from a Anglo-Quebecer"
+blogtitle: "The Soapbox"
+blogdescription: "Desmond Rivet's Blog"
 bloglang: "en"
 blogurl: ""
 page_size: 10
@@ -17,6 +17,7 @@ content_types: {
 plugins: {
     tagging: 'yawt.plugins.tagging',
     archiving: 'yawt.plugins.archiving',
+    categories: 'yawt.plugins.categories',
     search: 'yawt.plugins.search',
     hgmeta: 'yawt.plugins.hgmeta',
     markdown_c: 'yawt.plugins.markdown_c'
@@ -27,5 +28,9 @@ archiving: {
 }
 
 tagging: {
+    base: 'blog'
+}
+
+categories: {
     base: 'blog'
 }

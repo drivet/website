@@ -1,14 +1,18 @@
-{% extends "blog/base_template.html" %}
+{% extends "blog/base_blog_template.html" %}
 
-{% block pagetitle %}{{ article.title }}{% endblock %}
+{% block browsertitle %}{{ article.title }}{% endblock %}
 
-{% block content %}
+{% block blogcontent %}
+   <div id="collection_header">
+      {% if breadcrumbs %}
+      <div id="breadcrumbs">
+          {% for b in breadcrumbs: %}
+          <a href="{{b.url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
+          {% endfor %}
+      </div>
+      {% endif %}
+    </div>
     <h1>{{ article.title }}</h1>
-    <p>Posted on {{article.ctime_tm|dateformat('%Y/%m/%d %H:%M')}} at {{article.fullname}}</p>
-    <p>Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</p>
-    {% set taglist = article|tags %}
-    {% if taglist  %} 
-        <p>Tags: {{taglist}}</p>
-    {% endif %}
+    {% include 'blog/article_info.html' %}
     <p>{{ article|markdown_content }}</p>
 {% endblock %}

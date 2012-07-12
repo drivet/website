@@ -8,7 +8,7 @@ not.
 
 ## Core Perl
 
-#### die LIST
+### die LIST
 
 Taken from the Perl 5.10.0 documentation:
 
@@ -29,7 +29,7 @@ If die is used without any arguments, and $@ is empty, then the string
 die can be called with an object for more sophisticated exception
 handling capabilities, but I won't go into that here.
 
-#### warn LIST
+### warn LIST
 
 Without going into the details, warn takes a list and prints it to
 STDERR. If LIST is empty and the $@ variable is defined (say, from a

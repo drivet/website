@@ -1,0 +1,9 @@
+Design Notes
+
+At the moment this site is mostly an experiment in python programming.  The
+pages and the blog are all delivered via a home-grown blogging system/CMS
+that I've called YAWT (Yet Another Weblog Tool), written in python.
+
+I've made the HTML as simple and as standards compliant as I can.  For the
+most part, the stuff on this site should look okay in older and text based
+browsers.
