@@ -1,21 +1,23 @@
 {% extends "base_site_template.html" %}
 
 {% block headtags %} 
-    <link rel="stylesheet" tye="text/css" href="{{'static/blog.css'|url}}" />
+    <link rel="stylesheet" type="text/css" href="/yawt_static/blog.css" />
 {% endblock %}
 
 {% block content %}
     <div id="sidebar">
-        <form action="{{'blog/search/'|url}}" method="GET">
-            <input id="searchtext" type="text" name="searchtext">
-            <input id="searchbutton" type="submit" value="Search">
+        <form action="{{'blog/search/'|url}}" method="get">
+            <div>
+                <input id="searchtext" type="text" name="searchtext"/>
+                <input id="searchbutton" type="submit" value="Search"/>
+            </div>
         </form>
  
         {% if categories.categories %}
         <p id="categorysection">Categories</p>
         <ul>
             {% for c in categories.categories.subcategories.values() recursive %}
-            <li><a href="{{c.url}}">{{c.category}} ({{c.count}})</a>
+            <li><a href="{{c.url|url}}">{{c.category}} ({{c.count}})</a>
                 {% if c.subcategories %}
                 <ul>{{ loop(c.subcategories) }}</ul>
                 {% endif %}
@@ -49,5 +51,6 @@
         <h1 id="blogtitle">{{config.blogtitle}}</h1>
         <h2 id="blogdescription">{{config.blogdescription}}</h2>
         {% block blogcontent %}{% endblock %}
+        {% include 'footer.html' %}
     </div>
 {% endblock %}

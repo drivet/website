@@ -61,12 +61,12 @@ a { text-decoration: none; }
     overflow: hidden;
 }
 
-#footer {
-    overflow: hidden;
-}
-
 #footer img {
     float: left;
+}
+
+#footer a {
+    margin-right: 1em;
 }
 
 #powered-by {

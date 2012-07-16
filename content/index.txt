@@ -7,8 +7,8 @@ have been a few over the years but I'm going to try and make this one last.
 Certain sections of this domain are secured. If you wish to access them, you
 have two options:
 
- * Live with the warning you browser gives you
- * Download and install my [personal root certificate](/static/desmond_rivet_intl_ca.crt)
+ * Live with the warning your browser gives you
+ * Download and install my [personal root certificate](/yawt_static/desmond_rivet_intl_ca.crt)
 
 ## Site Design and Layout
 
@@ -16,8 +16,8 @@ The graphic used for the site header is a photo of the Montreal skyline,
 taken from the balcony of my former apartment.
 
 At the moment I have a <a href="http://wiki.desmondrivet.net">wiki</a> and a
-<a href="/blog">blog</a> set up. Feel free to preuse those.  I
-also have some [personal information](/aboutme.html) if you're interested.
+<a href="blog/">blog</a> set up. Feel free to preuse those.  I
+also have some [personal information](aboutme.html) if you're interested.
 
 This site is mostly an experiment in python.  The pages and the blog are all
 delivered via a home-grown blogging system/CMS that I've called YAWT (Yet

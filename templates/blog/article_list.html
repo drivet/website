@@ -12,37 +12,27 @@
       {% if breadcrumbs %}
       <div id="breadcrumbs">
           {% for b in breadcrumbs: %}
-          <a href="{{b.url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
+          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
           {% endfor %}
       </div>
       {% endif %}
 
       {% if total_pages > 1 %}
       <div id="paging">
-          {% if prevpage %} 
-          <a href="{{prevpage}}">&lt</a> 
-          {% else %}
-          &lt
-          {% endif %}
-          
+          {% if prevpage %}<a href="{{prevpage}}">&lt;</a>{% else %}&lt;{% endif %}
           {{page}} of {{total_pages}}
-          
-          {% if nextpage %} 
-          <a href="{{nextpage}}">&gt</a> 
-          {% else %}
-          &gt
-          {% endif %}
+          {% if nextpage %}<a href="{{nextpage}}">&gt;</a>{% else %}&gt;{% endif %}
       </div>
       {% endif %}
     </div>
 
     {% for article in articles: %}
-    <div id="article">
-        <h1><a href="{{article.categorized_url}}">{{ article.title }}</a></h1>
+    <div class="article">
+        <h1><a href="{{ url_for('post', category=article.category, slug=article.slug) }}">{{ article.title }}</a></h1>
 
         {% include 'blog/article_info.html' %}
        
-        <p id="articlecontent">{{ article|excerpt|markdown }}</p>       
+        {{ article|excerpt|markdown }}
     </div>
     {% endfor %}
 {% endblock %}

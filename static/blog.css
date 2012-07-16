@@ -78,15 +78,15 @@
     float: right;
 }
 
-#article {
+.article {
     margin-top: 1em;
 }
 
-#article h1 a {
+.article h1 a {
     color: black;
 }
 
-#articleinfo {
+.articleinfo {
     font-style: italic;
     color: #666666;
     font-size: 8pt;

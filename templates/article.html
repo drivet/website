@@ -6,10 +6,10 @@
 
 {% block content %}
     <h1>{{ article.title }}</h1>
-    <p>{{ article|markdown_content }}</p>
+    {{ article|markdown_content }}
 
     <div id="lastmodified">
         Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}
     </div>
-
+    {% include 'footer.html' %}
 {% endblock %}

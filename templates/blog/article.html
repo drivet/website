@@ -7,7 +7,7 @@
       {% if breadcrumbs %}
       <div id="breadcrumbs">
           {% for b in breadcrumbs: %}
-          <a href="{{b.url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
+          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
           {% endfor %}
       </div>
       {% endif %}
