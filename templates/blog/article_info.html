@@ -1,0 +1,15 @@
+<div class="articleinfo">
+    <div class="postedin">Posted in 
+      <a href="{{ url_for('post', category=article.category, slug=article.slug) }}">{{article.fullname}}</a>
+               on {{article.ctime_tm|dateformat('%Y/%m/%d %H:%M')}}
+    </div>
+    {% set taglinks = article|tags %}
+    {% if taglinks %} 
+    <div class="tags">Tags:
+        {% for tl in taglinks: %}
+        <a href="{{tl.url}}">{{tl.tag}}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+<div class="lastmodified">Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</div>
+</div>
