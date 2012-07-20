@@ -43,6 +43,7 @@
 }
 
 #blogdescription {
+    font-size: 13.5pt;
     margin-top: 0.25em;
     margin-bottom: 1em;
 }
@@ -74,8 +75,9 @@
     margin-top: 1em;
 }
 
-.article h1 a {
+.article h3 a {
     color: black;
+    font-size: 13pt;
 }
 
 .articleinfo {
@@ -84,4 +86,3 @@
     font-size: 8pt;
     line-height: 1.3em;
 }
-  
