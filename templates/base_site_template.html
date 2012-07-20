@@ -1,42 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+    {% set sitetitle = 'The Low Rent District' %}
     <head>
         <link rel="stylesheet" type="text/css" href="/yawt_static/site.css" />
         {% block headtags %}{% endblock %}
         <title>{% block browsertitle %}{% endblock %}</title>
     </head>
     <body>
-      <div id="header">
-          <div id="site-title-wrapper">
-              <h1>The Low Rent District</h1>
-          </div>
-          <div id="header-background"></div>
-          <div id="nav-links-wrapper">
-              <ul id="nav-links">
-                  <li><a href="{{ url_for('home') }}">Home</a></li>
-                  <li><a href="{{ url_for('post_slug', slug='aboutme') }}">About Me</a></li>
-                  <li><a href="{{ url_for('category_canonical', category='blog')}}">Blog</a></li>
-                  <li><a href="http://wiki.desmondrivet.net">Wiki</a></li>
-              </ul>
-          </div>
-      </div>
+      {% include 'header.html' %}
       <div id="content">
           {% block content %}{% endblock %}
       </div>
-
-<!-- Piwik --> 
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.desmondrivet.net/piwik/" : "http://www.desmondrivet.net/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://www.desmondrivet.net/piwik/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
-
+      {% include 'piwik.html' %}
     </body>
 </html>

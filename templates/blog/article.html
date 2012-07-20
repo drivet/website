@@ -1,6 +1,8 @@
 {% extends "blog/base_blog_template.html" %}
 
-{% block browsertitle %}{{ article.title }}{% endblock %}
+{% block browsertitle %}
+    {{ article.title }} - {{config.blogtitle}} - {{sitetitle}}
+{% endblock %}
 
 {% block blogcontent %}
    <div id="collection_header">

@@ -1,6 +1,9 @@
 {% extends "blog/base_blog_template.html" %}
 
-{% block browsertitle %}{{config.blogtitle}} - {{collection_title}}{% endblock %}
+{% block browsertitle %} 
+{% if collection_title %}{{collection_title}} - {% endif %}
+{{config.blogtitle}} - {{config.blogdescription}} - {{sitetitle}}
+{% endblock %}
 
 {% block blogcontent %}
     <div id="collection_header">
@@ -28,9 +31,7 @@
     {% for article in articles: %}
     <div class="article">
         <h3><a href="{{ url_for('post', category=article.category, slug=article.slug) }}">{{ article.title }}</a></h3>
-
         {% include 'blog/article_info.html' %}
-       
         {{ article|excerpt|markdown }}
     </div>
     {% endfor %}
