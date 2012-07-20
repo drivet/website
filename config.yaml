@@ -3,8 +3,8 @@ blogdescription: "Desmond Rivet's Blog"
 bloglang: "en"
 blogurl: ""
 page_size: 10
-path_to_templates: /home/dcr/yawt_blog/templates
-path_to_articles: /home/dcr/yawt_blog/content
+path_to_templates: templates
+path_to_articles: content
 path_to_static: static
 ext: txt
 meta_ext: md
