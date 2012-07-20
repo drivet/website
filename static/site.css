@@ -3,12 +3,6 @@ body {
     margin: 0px;
     font-size: 9pt;
     font-family: Arial, sans-serif;
-/*
-    background-color:#e5dabb
-    background: -moz-linear-gradient(top, #369ccb 0em, #ffffff 70em);
-    background-image:-webkit-linear-gradient(top, #369ccb 0em, #ffffff 70em);
-    background-image: linear-gradient(top, #369ccb 0em, #ffffff 70em);
-*/
 }
 
 a { text-decoration: none; }
@@ -59,6 +53,8 @@ a { text-decoration: none; }
 
 #footer {
     overflow: hidden;
+    padding: 1em 0em 0em 0em;
+    border-top: 1px #dddddd solid;
 }
 
 #footer img {
