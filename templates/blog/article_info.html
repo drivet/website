@@ -2,6 +2,7 @@
     <div class="postedin">Posted in 
       <a href="{{ url_for('post', category=article.category, slug=article.slug) }}">{{article.fullname}}</a>
                on {{article.ctime_tm|dateformat('%Y/%m/%d %H:%M')}}
+      | <span class="permalink"><a href="{{article|permalink}}">Permalink</a></span>
     </div>
     {% set taglinks = article|tags %}
     {% if taglinks %} 
@@ -11,5 +12,5 @@
         {% endfor %}
     </div>
     {% endif %}
-<div class="lastmodified">Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</div>
+    <div class="lastmodified">Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</div>
 </div>
