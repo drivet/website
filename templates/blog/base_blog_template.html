@@ -1,4 +1,6 @@
 {% extends "base_site_template.html" %}
+{% set blogtitle = 'The Soapbox' %}
+{% set blogdescription = "Desmond Rivet's Blog" %}
 
 {% block headtags %} 
     <link rel="stylesheet" type="text/css" href="/yawt_static/blog.css" />
@@ -7,8 +9,8 @@
 {% block content %}
     {% include 'blog/sidebar.html' %}
     <div id="blogcontent">
-        <h1 id="blogtitle">{{config.blogtitle}}</h1>
-        <h2 id="blogdescription">{{config.blogdescription}}</h2>
+        <h1 id="blogtitle">{{blogtitle}}</h1>
+        <h2 id="blogdescription">{{blogdescription}}</h2>
         {% block blogcontent %}{% endblock %}
         {% include 'footer.html' %}
     </div>

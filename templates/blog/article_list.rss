@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<rss version="2.0" 
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{blogtitle}} - {{collection_title}}</title>
-    <link>{{blogurl}}</link>
+    <title>
+    {% if collection_title %}{{collection_title}} - {% endif %}
+    {{blogtitle}} - {{blogdescription}} - {{sitetitle}}
+    </title>
+    <link>{{base_url}}</link>
     <description>{{blogdescription}}</description> 
-    <language>{{bloglang}}</language> 
+    <language>{{lang}}</language> 
     {% for a in articles: %}
     <item>
       <title>{{a.title}}</title>

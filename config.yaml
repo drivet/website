@@ -1,7 +1,5 @@
-blogtitle: "The Soapbox"
-blogdescription: "Desmond Rivet's Blog"
-bloglang: "en"
-blogurl: ""
+lang: "en"
+base_url: ""
 page_size: 10
 path_to_templates: templates
 path_to_articles: content
