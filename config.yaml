@@ -18,7 +18,7 @@ plugins: {
     categories: 'yawt.plugins.categories',
     search: 'yawt.plugins.search',
     hgmeta: 'yawt.plugins.hgmeta',
-    markdown_c: 'yawt.plugins.markdown_c'
+    markdown: 'yawt.plugins.ymarkdown'
 }
 
 archiving: {
