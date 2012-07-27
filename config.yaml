@@ -5,7 +5,7 @@ path_to_templates: templates
 path_to_articles: content
 path_to_static: static
 ext: txt
-meta_ext: md
+meta_ext: meta
 
 # flavour to content_type
 content_types: {
