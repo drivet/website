@@ -16,5 +16,5 @@
     </div>
     <h1>{{ article.title }}</h1>
     {% include 'blog/article_info.html' %}
-    <p>{{ article|markdown_content }}</p>
+    {{ article|markdown_content }}
 {% endblock %}
