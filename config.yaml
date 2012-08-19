@@ -33,3 +33,7 @@ tagging: {
 categories: {
     base: 'blog'
 }
+
+search: {
+    base: 'blog'
+}
