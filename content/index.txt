@@ -8,7 +8,7 @@ Certain sections of this domain are secured. If you wish to access them, you
 have two options:
 
  * Live with the warning your browser gives you
- * Download and install my [personal root certificate](/yawt_static/desmond_rivet_intl_ca.crt)
+ * Download and install my [personal root certificate](/static/desmond_rivet_intl_ca.crt)
 
 ## Site Design and Layout
 

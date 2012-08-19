@@ -3,7 +3,7 @@
 {% set blogdescription = "Desmond Rivet's Blog" %}
 
 {% block headtags %} 
-    <link rel="stylesheet" type="text/css" href="/yawt_static/blog.css" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='blog.css')}}" />
 {% endblock %}
 
 {% block content %}

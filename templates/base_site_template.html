@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     {% set sitetitle = 'The Low Rent District' %}
     <head>
-        <link rel="stylesheet" type="text/css" href="/yawt_static/site.css" />
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='site.css')}}" />
         {% block headtags %}{% endblock %}
         <title>{% block browsertitle %}{% endblock %}</title>
     </head>
@@ -15,3 +15,4 @@
       {% include 'piwik.html' %}
     </body>
 </html>
+{{ url_for('static', filename='site.css') }}
