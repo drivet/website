@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+
+{% set sitetitle = 'The Low Rent District' %}
+{% set blogtitle = 'The Soapbox' %}
+{% set blogdescription = "Desmond Rivet's Blog" %}
+
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>

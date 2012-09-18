@@ -4,6 +4,8 @@
 
 {% block headtags %} 
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='blog.css')}}" />
+    <link rel="alternate" type="application/rss+xml" href="/blog/index.rss" 
+       title="{{blogtitle}} - {{blogdescription}}" />
 {% endblock %}
 
 {% block content %}
