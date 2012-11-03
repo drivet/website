@@ -18,7 +18,6 @@ YAWT_PLUGINS: {
     archivecounter: 'yawt.plugins.archivecounter',
     categories: 'yawt.plugins.categories',
     search: 'yawt.plugins.search',
-    hgmeta: 'yawt.plugins.hgmeta',
     markdown: 'yawt.plugins.ymarkdown'
 }
 
