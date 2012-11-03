@@ -1,21 +1,21 @@
-lang: "en"
-base_url: ""
-page_size: 10
-path_to_templates: templates
-path_to_articles: content
-path_to_static: static
-static_url: /static
-ext: txt
-meta_ext: meta
+YAWT_LANG: "en"
+YAWT_BASE_URL: ""
+YAWT_PAGE_SIZE: 10
+YAWT_PATH_TO_TEMPLATES: templates
+YAWT_PATH_TO_ARTICLES: content
+YAWT_PATH_TO_STATIC: static
+YAWT_STATIC_URL: /static
+YAWT_EXT: txt
+YAWT_META_EXT: meta
 
 # flavour to content_type
-content_types: {
-    "rss": "application/rss+xml"
-}
+YAWT_CONTENT_TYPES_RSS: "application/rss+xml"
 
-plugins: {
+YAWT_PLUGINS: {
     tagging: 'yawt.plugins.tagging',
+    tagcounter: 'yawt.plugins.tagcounter',
     archiving: 'yawt.plugins.archiving',
+    archivecounter: 'yawt.plugins.archivecounter',
     categories: 'yawt.plugins.categories',
     search: 'yawt.plugins.search',
     hgmeta: 'yawt.plugins.hgmeta',
@@ -23,17 +23,25 @@ plugins: {
 }
 
 archiving: {
-    base: 'blog'
+    BASE: 'blog'
 }
 
-tagging: {
-    base: 'blog'
+archivecounter: {
+    BASE: 'blog'
 }
 
 categories: {
-    base: 'blog'
+    BASE: 'blog'
 }
 
 search: {
-    base: 'blog'
+    BASE: 'blog'
+}
+
+tagging: {
+    BASE: 'blog'
+}
+
+tagcounter: {
+    BASE: 'blog'
 }
