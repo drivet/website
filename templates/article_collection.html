@@ -1,26 +1,54 @@
-    <div id="collection_header">
-      {% if collection_title %}
-      <div id="collection_title">{{collection_title}}</div>
-      {% endif %}
-
-      {% if breadcrumbs %}
-      <div id="breadcrumbs">
-          {% for b in breadcrumbs: %}
-          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
-          {% endfor %}
-      </div>
-      {% endif %}
-
-      <div id="paging">
-          {% if prevpage %}<a href="{{prevpage}}">&lt;</a>{% else %}&lt;{% endif %}
-          {{page}} of {{total_pages}}
-          {% if nextpage %}<a href="{{nextpage}}">&gt;</a>{% else %}&gt;{% endif %}
-      </div>      
-    </div>
-    {% for article in articles: %}
-    <div class="article">
-        <h3><a href="/{{article.fullname}}">{{article.title}}</a></h3>
-        {% include 'article_info.html' %}
-        <p>{{ article|excerpt|striptags }}</p>
-    </div>
+<div id="collection_header">
+  {% if collection_title %}
+  <div id="collection_title">{{collection_title}}</div>
+  {% endif %}
+  
+  {% if breadcrumbs %}
+  <ul id="breadcrumbs">
+    {% for b in breadcrumbs: %}
+    <li><a href="{{b.url|url}}">{{b.crumb}}</a>
+      {% if not loop.last %}
+      <span class="divider">/</span>
+      {% endif %}</li>
     {% endfor %}
+  </ul>
+  {% endif %}
+  
+</div>
+{% for article in articles: %}
+<div class="article">
+  <h3><a href="/{{article.fullname}}">{{article.title}}</a></h3>
+  {% include 'article_info.html' %}
+  <p>{{ article|excerpt(100)|striptags }}</p>
+</div>
+{% endfor %}
+
+{% if page_info.multi_page %}
+<div id="paging" class="pagination pagination-right pagination-small">
+  <ul>
+    <li><a href="{{page_info.pages[0].url}}">&laquo;</a></li>
+
+    {% if page_info.has_prev %} 
+    <li><a href="{{page_info.pages[page_info.page_index-1].url}}">&lsaquo;</a></li>
+    {% else %}
+    <li class="disabled"><span>&lsaquo;</span></li>
+    {% endif %}
+    
+    {% for page in page_info.pages: %}
+    {% if page.page == page_info.page %}
+    <li class="disable active"><span>{{page.page}}</span></li>
+    {% else %}
+    <li><a href="{{page.url}}">{{page.page}}</a></li>
+    {% endif %}
+    {% endfor %}
+
+    {% if page_info.has_next %} 
+    <li><a href="{{page_info.pages[page_info.page_index+1].url}}">&rsaquo;</a></li>
+    {% else %}
+    <li class="disabled"><span>&rsaquo;</span></li>
+    {% endif %}
+   
+    <li><a href="{{page_info.pages[page_info.total_pages-1].url}}">&raquo;</a></li>
+  </ul>
+</div>      
+{% endif %}

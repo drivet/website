@@ -3,28 +3,15 @@ Title: Welcome
 Hi everyone. You've reached the personal domain of Desmond Rivet.  There
 have been a few over the years but I'm going to try and make this one last.
 
+At the moment this domain is home to a <a
+href="http://wiki.desmondrivet.net">wiki</a>, mostly for notes, and a <a
+href="blog/">blog</a>, mostly for whatever musings du jour I feel the need
+to get off my chest. Feel free to peruse them both.  I've also written up
+some [personal information](aboutme.html) and [site design
+notes](design_notes.html) if you're interested.
 
 Certain sections of this domain are secured. If you wish to access them, you
 have two options:
 
  * Live with the warning your browser gives you
  * Download and install my [personal root certificate](/static/desmond_rivet_intl_ca.crt)
-
-## Site Design and Layout
-
-The graphic used for the site header is a photo of the Montreal skyline,
-taken from the balcony of my former apartment.
-
-At the moment I have a <a href="http://wiki.desmondrivet.net">wiki</a> and a
-<a href="blog/">blog</a> set up. Feel free to preuse those.  I
-also have some [personal information](aboutme.html) if you're interested.
-
-This site is mostly an experiment in python.  The pages and the blog are all
-delivered via a home-grown blogging system/CMS that I've called YAWT (Yet
-Another Weblog Tool), written in python.  It's a work in progress.  At some
-point, maybe I'll write a page about it.
-
-I've tried to make the HTML and CSS as simple and as standards compliant as
-I can.  For the most part, the stuff on this site should look okay in older
-and text based browsers.  At least, that's what I tell myself; honestly, I
-have no sense of aesthetics :)

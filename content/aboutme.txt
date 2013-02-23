@@ -1,14 +1,25 @@
 Title: About Me
 
+There's not much to tell.
+
 My name is Desmond Rivet.  I'm a software developer currently living in
 Montreal, Canada.
 
 The whole story, of course, is slightly more complicated than that.  I was
-born in Montreal, then moved to Toronto when I was 12.  After graduating from
-the University of Toronto, I moved back to Montreal when the job moved
-here.
+born in Montreal, then moved to Toronto when I was 12.  I'm a graduate of
+the [Engineering Science](http://www.engsci.utoronto.ca/) program at the
+[University of Toronto](http://www.utoronto.ca/) (I chose the Computer
+option at the time, but it appears that they have now
+[merged](http://engsci.utoronto.ca/explore_our_program/majors/ece.htm) with
+the Electrical option).
 
-That job is now history and as of 2007, I'm a happy employee at Intelerad
-Medical Systems.
+After graduating from the University of Toronto, I started work as a
+software developer at a telecom company that eventually ended up moving me
+back to Montreal. I worked there for about 7 years until I decided that I
+needed a change of pace and, as of 2007, I'm a happy employee at [Intelerad
+Medical Systems](http://www.intelerad.com/en/).  I live with my girlfriend
+in an old, large apartment.
 
-My likes include: books, movies, TV, cooking, programming.
+I enjoy writing, programming, TV, movies, drinking and cooking.  You can
+find a few of my experiments and recipes on my
+[wiki](https://wiki.desmondrivet.net/)

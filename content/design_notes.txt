@@ -1,9 +1,22 @@
-Title: Design Notes
+Title: Site Design and Layout
 
-At the moment this site is mostly an experiment in python programming.  The
-pages and the blog are all delivered via a home-grown blogging system/CMS
-that I've called YAWT (Yet Another Weblog Tool), written in python.
+At the moment, this site is mostly an experiment in python.  The pages and
+the blog are all delivered via a home-grown blogging system/CMS that I've
+called [YAWT](https://github.com/drivet/yawt) (Yet Another Weblog Tool),
+written in python.  It's a work in progress.  At some point, maybe I'll
+write a page about it.
 
-I've made the HTML as simple and as standards compliant as I can.  For the
+The graphic used for the site header is a photo of the Montreal skyline,
+taken from the balcony of my former apartment.
+
+I've made the HTML as simple and as standards compliant as I could.  For the
 most part, the stuff on this site should look okay in older and text based
-browsers.
+browsers, as long as you turn off the CSS. As I have no sense of aesthetics,
+I've used [twitter bootstrap](http://twitter.github.com/bootstrap/) as a
+starting point for the styling.  I've avoided javascript where I could,
+though it's still used for the responsive features.
+
+The search bar at the top will search the whole site, which for now just
+means my blog and standalone pages. I have very vague plans to implement a
+photo gallery engine, and if that ever takes shape, I'm hoping the search
+bar will included the photos as well.
