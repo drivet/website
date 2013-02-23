@@ -1,0 +1,10 @@
+{% extends "base_site_template.html" %}
+
+{% block browsertitle %} 
+{% if collection_title %}{{collection_title}} | {% endif %}{{sitetitle}}
+{% endblock %}
+
+{% block content %}
+{% set base = "" %}
+{% include 'article_collection.html' %}
+{% endblock %}

@@ -1,0 +1,26 @@
+    <div id="collection_header">
+      {% if collection_title %}
+      <div id="collection_title">{{collection_title}}</div>
+      {% endif %}
+
+      {% if breadcrumbs %}
+      <div id="breadcrumbs">
+          {% for b in breadcrumbs: %}
+          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
+          {% endfor %}
+      </div>
+      {% endif %}
+
+      <div id="paging">
+          {% if prevpage %}<a href="{{prevpage}}">&lt;</a>{% else %}&lt;{% endif %}
+          {{page}} of {{total_pages}}
+          {% if nextpage %}<a href="{{nextpage}}">&gt;</a>{% else %}&gt;{% endif %}
+      </div>      
+    </div>
+    {% for article in articles: %}
+    <div class="article">
+        <h3><a href="/{{article.fullname}}">{{article.title}}</a></h3>
+        {% include 'article_info.html' %}
+        <p>{{ article|excerpt|markdown|striptags }}</p>
+    </div>
+    {% endfor %}

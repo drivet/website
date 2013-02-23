@@ -21,23 +21,11 @@ YAWT_PLUGINS: {
     markdown: 'yawt.plugins.ymarkdown'
 }
 
-archiving: {
-    BASE: 'blog'
-}
-
 archivecounter: {
     BASE: 'blog'
 }
 
 categories: {
-    BASE: 'blog'
-}
-
-search: {
-    BASE: 'blog'
-}
-
-tagging: {
     BASE: 'blog'
 }
 

@@ -1,38 +1,11 @@
 {% extends "blog/base_blog_template.html" %}
 
 {% block browsertitle %} 
-{% if collection_title %}{{collection_title}} - {% endif %}
-{{blogtitle}} - {{blogdescription}} - {{sitetitle}}
+{% if collection_title %}{{collection_title}} | {% endif %}
+{{blogtitle}} | {{blogdescription}} | {{sitetitle}}
 {% endblock %}
 
 {% block blogcontent %}
-    <div id="collection_header">
-
-      {% if collection_title %}
-      <div id="collection_title">{{collection_title}}</div>
-      {% endif %}
-
-      {% if breadcrumbs %}
-      <div id="breadcrumbs">
-          {% for b in breadcrumbs: %}
-          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
-          {% endfor %}
-      </div>
-      {% endif %}
-
-      <div id="paging">
-          {% if prevpage %}<a href="{{prevpage}}">&lt;</a>{% else %}&lt;{% endif %}
-          {{page}} of {{total_pages}}
-          {% if nextpage %}<a href="{{nextpage}}">&gt;</a>{% else %}&gt;{% endif %}
-      </div>
-      
-    </div>
-
-    {% for article in articles: %}
-    <div class="article">
-        <h3><a href="{{ url_for('post', category=article.category, slug=article.slug) }}">{{ article.title }}</a></h3>
-        {% include 'blog/article_info.html' %}
-        <p>{{ article|excerpt|markdown|striptags }}</p>
-    </div>
-    {% endfor %}
+{% set base = "/blog" %}
+{% include 'article_collection.html' %}
 {% endblock %}
