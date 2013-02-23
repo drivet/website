@@ -1,4 +1,5 @@
-Blosxom Warts
+Title: Blosxom Warts
+ctime: 1184327792
 
 At the moment I'm using [blosxom](http://blosxom.sourceforge.net) to
 generate this blog. I'm using blosxom for the following reasons:

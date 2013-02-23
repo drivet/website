@@ -1,4 +1,5 @@
-Of Red Hats and Mints
+Title: Of Red Hats and Mints
+Tags: linux,debian
 
 ## Part 1: A Brief History of Desmond, as it Relates to Linux
 

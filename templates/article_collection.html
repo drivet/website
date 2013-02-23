@@ -21,6 +21,6 @@
     <div class="article">
         <h3><a href="/{{article.fullname}}">{{article.title}}</a></h3>
         {% include 'article_info.html' %}
-        <p>{{ article|excerpt|markdown|striptags }}</p>
+        <p>{{ article|excerpt|striptags }}</p>
     </div>
     {% endfor %}

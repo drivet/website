@@ -1,4 +1,4 @@
-Design Notes
+Title: Design Notes
 
 At the moment this site is mostly an experiment in python programming.  The
 pages and the blog are all delivered via a home-grown blogging system/CMS

@@ -1,4 +1,6 @@
-Comments and Trackbacks have been Deactivated
+Title: Comments and Trackbacks have been Deactivated
+Tags: blogging,blosxom
+ctime: 1220917154
 
 When I started this blog, I didn't expect very much in the way of
 comments or trackbacks.  I also didn't expect any *spam*, which means

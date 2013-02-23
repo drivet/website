@@ -1,4 +1,5 @@
-Markdown is cool
+Title: Markdown is cool
+ctime: 1182685874
 
 I'm using [Markdown](http://daringfireball.net/projects/markdown/) to
 write this blog entry. I've converted all my other entries to use
