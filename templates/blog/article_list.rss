@@ -17,11 +17,11 @@
     <item>
       <title>{{a.title}}</title>
       <link>{{a|permalink}}</link>
-      <description>{{a|excerpt|markdown}}</description>
+      <description>{{a|excerpt(100)|striptags}}</description>
       <category>{{a.category}}</category>
       <pubDate>{{a.ctime_tm|dateformat('%a, %d %b %Y %H:%M:%S %Z')}}</pubDate>
       <guid>{{a|permalink}}</guid>
-      <content:encoded><![CDATA[ {{a|markdown_content}} ]]></content:encoded>
+      <content:encoded><![CDATA[ {{a.content}} ]]></content:encoded>
     </item>
     {% endfor %}
   </channel>
