@@ -16,7 +16,7 @@
     {% for a in articles: %}
     <item>
       <title>{{a.title}}</title>
-      <link>{{a|permalink}}</link>
+      <link>{{a|permalink|url}}</link>
       <description>{{a|excerpt(100)|striptags}}</description>
       <category>{{a.category}}</category>
       <pubDate>{{a.ctime_tm|dateformat('%a, %d %b %Y %H:%M:%S %Z')}}</pubDate>
