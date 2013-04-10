@@ -1,8 +1,10 @@
-<html>
-    <head>
-        <title>Not found</title>
-    </head>
-    <body>  
-	  <p>Not found</p>
-    </body>
-</html>
+{% extends "base_site_template.html" %}
+
+{% block browsertitle %}
+    Page not found
+{% endblock %}
+
+{% block content %} 
+<h1>Oops!</h1>
+That page cannot be found.
+{% endblock %}
