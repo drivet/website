@@ -17,7 +17,7 @@
         
   <div id="sidebar" class="span2"> 
     {% if categories.categories %}
-    <ul  id="categoryheader" class="nav nav-list" class="span2">
+    <ul  id="categoryheader" class="nav nav-list span2">
       <li class="nav-header">Categories</li>
       {% for c in categories.categories.subcategories.values() recursive %}
       <li class="nav-item"><a href="{{c.url|url}}">{{c.category}} ({{c.count}})</a>
@@ -30,7 +30,7 @@
     {% endif %}
 
     {% if tagcounter.article_tags %}
-    <ul id="tagheader" class="nav nav-list" class="span2">            
+    <ul id="tagheader" class="nav nav-list span2">
       <li class="nav-header">Tags</li>
       {% for tag, info in tagcounter.article_tags.items(): %}
       <li class="nav-item"><a href="{{info.url|url}}">{{tag}} ({{info.count}})</a></li>
@@ -39,7 +39,7 @@
     {% endif %}
    
     {% if archivecounter.archives %}
-    <ul  id="archiveheader" class="nav nav-list" class="span2">
+    <ul id="archiveheader" class="nav nav-list span2">
       <li class="nav-header">Archives</li>
       {% for item in archivecounter.archives: %}
       <li class="nav-item">
