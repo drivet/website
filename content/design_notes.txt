@@ -20,3 +20,12 @@ The search bar at the top will search the whole site, which for now just
 means my blog and standalone pages. I have very vague plans to implement a
 photo gallery engine, and if that ever takes shape, I'm hoping the search
 bar will included the photos as well.
+
+In addition, certain parts of the site are password protected (right now
+just the wiki, but perhaps other areas in the future).  I found that too
+many people were trying to edit and create new accounts on the wiki, which
+was hogging alot of resources on my relatively low end VPS.  Rather than
+turning off the features, I just password protected the areas in question,
+and whitelisted the IP addresses from which I usually access the wiki.  This
+seems to work, and everything seems to be alot faster, but I'm a little sad
+that I had to take this step.

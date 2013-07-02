@@ -15,3 +15,6 @@ have two options:
 
  * Live with the warning your browser gives you
  * Download and install my [personal root certificate](/static/desmond_rivet_intl_ca.crt)
+
+Other parts of my domain are password protected.  Please see the [site
+design notes](design_notes.html) for information on why.

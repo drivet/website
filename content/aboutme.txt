@@ -1,9 +1,7 @@
 Title: About Me
 
-There's not much to tell.
-
-My name is Desmond Rivet.  I'm a software developer currently living in
-Montreal, Canada.
+There's not much to tell. My name is Desmond Rivet. I'm a software
+developer. I live in Montreal, Canada.
 
 The whole story, of course, is slightly more complicated than that.  I was
 born in Montreal, then moved to Toronto when I was 12.  I'm a graduate of
@@ -20,6 +18,6 @@ needed a change of pace and, as of 2007, I'm a happy employee at [Intelerad
 Medical Systems](http://www.intelerad.com/en/).  I live with my girlfriend
 in an old, large apartment.
 
-I enjoy writing, programming, TV, movies, drinking and cooking.  You can
-find a few of my experiments and recipes on my
+I enjoy programming, writing, TV, movies, books, drinking and cooking.  You
+can find a few of my experiments and recipes on my
 [wiki](https://wiki.desmondrivet.net/)
