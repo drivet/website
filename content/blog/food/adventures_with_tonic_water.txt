@@ -42,10 +42,9 @@ with Montreal, rest assured, it's the middle of frickin' nowhere (it would
 almost anti-climactic if it weren't, right?). But...they sell quinquina
 bark! Huzza!  It looks like this: 
 
-
-<div class="separator" style="clear: both; text-align: center;"> 
+<div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6394.JPG"
-imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="240" width="320" src="/static/images_from_entries/IMG_6394_thumb.JPG"/>
 </a>
 </div>
@@ -66,16 +65,16 @@ Here's the mix ready to boil:
 
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6396.JPG"
-imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+style="margin-left: 1em; margin-right: 1em;">
 <img border="0" width="320" height="240" src="/static/images_from_entries/IMG_6396_thumb.JPG" />
 </a></div>
 
 It's a bit of a mess, but it looks more promising after 20 minutes of
 boiling and filtering:
 
-<div class="separator" style="clear: both; text-align: center;"> 
+<div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6399.JPG"
-imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="240" src="/static/images_from_entries/IMG_6399_thumb.JPG" width="320" />
 </a></div>
 
