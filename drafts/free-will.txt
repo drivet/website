@@ -1,50 +1,126 @@
 Title: The Difference between Murder and Suicide
 
 I once got into a relatively lively email debate with a friend of mine
-concerning the nature of free will.  My life is weird sometimes.  One of us
-argued that we had it and the other argued that we didn't. The exchange
-ended when he sent me an email explaining that he was agitated and losing
-sleep over the matter.
+concerning the nature of free will. One of us argued that we had it and the
+other argued that we didn't. The exchange ended when he sent me an email
+explaining that he was agitated and losing sleep over the matter.
+
+My life is weird sometimes.
 
 People hear that story and often assume that my friend was the one who
 believed in free will and that I was one who didn't but in reality the
 reverse was true.  I believed in free will; my friend did not.
 
-To this day I'm not 100% sure why he got so agitated but if I had to make an
-educated guess, I'd say it had to do with a misinterpretation of my views.
-I suspect he thought I was spouting some sort of mystical new age nonsense
-and this (rightly) irritated him.  If I'm right, that's unfortunate, because
-that's about as far away from my views as you can get.
+To this day I'm not 100% sure why he got so agitated but I suspect he
+thought I was spouting some sort of mystical, new age nonsense and that this
+(rightly) irritated him.  If I'm right, that's unfortunate, because that's
+about as far away from my views as you can get.
 
-Let me be clear: I don't believe in or practice mysticism of any kind. But I
-do believe in free will. In retrospect, I can see how this stance might be
-confusing. At least one of my friends has called it "strange".
+To be clear, I don't actually believe in or practice mysticism of any
+kind. But I do believe in free will. In retrospect, I can see how this
+stance might be confusing. At least one of my friends has called it
+"strange". I think it all harkens back to the way the free will debate is
+peddled to the general populace (when people think about it at all).
 
 # Traditional Dichotomies
 
 The free will debate is conventionally framed as a contest between free will
-and determinism. Traditionally, these are understood to be mutually
-exclusive. Believing in determinism means believing that we live in a kind
-of "clockwork" universe, where one event cause another in an endless chain.
-In this kind of universe, a person's "choices" are really just another kind
-of physical event, with a physical cause. There's no room in this framework
-for the operation of a person's "will".  What would it even look like?
-Where exactly would it fit amongst all the swirling particles?
+and determinism. Traditionally, these concepts are understood to be mutually
+exclusive - if you believe in one, you can't believe in the other. Believing
+in determinism means believing that we live in a kind of "clockwork"
+universe, where one physical event causes another physical event in an
+endless chain going back to the beginning of time. All possible events in
+the universe are subject to this causal chain.  In particular, since
+*people* are generally considered to be part of the physical universe, and
+since their brains are generally considered to be physical objects, and
+since their choices are generally considered to be physical events, it can
+be said that a person's "choices" are subject to this causal chain like any
+other physical event. A person making a choice, in this kind of universe, is
+not really fundamentally different than the operation of any physical system
+- like a steam engine, for example.  A really, really *complicated* steam
+engine.
 
-Nowadays, of course, quantum physics has pretty much shown determinism the
-door. Most interpretations of quantum physics state that movement of
-particles is to a large degree completely random - or, put more bluntly,
-that the universe isn't at all deterministic. For a while, people thought
-that this fact could breathe new life into the notion of free will but as
-the years went on it became clear that there was no easy way to make it
-work. Saying that one's "choices" are the results of random fluctuations in
-the universe hardly seems any better than saying that they are the result of
-a series of determined causes.
+People have a hard time imagining what a person's "free will" (as generally
+understood) would even *look like* under such a framework. Where exactly
+would it fit among all the swirling particles bumping up against each other
+in pre-determined ways? The reason why it's so hard to imagine has to do
+with a concept that's normally built into the popular account of free will:
+the principle of ["alternative possibilities"][1]. The basic idea here is
+simple and intuitive: if a person makes a free choice, let's say choosing
+Snickers over Twix, *it must have been possible for her to choose Twix*.
+That is to say, if one were to "rewind the universe" to the point just
+before the choice was made, and watch the whole thing play out again, it
+would still be possible for the person in question to choose Twix over
+Snickers. You could do the same thing over and over again, and you wouldn't
+be able to reliably predict the outcome.
 
-In any case, the exact science hardly matters. Whether the universe is
-deterministic or indeterministic is beside the point - the point being that
-if you subscribe to this kind of framework, believing in free will means
-believing that human beings somehow have the ability to step outside the
-laws of physics when they make a choice. As it is virtually impossible to
-describe how such an act is even conceivable, this belief tends to be
-equated with a belief in miracles.
+This particular version of "alternative possibilities" (also known as the
+"could have done otherwise" principle) is *completely* at odds with
+determinism, which is why many people think that if you want to believe in
+free will, you have to reject determinism, which effectively means rejecting
+*science* - or at least rejecting the notion that the universe consists
+*solely* of swirling particles bouncing off against each other like so many
+billard balls (I'm grossly simplifying classical physics for the sake of
+argument, but you get the idea). Believing in free will, under this
+dichotomy, means believing that human beings somehow have the ability to
+step outside the laws of physics when they make a choice. As it is virtually
+impossible to describe how such an act is even conceivable, this belief
+tends to be equated with a belief in miracles, or mysticism, or some new age
+gobbledegook. In other words, it's not to be taken seriously by rationally
+minded people.
+
+# A Detour Into Quantum Physics
+
+Of course, people with a certain amount of scientific knowledge understand
+that the universe doesn't actually work this way - that the popular image of
+the universe as a giant collection of billiard balls hitting each other in
+mathematically calculatable ways is patently false. The relevant theory here
+is *quantum mechanics*, and it has pretty much shown determinism the
+door. Without going into the details (partly because they are not necessary,
+but mostly because I don't know them), most interpretations state that
+movement of particles in the universe is, to a large extent, completely
+random. In this case, "rewinding the universe" really might lead to a
+different outcome.
+
+For a while, people thought that quantum mechanics could breathe new life
+into the traditional notion of free will but as the years went on it became
+clear that there was no easy way to make it work. For one thing, just
+because the universe operates in a fundamentally random manner, it doesn't
+follow that our brains operate in a similar way. Steam engines, with all
+their classical, mathematical predictabilty, didn't suddenly stop working
+when quantum mechanics was discovered even though their operation, like
+everything else in the universe, is fundamentally based on quantum
+mechanical theory. At a high enough level the universe becomes deterministic
+and predictable; the question is whether our brains operate at a high enough
+level for this to happen.
+
+The problem, though, is more fundamental than that. Even if it were
+discovered that quantum mechanical randomness formed an essential,
+observable part of the every day operation of our brains, saying that one's
+"choices" are the results of "random fluctuations" hardly seems any better
+than saying that they are the result of a series of determined causes. If
+it's hard to imagine where free will fits among the pre-determined
+trajectories of swirling particles, it's equally hard to imagine where free
+will fits among the *completely random* trajectories of swirling particles.
+
+And so we're back to square one. The universe may or may not be
+deterministic, our brains may or may be deterministic, but it seems that no
+matter how this cake is sliced, there is no room for free will to operate in
+this universe unless you reject the science.
+
+# Rejecting the Dichotomy
+
+And I mentioned before, I believe this last part is why my friend became
+irritated with me. Given my support for the idea of free will, he thought I
+was suggesting that human beings were in some way "magic", that I was in
+some way rejecting the notion that humans beings were physical entities,
+subject to physical laws. I wasn't, but it's an understandable mistake. The
+way the debate is generally portrayed, there really isn't any other way to
+think about it.
+
+That is, of course, untrue; there are *many* different ways to think about
+it. The first step is to realize that the free will debate, as it is
+traditionally formulated, is founded on a [false dichotomy][2].
+
+[1]: http://en.wikipedia.org/wiki/Alternative_possibilities
+[2]: http://en.wikipedia.org/wiki/False_dilemma
