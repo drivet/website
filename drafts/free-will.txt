@@ -34,13 +34,13 @@ the universe are subject to this causal chain.  In particular, since
 *people* are generally considered to be part of the physical universe, and
 since their brains are generally considered to be physical objects, and
 since their choices are generally considered to be physical events, it can
-be said that a person's "choices" are subject to this causal chain like any
+be said that a person's choices are subject to this causal chain like any
 other physical event. A person making a choice, in this kind of universe, is
 not really fundamentally different than the operation of any physical system
 - like a steam engine, for example.  A really, really *complicated* steam
 engine.
 
-People have a hard time imagining what a person's "free will" (as generally
+People have a hard time imagining what a person's free will (as generally
 understood) would even *look like* under such a framework. Where exactly
 would it fit among all the swirling particles bumping up against each other
 in pre-determined ways? The reason why it's so hard to imagine has to do
@@ -97,7 +97,7 @@ level for this to happen.
 The problem, though, is more fundamental than that. Even if it were
 discovered that quantum mechanical randomness formed an essential,
 observable part of the every day operation of our brains, saying that one's
-"choices" are the results of "random fluctuations" hardly seems any better
+choices are the results of "random fluctuations" hardly seems any better
 than saying that they are the result of a series of determined causes. If
 it's hard to imagine where free will fits among the pre-determined
 trajectories of swirling particles, it's equally hard to imagine where free
@@ -110,7 +110,7 @@ this universe unless you reject the science.
 
 # Rejecting the Dichotomy
 
-And I mentioned before, I believe this last part is why my friend became
+As I mentioned before, I believe this last part is why my friend became
 irritated with me. Given my support for the idea of free will, he thought I
 was suggesting that human beings were in some way "magic", that I was in
 some way rejecting the notion that humans beings were physical entities,
@@ -118,9 +118,90 @@ subject to physical laws. I wasn't, but it's an understandable mistake. The
 way the debate is generally portrayed, there really isn't any other way to
 think about it.
 
-That is, of course, untrue; there are *many* different ways to think about
+It's not true, of course; there are *many* different ways to think about
 it. The first step is to realize that the free will debate, as it is
 traditionally formulated, is founded on a [false dichotomy][2].
 
+When I was in high school, I joined the debate team. I'm not sure what the
+rules are elsewhere, but where I went to school, the "affirmative" side got
+to define the terms of the debate, while the "negative" side had to accept
+those terms. I always thought this was grossly unfair; it seemed to me that
+the affirmative side had a huge advantage. What if they defined the terms in
+such a way that they couldn't help but win?
+
+To some extent, this sense of unfairness still colours my thoughts. I tend
+to think that the point of any debate is really about who gets the right the
+use the words involved without the scare quotes. Do you believe, for
+example, that gay people can be *married* - or do you believe that gay
+people can merely be "married"?
+
+In the case of free will, I think that the reason why people have a hard
+time imagining how it could possibly exist in a completely determinitic,
+scientific universe is because, to put it bluntly, they're thinking about it
+wrong. People want something out of the term that the universe can't
+deliver, and this means, in my opinion, that their definitions are *bad*.
+
+Words are slippery things. They come with definitions, yes, but they also
+come with baggage and history, conveniently referred to as connotations. The
+trick is figuring out which parts of the word are essential and which are
+not. At what point does fiddling with the word change its meaning entirely?
+At what point are you better off using a completely different word - or
+using scare quotes, just to be safe?
+
+Take a word like *life*, for example. Now *there's* a word loaded with
+baggage. There was a time, not so long ago, when the word was *drenched* in
+religious and mystical connotations. People basically used to believe that
+something could only be "alive" or could only have "life" if it possesed a
+kind of non-material "vital spark" or "élan vital". That belief, that there
+is something fundamentally and intangibly different about the chemistry of
+living systems as opposed to non-living systems, is called [vitalism][3] and
+it's been thouroghly discredited, basically ever since [urea][4] was first
+synthesized from non-organic materials. Most (rationally minded) people
+don't believe it anymore.
+
+You can imagine a scientist during this time, patting 
+
+But if you don't believe in vitalism, then what do you do
+with the word "life" or "alive"?  Do you reject them as mystical and think
+of new words, or do you continue to use the words, but reject the mystical
+parts?
+
+Mostly importantaly there was the 
+
+I prefer to do that latter. I believe that words like "life" and "alive" can
+be legitimitally used in a non-mystical way by people who choose to do so.
+It mostly comes down to laziness. I *could* choose to reject the word "life"
+but then I'd have to come up with some way of distinguishing between, let's
+say, a cat which purrs and eats and runs - and a cat which does none of
+these things because someone stabbed it through the heart.  There's a very
+obvious, very clear distinction to be made in the two cases, and the word
+"alive" or "life" fits very nicely - even if you reject vitalism.
+
+The term "free will" is completely analagous. Free will is simply the
+ability of humans to deliberate and make conscious decisions. The ability to
+act in accordance with one's own character. The ability to *have* a
+character. It has a very behavioural component to it. While it's true that
+some people want more out of the concept than that - the ability to step
+outside the laws of physics for example - I can choose (hehe) to simply
+reject that as unecessary for my notion to work, much as I did with the
+word "life".
+
+If I said that "free will" did not exist, for example, I would be making the
+same mistake as a someone who claims that "life" does not exist because s/he
+rejects vitalism.  I would still be faced with the need to distinguish
+between, let's say, murder and suicide, or between rape and sex - very tough
+to do unless you have a concrete notion of what it means for someone's will
+to be violated. In other words, unless you have a concrete notion of free
+will.  The mystical, physics-denying part can be ignored.
+
+
+Certain words like *life*, *soul*, *consciousness*, and *free will* are
+positively *loaded* with baggage. have both mystical and non-mystical
+connotations. They have a behavoural component and a mystical component.
+They key to using the words as non-mystic is to reject the mystical part
+while keeping the non-mystical part.
+
 [1]: http://en.wikipedia.org/wiki/Alternative_possibilities
 [2]: http://en.wikipedia.org/wiki/False_dilemma
+[3]: http://en.wikipedia.org/wiki/Vitalism
+[4]: http://en.wikipedia.org/wiki/Urea
