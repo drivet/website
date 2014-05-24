@@ -153,12 +153,11 @@ Take a word like *life*, for example. Now *there's* a word loaded with
 baggage. There was a time, not so long ago, when the word was *drenched* in
 religious and mystical connotations. People basically used to believe that
 something could only be alive if it possessed a kind of non-material "vital
-spark" or "élan vital". That belief, that there is something fundamentally
-and intangibly different about the chemistry of living systems as opposed to
-non-living systems, is called [vitalism][3] and it's been thoroughly
-discredited, basically ever since [urea][4] was first synthesized from
-non-organic materials. Most (rationally minded) people don't believe it
-anymore.
+spark". That belief, that there is something fundamentally and intangibly
+different about the chemistry of living systems as opposed to non-living
+systems, is called [vitalism][3] and it's been thoroughly discredited,
+basically ever since [urea][4] was first synthesized from non-organic
+materials. Most (rationally minded) people don't believe it anymore.
 
 It's easy to imagine a scientifically-minded skeptic during that period of
 upheaval, patting himself on the back for never having believed in any sort
@@ -171,16 +170,16 @@ we'd be better off rejecting the concept - and hence the word - entirely?
 It's a definite option. Why not? He could declare his belief, for example,
 that *life*, as it had been hitherto understood, being so intertwined with
 the notion of a mysterious vital spark, does not exist. He could declare
-that nothing is truly *alive* in the sense of possessing an undetectable
-"élan vital". And he'd be right, of course, as far as that went. He could do
-it - but he'd *still* be faced with the deceptively simple task of
-distinguishing between, let's say, a cat which purrs and eats and runs - and
-a cat which does none of these things because someone stabbed it through the
-heart. Or between someone who talks and laughs - and someone who doesn't
-because he or she is lying six feet underground in a coffin. There's a very
-clear and obvious contrast to be made here and words like *alive* and *dead*
-and *life* all seem to fit the concepts quite nicely - even if you reject
-the vitalism with which they used to come bundled.
+that nothing is truly *alive* in the sense of possessing this undetectable
+spark. And he'd be right, of course, as far as that went. He could do it -
+but he'd *still* be faced with the deceptively simple task of distinguishing
+between, let's say, a cat which purrs and eats and runs - and a cat which
+does none of these things because someone stabbed it through the heart. Or
+between someone who talks and laughs - and someone who doesn't because he or
+she is lying six feet underground in a coffin. There's a very clear and
+obvious contrast to be made here and words like *alive* and *dead* and
+*life* all seem to fit the concepts quite nicely - even if you reject the
+vitalism with which they used to come bundled.
 
 Obviously, no one actually took the option I'm suggesting. When scientists
 use the word *life*, they don't mean something vastly different than the
@@ -188,8 +187,8 @@ average person. Even for hard-nosed atheists, there's a ton of conceptual
 overlap between their usage of the word and, let's say, a Catholic's usage
 of the word - enough so that we don't bother coming up with a different
 word. Perhaps more to the point, no one would ever say today that we are
-misusing the word *life* if we don't believe in the "élan vital". That's not
-to say that no one believes in a life force, just that it's not essential to
+misusing the word *life* if we don't believe in a vital spark. That's not to
+say that no one believes in a life force, just that it's not essential to
 the concept of *life*. More likely, we would describe what biologists do
 today as *explaining* life rather than denying its existence. This is, I
 feel, a profound truth. The denial of vitalism didn't eradicate the concept
