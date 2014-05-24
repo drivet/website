@@ -23,7 +23,7 @@ stance might be confusing. At least one of my friends has called it
 the free will debate is peddled to the general public (when people think
 about it at all).
 
-# Traditional Dichotomies
+## Traditional Dichotomies
 
 The free will debate is conventionally framed as a contest between free will
 and determinism. Traditionally, these concepts are understood to be mutually
@@ -69,7 +69,7 @@ tends to be equated with a belief in miracles, or mysticism, or some new age
 gobbledygook. In other words, it's not to be taken seriously by rationally
 minded people.
 
-# A Detour Into Quantum Physics
+## A Detour Into Quantum Physics
 
 Of course, people with a certain amount of scientific knowledge understand
 that the universe doesn't actually work this way - that the popular image of
@@ -109,7 +109,7 @@ matter how the cake is sliced, there's no room for free will to operate in
 this universe unless you embrace the notion that human beings somehow
 operate outside the realm of physical law.
 
-# Rejecting the Dichotomy
+## Rejecting the Dichotomy
 
 As I mentioned before, I believe this last part is why my friend became
 irritated with me. Given my support for the idea of free will, he thought I
@@ -194,7 +194,7 @@ today as *explaining* life rather than denying its existence. This is, I
 feel, a profound truth. The denial of vitalism didn't eradicate the concept
 of life; it *clarified* it.
 
-# Making Choices
+## Making Choices
 
 The case of free will is completely analogous. Some people may believe that
 the idea *must* come bundled with some sort of mystical ability break the
@@ -298,7 +298,7 @@ critical part of the idea of free will, we should replace it with "could
 have done otherwise, *if you had wanted to*". That seems much more
 reasonable to me.
 
-# I Never Said I Was Original
+## I Never Said I Was Original
 
 If you're interested in labels, it turns out that the name for what I'm
 proposing is called [*compatibilism*][6]. It's the belief that free will is,
