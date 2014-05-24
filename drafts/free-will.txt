@@ -1,4 +1,4 @@
-Title: The Difference between Murder and Suicide
+Title: On Billiard Balls and Scorched Cats
 
 I once got into a relatively lively email debate with a friend of mine
 concerning the nature of free will. One of us argued that we had it and the
@@ -163,7 +163,7 @@ It's easy to imagine a scientifically-minded skeptic during that period of
 upheaval, patting himself on the back for never having believed in any sort
 of mystical life force, ridiculing all people who dared to believe that
 there was ever anything special about living things. But this person is now
-faced with several dillemnas. Should the concept of *life itself* be shunned
+faced with several dilemmas. Should the concept of *life itself* be shunned
 as tainted goods? Is it so imbued with religious and mystical significance
 that we'd be better off rejecting the concept - and hence the word -
 entirely?
@@ -176,59 +176,128 @@ that nothing is truly *alive* in the sense of possessing an undetectable
 it - but he'd *still* be faced with the simple task of distinguishing
 between, let's say, a cat which purrs and eats and runs - and a cat which
 does none of these things because someone stabbed it through the heart. Or
-between a man who talks and laughs - and one who doesn't because he's had a
-heart attack. There's a very clear and obvious contrast to be made here and
-words like *alive*, *dead*, *life* and *death* all seem to fit the concepts
-quite nicely - even if you reject the vitalism with which they used to come
-bundled.
+between a man who talks and laughs - and one who's lying six feet
+underground in a coffin. There's a very clear and obvious contrast to be
+made here and words like *alive* and *dead* and *life* all seem to fit the
+concepts quite nicely - even if you reject the vitalism with which they used
+to come bundled.
 
-Obviously, no one actually did what I'm suggesting. When scientists use the
-word *life*, they don't mean something vastly different than the average
-person. Even for hard-nosed atheists, there's a ton of conceptual overlap
-between their usage of the word and, let's say, a Catholic's usage of the
-word - enough so that we don't bother coming up with a different word. 
+Obviously, no one actually took the option I'm suggesting. When scientists
+use the word *life*, they don't mean something vastly different than the
+average person. Even for hard-nosed atheists, there's a ton of conceptual
+overlap between their usage of the word and, let's say, a Catholic's usage
+of the word - enough so that we don't bother coming up with a different
+word.  Perhaps more to the point, no one would ever say today that we are
+misusing the word *life* if we don't believe in the "élan vital". That's not
+to say that no one believes in a life force, just that it's not essential to
+the concept of *life*. More likely, we would describe what biologists do
+today as *explaining* life rather than denying its existence. This is, I
+feel, a profound truth. The denial of vitalism didn't eradicate the concept
+of life; it *clarified* it.
 
-No one would ever say today that we are misusing the word *life* if we don't
-believe in the "élan vital". That's not to say that no one believes in a
-life force, just that it's not essential to the concept of *life*. More
-likely, we would describe what biologists do today as *explaining* life
-rather than denying its existence. This is, I feel, a profound truth. The
-denial of vitalism didn't eradicate the concept of life; it *clarified* it.
+# Making Choices
 
-What does any of this have to do with free will? Nothing - except, of
-course, that it's completely analogous to the concept of *life*. Some people
-may believe that the idea of free will *must* come bundled with some sort of
-ability to step outside the laws of physics, but why does this have to be
-the lynchpin of the definition? Free will, at its most basic, is simply the
-ability of humans to deliberate, consider alternatives, and make conscious
-decisions. The ability to do what you want to do, and to act in accordance
-with one's own character - indeed, the ability to even *have* a
-character. It has a very behavioural component to it. There doesn't have to
-be anything mystical about it.
+The case of free will is completely analogous. Some people may believe that
+the idea *must* come bundled with some sort of ability to step outside the
+laws of physics, but why does this have to be the lynchpin of the
+definition? Free will, at its most basic, is simply the ability of humans to
+deliberate, consider alternatives, and make conscious decisions. The ability
+to do what you want to do, and to act in accordance with one's own character
+- indeed, the ability to even *have* a character. It has a very [behavioural][5]
+component to it. There doesn't have to be anything mystical about it.
 
 In my mind, free will *very obviously* exists. How could it not? We see
 people making deliberate, conscious choices every single day. Every time
-someone chooses what to wear a blue t-shirt over a black one, everytime
-someone chooses peanut butter over cream cheese, every time someone decides
-to go to the movies over cleaning the apartment. This is what it means to
-excercise one's free will. It's nothing more than an observable, natural
-aspect of human behaviour that warrants an explanation. Denying its
-existence is like trying to deny the existence of the colour red.
+someone chooses to wear a blue t-shirt over a black one, everytime someone
+chooses peanut butter over cream cheese, every time someone decides to go to
+the movies over cleaning the apartment. This is what it means to excercise
+one's free will. It's nothing more than an observable, natural aspect of
+human existence that warrants study and explanation. Denying its existence
+is akin to denying the existence of the colour red.
 
 If I said that free will did not exist I would be making the same mistake as
-someone who claimed that *life* does not exist because vitalism is false. I
-would still be faced with the need to distinguish between, let's say, murder
-and suicide, or between rape and sex - very tough to do unless you have a
-concrete notion of what it means for someone's will to be violated.
+someone who claimed that *life* did not exist because vitalism is false. I
+would be underestimating the amount of everyday, unmysterious, behavioural
+overlap between my view of the word and someone else's who may be more
+religiously minded. I would still be faced with the need to distinguish
+between, let's say, murder and suicide, or between rape and sex - very tough
+to do unless you have a clear, concrete notion of what it means for
+someone's will to be violated, or of what it means to want something as
+opposed to not wanting something. In other words, unless you have a clear
+notion of free will.
 
-Does it really matter if all these choices have *causes*?
+Does it really matter, in the end, if our choices and wants and desires have
+ultimately physical causes?  As long as, at the end of the day, you *get to
+do what you want* - isn't that enough to say that you have free will?  Why
+does there have to be magic involved as well?
 
+Some people will think I'm playing definitional word games here. For alot of
+people, a non-negotiable feature of what they would call *free will* must
+be, as mentioned before, the ability to "have done otherwise". For every
+metaphorical split in the road, it must have been possible for you to pick
+the other path. For many, it feels like the science is actively working
+against the intuition here - and, if I'm honest with myself, I can see where
+they're coming from.
 
-What people want here is essentially incoherent. You'd have to have the
-ability to *act against your own character*. What does it even mean to do
-that?
+It *seems* irresistable, but is the power to have done otherwise really
+necessary to the concept of free will? Simply put, I would argue that it
+isn't. A friend of mine loves cats. If someone offered her $100 to set a
+kitten on fire, I think I (or anyone) could safely predict what her answer
+would be. You could "rewind the universe" as much as you like, and I suspect
+her answer would be the same, every single time. What would it even mean, in
+this context, to say that she "could have done otherwise"? The idea itself
+is incoherent. You'd have to have the ability to *act against your own
+character*. Are we suppose to think that there's a parallel universe out
+there where my friend, cat lover to the core, decides that today is the day
+she starts hating kittens and accepts $100 to set one on fire?
+
+I think part of the problem is that, when people think of determinism, they
+tend of think of low level, simplistic physics. They think of a narrative
+like this:
+
+> The ivory billiard ball is moving at 30km an hour, at an angle of 43
+  degrees. It hits another billiard ball, also made of ivory, which then
+  sets off at 17 degrees and 19km an hour. That ball hits a third, identical
+  ball, which moves away at 56 degrees and 10km an hour, and falls into the
+  side pocket of the table.
+
+People see that and intuitively know that "rewinding the universe" would
+have no effect on the narrative - it would always play out the same way. But
+I think people extract too much metaphysical significance from that
+truth. You can imagine taking a step back and constructing a narrative like
+this:
+
+> Donald walks to the corner store because he wants to buy some milk. He
+  sees a homeless person on the way and gives him a dollar, like he always
+  does. He arrives at the store and sees a litre of organic milk and a litre
+  of regular milk, for half as much sitting side by side. He has never in
+  his life bought organic anything and sure as hell isn't going to start
+  now. He picks up the litre of regular milk and brings it to the cashier,
+  who proceeds to ring it up. Donald thinks briefly about what it would be
+  like to hold up the store, and steal all the money in the register, but
+  this never amounts to anything but idle speculation. He pays for the milk
+  and leaves.
+
+There's no fundamental difference between these narratives. They just
+describe real events at different levels of abstraction.
+
+In this case,
+imagine that "rewinding the universe" also had no effect on the narrative -
+Donald does the same thing every time. And yet, this time around, it seems
+so...mundane. Donald never buys organic milk - *because he doesn't want to*
+not because he doesn't have free will.  He give a dollar to the homeless
+person, because *that's what his character demands*, not because he's being
+guided like a puppet
+
+ I would have a very
+difficult time convincing myself that Donald doesn't have free will. 
+
+I think it's safe to say that a cat lover who decides not to accept a bribe
+to set a kitten on fire is still exercising her free will - it would not be
+an abuse of the term to apply it in this context.
 
 [1]: http://en.wikipedia.org/wiki/Alternative_possibilities
 [2]: http://en.wikipedia.org/wiki/False_dilemma
 [3]: http://en.wikipedia.org/wiki/Vitalism
 [4]: http://en.wikipedia.org/wiki/Urea
+[5]: http://en.wikipedia.org/wiki/Behaviorism
