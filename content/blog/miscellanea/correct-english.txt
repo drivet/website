@@ -61,7 +61,7 @@ present tense of avoir is "Nous avons". You tack this on to "sauter" and you
 get "Nous sauter avons". Over time the "av" in "avons" gets eroded out of
 existence and all you're left with is "sauterons".  It happens all the time.
 
-# Word Crimes
+## Word Crimes
 
 If you haven't watched the [Word Crimes][2] video by Weird Al Yankvic, you
 should.  It's hilarious.
