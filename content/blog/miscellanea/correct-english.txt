@@ -33,7 +33,7 @@ in French. Take a verb like *sauter* (to jump):
 
 If you know a bit of French, and you exclude the nous/vous cases for a
 moment, there's a pattern here: you take the infinitive and you add a
-conjugation of the verb "avoir" ("to have"):
+the present tense of the verb "avoir" ("to have"):
 
 * Je sauter ai
 * Tu sauter as
@@ -44,7 +44,7 @@ It's apparently not a coincidence. When the French future tense was
 emerging, the verb "avoir" could express an obligation (as in the English
 phrase "I have to jump"). So by putting "avoir" after a verb, you were
 expressing an obligation to do something.  But if you have an obligation to
-do something, that means that you haven't done it *yet*; it's something that
+do something, that means that you haven't done it yet; it's something that
 *will* happen in the future.  Eventually the notion of obligation was
 forgotten and all that was left was the abstract notion of something that
 has not yet happened, but will happen at some point, i.e. a future tense.
@@ -61,7 +61,7 @@ present tense of avoir is "Nous avons". You tack this on to "sauter" and you
 get "Nous sauter avons". Over time the "av" in "avons" gets eroded out of
 existence and all you're left with is "sauterons".  It happens all the time.
 
-## Word Crimes
+## Word Crimes and the Plural of Book
 
 If you haven't watched the [Word Crimes][2] video by Weird Al Yankvic, you
 should.  It's hilarious.
@@ -97,7 +97,7 @@ most plurals in English end in "s". Making that kind of mistake betrays a
 kind of logical mind. 
 
 Of course, such mistakes *also* make you sound uneducated or, at best,
-sloppy, and I guess that's kind of the key point. For better or for worse,
+sloppy, and I guess that's kind of the point. For better or for worse,
 people are more likely to listen to you if you seem educated, and knowing
 your grammar is one way to do this. It's the rough equivalent of being
 familiar with the basics of economics or politics or history.  It's a good
@@ -130,8 +130,7 @@ just continuing the good work of our ancestors.
 If we plucked some unknown, Old English grammarian from 900 and plopped them
 in the middle of the modern era, I shudder to think what they would make of
 today's literature - even *good literature*, with proper grammar. I imagine
-it would all sound wrong and juvenile, if any meaning could be discerned at
-all.
+it would all sound juvenile, if any meaning could be discerned at all.
 
 All this to say, while I love "Word Crimes", I think we should all lighten
 up a bit with the grammar policing.
