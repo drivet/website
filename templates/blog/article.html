@@ -1,23 +1,13 @@
-<!--
-    template used for viewing individual articles
--->
-{% extends "blog/base_blog_template.html" %}
+{% extends "blog/_base_blog_template.html" %}
+
 
 {% block browsertitle %}
-    {{ article.title }} - {{blogtitle}} - {{sitetitle}}
+    {{ article.info.title }} - {{blogtitle}} - {{sitetitle}}
 {% endblock %}
 
 {% block blogcontent %}
-   <div id="collection_header">
-      {% if breadcrumbs %}
-      <div id="breadcrumbs">
-          {% for b in breadcrumbs: %}
-          <a href="{{b.url|url}}">{{b.crumb}}</a>{% if not loop.last %} / {% endif %}
-          {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-    <h1>{{ article.title }}</h1>
-    {% include 'blog/article_info.html' %}
+    {% set info = article.info %}
+    <h1>{{ article.info.title }}</h1>
+    {% include '_article_info.html' %}
     {{ article.content }}
 {% endblock %}

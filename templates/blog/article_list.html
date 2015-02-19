@@ -1,7 +1,4 @@
-<!--
-    top template used for viewing lists of articles
--->
-{% extends "blog/base_blog_template.html" %}
+{% extends "blog/_base_blog_template.html" %}
 
 {% block browsertitle %} 
 {% if collection_title %}{{collection_title}} | {% endif %}
@@ -10,5 +7,5 @@
 
 {% block blogcontent %}
 {% set base = "/blog" %}
-{% include 'article_collection.html' %}
+{% include '_article_collection.html' %}
 {% endblock %}

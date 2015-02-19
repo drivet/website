@@ -1,4 +1,4 @@
-{% extends "base_site_template.html" %}
+{% extends "_base_site_template.html" %}
 
 {% block browsertitle %} 
 {% if collection_title %}{{collection_title}} | {% endif %}{{sitetitle}}
@@ -6,5 +6,5 @@
 
 {% block content %}
 {% set base = "" %}
-{% include 'article_collection.html' %}
+{% include '_article_collection.html' %}
 {% endblock %}

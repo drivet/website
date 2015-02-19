@@ -1,9 +1,10 @@
 <div class="articleinfo">
     <div class="postedin">Posted in 
-      <a href="/{{article.fullname}}">{{article.fullname}}</a>
-               on {{article.ctime_tm|dateformat('%Y/%m/%d %H:%M')}}
-      | <span class="permalink"><a href="{{article|permalink}}">Permalink</a></span>
+      <a href="/{{info.fullname}}">{{info.fullname}}</a>
+               on {{info.create_time|dateformat('%Y/%m/%d %H:%M')}}
+      | <span class="permalink"><a href="/{{info.fullname}}">Permalink</a></span>
     </div>
+    {#
     {% set taglinks = article|tags %}
     {% if taglinks %} 
     <div class="tags">Tags:
@@ -12,5 +13,6 @@
         {% endfor %}
     </div>
     {% endif %}
-    <div class="lastmodified">Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}</div>
+    #}
+    <div class="lastmodified">Last modified on {{info.modified_time|dateformat('%Y/%m/%d %H:%M')}}</div>
 </div>

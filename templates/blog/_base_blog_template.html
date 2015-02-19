@@ -1,4 +1,4 @@
-{% extends "base_site_template.html" %}
+{% extends "_base_site_template.html" %}
 {% set blogtitle = 'The Soapbox' %}
 {% set blogdescription = "Desmond Rivet's Blog" %}
 
@@ -14,7 +14,8 @@
     <h2 id="blogdescription">{{blogdescription}}</h2>
     {% block blogcontent %}{% endblock %}
   </div> 
-        
+
+  {# 
   <div id="sidebar" class="span2"> 
     {% if categories.categories %}
     <ul  id="categoryheader" class="nav nav-list span2">
@@ -48,9 +49,10 @@
       </li>
       {% endfor %}
     </ul>
-    {% endif %}
-    
+    {% endif %}    
   </div>
+  #}
+
 </div>
 {% endblock %}
     

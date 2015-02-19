@@ -1,14 +1,14 @@
-{% extends "base_site_template.html" %}
+{% extends "_base_site_template.html" %}
 
 {% block browsertitle %}
-    {{ article.title }} - {{ sitetitle }}
+    {{ article.info.title }} - {{ sitetitle }}
 {% endblock %}
 
 {% block content %}
-    <h1>{{ article.title }}</h1>
+    <h1>{{ article.info.title }}</h1>
     {{ article.content }}
 
     <div id="lastmodified">
-        Last modified on {{article.mtime_tm|dateformat('%Y/%m/%d %H:%M')}}
+        Last modified on {{article.info.modified_time|dateformat('%Y/%m/%d %H:%M')}}
     </div>
 {% endblock %}
