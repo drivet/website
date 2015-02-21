@@ -9,9 +9,12 @@ YAWT_ARTICLE_EXTENSIONS = ['txt']
 YAWT_DEFAULT_EXTENSION = 'txt'
 YAWT_STATE_FOLDER = '_state'
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
+YAWT_TAGCOUNT_BASE = '/blog/'
+YAWT_TAGCOUNT_FILE = '/home/dcr/blogging/website/_state/tagcounts'
 
-from whoosh.fields import TEXT, DATETIME, IDLIST
+from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
 YAWT_WHOOSH_ARTICLE_INFO_FIELDS = {'create_time': DATETIME(sortable=True),
-                                   'categories': IDLIST()}
+                                   'categories': IDLIST(),
+                                   'tags': KEYWORD(commas=True)}
 YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT()}

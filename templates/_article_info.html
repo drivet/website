@@ -4,15 +4,13 @@
                on {{info.create_time|dateformat('%Y/%m/%d %H:%M')}}
       | <span class="permalink"><a href="/{{info.fullname}}">Permalink</a></span>
     </div>
-    {#
-    {% set taglinks = article|tags %}
-    {% if taglinks %} 
+    {% set taglist = info.taglist %}
+    {% if taglist %} 
     <div class="tags">Tags:
-        {% for tl in taglinks: %}
-        <a href="{{base}}{{tl.url}}">{{tl.tag}}</a>{% if not loop.last %},{% endif %}
+        {% for tag in taglist: %}
+        <a href="{{tagbase}}tags/{{tag}}">{{tag}}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
     </div>
     {% endif %}
-    #}
     <div class="lastmodified">Last modified on {{info.modified_time|dateformat('%Y/%m/%d %H:%M')}}</div>
 </div>

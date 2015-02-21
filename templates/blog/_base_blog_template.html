@@ -15,8 +15,8 @@
     {% block blogcontent %}{% endblock %}
   </div> 
 
-  {# 
   <div id="sidebar" class="span2"> 
+{#
     {% if categories.categories %}
     <ul  id="categoryheader" class="nav nav-list span2">
       <li class="nav-header">Categories</li>
@@ -29,16 +29,18 @@
       {% endfor %}
     </ul>  
     {% endif %}
+#}
 
-    {% if tagcounter.article_tags %}
+    {% if tagcounts %}
     <ul id="tagheader" class="nav nav-list span2">
       <li class="nav-header">Tags</li>
-      {% for tag, info in tagcounter.article_tags.items(): %}
-      <li class="nav-item"><a href="{{info.url|url}}">{{tag}} ({{info.count}})</a></li>
+      {% for tag in tagcounts: %}
+      <li class="nav-item"><a href="{{tagbase}}tags/{{tag}}">{{tag}} ({{tagcounts[tag]}})</a></li>
       {% endfor %}
     </ul>
     {% endif %}
-   
+
+   {#
     {% if archivecounter.archives %}
     <ul id="archiveheader" class="nav nav-list span2">
       <li class="nav-header">Archives</li>
@@ -50,8 +52,8 @@
       {% endfor %}
     </ul>
     {% endif %}    
+#}
   </div>
-  #}
 
 </div>
 {% endblock %}

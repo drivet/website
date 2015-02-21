@@ -5,6 +5,8 @@ from yawtext.collections import YawtPaging
 from yawtext.categories import YawtCategories
 from yawtext.excerpt import YawtExcerpt
 from yawtext.search import YawtSearch
+from yawtext.tagging import YawtTagging
+from yawtext.tagcount import YawtTagCount
 
 yawtmarkdown = YawtMarkdown()
 whoosh = Whoosh()
@@ -13,6 +15,8 @@ yawtpaging = YawtPaging()
 yawtcategories = YawtCategories()
 yawtexcerpt = YawtExcerpt()
 yawtsearch = YawtSearch()
+yawttagging = YawtTagging()
+yawttagcount = YawtTagCount()
 
 def init_app(app):
     yawtmarkdown.init_app(app)
@@ -22,6 +26,8 @@ def init_app(app):
     yawtcategories.init_app(app)
     yawtexcerpt.init_app(app)
     yawtsearch.init_app(app)
+    yawttagging.init_app(app)
+    yawttagcount.init_app(app)
 
 extension_info = [
     {'yawtmarkdown': yawtmarkdown,
@@ -30,10 +36,13 @@ extension_info = [
      'yawtpaging': yawtpaging, 
      'yawtcategories': yawtcategories,
      'yawtexcerpt': yawtexcerpt,
-     'yawtsearch': yawtsearch
+     'yawtsearch': yawtsearch,
+     'yawttagging': yawttagging,
+     'yawttagcount': yawttagcount
     },
 
-    [yawtmarkdown, whoosh, yawtwhoosh, yawtpaging, yawtcategories, yawtexcerpt, yawtsearch],
+    [yawtmarkdown, whoosh, yawtwhoosh, yawtpaging, yawtcategories, 
+     yawtexcerpt, yawtsearch, yawttagging, yawttagcount],
 
     init_app
 ]
