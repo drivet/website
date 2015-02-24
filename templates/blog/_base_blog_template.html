@@ -16,12 +16,12 @@
   </div> 
 
   <div id="sidebar" class="span2"> 
-{#
-    {% if categories.categories %}
+
+    {% if categorycounts %}
     <ul  id="categoryheader" class="nav nav-list span2">
       <li class="nav-header">Categories</li>
-      {% for c in categories.categories.subcategories.values() recursive %}
-      <li class="nav-item"><a href="{{c.url|url}}">{{c.category}} ({{c.count}})</a>
+      {% for c in categorycounts.children recursive %}
+      <li class="nav-item"><a href="{{categorycountbase}}{{c.category}}">{{c.category}} ({{c.count}})</a>
         {% if c.subcategories %}
         <ul>{{ loop(c.subcategories) }}</ul>
         {% endif %}
@@ -29,7 +29,6 @@
       {% endfor %}
     </ul>  
     {% endif %}
-#}
 
     {% if tagcounts %}
     <ul id="tagheader" class="nav nav-list span2">

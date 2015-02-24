@@ -11,6 +11,8 @@ YAWT_STATE_FOLDER = '_state'
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
 YAWT_TAGCOUNT_BASE = '/blog/'
 YAWT_TAGCOUNT_FILE = '/home/dcr/blogging/website/_state/tagcounts'
+YAWT_CATEGORYCOUNT_BASE = '/blog/'
+YAWT_CATEGORYCOUNT_FILE = '/home/dcr/blogging/website/_state/categorycounts'
 
 from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
