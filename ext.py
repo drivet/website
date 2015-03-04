@@ -3,22 +3,20 @@ from flask_whoosh import Whoosh
 from yawtext.indexer import YawtWhoosh
 from yawtext.collections import YawtPaging
 from yawtext.categories import YawtCategories
-from yawtext.categorycounts import YawtCategoryCount
 from yawtext.excerpt import YawtExcerpt
 from yawtext.search import YawtSearch
 from yawtext.tagging import YawtTagging
-from yawtext.tagcount import YawtTagCount
+from yawtext.breadcrumbs import YawtBreadcrumbs
 
 yawtmarkdown = YawtMarkdown()
 whoosh = Whoosh()
 yawtwhoosh = YawtWhoosh()
 yawtpaging = YawtPaging()
 yawtcategories = YawtCategories()
-yawtcategorycount = YawtCategoryCount()
 yawtexcerpt = YawtExcerpt()
 yawtsearch = YawtSearch()
 yawttagging = YawtTagging()
-yawttagcount = YawtTagCount()
+yawtbreadcrumbs = YawtBreadcrumbs()
 
 def init_app(app):
     yawtmarkdown.init_app(app)
@@ -26,11 +24,10 @@ def init_app(app):
     yawtwhoosh.init_app(app)
     yawtpaging.init_app(app)
     yawtcategories.init_app(app)
-    yawtcategorycount.init_app(app)
     yawtexcerpt.init_app(app)
     yawtsearch.init_app(app)
     yawttagging.init_app(app)
-    yawttagcount.init_app(app)
+    yawtbreadcrumbs.init_app(app)
 
 extension_info = [
     {'yawtmarkdown': yawtmarkdown,
@@ -38,15 +35,15 @@ extension_info = [
      'yawtwhoosh': yawtwhoosh,
      'yawtpaging': yawtpaging, 
      'yawtcategories': yawtcategories,
-     'yawtcategorycount': yawtcategorycount,
      'yawtexcerpt': yawtexcerpt,
      'yawtsearch': yawtsearch,
      'yawttagging': yawttagging,
-     'yawttagcount': yawttagcount
+     'yawtbreadcrumbs': yawtbreadcrumbs,
     },
 
-    [yawtmarkdown, whoosh, yawtwhoosh, yawtpaging, yawtcategories, 
-     yawtcategorycount, yawtexcerpt, yawtsearch, yawttagging, yawttagcount],
+    [yawtmarkdown, yawtexcerpt, yawtbreadcrumbs, 
+     yawtcategories, yawttagging, 
+     whoosh, yawtwhoosh, yawtpaging, yawtsearch ],
 
     init_app
 ]

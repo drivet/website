@@ -1,11 +1,15 @@
 {% extends "blog/_base_blog_template.html" %}
 
-
 {% block browsertitle %}
     {{ article.info.title }} - {{blogtitle}} - {{sitetitle}}
 {% endblock %}
 
 {% block blogcontent %}
+    {% if breadcrumbs %}
+    <div id="collection_header">
+        {% include '_breadcrumbs.html' %}
+    </div>
+    {% endif %}
     {% set info = article.info %}
     <h1>{{ article.info.title }}</h1>
     {% include '_article_info.html' %}

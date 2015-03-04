@@ -1,18 +1,9 @@
 <div id="collection_header">
   {% if collection_title %}
   <div id="collection_title">{{collection_title}}</div>
+  {% elif breadcrumbs %}
+  {% include '_breadcrumbs.html' %}
   {% endif %}
-  
-  {% if breadcrumbs %}
-  <ul id="breadcrumbs">
-    {% for b in breadcrumbs: %}
-    <li><a href="{{b.url|url}}">{{b.crumb}}</a>
-      {% if not loop.last %}
-      <span class="divider">/</span>
-      {% endif %}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}  
 </div>
 
 {% for info in article_infos: %}
