@@ -1,7 +1,7 @@
 <div class="articleinfo">
     <div class="postedin">Posted in 
       <a href="/{{info.fullname}}">{{info.fullname}}</a>
-               on {{info.create_time|dateformat('%Y/%m/%d %H:%M')}}
+               on {{info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}
       | <span class="permalink"><a href="/{{info.fullname}}">Permalink</a></span>
     </div>
     {% set taglist = info.taglist %}

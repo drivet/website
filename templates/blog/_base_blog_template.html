@@ -39,21 +39,22 @@
     </ul>
     {% endif %}
 
-   {#
-    {% if archivecounter.archives %}
+    {% if archivecounts %}
     <ul id="archiveheader" class="nav nav-list span2">
       <li class="nav-header">Archives</li>
-      {% for item in archivecounter.archives: %}
+      {% for year_node in archivecounts.children  %}
+      {% for month_node in year_node.children  %}
       <li class="nav-item">
-        <a href="{{item.url|url}}">{{ "%04d-%02d"|format(item.year, item.month)}}
-          ({{item.count}})</a>
+        <a href="{{ "%s%04d/%02d" % (archivebase, year_node.category, month_node.category)}}">
+            {{ "%04d-%02d" % (year_node.category, month_node.category)}}
+          ({{ month_node.count }})</a>
       </li>
+      {% endfor %}
       {% endfor %}
     </ul>
     {% endif %}    
-#}
+
   </div>
 
 </div>
 {% endblock %}
-    
