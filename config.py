@@ -28,7 +28,7 @@ from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
 YAWT_WHOOSH_ARTICLE_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
                                    'categories': IDLIST(),
-                                   'tags': KEYWORD(commas=True)}
+                                   'tags': KEYWORD()}
 YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT()}
 
 GIT_REPOPATH = '/home/dcr/blogging/website'

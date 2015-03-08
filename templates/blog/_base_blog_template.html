@@ -45,8 +45,8 @@
       {% for year_node in archivecounts.children  %}
       {% for month_node in year_node.children  %}
       <li class="nav-item">
-        <a href="{{ "%s%04d/%02d" % (archivebase, year_node.category, month_node.category)}}">
-            {{ "%04d-%02d" % (year_node.category, month_node.category)}}
+        <a href="{{ "%s%s/%s" % (archivebase, year_node.category, month_node.category)}}">
+            {{ "%s-%s" % (year_node.category, month_node.category)}}
           ({{ month_node.count }})</a>
       </li>
       {% endfor %}
