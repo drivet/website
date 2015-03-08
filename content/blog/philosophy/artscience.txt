@@ -1,5 +1,5 @@
-Title: The Intersection of Art and Science
-ctime: 1197482973
+title: The Intersection of Art and Science
+md_create_time: 2007-12-12T18:09:33+00:00
 
 Someone at work commented that, one night, she got into a long
 rambling discussion about the intersection between art and science. I

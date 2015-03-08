@@ -1,5 +1,5 @@
-Title: Solar System Simulations
-ctime: 1199651189
+title: Solar System Simulations
+md_create_time: 2008-01-06T20:26:29+00:00
 
 When I was in high school, I used to program two dimensional solar
 system simulations for fun (as you can surely tell, I was extremely

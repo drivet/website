@@ -1,5 +1,5 @@
-Title: Seeing green
-ctime: 1184523810
+title: Seeing green
+md_create_time: 2007-07-15T18:23:30+00:00
 
 Evelyn's birthday passed a few months ago. We were at a bar with her
 friends and I somehow got into a discussion with some guy about the

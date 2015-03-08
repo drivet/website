@@ -4,10 +4,10 @@
                on {{info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}
       | <span class="permalink"><a href="{{info|permalink}}">Permalink</a></span>
     </div>
-    {% set taglist = info.taglist %}
-    {% if taglist %} 
+    {% set tags = info.tags %}
+    {% if tags %} 
     <div class="tags">Tags:
-        {% for tag in taglist: %}
+        {% for tag in tags: %}
         <a href="{{tagbase}}tags/{{tag}}">{{tag}}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
     </div>

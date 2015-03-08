@@ -1,5 +1,5 @@
-Title: What it means to have an opinion
-ctime: 1181578359
+title: What it means to have an opinion
+md_create_time: 2007-06-11T16:12:39+00:00
 
 I have strong opinions on certain topics, but unlike some people I
 know, I try to justify my opinions (see, for example, my [philosophy

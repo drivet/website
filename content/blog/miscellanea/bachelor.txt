@@ -1,5 +1,5 @@
-Title: Duckie Fuzz
-ctime: 1186263892
+title: Duckie Fuzz
+md_create_time: 2007-08-04T21:44:52+00:00
 
 I went to my friend Neil's bachelor party last Saturday (July 28th). I
 met the group at the Saint-Sulpice around 2:30pm and I didn't leave

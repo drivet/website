@@ -1,6 +1,6 @@
-Title: New Blog
-Tags: blogging,yawt,blosxom
-ctime: 1207512044
+title: New Blog
+tags: blogging,yawt,blosxom
+md_create_time: 2008-04-06T20:00:44+00:00
 
 So I got myself a new weblog, hosted on
 [Netfirms](http://www.netfirms.ca/).  I'm not particularly enjoying

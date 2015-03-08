@@ -1,5 +1,5 @@
-Title: I don't even like heights...
-ctime: 1181660040
+title: I don't even like heights...
+md_create_time: 2007-06-12T14:54:00+00:00
 
 Several months back I won a free gliding session with [Vol
 Recreatif](http://volrecreatif.com/) in a raffle. My natural laziness,
