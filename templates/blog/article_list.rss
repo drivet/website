@@ -3,6 +3,9 @@
 {% set sitetitle = 'The Low Rent District' %}
 {% set blogtitle = 'The Soapbox' %}
 {% set blogdescription = "Desmond Rivet's Blog" %}
+{% set site_url = "http://www.desmondrivet.com" %}
+{% set blog_url = site_url+"/blog" %}
+{% set lang = "en" %}
 
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
@@ -10,18 +13,18 @@
     {% if collection_title %}{{collection_title}} - {% endif %}
     {{blogtitle}} - {{blogdescription}} - {{sitetitle}}
     </title>
-    <link>{{base_url}}</link>
+    <link>{{blog_url}}</link>
     <description>{{blogdescription}}</description> 
     <language>{{lang}}</language> 
-    {% for a in articles: %}
+    {% for info in article_infos: %}
     <item>
-      <title>{{a.title}}</title>
-      <link>{{a|permalink|url}}</link>
-      <description>{{a|excerpt(100)|striptags}}</description>
-      <category>{{a.category}}</category>
-      <pubDate>{{a.ctime_tm|dateformat('%a, %d %b %Y %H:%M:%S %Z')}}</pubDate>
-      <guid>{{a|permalink}}</guid>
-      <content:encoded><![CDATA[ {{a.content}} ]]></content:encoded>
+      <title>{{info.title}}</title>
+      <link>{{site_url}}{{info|permalink}}</link>
+      <description>{{info.summary|striptags}}</description>
+      <category>{{info.category}}</category>
+      <pubDate>{{info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}</pubDate>
+      <guid>{{info|permalink}}</guid>
+      <content:encoded><![CDATA[ {{info.summary|striptags}} ]]></content:encoded>
     </item>
     {% endfor %}
   </channel>
