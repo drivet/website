@@ -57,7 +57,7 @@ extension_info = [
      'yawtsmart': yawtsmart
     },
 
-    [yawtexcerpt, yawtmarkdown, git, yawtgit, yawtsmart, yawtbreadcrumbs, 
+    [yawtmarkdown, yawtexcerpt, git, yawtgit, yawtsmart, yawtbreadcrumbs,
      yawtcategories, yawttagging, yawtarchives,
      whoosh, yawtwhoosh, yawtcollections, yawtsearch],
 
