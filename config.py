@@ -33,6 +33,7 @@ YAWT_WHOOSH_ARTICLE_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
 YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT()}
 
 GIT_REPOPATH = '/home/dcr/blogging/website'
+GIT_SEARCH_PATH = '/home/dcr/blogging/website'
 
 YAWT_SMART_ATTRIBUTES = {
     'smart_create_time': ['md_create_time', 'git_create_time', 'create_time'],
