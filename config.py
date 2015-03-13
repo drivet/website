@@ -10,6 +10,8 @@ YAWT_DEFAULT_EXTENSION = 'txt'
 YAWT_STATE_FOLDER = '_state'
 YAWT_CONTENT_TYPE_RSS = 'application/rss+xml'
 
+YAWT_EXCERPT_WORDCOUNT = 100
+
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
 YAWT_MULTIMARKDOWN_TYPES = {'md_create_time': 'iso8601', 
                             'md_modified_time': 'iso8601', 

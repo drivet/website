@@ -22,8 +22,8 @@
       <link>{{site_url}}{{info|permalink}}</link>
       <description>{{info.summary|striptags}}</description>
       <category>{{info.category}}</category>
-      <pubDate>{{info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}</pubDate>
-      <guid>{{info|permalink}}</guid>
+      <pubDate>{{info.smart_create_time|dateformat('%a, %e %b %Y %H:%M:%S %z')}}</pubDate>
+      <guid>{{site_url}}{{info|permalink}}</guid>
       <content:encoded><![CDATA[ {{info.summary|striptags}} ]]></content:encoded>
     </item>
     {% endfor %}
