@@ -10,6 +10,21 @@ YAWT_DEFAULT_EXTENSION = 'txt'
 YAWT_STATE_FOLDER = '_state'
 YAWT_CONTENT_TYPE_RSS = 'application/rss+xml'
 
+YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
+                   'yawtext.excerpt.YawtExcerpt',
+                   'flask_git.Git',
+                   'yawtext.git.YawtGit',
+                   'yawtext.smartattributes.YawtSmartAttributes',
+                   'yawtext.breadcrumbs.YawtBreadcrumbs',
+                   'yawtext.categories.YawtCategories',
+                   'yawtext.tagging.YawtTagging',
+                   'yawtext.archives.YawtArchives',
+                   'flask_whoosh.Whoosh',
+                   'yawtext.indexer.YawtWhoosh',
+                   'yawtext.collections.YawtCollections',
+                   'yawtext.search.YawtSearch'
+]
+
 YAWT_EXCERPT_WORDCOUNT = 100
 
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
