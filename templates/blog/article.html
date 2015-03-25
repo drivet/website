@@ -6,12 +6,7 @@
 
 {% block blogcontent %}
     {% if breadcrumbs %}
-    <div id="collection_header">
         {% include '_breadcrumbs.html' %}
-    </div>
     {% endif %}
-    {% set info = article.info %}
-    <h1>{{ article.info.title }}</h1>
-    {% include '_article_info.html' %}
-    {{ article.content }}
+    {% include '_article.html' %}
 {% endblock %}

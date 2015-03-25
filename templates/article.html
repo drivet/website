@@ -1,3 +1,8 @@
+{# 
+article template as seen on non-blog pages.
+No extra info shown except for a last modified time at the bottom.
+#}
+
 {% extends "_base_site_template.html" %}
 
 {% block browsertitle %}
@@ -7,8 +12,5 @@
 {% block content %}
     <h1>{{ article.info.title }}</h1>
     {{ article.content }}
-
-    <div id="lastmodified">
-        Last modified on {{article.info.modified_time|dateformat('%Y/%m/%d %H:%M')}}
-    </div>
+    {% include '_last_modified.html' %}
 {% endblock %}

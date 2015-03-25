@@ -1,136 +1,116 @@
-body, blockquote p {
-    font-size: 12px;
-    line-height: 20px;
+.collection_header {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0; 
+    margin-bottom: 2.5em;
 }
 
-h1, h2, h3, h4, h5, h6, .brand, #sidebar .nav-header {
-    font-family: 'Rambla', sans-serif;
+.breadcrumb, .collection_title {
+    padding: 0.5em 0;
+    margin: 0;
+    background-color: white;
 }
 
-#sidebar .nav-header {
-    font-size: 14px;
+.pagination {
+    float: right;
+    margin: 0;
 }
 
-h1 { font-size: 30px; }
-h2 { font-size: 24px; }
-h3 { font-size: 19px; }
-h4 { font-size: 13px; }
-h5 { font-size: 11px; }
-h6 { font-size: 9px; }
-
-.well {
-    box-sizing: border-box;
-}
-
-#searchtext {
-    border: none;
-    box-shadow: none;
-}
-
-#searchbutton {
-    background-color: #515151;
-    background-image: none;
-    border: none;
-    box-shadow: none;
-    text-shadow: none;
-}
-
-#blogtitle, #blogdescription {
-    margin: 0px;
-}
-
-#header {
-    background-image: url('/static/skyline_4.jpeg'); 
-}
-
-.navbar {
-    margin-bottom: 0px;
-}
-
-#content {
+footer {
+    border-top: 1px solid #ddd;
+    padding: 1em 0;
     margin-top: 1em;
 }
 
-.navbar-inner {
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
-}
-
-#footer {
-    overflow: hidden;
-    margin-top: 1em;
-    padding: 1em 0em 0em 0em;
-    border-top: 1px #dddddd solid;
-}
-
-#footer img {
-    float: left;
-}
-
-#footer a {
+footer .validator {
     margin-right: 1em;
 }
 
-#powered-by {
+footer .powered-by {
     float: right;
     font-style: italic;
 }
 
-#collection_header {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    overflow: hidden;
-    border-top: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
+#sidebar .nav > li.nav-header {
+    cursor: default;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0 0.5em 0;
 }
 
-#collection_title {
-    float: left;
-    margin: 0em;
+#sidebar .nav > li > a {
+    padding: 0.1em 0;
 }
 
-#breadcrumbs {
-    float: left;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+#sidebar nav {
+    margin-bottom: 2em;
 }
 
-#breadcrumbs li{
-    display: inline-block;
-}
-
-#paging {
-    float: right;
-}
-
-.article {
-    margin-top: 1em;
-}
-
-.article h3 a {
-    color: inherit;
+.sidebarwrapper {
+    padding: 1em;
+    background-color: #f0f0f0;
 }
 
 .articleinfo {
-    font-size: 11px;
-    color: #aaaaaa;
-    line-height: 1.3em;
-    margin-bottom: 1em;
+    font-size: 85%;
+    color: #777;
 }
 
-.permalink {
-    font-style: normal;
+#social-icons a {
+    padding: 10px 3px;
 }
 
-#sidebar li.nav-item {
-    line-height: 12px;
+/* Putting back the default chrome HTML rendering behaviour */
+h1 {
+    font-size: 2em;
 }
 
-#tagheader, #archiveheader {
+article h1, aside h1, nav h1, section h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+article.entry {
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.readmore {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.lastmodified {
+    font-style: italic;
     margin-top: 2em;
 }
 
-#lastmodified {
-    margin-top: 3em;
+.faq h3{
+    font-size: 2em;
+}
+
+.entry h1 a {
+    color: #333333;
+}
+
+.entry h1 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.articleheader {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.subscribeblog {
+    margin-bottom: 2em;
 }

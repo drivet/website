@@ -1,59 +1,71 @@
 {% extends "_base_site_template.html" %}
-{% set blogtitle = 'The Soapbox' %}
-{% set blogdescription = "Desmond Rivet's Blog" %}
+{% set blogtitle = "The Soapbox - Desmond Rivet's Blog" %}
 
 {% block headtags %} 
 <link rel="alternate" type="application/rss+xml" href="/blog/index.rss" 
-      title="{{blogtitle}} - {{blogdescription}}" />
+      title="{{blogtitle}}" />
 {% endblock %}
 
 {% block content %}
 <div class="row">
-  <div id="blogcontent" class="span8">
+  <div id="blogcontent" class="col-md-9">
     <h1 id="blogtitle">{{blogtitle}}</h1>
-    <h2 id="blogdescription">{{blogdescription}}</h2>
     {% block blogcontent %}{% endblock %}
   </div> 
 
-  <div id="sidebar" class="span2"> 
-
+  <div id="sidebar" class="col-md-3">
+    <div class="sidebarwrapper">
+        <div class="subscribeblog">
+            <a href="/blog/index.rss">
+                <img src="{{url_for('static', filename='img/feed-icon-14x14.png')}}">
+                Subscribe
+            </a>
+        </div>
     {% if categorycounts %}
-    <ul  id="categoryheader" class="nav nav-list span2">
-      <li class="nav-header">Categories</li>
-      {% for c in categorycounts.children recursive %}
-      <li class="nav-item"><a href="{{categorycountbase}}{{c.category}}">{{c.category}} ({{c.count}})</a>
-        {% if c.subcategories %}
-        <ul>{{ loop(c.subcategories) }}</ul>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>  
+    <nav>
+        <ul class="nav nav-list">
+            <li class="nav-header">Categories</li>
+            {% for c in categorycounts.children recursive %}
+            <li class="nav-item"><a href="{{categorycountbase}}{{c.category}}">
+                    {{c.category}} ({{c.count}})</a>
+                {% if c.subcategories %}
+                <ul>{{ loop(c.subcategories) }}</ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
     {% endif %}
 
     {% if tagcounts %}
-    <ul id="tagheader" class="nav nav-list span2">
-      <li class="nav-header">Tags</li>
-      {% for tag in tagcounts: %}
-      <li class="nav-item"><a href="{{tagbase}}tags/{{tag}}">{{tag}} ({{tagcounts[tag]}})</a></li>
-      {% endfor %}
-    </ul>
+    <nav>
+        <ul class="nav nav-list">
+            <li class="nav-header">Tags</li>
+            {% for tag in tagcounts: %}
+            <li class="nav-item"><a href="{{tagbase}}tags/{{tag}}">
+                    {{tag}} ({{tagcounts[tag]}})</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
     {% endif %}
 
     {% if archivecounts %}
-    <ul id="archiveheader" class="nav nav-list span2">
-      <li class="nav-header">Archives</li>
-      {% for year_node in archivecounts.children  %}
-      {% for month_node in year_node.children  %}
-      <li class="nav-item">
-        <a href="{{ "%s%s/%s" % (archivebase, year_node.category, month_node.category)}}">
-            {{ "%s-%s" % (year_node.category, month_node.category)}}
-          ({{ month_node.count }})</a>
-      </li>
-      {% endfor %}
-      {% endfor %}
-    </ul>
-    {% endif %}    
-
+    <nav>
+        <ul class="nav nav-list">
+            <li class="nav-header">Archives</li>
+            {% for year_node in archivecounts.children  %}
+            {% for month_node in year_node.children  %}
+            <li class="nav-item">
+                <a href="{{ "%s%s/%s" % (archivebase, year_node.category, month_node.category)}}">
+                    {{ "%s-%s" % (year_node.category, month_node.category)}}
+                    ({{ month_node.count }})</a>
+            </li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}   
+    </div>
   </div>
 
 </div>

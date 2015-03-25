@@ -1,0 +1,8 @@
+<article>
+  <header class="articleheader">
+      <h1>{{article.info.title}}</h1>
+      {% include '_article_info.html' %}
+  </header>
+  {{ article.content }}
+  {% include '_last_modified.html' %}
+</article>

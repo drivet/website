@@ -16,15 +16,19 @@
     <link>{{blog_url}}</link>
     <description>{{blogdescription}}</description> 
     <language>{{lang}}</language> 
-    {% for info in article_infos: %}
+    {% for a in articles: %}
     <item>
-      <title>{{info.title}}</title>
-      <link>{{site_url}}{{info|permalink}}</link>
-      <description>{{info.summary|striptags}}</description>
-      <category>{{info.category}}</category>
-      <pubDate>{{info.smart_create_time|dateformat('%a, %e %b %Y %H:%M:%S')}} GMT</pubDate>
-      <guid>{{site_url}}{{info|permalink}}</guid>
-      <content:encoded><![CDATA[ {{info.summary|striptags}} ]]></content:encoded>
+      <title>{{a.info.title}}</title>
+      <link>{{site_url}}{{a.info|permalink}}</link>
+      <description>{{a.info.summary|striptags}}</description>
+      <category>{{a.info.category}}</category>
+      <pubDate>{{a.info.smart_create_time|dateformat('%a, %e %b %Y %H:%M:%S')}} GMT</pubDate>
+      <guid>{{site_url}}{{a.info|permalink}}</guid>
+      {% if a.content %}
+      <content:encoded><![CDATA[ {{a.content}} ]]></content:encoded>
+      {% else %}
+      <content:encoded><![CDATA[ {{a.info.summary}} ]]></content:encoded>
+      {%endif %}
     </item>
     {% endfor %}
   </channel>

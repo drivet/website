@@ -1,47 +1,22 @@
-<div id="collection_header">
-  {% if collection_title %}
-  <div id="collection_title">{{collection_title}}</div>
-  {% elif breadcrumbs %}
-  {% include '_breadcrumbs.html' %}
-  {% endif %}
+{# 
+A fairly generic template used site wide (include the blog and the
+standalone page) for displaying a list of articles with a header at the top,
+which is either the breadcrumbs (for categores) or the collection title in
+other cases.
+#}
+
+<div class="collection_header">
+    {% if collection_title %}
+    <div class="collection_title">
+        {{collection_title}}
+    </div>
+    {% elif breadcrumbs %} 
+    {% include '_breadcrumbs.html' %}
+    {% endif %}
 </div>
 
-{% for info in article_infos: %}
-<div class="article">
-  <h3><a href="/{{info.fullname}}">{{info.title}}</a></h3>
-  {% include '_article_info.html' %}
-  <p>{{ info.summary|striptags }}</p>
-</div>
+{% for article in articles: %}
+{% include '_entry.html' %}
 {% endfor %}
 
-{% if g.total_pages > 1 %}
-<div id="paging" class="pagination pagination-right pagination-small">
-  <ul>
-    <!-- first page -->
-    <li><a href="{{request.path}}?page=1&pagelen={{g.pagelen}}">&laquo;</a></li>
-
-    {% if g.has_prev_page %} 
-    <li><a href="{{request.path}}?page={{g.prev_page}}&pagelen={{g.pagelen}}">&lsaquo;</a></li>
-    {% else %}
-    <li class="disabled"><span>&lsaquo;</span></li>
-    {% endif %}
-    
-    {% for page in range(1, g.total_pages+1): %}
-    {% if page == g.page %}
-    <li class="disable active"><span>{{page}}</span></li>
-    {% else %}
-    <li><a href="{{request.path}}?page={{page}}&pagelen={{g.pagelen}}">{{page}}</a></li>
-    {% endif %}
-    {% endfor %}
-
-    {% if g.has_next_page %} 
-    <li><a href="{{request.path}}?page={{g.next_page}}&pagelen={{g.pagelen}}">&rsaquo;</a></li>
-    {% else %}
-    <li class="disabled"><span>&rsaquo;</span></li>
-    {% endif %}
-
-    <!-- last page -->
-    <li><a href="{{request.path}}?page={{g.total_pages}}&pagelen={{g.pagelen}}">&raquo;</a></li>
-  </ul>
-</div>
-{% endif %}
+{% include '_pagination.html' %}

@@ -1,10 +1,10 @@
 <div class="articleinfo">
     <div class="postedin">Posted in 
-      <a href="/{{info.fullname}}">{{info.fullname}}</a>
-               on {{info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}
-      | <span class="permalink"><a href="{{info|permalink}}">Permalink</a></span>
+      <a href="/{{article.info.fullname}}">{{article.info.fullname}}</a>
+               on {{article.info.smart_create_time|dateformat('%Y/%m/%d %H:%M')}}
+      | <span class="permalink"><a href="{{article.info|permalink}}">Permalink</a></span>
     </div>
-    {% set tags = info.tags %}
+    {% set tags = article.info.tags %}
     {% if tags %} 
     <div class="tags">Tags:
         {% for tag in tags: %}
@@ -12,5 +12,4 @@
         {% endfor %}
     </div>
     {% endif %}
-    <div class="lastmodified">Last modified on {{info.modified_time|dateformat('%Y/%m/%d %H:%M')}}</div>
 </div>
