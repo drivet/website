@@ -2,30 +2,34 @@ Title: Site Design and Layout
 
 At the moment, this site is mostly an experiment in python.  The pages and
 the blog are all delivered via a home-grown blogging system/CMS that I've
-called [YAWT](https://github.com/drivet/yawt) (Yet Another Weblog Tool),
-written in python.  It's a work in progress.  At some point, maybe I'll
-write a page about it.
+called [YAWT][1] (Yet Another Weblog Tool), written in python.  It's a work
+in progress.  At some point, I intend to write a page about it.
 
-The graphic used for the site header is a photo of the Montreal skyline,
-taken from the balcony of my former apartment.
+Writing simple, standards compliant and semantically sound HTML has always
+been important to me.  In the past, this meant making sure my site was HTML
+4 or XHTML 1.0 compliant, and preferring semantic tags over non-semantic
+tags (i.e. prefering "em" over "i").  More recently, this has meant making
+sure that my site was HTML5 compliant.  Where appropriate, I've made use of
+the newer tags such as "header", "footer" and "article" and I've taken
+advantage of the newer HTML5 outlining algorithm to embed multiple h1 where
+it makes sense.  The whole thing is mostly a tempest in a teapot, but from a
+technical standpoint it soothes my soul to know I've done what I can in this
+area.
 
-I've made the HTML as simple and as standards compliant as I could.  For the
-most part, the stuff on this site should look okay in older and text based
-browsers, as long as you turn off the CSS. As I have no sense of aesthetics,
-I've used [twitter bootstrap](http://twitter.github.com/bootstrap/) as a
-starting point for the styling.  I've avoided javascript where I could,
-though it's still used for the responsive features.
+For the most part, the stuff on this site should look okay in older and text
+based browsers, as long as you turn off the CSS.  As I have no sense of
+aesthetics, I've used [twitter bootstrap 3][2] as a starting point for the
+styling.  I've avoided javascript where I could, though it's still used for
+the responsive features.
+
+This site consists of standalone pages, like this one, and a [blog][3] which
+publishes random thoughts on a semi-regular basis.
 
 The search bar at the top will search the whole site, which for now just
 means my blog and standalone pages. I have very vague plans to implement a
 photo gallery engine, and if that ever takes shape, I'm hoping the search
 bar will included the photos as well.
 
-In addition, certain parts of the site are password protected (right now
-just the wiki, but perhaps other areas in the future).  I found that too
-many people were trying to edit and create new accounts on the wiki, which
-was hogging alot of resources on my relatively low end VPS.  Rather than
-turning off the features, I just password protected the areas in question,
-and whitelisted the IP addresses from which I usually access the wiki.  This
-seems to work, and everything seems to be alot faster, but I'm a little sad
-that I had to take this step.
+[1]: https://github.com/drivet/yawt
+[2]: http://twitter.github.com/bootstrap/
+[3]: /blog

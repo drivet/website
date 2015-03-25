@@ -5,19 +5,21 @@ developer. I live in Montreal, Canada.
 
 The whole story, of course, is slightly more complicated than that.  I was
 born in Montreal, then moved to Toronto when I was 12.  I'm a graduate of
-the [Engineering Science](http://www.engsci.utoronto.ca/) program at the
-[University of Toronto](http://www.utoronto.ca/) (I chose the Computer
-option at the time, but it appears that they have now
-[merged](http://engsci.utoronto.ca/explore_our_program/majors/ece.htm) with
-the Electrical option).
+the [Engineering Science][1] program at the [University of Toronto][2] (I
+chose the Computer option at the time, but it appears that they have now
+[merged][3] with the Electrical option).
 
 After graduating from the University of Toronto, I started work as a
 software developer at a telecom company that eventually ended up moving me
 back to Montreal. I worked there for about 7 years until I decided that I
 needed a change of pace and, as of 2007, I'm a happy employee at [Intelerad
-Medical Systems](http://www.intelerad.com/en/).  I live with my girlfriend
-in an old, large apartment.
+Medical Systems][4].  I live with my girlfriend in an old, large apartment.
 
 I enjoy programming, writing, TV, movies, books, drinking and cooking.  You
 can find a few of my experiments and recipes on my
-[wiki](https://wiki.desmondrivet.net/)
+[wiki](https://wiki.desmondrivet.com/)
+
+[1]: http://www.engsci.utoronto.ca/
+[2]: http://www.utoronto.ca/
+[3]: http://engsci.utoronto.ca/explore_our_program/majors/ece.htm
+[4]: http://www.intelerad.com/en/
