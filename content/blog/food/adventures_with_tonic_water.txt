@@ -45,7 +45,9 @@ bark! Huzza!  It looks like this:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6394.JPG"
 style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" src="/static/images_from_entries/IMG_6394_thumb.JPG"/>
+<img border="0" height="240" width="320" 
+     src="/static/images_from_entries/IMG_6394_thumb.JPG" 
+     alt="Quinquina bark" />
 </a>
 </div>
 
@@ -66,7 +68,9 @@ Here's the mix ready to boil:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6396.JPG"
 style="margin-left: 1em; margin-right: 1em;">
-<img border="0" width="320" height="240" src="/static/images_from_entries/IMG_6396_thumb.JPG" />
+<img border="0" width="320" height="240" 
+     src="/static/images_from_entries/IMG_6396_thumb.JPG" 
+     alt="Unboiled tonic mix" />
 </a></div>
 
 It's a bit of a mess, but it looks more promising after 20 minutes of
@@ -75,7 +79,9 @@ boiling and filtering:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_6399.JPG"
 style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" src="/static/images_from_entries/IMG_6399_thumb.JPG" width="320" />
+<img border="0" height="240" 
+     src="/static/images_from_entries/IMG_6399_thumb.JPG" width="320" 
+     alt="Boiled and filtered tonic mix" />
 </a></div>
 
 The above is unsweetened tonic water concentrate. The recipe I used calls
@@ -94,7 +100,9 @@ I let it cool a bit and then assembled a gin and tonic: 1 ounce tonic syrup,
 <div class="separator" style="clear: both; text-align: center;"> <a
 href="/static/images_from_entries/IMG_6401.JPG"
 imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" src="/static/images_from_entries/IMG_6401_thumb.JPG" width="320" />
+<img border="0" height="240" 
+     src="/static/images_from_entries/IMG_6401_thumb.JPG" width="320" 
+     alt="Homemade gin and tonic" />
 </a></div>
 
 Verdict: pretty good. But I would make some changes next time around:

@@ -2,10 +2,10 @@
 <nav>
   <ul class="pagination pagination-sm">
     <!-- first page -->
-    <li><a href="{{request.path}}?page=1&pagelen={{g.pagelen}}">&laquo;</a></li>
+    <li><a href="{{request.path}}?page=1&amp;pagelen={{g.pagelen}}">&laquo;</a></li>
 
     {% if g.has_prev_page %} 
-    <li><a href="{{request.path}}?page={{g.prev_page}}&pagelen={{g.pagelen}}">&lsaquo;</a></li>
+    <li><a href="{{request.path}}?page={{g.prev_page}}&amp;pagelen={{g.pagelen}}">&lsaquo;</a></li>
     {% else %}
     <li class="disabled"><span>&lsaquo;</span></li>
     {% endif %}
@@ -14,18 +14,18 @@
     {% if page == g.page %}
     <li class="disable active"><span>{{page}}</span></li>
     {% else %}
-    <li><a href="{{request.path}}?page={{page}}&pagelen={{g.pagelen}}">{{page}}</a></li>
+    <li><a href="{{request.path}}?page={{page}}&amp;pagelen={{g.pagelen}}">{{page}}</a></li>
     {% endif %}
     {% endfor %}
 
     {% if g.has_next_page %} 
-    <li><a href="{{request.path}}?page={{g.next_page}}&pagelen={{g.pagelen}}">&rsaquo;</a></li>
+    <li><a href="{{request.path}}?page={{g.next_page}}&amp;pagelen={{g.pagelen}}">&rsaquo;</a></li>
     {% else %}
     <li class="disabled"><span>&rsaquo;</span></li>
     {% endif %}
 
     <!-- last page -->
-    <li><a href="{{request.path}}?page={{g.total_pages}}&pagelen={{g.pagelen}}">&raquo;</a></li>
+    <li><a href="{{request.path}}?page={{g.total_pages}}&amp;pagelen={{g.pagelen}}">&raquo;</a></li>
   </ul>
 </nav>
 {% endif %}
