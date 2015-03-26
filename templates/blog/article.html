@@ -6,7 +6,9 @@
 
 {% block blogcontent %}
     {% if breadcrumbs %}
+        <div class="collection_header">
         {% include '_breadcrumbs.html' %}
+        </div>
     {% endif %}
     {% include '_article.html' %}
 {% endblock %}
