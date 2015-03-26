@@ -35,26 +35,35 @@
               </ul> 
            
               <ul id="social-icons" class="nav navbar-nav navbar-right">
-                  <li><a href="http://www.facebook.com/desmond.rivet">
-                          <img src="{{url_for('static', filename='img/facebook.png')}}">
+                  <li>
+                      <a href="http://www.facebook.com/desmond.rivet">
+                          <img src="{{url_for('static',
+                                    filename='img/facebook.png')}}" alt="Facebook" />
                      </a>
                   </li> 
-                  <li><a href="https://plus.google.com/u/0/117299838889583871071">
-                          <img src="{{url_for('static', filename='img/googleplus.png')}}">
-                     </a>
+                  <li>
+                      <a href="https://plus.google.com/u/0/117299838889583871071">
+                          <img src="{{url_for('static',
+                                    filename='img/googleplus.png')}}" alt="Google+" />
+                      </a>
                   </li> 
                   <li><a href="https://github.com/drivet">
-                          <img src="{{url_for('static', filename='img/github.png')}}">
+                          <img src="{{url_for('static',
+                                    filename='img/github.png')}}"
+                                    alt="Github" />
                      </a>
                   </li> 
-                  <li><a href="http://ca.linkedin.com/in/desmondrivet">
-                          <img src="{{url_for('static', filename='img/linkedin.png')}}">
+                  <li>
+                      <a href="http://ca.linkedin.com/in/desmondrivet">
+                          <img src="{{url_for('static',
+                                    filename='img/linkedin.png')}}"
+                                    alt="LinkedIn" />
                      </a>
                   </li>
               </ul> 
               <form action="/search" method="get" class="navbar-form navbar-right">
                   <div class="form-group">
-                      <input id="searchtext"class="form-control"
+                      <input id="searchtext" class="form-control"
                              type="text" name="searchtext" placeholder="Search" />
                   </div>
               </form>
@@ -75,7 +84,7 @@
               <a class="validator" 
                  href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">Valid CSS 3</a>
               <div class="powered-by">Powered by <a href="http://github.com/drivet/yawt">YAWT</a></div>
-          </div>
+          </footer>
       </div>
     </div>
 
