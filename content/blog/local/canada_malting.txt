@@ -7,13 +7,13 @@ building:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_0631.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" 
+<img border="0" height="200" width="266" 
      src="/static/images_from_entries/IMG_0631_thumb.JPG" 
      alt="Canada malting silos" />
 </a>
 <a href="/static/images_from_entries/IMG_0646.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" 
+<img border="0" height="200" width="266" 
      src="/static/images_from_entries/IMG_0646_thumb.JPG" 
      alt="Canada malting silos" />
 </a>
@@ -41,7 +41,7 @@ comfortably on the foothills of the factory. It's an interesting view:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_0641.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" 
+<img border="0" height="200" width="266" 
      src="/static/images_from_entries/IMG_0641_thumb.JPG" 
      alt="View of silos from beer terrace" />
 </a>
@@ -75,7 +75,7 @@ for example:
 <div style="clear: both; text-align: center;"> 
 <a href="/static/images_from_entries/IMG_0660.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" 
+<img border="0" height="200" width="266" 
      src="/static/images_from_entries/IMG_0660_thumb.JPG" 
      alt="Graffiti on Saint-Henri Cafe" />
 </a>

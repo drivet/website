@@ -8,12 +8,14 @@
 
 {% block content %}
 <div class="row">
-  <div id="blogcontent" class="col-md-9">
-    <h1 id="blogtitle">{{blogtitle}}</h1>
-    {% block blogcontent %}{% endblock %}
+  <div id="blogcontent" class="col-md-8">
+      <header class="articleheader">
+          <h1>{{blogtitle}}</h1>
+      </header>
+      {% block blogcontent %}{% endblock %}
   </div> 
 
-  <div id="sidebar" class="col-md-3">
+  <div id="sidebar" class="col-md-3 col-md-offset-1">
     <div class="sidebarwrapper">
         <div class="subscribeblog">
             <a href="/blog/index.rss">

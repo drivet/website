@@ -1,8 +1,5 @@
 .collection_header {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-radius: 0; 
-    margin-bottom: 2.5em;
+    margin: 0 0 1.5em 0;
 }
 
 .breadcrumb, .collection_title {
@@ -11,14 +8,19 @@
     background-color: white;
 }
 
+.breadcrumb > li + li:before {
+    content: '\00BB';
+    padding: 0 0.2em;
+}
+
 .pagination {
     float: right;
     margin: 0;
 }
 
-footer {
+#footer footer {
     border-top: 1px solid #ddd;
-    padding: 1em 0;
+    padding-top: 1em;
     margin-top: 1em;
 }
 
@@ -31,11 +33,17 @@ footer .powered-by {
     font-style: italic;
 }
 
+#sidebar {
+    font-size: 85%;
+}
+
 #sidebar .nav > li.nav-header {
     cursor: default;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 0.2em 0;
+    margin: 0 0 0.7em 0;
 }
 
 #sidebar .nav > li > a {
@@ -48,7 +56,6 @@ footer .powered-by {
 
 .sidebarwrapper {
     padding: 1em;
-    background-color: #f0f0f0;
 }
 
 .articleinfo {
@@ -77,20 +84,11 @@ h3 {
     font-size: 1.17em;
 }
 
-article.entry {
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-}
-
 .readmore {
     margin-top: 1em;
     margin-bottom: 0;
 }
 
-.lastmodified {
-    font-style: italic;
-    margin-top: 2em;
-}
 
 .faq h3{
     font-size: 2em;
@@ -100,17 +98,34 @@ article.entry {
     color: #333333;
 }
 
-.entry h1 {
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+article.entry {
+    margin-bottom: 3em;
 }
 
 .articleheader {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 1em;
+    margin-bottom: 1.3em;
+}
+
+.articlefooter {
+    font-size: 85%;
+    margin: 2em 0 0 0;
 }
 
 .subscribeblog {
-    margin-bottom: 2em;
+    margin: 0 0 2em 0;
+    padding: 0 0 0.2em 0;    
+}
+
+.permalink a {
+    color: #777;
+}
+
+.postedon {
+    margin: 0 0.5em 0 0;
+}
+
+.tags, .permalink {
+    margin: 0 0.5em 0 0.5em;
 }

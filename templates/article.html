@@ -10,7 +10,11 @@ No extra info shown except for a last modified time at the bottom.
 {% endblock %}
 
 {% block content %}
-    <h1>{{ article.info.title }}</h1>
-    {{ article.content }}
-    {% include '_last_modified.html' %}
+    <header class="articleheader">
+        <h1>{{ article.info.title }}</h1>
+    </header>
+    {{ article.content }}  
+    <footer class="articlefooter">
+        {% include '_last_modified.html' %} 
+    </footer>
 {% endblock %}

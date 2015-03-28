@@ -4,5 +4,8 @@
       {% include '_article_info.html' %}
   </header>
   {{ article.content }}
-  {% include '_last_modified.html' %}
+  <footer class="articlefooter"> 
+      {% include '_postedin.html' %}
+      {% include '_last_modified.html' %} 
+  </footer>
 </article>

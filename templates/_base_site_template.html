@@ -8,7 +8,9 @@
           href="{{url_for('static', filename='bootstrap/css/bootstrap.css')}}"/>
     <link rel="stylesheet" type="text/css" 
           href="{{url_for('static', filename='site.css')}}"/>
-    
+    <link rel="stylesheet" type="text/css" 
+          href="{{url_for('static', filename='font-awesome/css/font-awesome.min.css')}}">
+
     {% block headtags %}{% endblock %}
     <title>{% block browsertitle %}{% endblock %}</title>
   </head>
@@ -73,9 +75,9 @@
     </header>
     <div class="container"> 
       <div id="content" class="row">
-        <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-10 col-md-offset-1">
             {% block content %}{% endblock %}
-        </div>
+          </div>
       </div>
       <div id="footer" class="row"> 
           <footer class="col-md-10 col-md-offset-1">
