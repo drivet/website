@@ -67,5 +67,5 @@ You have two options if you want to access the wiki:
 [1]: aboutme.html
 [2]: http://wiki.desmondrivet.com
 [3]: /blog
-[4]: design_notes.html
+[4]: design-notes.html
 [5]: /static/desmond_rivet_intl_ca.crt

@@ -5,6 +5,7 @@ the blog are all delivered via a home-grown blogging system/CMS that I've
 called [YAWT][1] (Yet Another Weblog Tool), written in python.  It's a work
 in progress.  At some point, I intend to write a page about it.
 
+As a rule, I like to have control over the HTML that gets put on my site.
 Writing simple, standards compliant and semantically sound HTML has always
 been important to me.  In the past, this meant making sure my site was HTML
 4 or XHTML 1.0 compliant, and preferring semantic tags over non-semantic

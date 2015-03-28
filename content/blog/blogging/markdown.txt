@@ -1,18 +1,15 @@
-title: Markdown is cool
+title: Markdown Is Cool
 md_create_time: 2007-06-24T11:51:14+00:00
 
-I'm using [Markdown](http://daringfireball.net/projects/markdown/) to
-write this blog entry. I've converted all my other entries to use
-Markdown as well. Markdown is cool.
+I'm using [Markdown][1] to write this blog entry. I've converted all my
+other entries to use Markdown as well. Markdown is cool.
 
-One of the annoying things about Blosxom (and perhaps other blogging
-tools) is the need to write the entries in HTML. Now, I have nothing
-against HTML and, as I've [mentioned
-before](http://branchcut.ath.cx:12108/~dcr/technical/sitenotes.html), I insist on having full
-control over the HTML that gets used on my site, especially for layout
-purposes. But for writing actual *text*, I find the markup a bit
-tedious, especially since I always end up using the same tags over and
-over again.
+One of the annoying things about Blosxom (and perhaps other blogging tools)
+is the need to write the entries in HTML. Now, I have nothing against HTML
+and, as I've [mentioned before][2], I insist on having full control over the
+HTML that gets used on my site, especially for layout purposes. But for
+writing actual *text*, I find the markup a bit tedious, especially since I
+always end up using the same tags over and over again.
 
 The markup in my blog entries consists almost entirely of paragraph,
 emphasis, list, and link tags. These tags (with the possible exception
@@ -35,3 +32,6 @@ your content in (what I consider to be) a natural way. And while I
 normally abhor auto-generated HTML, the HTML that Markdown generates
 is so light and so close to what I would normally write anyway, that I
 can comfortably relinquish control in this particular instance.
+
+[1]: http://daringfireball.net/projects/markdown/
+[2]: /design-notes

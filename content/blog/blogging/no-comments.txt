@@ -1,5 +1,5 @@
-title: Comments and Trackbacks have been Deactivated
-tags: blogging,blosxom
+title: Comments and Trackbacks Have Been Deactivated
+tags: yawt
 md_create_time: 2008-09-08T23:39:14+00:00
 
 When I started this blog, I didn't expect very much in the way of
@@ -14,4 +14,3 @@ reasonably reliable way of separating the spam from the ham.  This
 will probably entail a bit of a rewrite of YAWT as I figure out a way
 to do this in a clean and modular manner.  Why make it easy on myself
 when I can make it hard?
-

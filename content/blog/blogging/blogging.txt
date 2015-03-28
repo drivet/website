@@ -1,4 +1,5 @@
-title: Joining the rest of mankind...
+title: Joining the Rest of Mankind...
+tags: blosxom
 md_create_time: 2007-06-01T23:29:47+00:00
 
 So I've finally gotten a blog. They've only been around for, what? Ten
@@ -9,9 +10,9 @@ opinion that I wanted to share with the world and b) I didn't feel
 like writing a full-blown essay to express it. I guess this is where a
 blog fits the bill.
 
-Anyway, after reviewing various blogging options I've finally settled
-on [Blosxom](http://www.blosxom.com) as my blogging tool. At the
-moment I think this is the best option for me because:
+Anyway, after reviewing various blogging options I've finally settled on
+[Blosxom][1] as my blogging tool. At the moment I think this is the best
+option for me because:
 
 * it's extremely lightweight. The core package consists of a single
   Perl script having less than 500 lines.
@@ -49,3 +50,5 @@ my website, not a Flickr account. If I want people to read my blog, I
 want to point them to my website, not a Blogger page. I want to
 provide my readers, if I have any at all, with an integrated web
 experience.
+
+[1]: http://blosxom.sourceforge.net/

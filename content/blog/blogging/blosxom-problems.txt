@@ -1,8 +1,9 @@
 title: Blosxom Warts
+tags: blosxom
 md_create_time: 2007-07-13T11:56:32+00:00
 
-At the moment I'm using [blosxom](http://blosxom.sourceforge.net) to
-generate this blog. I'm using blosxom for the following reasons:
+At the moment I'm using [blosxom][1] to generate this blog. I'm using
+blosxom for the following reasons:
 
 - the HTML is completely under my control.
 
@@ -41,11 +42,11 @@ That being said, I'm finding that blosxom has a few warts:
   contortions when you want to do anything more complicated (see my
   note below on separation of content and presentation).
 
-- I use the Template Toolkit (TT) to generate the pages on my site,
-  and I like it, but more than that, I make heavy use of the WRAPPER
-  directive to centralize the "structure" of my webpages. I'd like to
-  use TT in this fashion to template my blog, but blosxom's plugin
-  architecture makes it difficult to do this.
+- I use the [Template Toolkit (TT)][2] to generate the pages on my site, and
+  I like it, but more than that, I make heavy use of the WRAPPER directive
+  to centralize the "structure" of my webpages. I'd like to use TT in this
+  fashion to template my blog, but blosxom's plugin architecture makes it
+  difficult to do this.
 
 - the "seamlessness" between my blog and the rest of my site is pure
   illusion. As mentioned, I use a centralized template to hold the
@@ -78,16 +79,18 @@ not necessarily how those plugins are written. And I do like the fact
 that there exists a considerable wealth of plugins for blosxom, even
 if most of those are unmaintained.
 
-One project I'm keeping track of is
-[Bryar](http://search.cpan.org/~dcantrell/Bryar/lib/Bryar.pm). This is
-a blosxom "inspired" project and it aims to be a more modernized
-version of the software. It uses the Template Toolkit for templating
-purposes (awesome!) and it corrects what I see as a major flaw in
-blosxom's design, namely the incorporation of configuration items in
-the blosxom script itself. Unfortunately, I'm not sure how one goes
-about writing plugins for this thing. It doesn't seem to be set up to
-do it in a very straightforward manner.
+One project I'm keeping track of is [Bryar][3]. This is a blosxom "inspired"
+project and it aims to be a more modernized version of the software. It uses
+the Template Toolkit for templating purposes (awesome!) and it corrects what
+I see as a major flaw in blosxom's design, namely the incorporation of
+configuration items in the blosxom script itself. Unfortunately, I'm not
+sure how one goes about writing plugins for this thing. It doesn't seem to
+be set up to do it in a very straightforward manner.
 
 For all its warts, there is very little you can't do with blosxom,
 given the time and inclination. I'm not yet convinced of that when it
 comes to Bryar. I guess we'll find out.
+
+[1]: http://blosxom.sourceforge.net
+[2]: http://www.template-toolkit.org/
+[3]: http://search.cpan.org/~dcantrell/Bryar/lib/Bryar.pm
