@@ -1,5 +1,5 @@
 .collection_header {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 2em 0;
 }
 
 .breadcrumb, .collection_title {
@@ -128,4 +128,8 @@ article.entry {
 
 .tags, .permalink {
     margin: 0 0.5em 0 0.5em;
+}
+
+.blogtitle {
+    margin-bottom: 0;
 }
