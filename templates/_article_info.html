@@ -1,7 +1,14 @@
 <div class="articleinfo">
     <div>
         <span class="postedon">
-            Posted on {{article.info.smart_create_time|dateformat('%Y-%m-%d')}}
+            {{article.info.smart_create_time|dateformat('%Y-%m-%d')}}
+        </span>
+        |
+        <span class="postedat">   
+            <span class="fa fa-folder"></span> 
+            <a href="/{{article.info.fullname}}">
+                {{article.info.fullname}}
+            </a>
         </span>
         {% if article.info.tags %}         
         |

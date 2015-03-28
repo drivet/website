@@ -1,5 +1,5 @@
 title: YAWT Lives!
-tags: yawt
+tags: python,yawt
 
 I started this blog 4 years ago, got a few entries in, and then promptly
 shut the whole thing down when it got overrun with spam.  I have now

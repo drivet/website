@@ -126,7 +126,7 @@ article.entry {
     margin: 0 0.5em 0 0;
 }
 
-.tags, .permalink {
+.tags, .permalink, .postedat {
     margin: 0 0.5em 0 0.5em;
 }
 

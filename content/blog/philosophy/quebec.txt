@@ -1,4 +1,5 @@
 title: French as an Emergent Property
+tags: french,quebec
 md_create_time: 2008-04-09T01:50:44+00:00
 
 In a [previous blog
