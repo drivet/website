@@ -1,5 +1,5 @@
 title: Scoping in Perl
-tags: perl
+tags: perl,programming
 md_create_time: 2008-02-13T16:31:46+00:00
 
 I just read a very clear tutorial on Perl scoping mechanisms: 
