@@ -1,14 +1,12 @@
 Title: Religion Versus Culture
 Tags: islam,religion,culture
 
-In the past, I've
-[commented](http://branchcut.blogspot.ca/2012/06/on-banning-of-niqabs-im-bit-late-to.html)
-on France's ban of the niqab, noting in passing that the distinction some
-people make between religion and culture (emphasizing, for example, that the
-niqab is a Middle Eastern cultural tradition rather than a specific Islamic
-law), is irrelevant to question of whether a woman has the right to wear
-whatever the hell she wants in public - including, of course, a niqab if
-that's what floats her boat.
+In the past, I've [commented][1] on France's ban of the niqab, noting in
+passing that the distinction some people make between religion and culture
+(emphasizing, for example, that the niqab is a Middle Eastern cultural
+tradition rather than a specific Islamic law), is irrelevant to question of
+whether a woman has the right to wear whatever the hell she wants in public
+- including, of course, a niqab if that's what floats her boat.
 
 At the time, I more or less glossed over what I thought the actual
 distinction was between culture and religion, so with that in mind I'd like
@@ -33,12 +31,11 @@ banished from the Garden of Eden, right?  Wrong, as it turns out - nowhere
 in the Bible does it say they ate an apple.  So, this business of the apple
 - culture or religion?  Maybe tradition?  Is there a difference?
 
-Would you classify [Paradise
-Lost](http://en.wikipedia.org/wiki/Paradise_lost) as religious literature?
-That story, about the fall of Lucifer and his subsequent transformation into
-Satan, is not told anywhere in the Bible.  There is certainly a
-well-established Christian tradition surrounding the fall of Lucifer, but
-it's not what you'd call *dogma*.
+Would you classify [Paradise Lost][2] as religious literature?  That story,
+about the fall of Lucifer and his subsequent transformation into Satan, is
+not told anywhere in the Bible.  There is certainly a well-established
+Christian tradition surrounding the fall of Lucifer, but it's not what you'd
+call *dogma*.
 
 Are you detecting a theme? If you're going to argue that a particular
 practice or tradition only counts as "religious" if it's explicitly outlined
@@ -72,3 +69,6 @@ crystal clear that not all variants of Islam advocate such practices, but
 trying to claim that they aren't part of at least *some* of them is
 analogous to saying that the tradition of avoiding meat on Fridays is not
 part of Catholicism.  It's a hair splitting exercise that serves no one.
+
+[1]: /blog/2012/06/28/niqabs
+[2]: http://en.wikipedia.org/wiki/Paradise_lost
