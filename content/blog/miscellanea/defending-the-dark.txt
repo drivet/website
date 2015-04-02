@@ -1,20 +1,16 @@
 Title: In Defence of the Dark
 Tags: movies,comics,television
 
-I'm addicted to a site called [tvtropes.org](http://tvtropes.org).  It's
-basically a catalogue of various literary and artistic devices used in
-various forms of media (books, movies, TV).  It's fun because the site gives
-names to practices that you already recognize but haven't bothered to
-identify in any specific way.  Examples include [Genre
-Blindness](http://tvtropes.org/pmwiki/pmwiki.php/Main/GenreBlindness), which
-explains the tendency of Bond villains to reveal their entire master plan to
-the spy rather than just shooting him, and
-[Lampshading](http://tvtropes.org/pmwiki/pmwiki.php/Main/LampshadeHanging),
-which is an attempt to diffuse an obvious plot hole by having a character
-draw attention to it.
+I'm addicted to a site called [tvtropes.org][1].  It's basically a catalogue
+of various literary and artistic devices used in various forms of media
+(books, movies, TV).  It's fun because the site gives names to practices
+that you already recognize but haven't bothered to identify in any specific
+way.  Examples include [Genre Blindness][2], which explains the tendency of
+Bond villains to reveal their entire master plan to the spy rather than just
+shooting him, and [Lampshading][3], which is an attempt to diffuse an
+obvious plot hole by having a character draw attention to it.
 
-Another one of these articles is called ["Darker and
-Edgier"](http://tvtropes.org/pmwiki/pmwiki.php/Main/DarkerAndEdgier), which
+Another one of these articles is called ["Darker and Edgier"][4], which
 describes a "a Tone Shift that seeks to make a work of fiction 'more
 adult'."  This should be familiar to anyone who has seen a recent superhero
 or science fiction movie. Christopher Nolan's Dark Knight trilogy, for
@@ -27,10 +23,8 @@ Some people like these tone shifts, others don't. There is a certain kind of
 person who enjoys the campiness of the original Batman, and who does not
 think that the extreme angst of the new Battlestar Galactica counts as
 entertainment.  That being said, I think most people *do* like the newer
-stuff better - a Batman movie similar in tone to the [1966
-version](http://www.imdb.com/title/tt0060153/?ref_=fn_al_tt_5) would not, I
-suspect, have done nearly as well as [Batman
-Begins](http://www.imdb.com/title/tt0372784/?ref_=fn_al_tt_4).
+stuff better - a Batman movie similar in tone to the [1966 version][5] would
+not, I suspect, have done nearly as well as [Batman Begins][6]).
 
 Myself, I think I'm somewhere in the middle.  I think that angst for the
 sake of angst is silly, but at the same time I think that people sometimes
@@ -54,15 +48,14 @@ a three dimensional human being - more so than any other interpretation I
 can think of.
 
 From what I can see in the trailer, the new Superman movie, [Man of
-Steel](http://www.imdb.com/title/tt0770828/?ref_=fn_al_tt_1), has a similar
-kind of vibe. To be sure, Superman isn't a *realistic* character, but the
-movie seems to be going to some length to make everything else around him
-seem real.  Like Batman Begins, the movie seems to be asking questions that
-other interpretations gloss over. How does a real, honest-to-goodness
-superpowered alien manage to keep sane when he can hear *everything*?  How
-would the world react to his existence?  Nobody really knows, but prepping
-the military for an extraterrestrial invasion doesn't seem too far off the
-mark.
+Steel][7], has a similar kind of vibe. To be sure, Superman isn't a
+*realistic* character, but the movie seems to be going to some length to
+make everything else around him seem real.  Like Batman Begins, the movie
+seems to be asking questions that other interpretations gloss over. How does
+a real, honest-to-goodness superpowered alien manage to keep sane when he
+can hear *everything*?  How would the world react to his existence?  Nobody
+really knows, but prepping the military for an extraterrestrial invasion
+doesn't seem too far off the mark.
 
 Some people take issue with this trend. One guy I work with, for example, is
 vagely irritated that James Bond in Skyfall is given a (relatively sparse)
@@ -82,17 +75,13 @@ Of course, if you want *dark* - truly dark, as opposed to just realistic -
 well, there are plenty of examples of that too.  The reboot of Battlestar
 Galactica is *exceptionally* dark, as befitting the subject matter
 (virtually the entire is human race wiped out, with the survivors being
-doggedly and ruthlessly pursude by the parties responsible).
-[Watchmen](http://www.imdb.com/title/tt0409459/) is another example - with
-scenes including a pregnant woman being gunned down and New York City being
-destroyed, you know what kind of movie you're in for.  [The Walking
-Dead](http://www.imdb.com/title/tt1520211/?ref_=fn_al_tt_1) is pretty
-depressing, which isn't surprising considering that it's about a zombie
-apocalypse.  If you want a non-comic-book example, the original French
-version of [The
-Vanishing](http://www.imdb.com/title/tt0096163/?ref_=fn_al_tt_2) is true
-[high octane nightmare
-fuel](http://tvtropes.org/pmwiki/pmwiki.php/Main/NightmareFuel).
+doggedly and ruthlessly pursude by the parties responsible).  [Watchmen][8]
+is another example - with scenes including a pregnant woman being gunned
+down and New York City being destroyed, you know what kind of movie you're
+in for.  [The Walking Dead][9] is pretty depressing, which isn't surprising
+considering that it's about a zombie apocalypse.  If you want a
+non-comic-book example, the original French version of [The Vanishing][10]
+is true [high octane nightmare fuel][11].
 
 And if your beef is with *that* kind of entertainment well, then, I can
 relate.  Battlestar Galactica is a very well put together show, but it's not
@@ -102,4 +91,17 @@ writers sometimes try to out-angst each other, to my occasional chagrin.
 
 It's just that I don't lump the recent crop of naturalistic, believable
 movies into that category.  Your mileage, of course, may vary.  Hey, there's
-always [The Avengers](http://www.imdb.com/title/tt0848228/)! :-)
+always [The Avengers][12]! :-)
+
+[1]: http://tvtropes.org
+[2]: http://tvtropes.org/pmwiki/pmwiki.php/Main/GenreBlindness
+[3]: http://tvtropes.org/pmwiki/pmwiki.php/Main/LampshadeHanging
+[4]: http://tvtropes.org/pmwiki/pmwiki.php/Main/DarkerAndEdgier
+[5]: http://www.imdb.com/title/tt0060153/?ref_=fn_al_tt_5
+[6]: http://www.imdb.com/title/tt0372784/?ref_=fn_al_tt_4
+[7]: http://www.imdb.com/title/tt0770828/?ref_=fn_al_tt_1
+[8]: http://www.imdb.com/title/tt0409459/
+[9]: http://www.imdb.com/title/tt1520211/?ref_=fn_al_tt_1
+[10]: http://www.imdb.com/title/tt0096163/?ref_=fn_al_tt_2
+[11]: http://tvtropes.org/pmwiki/pmwiki.php/Main/NightmareFuel
+[12]: http://www.imdb.com/title/tt0848228/

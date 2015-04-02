@@ -4,9 +4,9 @@ tags: linux
 ## Part 1: A Brief History of Desmond, as it Relates to Linux
 
 I've been using Linux since about 1998, when I started my first "real" job
-at [PCI Geomatics](http://www.pcigeomatics.com/).  At the time, most of
-PCI's workstations ran a version of Red Hat Linux.  The standard setup
-revolved around FVWM and Emacs.
+at [PCI Geomatics][1].  At the time, most of PCI's workstations ran a
+version of Red Hat Linux.  The standard setup revolved around FVWM and
+Emacs.
 
 I did not find Linux easy.  But it was *fun*.
 
@@ -19,20 +19,18 @@ average, I tend to stick with a distribution for about 4 years.
 
 The first one, as I said, was Red Hat, since it's what I had used at work.
 About 4 years after that, I decided that I wanted to build a PVR, using
-[MythTV](http://www.mythtv.org/).  The drivers for the capture card I wanted
-to use were not part of the standard Linux kernel, so I had to compile them
-myself into a custom kernel.  This was possible with Red Hat, but was easier
-with a distribution called [Gentoo](http://www.gentoo.org/), whose gimmick
-at the time was that it was primarily a source based distribution; packages
-were installed from source, and compiled with every update.  This included
-the kernel - hence, making a custom kernel with my capture card drivers was
-easier.
+[MythTV][2].  The drivers for the capture card I wanted to use were not part
+of the standard Linux kernel, so I had to compile them myself into a custom
+kernel.  This was possible with Red Hat, but was easier with a distribution
+called [Gentoo][3], whose gimmick at the time was that it was primarily a
+source based distribution; packages were installed from source, and compiled
+with every update.  This included the kernel - hence, making a custom kernel
+with my capture card drivers was easier.
 
 Gentoo had another advantage: the package management system was excellent,
 particularly in the way it handled dependencies.  At the time, I was not
 aware of yum for Red Hat - installing a package on a Red Hat system was an
-often frustrating excursion to [dependency
-hell](http://en.wikipedia.org/wiki/Dependency_hell).  Gentoo more or less
+often frustrating excursion to [dependency hell][4].  Gentoo more or less
 eliminated that particular hell, as its package system automatically
 resolved any dependencies required for any package you wanted to install.
 It was awesome.
@@ -57,8 +55,8 @@ using in 2003/2004.  That makes it about 9 years old, and it shows.  To be
 productive on this kind of machine, you need to cultivate an attitude of
 (relative) minimalism.  This means that for the last several years, I've
 been doggedly avoiding software that even *smelled* like it had anything to
-do with GNOME or KDE.  With Debian, I opted to install the
-[Xfce](http://www.xfce.org/) desktop environment, and that was that.
+do with GNOME or KDE.  With Debian, I opted to install the [Xfce][5] desktop
+environment, and that was that.
 
 I've been more or less happily using Debian Stable for the past 4 years -
 since about 2008.  But even with the system stripped down to just what I
@@ -91,9 +89,8 @@ thing.
 
 Another one of my main reasons for sticking with Debian, APT, is a good one,
 but it turns out that APT is not unique to Debian.  Various another
-distributions, like [Ubuntu](http://www.ubuntu.com/) and [Linux
-Mint](http://linuxmint.com/), by virtue of being based off of Debian, also
-use APT as their package management system.
+distributions, like [Ubuntu][6] and [Linux Mint][7], by virtue of being
+based off of Debian, also use APT as their package management system.
 
 Ubuntu - based off of Debian Unstable, the version of Debian that acts as a
 kind of testing ground before the software gets deposited in the Stable
@@ -103,16 +100,13 @@ it will actually pick a desktop environment for you.  Since it's based off
 of Debian Unstable, the software tends to be pretty up to date as well.
 
 But Ubuntu seems to have shot itself in the foot with the new, much reviled
-[Unity](http://en.wikipedia.org/wiki/Unity_(user_interface)) interface. I'm
-a bit loathe to try it.  
+[Unity][8] interface. I'm a bit loathe to try it.
 
 So that leaves Linux Mint.  Linux Mint peddles itself as a kind of refuge
 for Ubuntu users who don't want to use Unity.  Their repositories are based
 off of Ubuntu's (and hence are twice removed from Debian's) and they offer
-their own GNOME based desktops,
-[MATE](http://en.wikipedia.org/wiki/MATE_(desktop_environment)) and
-[Cinnamon](http://en.wikipedia.org/wiki/Cinnamon_(user_interface)).  They
-also offer Xfce, which makes me feels right at home.
+their own GNOME based desktops, [MATE][9] and [Cinnamon][10].  They also
+offer Xfce, which makes me feels right at home.
 
 Also making me feel right at home is Linux Mint Debian Edition (LMDE), which
 is a version of Linux Mint based off of Debian Testing, a kind of middle
@@ -123,7 +117,8 @@ come - a bit like Gentoo!  And since the repository is from Debian Testing,
 the software is more up to date than a standard Debian install.  It seems
 perfect.
 
-## Part 3: In Which Desmond Installs Linux Mint Debian Edition and Feels Slightly Disconcerted
+## Part 3: In Which Desmond Installs Linux Mint Debian Edition and Feels
+   Slightly Disconcerted
 
 I installed Linux Mint Debian Edition and felt slightly disconcerted.
 
@@ -142,12 +137,10 @@ Xfce, like I did, you get Xfce - *plus* a whole bunch of GNOME applications
 that you didn't ask for.
 
 Like I said, I was disconcerted.  I found no less then 4 media players
-available on my menu, and at least one of them
-([Banshee](http://en.wikipedia.org/wiki/Banshee_(media_player))) required a
-whole [Mono](http://en.wikipedia.org/wiki/Mono_(software)) subsystem to run.
-I also found a GNOME based DVD burning application on the same menu - even
-though I didn't have a DVD writer installed at the time.  This isn't what
-I'm used to.
+available on my menu, and at least one of them ([Banshee][11])) required a
+whole [Mono][12] subsystem to run.  I also found a GNOME based DVD burning
+application on the same menu - even though I didn't have a DVD writer
+installed at the time.  This isn't what I'm used to.
 
 Of course, I'd be lying if I said that all this anti-minimalism wasn't
 somewhat refreshing at the same time.  What finally pushed my opinion over
@@ -166,12 +159,26 @@ Xfce *plus GNOME* since the installer insisted on dumping half of GNOME on
 my system as well.
 
 I don't know if I'm going to stay with it, though.  My computer is such that
-I could run a full GNOME or KDE environment - or even
-[Enlightenment](http://en.wikipedia.org/wiki/Enlightenment_(window_manager)),
+I could run a full GNOME or KDE environment - or even [Enlightenment][13]),
 if I had a mind to do so.  Or Cinnamon. Or MATE.  My point is that I'm
-actually in a position to choose a real desktop environment this time around.
+actually in a position to choose a real desktop environment this time
+around.
 
 Though, I have to admit, it'd be kinda funny if I finally ended up using
 Xfce in the end.
 
 *I* think that would be funny :-)
+
+[1]: http://www.pcigeomatics.com/
+[2]: http://www.mythtv.org/
+[3]: http://www.gentoo.org/
+[4]: http://en.wikipedia.org/wiki/Dependency_hell
+[5]: http://www.xfce.org/
+[6]: http://www.ubuntu.com/
+[7]: http://linuxmint.com/
+[8]: http://en.wikipedia.org/wiki/Unity_(user_interface)
+[9]: http://en.wikipedia.org/wiki/MATE_(desktop_environment)
+[10]: http://en.wikipedia.org/wiki/Cinnamon_(user_interface)
+[11]: http://en.wikipedia.org/wiki/Banshee_(media_player)
+[12]: http://en.wikipedia.org/wiki/Mono_(software)
+[13]: http://en.wikipedia.org/wiki/Enlightenment_(window_manager)

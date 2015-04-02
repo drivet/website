@@ -6,9 +6,7 @@ fairly impressive home bar, and I've spent much of that time experimenting
 with various cocktails.
 
 There are people in my social circle for whom mixing drinks is a bit taboo.
-When I say that I use
-[Calvados](http://en.wikipedia.org/wiki/Calvados_(brandy)) or
-[Cognac](http://en.wikipedia.org/wiki/Cognac) in a cocktail, the first
+When I say that I use [Calvados][1]) or [Cognac][2] in a cocktail, the first
 reaction I usually get is "What a waste!"
 
 I disagree.  My guiding principle with regard to cocktails is that you
@@ -26,8 +24,7 @@ translates into 6cl of liquor, 2cl of lemon/lime and 2tsp of sugar syrup.
 This yields a very sour, somewhat sweet drink, where the base can still
 shine through.
 
-Lately, I've been trying out [David
-Embury's](http://en.wikipedia.org/wiki/David_Embury) classic ratio of 8/2/1.
+Lately, I've been trying out [David Embury's][3] classic ratio of 8/2/1.
 This is basically my ratio, with a third more liquor.  Again, in concrete
 terms, this is 4cl of liquor, 1cl of lemon/lime, and 1tsp sugar syrup.  I
 was skeptical, as this seemed like way too much liquor with respect to
@@ -46,3 +43,7 @@ that you'd drink on its own.  And that means good whiskey or brandy.
 
 So far, I've tried this ratio with rum, calvados and whiskey, and they're
 all pretty awesome.
+
+[1]: http://en.wikipedia.org/wiki/Calvados_(brandy)
+[2]: http://en.wikipedia.org/wiki/Cognac
+[3]: http://en.wikipedia.org/wiki/David_Embury

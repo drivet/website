@@ -19,12 +19,11 @@ building:
 </a>
 </div>
 
-This is the old [Canada Malting
-factory](http://en.wikipedia.org/wiki/Canada_Malting_Silos,_Montreal). It's
-in the heart of Saint Henri, in Montreal, next to the McAuslan brewery on
-Notre Dame, right on the Lachine canal. I live about a 20 minute walk away.
-It's huge, intimidating, in extreme disrepair and *very*
-well-graffitied. It's been abandoned for decades.
+This is the old [Canada Malting factory][1]. It's in the heart of Saint
+Henri, in Montreal, next to the McAuslan brewery on Notre Dame, right on the
+Lachine canal. I live about a 20 minute walk away.  It's huge, intimidating,
+in extreme disrepair and *very* well-graffitied. It's been abandoned for
+decades.
 
 Ferreting out my reaction is not as easy as one might imagine.
 Introspection, at the best of times, is a tricky business.
@@ -48,14 +47,14 @@ comfortably on the foothills of the factory. It's an interesting view:
 </div>
 
 I like the beer terrace. Aside from the beer itself, which is good, there's
-something melancholic about the setting as well,
-about drinking oatmeal stout beneath the ruins of Montreal's once glorious
-industrial past. I suspect it's a feeling shared by a lot of Montrealers -
-it's a matter of savouring the contrast between a civilized evening in a
-comfortable location that is nevertheless in very close proximity to a vast,
-looming, derelict, abandoned malting site that, on its own, exudes an aura
-of civilization gone to pot. It's neat, though I totally understand it's not
-everyone's cup of tea.
+something melancholic about the setting as well, about drinking oatmeal
+stout beneath the ruins of Montreal's once glorious industrial past. I
+suspect it's a feeling shared by a lot of Montrealers - it's a matter of
+savouring the contrast between a civilized evening in a comfortable location
+that is nevertheless in very close proximity to a vast, looming, derelict,
+abandoned malting site that, on its own, exudes an aura of civilization gone
+to pot. It's neat, though I totally understand it's not everyone's cup of
+tea.
 
 There's been some talk of the city finally demolishing the silos and selling
 the land to private developers. Predictably, this has met with fierce
@@ -102,9 +101,8 @@ and prevent from evolving into something else.
 
 There's a bit in "Schwartz's: The Musical" where the protagonist comments
 that people complained when they straightened the floors at the [85 year old
-delicatessen](http://en.wikipedia.org/wiki/Schwartz%27s). The scene was
-played for laughs, but I sometimes think that the quip hides a speck of
-truth about a lot of Montrealers.
+delicatessen][2]. The scene was played for laughs, but I sometimes think
+that the quip hides a speck of truth about a lot of Montrealers.
 
 Then again, maybe this is all blindingly obvious to everyone but me. I mean,
 the provincial motto is "Je me souviens", for crying out loud.
@@ -118,3 +116,6 @@ obsessing over the past like this is unhealthy.
 
 At the end of the day, the Saint Ambroise Beer Terrace will still be there,
 even when the Silos are gone.  And the beer will still be good.
+
+[1]: http://en.wikipedia.org/wiki/Canada_Malting_Silos,_Montreal
+[2]: http://en.wikipedia.org/wiki/Schwartz%27s

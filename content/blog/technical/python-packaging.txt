@@ -94,7 +94,7 @@ happened:
 So bottom line?  We have the holy trinity: distutils, setuptools, and pip.
 Ignore everything else.  Wheee!
 
-[1]: https://github.com/drivet/yawt)
+[1]: https://github.com/drivet/yawt
 [2]: https://docs.python.org/2/distutils/
 [3]: https://pythonhosted.org/setuptools/
 [4]: https://pip.pypa.io/en/latest/

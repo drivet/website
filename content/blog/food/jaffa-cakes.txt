@@ -2,16 +2,15 @@ title: Jaffa Cakes for North Americans: an Odyssey
 tags: baking
 
 Evelyn and I found a polish bakery in Point St Charles. One of the things we
-saw (aside from the actual pastries) were packages of [Jaffa
-cakes](http://en.wikipedia.org/wiki/Jaffa_Cakes) for sale. I'd never had one
-before, but they looked good, so I bought one. Indeed, they're pretty
-awesome.  They consist of a sponge-like base, with orange jelly and
-chocolate on top.
+saw (aside from the actual pastries) were packages of [Jaffa cakes][1] for
+sale. I'd never had one before, but they looked good, so I bought
+one. Indeed, they're pretty awesome.  They consist of a sponge-like base,
+with orange jelly and chocolate on top.
 
-A friend of mine referred me to a [web
-site](http://sortedfood.com/#!/jaffacakes/) that showed how to make them.
-It claimed that the process was dead easy but that's a lie. Specifically, I
-had a difficult time making what British people call "jelly".
+A friend of mine referred me to a [web site][2] that showed how to make
+them.  It claimed that the process was dead easy but that's a
+lie. Specifically, I had a difficult time making what British people call
+"jelly".
 
 To a Brit, "jelly" is what a North American would call "jello".  So when a
 Jaffa cake recipe calls for orange jelly, what they're really calling for
@@ -82,3 +81,6 @@ pretty good. It would be hard for them not to be.  I mean, cake, chocolate,
 orange, what's not to like? I admit, they're not quite as good as store
 bought Jaffa cakes, but they're an acceptable substitute. Evelyn put it
 succinctly: they tasted "homemade".
+
+[1]: http://en.wikipedia.org/wiki/Jaffa_Cakes
+[2]: http://sortedfood.com/#!/jaffacakes/

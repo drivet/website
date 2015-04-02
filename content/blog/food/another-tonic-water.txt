@@ -1,10 +1,9 @@
 Title: Another Batch of Tonic Water
 Tags: drinks,cocktails,tonic
 
-I [made a batch of tonic water syrup a couple of years
-ago](http://branchcut.blogspot.ca/2011/07/adventures-with-tonic-water.html)
-and, though it was a success, there were a couple of things I found slightly
-off-putting in the result.  Specifically:
+I [made a batch of tonic water syrup a couple of years ago][1] and, though
+it was a success, there were a couple of things I found slightly off-putting
+in the result.  Specifically:
 
 * I didn't really like the all-spice.
 * I didn't really like the lemongrass
@@ -16,7 +15,7 @@ somewhat, using plain sugar instead of agave syrup and omitting the citrus
 juice (though keeping the zest).
 
 Here's the one I ended up using (the bark is still from [Herboristerie
-Desjardins](http://herboristeriedesjardins.com/)):
+Desjardins][2]):
 
 * 4 cups water
 * 1/4 cup roughly chopped quinquina bark
@@ -42,3 +41,5 @@ The result is simpler to make and, in my opinion, better than the previous
 batch.  I think it pairs better with a good gin since there's less in the
 tonic water to compete with the spirit.
 
+[1]: /blog/2011/07/16/tonic-water
+[2]: http://herboristeriedesjardins.com/

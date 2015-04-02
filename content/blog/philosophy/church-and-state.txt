@@ -4,17 +4,16 @@ Tags: religion,culture,quebec
 Have you ever wondered why the separation of church and state is good idea?
 
 I'm assuming, of course, that most everyone in my immediate social circle
-actually thinks it's a good idea, though since I read about that fiasco involving
-[the mayor of Saguenay](http://www.cbc.ca/news/canada/quebecvotes2012/story/2012/08/15/montreal-quebec-election-wednesday.html),
-this assumption is perhaps on shakier ground than I would have liked.
+actually thinks it's a good idea, though since I read about that fiasco
+involving [the mayor of Saguenay][1], this assumption is perhaps on shakier
+ground than I would have liked.
 
 But, assuming that I'm correct, have you ever sat down and actually thought
 about why you think it's a good idea?
 
 I've noticed at least two schools of thought among my friends.  Some of them
 are simply anti-religion.  They look at, for example, the Catholic Church's
-history of child abuse, or the practice of
-[sati](http://en.wikipedia.org/wiki/Sati_(practice)), and they conclude that
+history of child abuse, or the practice of [sati][2], and they conclude that
 the separation of church and state is a good idea for much the same reason
 that the separation of *murder* and state is a good idea.  Religion is *bad*
 and the less it has to do with public life, the better.
@@ -50,8 +49,7 @@ you should ask them again, but with the word "culture" replaced by the word
 "religion" .  The definition of "culture" as a "shared collection of values
 and beliefs", after all, works as a partial definition of religion as well,
 and I've blogged before about the [blurry line between religion and
-culture](/blog/2012/08/04/religion_and_culture).  Try the exercise, and see
-what your answers are.
+culture][3].  Try the exercise, and see what your answers are.
 
 Here's what I find weird.  Many of the most enthusiastic supporters of the
 separation of church of state in Quebec have no qualms whatsoever about
@@ -66,3 +64,7 @@ I suspect many people make a sharp distinction between religion and culture.
 I think, in many cases, this distinction is completely artificial.  We need
 the separation of culture and state, in exactly the same way, and for
 exactly the same reason, that we need the separation of church and state.
+
+[1]: http://www.cbc.ca/news/canada/quebecvotes2012/story/2012/08/15/montreal-quebec-election-wednesday.html
+[2]: http://en.wikipedia.org/wiki/Sati_(practice)
+[3]: /blog/2012/08/04/religion-and-culture
