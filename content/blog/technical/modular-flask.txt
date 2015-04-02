@@ -8,6 +8,7 @@ developing (mostly as an exercise in familiarizing myself with [Python][3])
 With Flask, it's dead simple to get a very basic web application up and
 running:
 
+    :::python
     from flask import Flask
 
     app = Flask(__name__)
@@ -53,6 +54,7 @@ to the above case, you would do the following:
 
 So your `blah/__init__.py` file would look like this:
 
+    :::python
     from flask import Flask
     app = Flask(__name__)
 
@@ -60,6 +62,7 @@ So your `blah/__init__.py` file would look like this:
 
 And your `views.py` would look like this:
 
+    :::python
     from blah import app
 
     @app.route("/")
@@ -72,6 +75,7 @@ And your `views.py` would look like this:
 
 And your `runserver.py` would look like this:
 
+    :::python
     from blah import app
     app.run(debug=True)
 
@@ -86,12 +90,14 @@ calls on the Flask object. That would allow you to do something like this:
 
 `__init__.py`:
 
+    :::python
     from flask import Flask
     app = Flask(__name__)
     init_views(app)
 
 `views.py`:
 
+    :::python
     def init_views(app):
         app.add_url_rule('/', 'hello', hello)
         app.add_url_rule('/blah', 'blah', blah)
@@ -118,6 +124,7 @@ We can define a single Blueprint for our application in a views file:
 
 `views.py`:
 
+    :::python
     blah_bp = Blueprint(__name__)
 
     @blah_bp.route("/")
@@ -132,6 +139,7 @@ And then the main module file looks like this:
 
 `__init__.py`:
 
+    :::python
     from flask import Flask
     app = Flask(__name__)
 
@@ -153,10 +161,12 @@ in a python file somewhere. That being said, the Flask docs actually
 recommend creating the application object via an application factory
 function.  So instead of this:
 
+    :::python
     app = Flask(__name__)
 
 You'd have something like this:
 
+    :::python
     def create_app():
         app = Flask(__name__)
         return app
@@ -171,6 +181,7 @@ decorators requires access to the app object, and you don't have it until
 the `create_app()` call returns, which is too late. One obvious solution is
 to define all your rules inside the create_app method, like so:
 
+    :::python
     def create_app():
         app = Flask(__name__)
 
@@ -196,6 +207,7 @@ scenario:
 
 `__init__.py`:
 
+    :::python
     def create_app():
         app = Flask(__name__)
         from views import blah_bp
@@ -203,6 +215,7 @@ scenario:
 
 `views.py`:
 
+    :::python
     blah_bp = Blueprint(__name__)
 
     @blah_bp.route("/")
@@ -233,6 +246,7 @@ following, but it only works on Flask 0.9 and above:
 
 `__init__.py`:
 
+    :::python
     def create_app():
         app = Flask(__name__)
         with app.app_context():
@@ -241,6 +255,7 @@ following, but it only works on Flask 0.9 and above:
 
 `views.py`:
 
+    :::python
     static_url_path = current_app.config['STATIC_URL_PATH']
     blah_bp = Blueprint(__name__, static_url_path = static_url_path)
 
