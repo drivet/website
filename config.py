@@ -28,6 +28,7 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
 YAWT_EXCERPT_WORDCOUNT = 100
 
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
+YAWT_MULTIMARKDOWN_EXTENSIONS = ['meta', 'extra']
 YAWT_MULTIMARKDOWN_TYPES = {'md_create_time': 'iso8601', 
                             'md_modified_time': 'iso8601', 
                             'tags': 'list'}
