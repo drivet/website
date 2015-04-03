@@ -12,6 +12,10 @@
     margin-bottom: 2.5em;
 }
 
+.about_me_selfie {
+    float: left;
+    margin: 0 1em 1em 0;
+}
 .collection_header {
     margin: 0 0 2em 0;
 }

@@ -1,7 +1,10 @@
-Title: About Me
+Title: The Story So Far...
 
-There's not much to tell. My name is Desmond Rivet. I'm a software
-developer. I live in Montreal, Canada.
+<img src="/static/images_from_entries/me_200x200.jpg" class="about_me_selfie"
+     alt="Mug shot" title="Mug shot"/>
+
+There's not much to tell. My name is Desmond Rivet. That's me to the
+left. I'm a software developer. I live in Montreal, Canada.
 
 The whole story, of course, is slightly more complicated than that.  I was
 born in Montreal, then moved to Toronto when I was 12.  I'm a graduate of
@@ -11,15 +14,23 @@ chose the Computer option at the time, but it appears that they have now
 
 After graduating from the University of Toronto, I started work as a
 software developer at a telecom company that eventually ended up moving me
-back to Montreal. I worked there for about 7 years until I decided that I
+back to Montreal.  I worked there for about 7 years until I decided that I
 needed a change of pace and, as of 2007, I'm a happy employee at [Intelerad
-Medical Systems][4].  I live with my girlfriend in an old, large apartment.
+Medical Systems][4].  
 
-I enjoy programming, writing, TV, movies, books, drinking and cooking.  You
-can find a few of my experiments and recipes on my
-[wiki](https://wiki.desmondrivet.com/)
+In 2010, my girlfriend and I moved into a large, hundred year old Edwardian
+apartment.  It's been...an experience :-) We both like the space and the
+neigbourhood, but I will say the place has ended being alot more work than
+thought it would be.  At some point I need to put up some pictures.
+
+I guess my main hobby would be programming, but I also enjoy writing,
+reading and cooking.  Oh, and mixing drinks.  You can blame Mad Men for
+that.  You can find a few of my experiments and recipes on my [wiki][5] and
+[blog][6].
 
 [1]: http://www.engsci.utoronto.ca/
 [2]: http://www.utoronto.ca/
 [3]: http://engsci.utoronto.ca/explore_our_program/majors/ece.htm
 [4]: http://www.intelerad.com/en/
+[5]: https://wiki.desmondrivet.com/
+[6]: /blog/
