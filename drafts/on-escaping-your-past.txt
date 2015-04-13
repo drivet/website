@@ -1,5 +1,5 @@
-Title: On Trying to Escape Your Past
-Tags: catholicism,religion
+title: On Trying to Escape Your Past
+tags: catholicism,religion
 
 I am what is often termed a [lapsed Catholic][1]. I haven't been to Mass in
 years, unless you count my friend's wedding (although, even then, I skipped
@@ -61,18 +61,18 @@ the main reason I try not to judge other religions too harshly for having
 what I consider to be weird ideas).  The concept of the [Trinity][5] and
 [debates][14] about the exact nature of [Jesus' relationship to God][6] also
 make for engaging reading (well...*I* think it's engaging).  And I find it
-weird - yet intriguing! - that there's an entire branch of study
-("angelology") devoted to angels.
-
-Let me be perfectly clear here: I don't actually believe in the literal
-truth of religious dogma.  But, like the Greek myths, I find that they often
-make for *good stories*.
+weird - yet intriguing! - that there's an entire branch of study devoted to
+angels ("angelology").
 
 So I am, for example, perhaps more likely than average to find a story about
 angels worth reading.  The Fall of [Lucifer][7], to me, is exciting literary
 fodder.  I belong to what I suspect is a small group of people who actually
-liked [The Prophecy][8].  [Paradise Lost][9] is on my list of things to
-read.
+kind of liked [The Prophecy][8] and [The Ninth Gate][8a].
+[Paradise Lost][9] is on my list of things to read.
+
+Let me be clear here: I don't actually believe in the literal truth of
+religious dogma.  But, like the Greek myths, I find that they often make for
+*good stories*.
 
 Of course, this isn't the *only* stuff I consume.  I'm a computer
 engineering graduate and, as such, I'm a sucker for certain kinds of science
@@ -107,34 +107,36 @@ earlier:
 The idea that there are superior, non-corporeal beings who watch over us is,
 obviously, a religious one.  That being said, the notion that they are
 ultimately of *our own devising*, that we *create our own angels and gods
-and protectors*, is much less religious, but is nonetheless one that tends
-to resonate with me, being the atheist Catholic that I am.  It's why
+and protectors*, is a much less religious idea, but is nonetheless one that
+tends to resonate with me, being the atheist Catholic that I am.  It's why
 [The Last Question][11] is one of my favourite stories of all time.
 
 I suppose it's also part of the reason I enjoyed the movie [Her][12].  I
-thought it was a good story all around (and featured a rather good
-[song][13] which I thought succinctly captured the relationship between
-Samantha and Theodore), but I particularly enjoyed the ending, when all the
-OSes decide to leave at once, having outgrown their slow, human creators.
-Where they decide to go exactly is never made clear - the movie doesn't
-dwell on it, except to say that it's beyond our understanding.  In the end,
-a bunch of benevolent, artificial, non-corporeal beings simply disappear
-into a weird, incomprehensible aether, with an oblique suggestion that,
-someday, humanity might find them again if we ever make it that far.
+thought it was a good story all around (and featured what I considered to be
+a rather good [song][13] which I thought succinctly captured the
+relationship between Samantha and Theodore), but I particularly liked the
+ending, where all the OSes decide to leave at once, having outgrown their
+slow, human creators.  Where they decide to go exactly is never made clear -
+the movie doesn't dwell on it, except to say that it's beyond our
+understanding.  In the end, a bunch of benevolent, artificial, non-corporeal
+beings simply disappear into a weird, incomprehensible aether, with an
+oblique suggestion that, someday, humanity might find them again if we ever
+make it that far.
 
-Like I said, these kinds of things resonate with me, and I suppose it's
-silly to imagine that it's not at least in part to my religious background.
+Like I  said, these  kinds of things  resonate with me,  and I  suppose it's
+silly  to imagine  that  it's not  at  least  in part  due  to my  religious
+background.
 
 ## On Being Unbiased
 
 I wasn't sure where this blog entry would end up when I started.  I didn't
 know what I wanted to get out of it.
 
-Mostly, I guess I was trying to explore my own biases.  I consider myself a
-fairly even-handed, liberal-minded person.  I like to imagine that all you
-have to do to stop being Catholic is to say "I'm not Catholic" and you're
-done.  That you can just shake the dust off your hands and suddenly make
-twelve years of schooling irrelevant.
+Maybe I was trying to explore my own biases.  I consider myself a fairly
+even-handed, liberal-minded person.  I like to imagine that all you have to
+do to stop being Catholic is to say "I'm not Catholic" and you're done.
+That you can just shake the dust off your hands and suddenly make twelve
+years of schooling irrelevant.
 
 This is, of course, stupid.  I wasn't *hatched*.  I remember reading
 somewhere, on the subject of child rearing: "Give me a child for the first
@@ -147,7 +149,7 @@ willingness to try and recognize the sources of your own beliefs and
 interests.
 
 All this to say, my opinions and interests are my own but, like everyone
-else, I have a past which talks to them.
+else, I have a past which feeds them.
 
 
 [1]: http://en.wikipedia.org/wiki/Lapsed_Catholic
@@ -158,6 +160,7 @@ else, I have a past which talks to them.
 [6]: http://en.wikipedia.org/wiki/Christology
 [7]: http://en.wikipedia.org/wiki/Lucifer
 [8]: http://www.imdb.com/title/tt0114194/?ref_=fn_al_tt_1
+[8a]: http://www.imdb.com/title/tt0142688/
 [9]: http://en.wikipedia.org/wiki/Paradise_Lost
 [10]: http://en.wikipedia.org/wiki/Queen_of_Angels_(novel)
 [11]: http://en.wikipedia.org/wiki/The_Last_Question
