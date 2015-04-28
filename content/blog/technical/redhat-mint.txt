@@ -1,5 +1,7 @@
+---
 title: Of Red Hats and Mints
 tags: linux
+---
 
 ## Part 1: A Brief History of Desmond, as it Relates to Linux
 

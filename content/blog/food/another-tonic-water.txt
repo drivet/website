@@ -1,5 +1,7 @@
-Title: Another Batch of Tonic Water
-Tags: drinks,cocktails,tonic
+---
+title: Another Batch of Tonic Water
+tags: drinks,cocktails,tonic
+---
 
 I [made a batch of tonic water syrup a couple of years ago][1] and, though
 it was a success, there were a couple of things I found slightly off-putting

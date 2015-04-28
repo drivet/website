@@ -1,6 +1,8 @@
+---
 title: Hockey and Looting
 tags: montreal
 md_create_time: 2008-04-22T16:34:21+00:00
+---
 
 This will be a short entry.  The Montreal Canadians won the playoffs last
 night and some fans took this as an excuse to [act like criminals][1].

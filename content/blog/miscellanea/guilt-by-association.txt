@@ -1,5 +1,7 @@
-Title: Guilt by Association
-Tags: feminism
+---
+title: Guilt by Association
+tags: feminism
+---
 
 How exactly am I supposed to react when I hear about the particularly brutal
 gang rape and murder of a 23 year old medical student in India?

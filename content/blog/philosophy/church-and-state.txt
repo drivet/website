@@ -1,5 +1,7 @@
-Title: Church, State, and Culture
-Tags: religion,culture,quebec
+---
+title: Church, State, and Culture
+tags: religion,culture,quebec
+---
 
 Have you ever wondered why the separation of church and state is good idea?
 

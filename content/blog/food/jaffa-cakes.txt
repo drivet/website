@@ -1,5 +1,7 @@
-title: Jaffa Cakes for North Americans: an Odyssey
+---
+title: Jaffa Cakes for North Americans&#58; an Odyssey
 tags: baking
+---
 
 Evelyn and I found a polish bakery in Point St Charles. One of the things we
 saw (aside from the actual pastries) were packages of [Jaffa cakes][1] for

@@ -1,5 +1,7 @@
-Title: You Keep Using That Word...
-Tags: religion,france,islam
+---
+title: You Keep Using That Word...
+tags: religion,france,islam
+---
 
 It's hard to talk about the attack on the offices of Charlie Hebdo without
 sounding like you're either a) apologizing for violence or b) spouting tired

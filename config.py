@@ -9,6 +9,9 @@ YAWT_ARTICLE_EXTENSIONS = ['txt']
 YAWT_DEFAULT_EXTENSION = 'txt'
 YAWT_STATE_FOLDER = '_state'
 YAWT_CONTENT_TYPE_RSS = 'application/rss+xml'
+YAWT_META_TYPES = {'md_create_time': 'iso8601',
+                   'md_modified_time': 'iso8601',
+                   'tags': 'list'}
 
 YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.excerpt.YawtExcerpt',
@@ -28,10 +31,8 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
 YAWT_EXCERPT_WORDCOUNT = 100
 
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
-YAWT_MULTIMARKDOWN_EXTENSIONS = ['meta', 'extra', 'codehilite']
-YAWT_MULTIMARKDOWN_TYPES = {'md_create_time': 'iso8601',
-                            'md_modified_time': 'iso8601',
-                            'tags': 'list'}
+YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite']
+
 
 GIT_REPOPATH = '/home/dcr/blogging/website'
 GIT_SEARCH_PATH = '/home/dcr/blogging/website'

@@ -1,5 +1,7 @@
-Title: In Defence of the Dark
-Tags: movies,comics,television
+---
+title: In Defence of the Dark
+tags: movies,comics,television
+---
 
 I'm addicted to a site called [tvtropes.org][1].  It's basically a catalogue
 of various literary and artistic devices used in various forms of media

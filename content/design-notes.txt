@@ -1,4 +1,6 @@
-Title: Site Design and Layout
+---
+title: Site Design and Layout
+---
 
 At the moment, this site is mostly an experiment in python.  The pages and
 the blog are all delivered via a home-grown blogging system/CMS that I've

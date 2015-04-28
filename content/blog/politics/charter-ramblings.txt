@@ -1,5 +1,7 @@
+---
 title: Charter Ramblings
 tags: canada,quebec
+---
 
 Many years ago I read a book called [The Diamond Age][1], by Neal
 Stephenson.  The backdrop against which the story occurs is a relatively

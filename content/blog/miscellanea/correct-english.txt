@@ -1,5 +1,7 @@
+---
 title: The Plural of Book
 tags: grammar,language
+---
 
 I just finished a book called *[The Unfolding of Language][1]* by Guy
 Deutscher.  It's pretty awesome if you're interested in a) how grammar

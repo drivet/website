@@ -1,5 +1,7 @@
-Title: The Cultureless
-Tags: culture,canada
+---
+title: The Cultureless
+tags: culture,canada
+---
 
 I don't really consider myself Canadian.
 

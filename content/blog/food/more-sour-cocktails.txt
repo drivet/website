@@ -1,5 +1,7 @@
+---
 title: More on Sour Cocktails
 tags: drinks,cocktails,embury
+---
 
 I've [posted before][1] about sour cocktails, but I felt that the subject
 deserved a bit more elabouration.  The material here, as before, is quite

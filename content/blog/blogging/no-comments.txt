@@ -1,6 +1,8 @@
+---
 title: Comments and Trackbacks Have Been Deactivated
 tags: yawt
 md_create_time: 2008-09-08T23:39:14+00:00
+---
 
 When I started this blog, I didn't expect very much in the way of
 comments or trackbacks.  I also didn't expect any *spam*, which means

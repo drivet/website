@@ -1,4 +1,6 @@
-Title: The Story So Far...
+---
+title: The Story So Far...
+---
 
 <img src="/static/images_from_entries/me_200x200.jpg" class="about_me_selfie"
      alt="Mug shot" title="Mug shot"/>
