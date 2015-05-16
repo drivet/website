@@ -1,6 +1,8 @@
 ---
-title: Charter Ramblings
+md_create_time: 2013-11-20 03:53:49
+md_modified_time: 2015-05-16 01:53:02.140388
 tags: canada,quebec
+title: Charter Ramblings
 ---
 
 Many years ago I read a book called [The Diamond Age][1], by Neal
@@ -294,4 +296,3 @@ run some candidates in my riding!
 [8]: http://en.wikipedia.org/wiki/Maurice_Duplessis
 [9]: http://www.ixdaily.com/grind/a9116c1a393ce6661245f6609a81130830e2949e/
 [10]: http://en.wikipedia.org/wiki/Bill_101
-

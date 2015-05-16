@@ -1,6 +1,7 @@
 ---
+md_create_time: 2008-01-06 20:26:29
+md_modified_time: 2015-05-16 01:52:56.237031
 title: Solar System Simulations
-md_create_time: 2008-01-06T20:26:29+00:00
 ---
 
 When I was in high school, I used to program two dimensional solar
@@ -103,5 +104,4 @@ program the proper Jovian weather model into a computer, the Great Red
 Spot just emerges out of the calculations. It's not something that's
 obvious from the math, and the program doesn't know anything about
 Great Red Spots or storms, but it's nonetheless *there*, in the model,
-in a fundamental sense. 
-
+in a fundamental sense.

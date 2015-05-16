@@ -1,6 +1,7 @@
 ---
+md_create_time: 2007-08-04 21:44:52
+md_modified_time: 2015-05-16 01:53:01.528339
 title: Duckie Fuzz
-md_create_time: 2007-08-04T21:44:52+00:00
 ---
 
 I went to my friend Neil's bachelor party last Saturday (July 28th). I

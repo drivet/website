@@ -1,6 +1,8 @@
 ---
-title: The Cultureless
+md_create_time: 2012-11-30 04:04:17
+md_modified_time: 2015-05-16 01:53:00.211310
 tags: culture,canada
+title: The Cultureless
 ---
 
 I don't really consider myself Canadian.

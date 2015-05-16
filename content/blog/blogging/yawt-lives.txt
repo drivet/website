@@ -1,6 +1,8 @@
 ---
-title: YAWT Lives!
+md_create_time: 2012-08-05 03:22:15
+md_modified_time: 2015-05-16 01:52:59.311239
 tags: python,yawt
+title: YAWT Lives!
 ---
 
 I started this blog 4 years ago, got a few entries in, and then promptly
