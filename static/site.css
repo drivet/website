@@ -144,10 +144,16 @@ article.entry {
     margin: 0 0.5em 0 0;
 }
 
-.tags, .permalink, .postedat {
+.tags, .permalink, .postedat, .postedsocial {
     margin: 0 0.5em 0 0.5em;
 }
 
 .blogtitle {
     margin-bottom: 0;
+}
+
+.statusheader { 
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
 }
