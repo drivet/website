@@ -47,7 +47,7 @@ YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT()}
 
 YAWT_COLLECTIONS_SORT_FIELD = 'smart_create_time'
 
-YAWT_TAGGING_BASE = ['blog']
+YAWT_TAGGING_BASE = ['blog','microposts']
 YAWT_TAGGING_COUNT_FILE = 'tagcounts'
 YAWT_TAGGING_FULL_ARTICLE_FLAVOURS = ['rss']
 
@@ -56,7 +56,7 @@ YAWT_CATEGORY_COUNT_FILE = 'categorycounts'
 YAWT_CATEGORY_FULL_ARTICLE_FLAVOURS = ['rss']
 
 YAWT_ARCHIVE_DATEFIELD = 'smart_create_time'
-YAWT_ARCHIVE_BASE = ['blog']
+YAWT_ARCHIVE_BASE = ['blog','microposts']
 
 YAWT_SMART_ATTRIBUTES = {
     'smart_create_time': ['md_create_time', 'create_time'],

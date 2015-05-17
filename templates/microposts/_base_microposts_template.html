@@ -25,7 +25,7 @@
                 Subscribe
             </a>
         </div>
-    {% if tagcounts %}
+    {% if tagcounts and tagcounts['microposts']|count %}
     <nav>
         <ul class="nav nav-list"> 
             <li class="nav-header">Tags</li>
