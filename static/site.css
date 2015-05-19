@@ -36,10 +36,17 @@
     margin: 0;
 }
 
-#footer footer {
+.pagination-nav{
+    overflow: auto;
+}
+
+#content {
+    margin-bottom: 1em;
+}
+
+#footer footer{
     border-top: 1px solid #ddd;
-    padding-top: 1em;
-    margin-top: 1em;
+    padding: 1em;
 }
 
 footer .validator {
