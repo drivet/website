@@ -1,0 +1,9 @@
+title: Yet Another Requirements Versus Setup Post
+tags: python,programming
+
+In [previous post][1] I wrote down some notes on the current state of the
+python packaging ecosystem.  I felt that this was useful because most of the
+information that I found online was oit of date or spread out in various
+places.
+
+[1]: /blog/2015/01/15/python-packaging

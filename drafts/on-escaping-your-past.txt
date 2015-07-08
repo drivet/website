@@ -55,32 +55,32 @@ The distinction between culture and religion, the history of the Church and
 the nuances of Catholic (Jewish, Islamic) dogma and legend are all
 fascinating to me.
 
-[Transubstantiation][4], for example, is a rather absorbing religious
-doctrine, despite being utterly bonkers (transubstantiation, by the way, is
-the main reason I try not to judge other religions too harshly for having
-what I consider to be weird ideas).  The concept of the [Trinity][5] and
-[debates][14] about the exact nature of [Jesus' relationship to God][6] also
-make for engaging reading (well...*I* think it's engaging).  And I find it
-weird - yet intriguing! - that there's an entire branch of study
-("angelology") devoted to angels.
+I find [transubstantiation][4], for example, to be a rather absorbing
+religious doctrine, despite being utterly bonkers (transubstantiation, by
+the way, is the main reason I try not to judge other religions too harshly
+for having what I consider to be weird ideas).  The concept of the
+[Trinity][5] and [debates][14] about the exact nature of
+[Jesus' relationship to God][6] also make for (what I consider to be)
+engaging reading.  And I find it weird - yet intriguing! - that there's an
+entire branch of study ("angelology") devoted to angels.
 
-Let me be perfectly clear here: I don't actually believe in the literal
-truth of religious dogma.  But, like the Greek myths, I find that they often
-make for *good stories*.
+Let me be perfectly clear.  I don't actually believe in the literal truth of
+religious dogma.  But, like the Greek myths, I find that they often make for
+*good stories*.
 
-So I am, for example, perhaps more likely than average to find a story about
-angels worth reading.  The Fall of [Lucifer][7], to me, is exciting literary
-fodder.  I belong to what I suspect is a small group of people who actually
-liked [The Prophecy][8].  [Paradise Lost][9] is on my list of things to
-read.
+So I am, for example, perhaps more likely than the average person to find a
+story about angels worth reading.  The Fall of [Lucifer][7], to me, is
+exciting literary fodder.  I belong to what I suspect is a small group of
+people who actually kind of liked [The Prophecy][8] and
+[The Ninth Gate][15].  [Paradise Lost][9] is on my list of things to read.
 
 Of course, this isn't the *only* stuff I consume.  I'm a computer
-engineering graduate and, as such, I'm a sucker for certain kinds of science
-fiction, particularly ones where intelligent machines play a central role
-(I'm a programmer as well).  The ones I tend to like the most are the ones
-where the machines in question are *benevolent*.  Tales of computers running
-amok are a dime a dozen.  Much more interesting are stories about artificial
-beings as *heroes* - as individuals to admire and to emulate.
+engineering graduate and a programmer and, as such, I'm a sucker for certain
+kinds of science fiction, particularly ones involving artificial
+intelligence.  The ones I tend to like the most are the ones where the
+machines in question are *benevolent*.  Tales of computers running amok are
+a dime a dozen.  Much more interesting are stories about artificial beings
+as *heroes* - as individuals to admire and to emulate.
 
 Even here, though, I can't *fully* escape my past.  For example, a book I
 remember fondly in this vein is [Queen of Angels][10], by Greg Bear.  It
@@ -97,7 +97,7 @@ creator, Roger Atkins:
 >you can call yourself an angel, Jill."
 
 Later on, she discovers an excerpt written by her creator many years
-earlier:
+earlier, in what is probably my favourite passage in the book:
 
 >We stand awkward between the earthloving beast and the cool, hot electronic
 >angel.  We will feel the dirt in our blood and the sun in our eyes even
