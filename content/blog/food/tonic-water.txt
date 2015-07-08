@@ -1,6 +1,9 @@
-title: Adventures With Tonic Water
+---
+md_create_time: 2011-07-16 18:28:00
+md_modified_time: 2015-05-16 01:52:58.789859
 tags: drinks,cocktails,tonic
-md_create_time: 2011-07-16T18:28:00+00:00
+title: Adventures With Tonic Water
+---
 
 Some people from work invited me to the [Dominion
 Tavern](http://www.tavernedominion.com/) a week or two ago. I was

@@ -1,6 +1,9 @@
-title: On the Banning of Niqabs
+---
+md_create_time: 2012-06-28 11:51:00
+md_modified_time: 2015-05-16 01:53:01.933752
 tags: niqabs,islam,religion,france
-md_create_time: 2012-06-28T11:51:00+00:00
+title: On the Banning of Niqabs
+---
 
 I'm a bit late to the party on this one, but last year France started
 [fining women][1] who wear the niqab in public, in defiance of a recently

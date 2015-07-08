@@ -1,6 +1,9 @@
-title: Joining the Rest of Mankind...
+---
+md_create_time: 2007-06-01 23:29:47
+md_modified_time: 2015-05-16 01:52:59.661339
 tags: blosxom
-md_create_time: 2007-06-01T23:29:47+00:00
+title: Joining the Rest of Mankind...
+---
 
 So I've finally gotten a blog. They've only been around for, what? Ten
 years? I guess I'm not a bandwagon jumper.

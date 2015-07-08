@@ -1,4 +1,8 @@
-Title: The Story So Far...
+---
+md_create_time: 2012-07-12 01:44:03
+md_modified_time: 2015-05-16 01:52:56.054689
+title: The Story So Far...
+---
 
 <img src="/static/images_from_entries/me_200x200.jpg" class="about_me_selfie"
      alt="Mug shot" title="Mug shot"/>

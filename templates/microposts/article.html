@@ -1,0 +1,9 @@
+{% extends "blog/_base_blog_template.html" %}
+
+{% block browsertitle %}
+    {{blogtitle}} - {{sitetitle}}
+{% endblock %}
+
+{% block blogcontent %}
+{{article.content}}
+{% endblock %}

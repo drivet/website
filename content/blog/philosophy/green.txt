@@ -1,5 +1,8 @@
+---
+md_create_time: 2007-07-15 18:23:30
+md_modified_time: 2015-05-16 01:52:56.646553
 title: Seeing Green
-md_create_time: 2007-07-15T18:23:30+00:00
+---
 
 Evelyn's birthday passed a few months ago. We were at a bar with her friends
 and I somehow got into a discussion with some guy about the nature of seeing

@@ -1,5 +1,8 @@
+---
+md_create_time: 2007-06-11 16:12:39
+md_modified_time: 2015-05-16 01:52:57.739630
 title: What it Means to Have an Opinion
-md_create_time: 2007-06-11T16:12:39+00:00
+---
 
 I have strong opinions on certain topics, but unlike some people I know, I
 try to justify my opinions (see, for example, my [philosophy

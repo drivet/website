@@ -1,5 +1,9 @@
-Title: Sour Cocktails and the Embury Ratio
-Tags: drinks,cocktails,embury
+---
+md_create_time: 2012-09-14 01:24:20
+md_modified_time: 2015-05-16 01:52:58.247854
+tags: drinks,cocktails,embury
+title: Sour Cocktails and the Embury Ratio
+---
 
 Over the last couple of years I've put together what I consider to be a
 fairly impressive home bar, and I've spent much of that time experimenting

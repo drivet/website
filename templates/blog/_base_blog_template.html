@@ -8,14 +8,14 @@
 
 {% block content %}
 <div class="row">
-  <div id="blogcontent" class="col-md-8">
+  <div id="blogcontent" class="col-md-9">
       <header class="articleheader blogtitle">
           <h1>{{blogtitle}}</h1>
       </header>
       {% block blogcontent %}{% endblock %}
   </div> 
 
-  <div id="sidebar" class="col-md-3 col-md-offset-1">
+  <div id="sidebar" class="col-md-3">
     <div class="sidebarwrapper">
         <div class="subscribeblog">
             <a href="/blog/index.rss">
@@ -41,13 +41,13 @@
     </nav>
     {% endif %}
 
-    {% if tagcounts %}
+    {% if tagcounts and tagcounts['blog']|count%}
     <nav>
         <ul class="nav nav-list"> 
             <li class="nav-header">Tags</li>
-            {% for tag in tagcounts: %}
-            <li class="nav-item"><a href="{{tagbase}}tags/{{tag}}">
-                    {{tag}} ({{tagcounts[tag]}})</a></li>
+            {% for tag in tagcounts['blog']: %}
+            <li class="nav-item"><a href="/blog/tags/{{tag}}">
+                    {{tag}} ({{tagcounts['blog'][tag]}})</a></li>
             {% endfor %}
         </ul>
     </nav>
@@ -57,10 +57,10 @@
     <nav>
         <ul class="nav nav-list">
             <li class="nav-header">Archives</li>
-            {% for year_node in archivecounts.children  %}
+            {% for year_node in archivecounts['blog'].children  %}
             {% for month_node in year_node.children  %}
             <li class="nav-item">
-                <a href="{{ "%s%s/%s" % (archivebase, year_node.category, month_node.category)}}">
+                <a href="{{ "/blog/%s/%s" % (year_node.category, month_node.category)}}">
                     {{ "%s-%s" % (year_node.category, month_node.category)}}
                     ({{ month_node.count }})</a>
             </li>

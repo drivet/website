@@ -1,0 +1,45 @@
+{% extends "microposts/_base_microposts_template.html" %}
+
+{% block browsertitle %} 
+
+{% if collection_title %}
+{{collection_title}} | 
+{% endif %}
+{{blogtitle}} | {{sitetitle}}
+
+{% endblock %}
+
+{% block blogcontent %}
+{% set base = "/microposts" %}
+
+<div class="collection_header">
+    {% if collection_title %}
+    <div class="collection_title">
+        {{collection_title}}
+    </div>
+    {% endif %}
+</div>
+
+{% for article in articles: %}
+<article class="entry">
+  <header class="statusheader">
+      <div class="articleinfo">
+          <span class="postedon">
+              {{article.info.smart_create_time|dateformat('%Y-%m-%d %I:%M:%S %p')}}
+          </span>
+          |
+          <span class="postedsocial">
+              <a href="{{article.info.fbpost}}" title="Facebook">
+                  <span class="fa fa-facebook-square"></span>
+              </a>
+          </span>
+      </div>
+  </header>
+  {{article.info.summary}}
+
+</article>
+{% endfor %}
+
+{% include '_pagination.html' %}
+
+{% endblock %}

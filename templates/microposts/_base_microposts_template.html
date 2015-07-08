@@ -1,0 +1,59 @@
+{% extends "_base_site_template.html" %}
+{% set blogtitle = "Status Updates" %}
+
+{% block headtags %} 
+<link rel="alternate" type="application/rss+xml" href="/microposts/index.rss" 
+      title="{{blogtitle}}" />
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div id="blogcontent" class="col-md-8">
+      <header class="blogtitle">
+          <h1>{{blogtitle}}</h1>
+      </header>
+      {% block blogcontent %}{% endblock %}
+  </div> 
+
+  <div id="sidebar" class="col-md-3 col-md-offset-1">
+    <div class="sidebarwrapper">
+        <div class="subscribeblog">
+            <a href="/microposts/index.rss">
+                <img src="{{url_for('static',
+                          filename='img/feed-icon-14x14.png')}}" 
+                     alt="Subscribe vis RSS"/>
+                Subscribe
+            </a>
+        </div>
+    {% if tagcounts and tagcounts['microposts']|count %}
+    <nav>
+        <ul class="nav nav-list"> 
+            <li class="nav-header">Tags</li>
+            {% for tag in tagcounts['microposts']: %}
+            <li class="nav-item"><a href="/microposts/tags/{{tag}}">
+                    {{tag}} ({{tagcounts['microposts'][tag]}})</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+    {% if archivecounts %}
+    <nav>
+        <ul class="nav nav-list">
+            <li class="nav-header">Archives</li>
+            {% for year_node in archivecounts['microposts'].children  %}
+            {% for month_node in year_node.children  %}
+            <li class="nav-item">
+                <a href="{{ "/microposts/%s/%s" % (year_node.category, month_node.category)}}">
+                    {{ "%s-%s" % (year_node.category, month_node.category)}}
+                    ({{ month_node.count }})</a>
+            </li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}   
+    </div>
+  </div>
+
+</div>
+{% endblock %}

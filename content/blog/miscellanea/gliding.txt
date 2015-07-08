@@ -1,5 +1,8 @@
+---
+md_create_time: 2007-06-12 14:54:00
+md_modified_time: 2015-05-16 01:53:00.392549
 title: I Don't Even Like Heights...
-md_create_time: 2007-06-12T14:54:00+00:00
+---
 
 Several months back I won a free gliding session with [Vol Recreatif][1] in
 a raffle. My natural laziness, combined with my nervousness about heights,
