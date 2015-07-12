@@ -5,6 +5,8 @@ md_create_time: 2015-07-11 01:08:00
 md_modified_time: 2015-07-11 01:08:00
 ---
 
+[Photos][10]
+
 Evelyn and I decided, more or less on a whim, to travel to Greece this
 year. We went for ten days.
 
@@ -27,9 +29,9 @@ We landed in Athens, and stayed at a centrally located Airbnb.
 First impressions of Athens: very noisy, very crowded, very dirty, and very
 graffitied.  In other words, I am unimpressed.
 
-My opinion changed somewhat as I made the climb to the Acropolis.  There is
-something surreal about this...fort? temple?...sitting proud and high on its
-hill, keeping watch over the city.
+My opinion changed somewhat as I made the climb to the [Acropolis][9].
+There is something surreal about this...fort? temple?...sitting proud and
+high on its hill, keeping watch over the city.
 
 The whole experience needed time to marinate a bit before I could appreciate
 the full impact. "These buildings are thousands of years old, built during a
@@ -271,3 +273,5 @@ Maybe one day.
 [6]: https://en.wikipedia.org/wiki/Plaka
 [7]: https://en.wikipedia.org/wiki/Santorini
 [8]: https://en.wikipedia.org/wiki/Rhodes
+[9]: https://en.wikipedia.org/wiki/Acropolis_of_Athens
+[10]: https://photos.desmondrivet.com/index.php?/category/1
