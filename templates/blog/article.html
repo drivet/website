@@ -4,6 +4,14 @@
     {{ article.info.title }} - {{blogtitle}} - {{sitetitle}}
 {% endblock %}
 
+{% block headtags %}
+    <meta property="og:title" content="{{article.info.title}}" />
+    <meta property="og:url" content="{{request.url_root}}{{article.info.fullname}}" />
+    <meta property="og:site_name" content="{{blogtitle}} - {{sitetitle}}" />
+    <meta property="og:image" 
+         content="{{url_for('static', filename='images_from_entries/me_200x200.jpg')}}" />
+{% endblock %}
+
 {% block blogcontent %}
     {% if breadcrumbs %}
         <div class="collection_header">

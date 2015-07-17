@@ -1,4 +1,4 @@
-YAWT_BASE_URL = 'http://localhost'
+YAWT_BASE_URL = 'http://www.desmondrivet.com'
 YAWT_CONTENT_FOLDER = 'content'
 YAWT_DRAFT_FOLDER = 'drafts'
 YAWT_TEMPLATE_FOLDER = 'templates'
@@ -26,7 +26,8 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.indexer.YawtWhoosh',
                    'yawtext.collections.YawtCollections',
                    'yawtext.search.YawtSearch',
-                   'yawtext.micropost.YawtMicropost']
+                   'yawtext.micropost.YawtMicropost',
+                   'yawtext.sync.YawtSync']
 
 YAWT_EXCERPT_WORDCOUNT = 100
 
