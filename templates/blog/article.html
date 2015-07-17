@@ -6,7 +6,7 @@
 
 {% block headtags %}
     <meta property="og:title" content="{{article.info.title}}" />
-    <meta property="og:title" content="{{article.info.summary|striptags}}" />
+    <meta property="og:description" content="{{article.info.summary|striptags}}" />
     <meta property="og:url" content="{{request.url_root}}{{article.info.fullname}}" />
     <meta property="og:site_name" content="{{blogtitle}} - {{sitetitle}}" />
     <meta property="og:image" 
