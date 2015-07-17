@@ -9,7 +9,7 @@
     <meta property="og:url" content="{{request.url_root}}{{article.info.fullname}}" />
     <meta property="og:site_name" content="{{blogtitle}} - {{sitetitle}}" />
     <meta property="og:image" 
-         content="{{url_for('static', filename='images_from_entries/me_200x200.jpg')}}" />
+         content="{{request.url_root}}static/images_from_entries/me_200x200.jpg" />
 {% endblock %}
 
 {% block blogcontent %}
