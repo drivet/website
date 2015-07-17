@@ -1,4 +1,4 @@
-YAWT_BASE_URL = 'http://www.desmondrivet.com'
+YAWT_BASE_URL = ''
 YAWT_CONTENT_FOLDER = 'content'
 YAWT_DRAFT_FOLDER = 'drafts'
 YAWT_TEMPLATE_FOLDER = 'templates'

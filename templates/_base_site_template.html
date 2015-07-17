@@ -4,14 +4,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rambla">
-    <link rel="stylesheet" type="text/css" 
-          href="{{url_for('static', filename='bootstrap/css/bootstrap.css')}}"/>
-    <link rel="stylesheet" type="text/css" 
-          href="{{url_for('static', filename='site.css')}}"/>
-    <link rel="stylesheet" type="text/css" 
-          href="{{url_for('static', filename='pygments.css')}}"/>
-    <link rel="stylesheet" type="text/css" 
-          href="{{url_for('static', filename='font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{'bootstrap/css/bootstrap.css'|static}}"/>
+    <link rel="stylesheet" type="text/css" href="{{'site.css'|static}}"/>
+    <link rel="stylesheet" type="text/css" href="{{'pygments.css'|static}}"/>
+    <link rel="stylesheet" type="text/css" href="{{'font-awesome/css/font-awesome.min.css'|static}}">
     {% block headtags %}{% endblock %}
     <title>{% block browsertitle %}{% endblock %}</title>
   </head>

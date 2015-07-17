@@ -6,11 +6,20 @@
 
 {% block headtags %}
     <meta property="og:title" content="{{article.info.title}}" />
+    {% if article.info.og_description %} 
+    <meta property="og:description" content="{{article.info.og_description|striptags}}" />
+    {% else %}
     <meta property="og:description" content="{{article.info.summary|striptags}}" />
-    <meta property="og:url" content="{{request.url_root}}{{article.info.fullname}}" />
+    {% endif %}
+    <meta property="og:url" content="{{article.info.fullname|url}}" />
     <meta property="og:site_name" content="{{blogtitle}} - {{sitetitle}}" />
+
+    {% if article.info.og_image %}
+    <meta property="og:image" content="{{article.info.og_image}}" />
+    {% else %}
     <meta property="og:image" 
-         content="{{request.url_root}}static/images_from_entries/me_200x200.jpg" />
+          content="{{'images_from_entries/me_200x200.jpg'|static|url}}" />
+    {% endif %}
 {% endblock %}
 
 {% block blogcontent %}
