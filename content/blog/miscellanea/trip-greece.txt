@@ -5,8 +5,6 @@ md_create_time: 2015-07-11 01:08:00
 md_modified_time: 2015-07-11 01:08:00
 ---
 
-[Photos][10]
-
 Evelyn and I decided, more or less on a whim, to travel to Greece this
 year. We went for ten days.
 
@@ -264,6 +262,8 @@ curious to know what Greece is like for someone who can actually speak and
 read Greek.  I suspect even some rudimentary Greek would serve us well.
 
 Maybe one day.
+
+[Photos][10] of the whole trip can be found elswhere on my site.
 
 [1]: https://en.wikipedia.org/wiki/Moussaka
 [2]: https://en.wikipedia.org/wiki/Caldera
