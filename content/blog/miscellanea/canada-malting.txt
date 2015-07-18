@@ -2,6 +2,7 @@
 md_create_time: 2013-07-31 00:51:26
 md_modified_time: 2015-05-16 01:53:01.162350
 tags: quebec,montreal,saint-henri
+og_image: http://www.desmondrivet.com/static/images_from_entries/IMG_0646.JPG
 title: Oatmeal Stout Under the Watchful Eye of Abandoned Silos
 ---
 
