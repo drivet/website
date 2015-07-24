@@ -6,6 +6,9 @@ tags: quebec
 Jacques Parizeau died not too long ago.  He infamously commented that the
 1995 Quebec Referendum was lost due to [money and the ethnic vote][1]
 
+(I know this happened a while ago but whatever, it's *my* blog and I'll
+write what I want *grumble*)
+
 I was in high school, in Toronto, during the referendum.  I remember the
 whole thing being followed very closely by my school.  I remember feeling
 relief when the "No" side won (by a hair) and I remember the uproar that his
@@ -22,19 +25,19 @@ name.  To make things more complicated, I spent a lot of my formative years
 Given this kind of background, it's sometimes hard to say where my loyalties
 lie, but I think it's probably safe to say that they lie with specific
 people rather abstract, disembodied ideas like "Canada" or "Quebec" or
-"Italians".
+"Italians".  All this to say, if I had voted in the referendum, I would
+have, of course, voted No.
 
 Anyway, I can remember everyone being quite offended at his remarks, but I
-*also* remember not being quite as offended as everyone else.  Of course I
-suppose I *would* say that, being Caucasian, but really I just remember
-thinking, evenly and without rancor, "Yes, the Quebec referendum probably
-was defeated by the so-called ethnic vote.  And *thank God*."
+*also* remember not being quite as offended as everyone else.  I just
+remember thinking, evenly and without rancor, "It's true, the No side
+probably won because of the so-called ethnic vote.  And *thank God*."
 
 I assume that "ethnic", in this context, is simply a euphemism for "not
 white and not French".  By that definition...well...yes, the Quebec
 referendum was indeed defeated by the ethnic vote, for the prosaic reason
-that if you exclude non-whites and non-French, the "Yes" side would have won
-(something like 60% of French speakers in Quebec voted "Yes").
+that if you exclude non-whites and non-French, the Yes side would have won
+(something like 60% of French speakers in Quebec voted Yes).
 
 I don't believe this is a very controversial thing to observe - or at least
 it *shouldn't* be.  It frankly shouldn't be surprising to anyone.  *Of
@@ -47,9 +50,15 @@ rather to the spirit in which they were given.  What he said may or may not
 have been technically true, but that's beside the point.  The point is that
 he was being utterly dismissive when he said it.  *That* is what people
 found offensive.  He was obliquely implying that the "ethnic vote", as he
-called, didn't really count.  He was implying that they weren't real
-Quebecers.
+called it, didn't really count.  He was implying that the people casting
+these votes weren't real Quebecers.
 
+You walk a tight line when you're a staunch nationalist, especially when
+your brand of nationalism hinges on how you look, or a perceived cultural
+heritage.  I have a hard time imagining how it could ever work without
+devolving into naked mistrust of anyone who's "outside the circle", so to
+speak.  It's part of the reason I [don't consider myself a nationalist][3]
 
 [1]: https://en.wikipedia.org/wiki/Quebec_referendum,_1995#Immediate_responses
 [2]: https://en.wikipedia.org/wiki/Quebec_Charter_of_Values
+[3]: /blog/2012/11/29/cultureless
