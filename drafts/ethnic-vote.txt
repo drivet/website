@@ -4,15 +4,12 @@ tags: quebec
 ---
 
 Jacques Parizeau died not too long ago.  He infamously commented that the
-1995 Quebec Referendum was lost due to [money and the ethnic vote][1]
+1995 Quebec Referendum was lost due to [money and the ethnic vote][1].
 
-(I know this happened a while ago but whatever, it's *my* blog and I'll
-write what I want *grumble*)
-
-I was in high school, in Toronto, during the referendum.  I remember the
-whole thing being followed very closely by my school.  I remember feeling
-relief when the "No" side won (by a hair) and I remember the uproar that his
-statement caused afterwards.
+I was in high school, in Toronto, during the referendum.  I remember my
+school following the whole thing very closely.  I remember feeling relief
+when the No side won (by a hair) and I remember the uproar that his
+statements caused afterwards.
 
 A word about my background before we go on.  It's a bit of a mixed bag.  I
 have a British first name (Desmond) and a French last name (Rivet).  My
@@ -23,15 +20,14 @@ name.  To make things more complicated, I spent a lot of my formative years
 (high school, University) in Toronto, so people often assume I'm from there.
 
 Given this kind of background, it's sometimes hard to say where my loyalties
-lie, but I think it's probably safe to say that they lie with specific
-people rather abstract, disembodied ideas like "Canada" or "Quebec" or
-"Italians".  All this to say, if I had voted in the referendum, I would
-have, of course, voted No.
+lie, but I think it's probably safe to say that they *don't* lie with
+abstract, disembodied ideas like "Canada" or "Quebec" or "Italians".  All
+this to say, if I had voted in the referendum, I would have, of course,
+voted No.
 
 Anyway, I can remember everyone being quite offended at his remarks, but I
-*also* remember not being quite as offended as everyone else.  I just
-remember thinking, evenly and without rancor, "It's true, the No side
-probably won because of the so-called ethnic vote.  And *thank God*."
+*also* remember thinking, evenly and without rancor, that they were *true*.
+The No side probably won because of the ethnic vote.  And *thank God*.
 
 I assume that "ethnic", in this context, is simply a euphemism for "not
 white and not French".  By that definition...well...yes, the Quebec
@@ -44,21 +40,34 @@ it *shouldn't* be.  It frankly shouldn't be surprising to anyone.  *Of
 course* minorities voted against Quebec sovereignty.  Do you think the
 xenophobia started with the [Charter][2]?
 
-None of this really matters, of course, because I don't think people were
-actually reacting to the truth or falsehood of Parizeau's statements, but
-rather to the spirit in which they were given.  What he said may or may not
-have been technically true, but that's beside the point.  The point is that
-he was being utterly dismissive when he said it.  *That* is what people
-found offensive.  He was obliquely implying that the "ethnic vote", as he
-called it, didn't really count.  He was implying that the people casting
-these votes weren't real Quebecers.
+None of this really matters, of course, because people weren't actually
+reacting to the truth or falsehood of Parizeau's statements, but rather to
+the spirit in which they were delivered.  What he said may or may not have
+been technically true, but that's beside the point.  The point was the
+utterly dismissive way in which he said them.  *That* is what people found
+offensive.  He was obliquely implying that the "ethnic vote", as he called
+it, didn't really count.  He was implying that the people casting those
+votes weren't real Quebecers.
 
 You walk a tight line when you're a staunch nationalist, especially when
-your brand of nationalism hinges on how you look, or a perceived cultural
-heritage.  I have a hard time imagining how it could ever work without
-devolving into naked mistrust of anyone who's "outside the circle", so to
-speak.  It's part of the reason I [don't consider myself a nationalist][3]
+your
+[brand of nationalism hinges on a single perceived cultural heritage][5]
+which new arrivals don't necessarily share.  I have a hard time imagining
+how it could ever work without devolving into naked mistrust of anyone who's
+"outside the circle", so to speak.  It's part of the reason I
+[don't consider myself a nationalist][3] - or, at least, not *that* kind of
+nationalist.
+
+If I were any kind of nationalist at all, I guess I'd be a
+[civic nationalist][4] but even then I'm not entirely sure.  To be sure, I
+like being Canadian.  I like living in a country with a strong "live and let
+live" attitude, and I'm happy when people from other countries agree and
+decide to make their home here.  It makes life interesting.
+
+
 
 [1]: https://en.wikipedia.org/wiki/Quebec_referendum,_1995#Immediate_responses
 [2]: https://en.wikipedia.org/wiki/Quebec_Charter_of_Values
 [3]: /blog/2012/11/29/cultureless
+[4]: https://en.wikipedia.org/wiki/Civic_nationalism
+[5]: https://en.wikipedia.org/wiki/Cultural_nationalism
