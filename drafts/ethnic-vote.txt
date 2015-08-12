@@ -16,8 +16,9 @@ have a British first name (Desmond) and a French last name (Rivet).  My
 mother is Sicilian.  My father was French Canadian, though not technically
 Quebecois by birth (he was born in Sudbury).  I myself was born in Montreal,
 so I *am*, in fact, a Quebecois by birth, but an Anglophone one, despite my
-name.  To make things more complicated, I spent a lot of my formative years
-(high school, University) in Toronto, so people often assume I'm from there.
+last name.  To make things more complicated, I spent a lot of my formative
+years (high school, University) in Toronto, so people often assume I'm from
+there.
 
 Given this kind of background, it's sometimes hard to say where my loyalties
 lie, but I think it's probably safe to say that they *don't* lie with
@@ -27,7 +28,7 @@ voted No.
 
 Anyway, I can remember everyone being quite offended at his remarks, but I
 *also* remember thinking, evenly and without rancor, that they were *true*.
-The No side probably won because of the ethnic vote.  And *thank God*.
+The No side probably won because of the ethnic vote - and *thank God*.
 
 I assume that "ethnic", in this context, is simply a euphemism for "not
 white and not French".  By that definition...well...yes, the Quebec
@@ -54,24 +55,33 @@ your [brand of nationalism hinges on a single perceived cultural
 heritage][5] which new arrivals don't necessarily share.  I have a hard time
 imagining how such a thing could ever work without devolving into naked
 mistrust of anyone who's "outside the circle", so to speak.  It's part of
-the reason I [don't consider myself a nationalist][3] - or, at least, not
+the reason [I don't consider myself a nationalist][3] - or, at least, not
 *that* kind of nationalist.
 
-There are other kinds of nationalism, of course.  Scotland's version, for
-example, centers around beefs with the rest of the U.K., rather than a love
-of scotch and haggis.
+Other forms of nationalism are possible, of course.  The one I subscribe to,
+if one insists on giving it a label, would probably be considered a loose
+form of [civic nationalism][4].  It's the kind of nationalism that focuses
+mainly on individual rights and defining the proper boundaries between the
+government and the governed, rather than the care and feeding of a shared
+culture.  It's a very loose, "live and let live" kind of national identity,
+barely deserving of the name.  At the very least, one's nationality is not
+closely tied, in this scheme, to one's culture of choice.
 
-If I were any kind of nationalist at all, I suspect I'd be a [civic
-nationalist][4] but even then I'm not entirely sure.  I like being Canadian.
-I like living in a country with a strong "live and let live" attitude and
-which, to a large extent, leaves me alone.  And I'm happy when people from
-other countries agree and decide to make their home here.  It makes life
-interesting.
+This is the sort of nationalism that I suspect minorities in Quebec could
+get behind, but it isn't the prevailing sentiment.  Quebec nationalism has a
+strong cultural component to it, sometimes flirting with a mild form of full
+on [ethnic nationalism][6], as evidenced by the [Charter][2] fiasco a couple
+of years ago.  The Charter was sold as an attempt to purge religious
+influence from the civil service, but it came off rather as an attempt to
+purge *otherness* instead.
 
-This is the kind of nationalism that minorities in Quebec could maybe get
-behind, but Quebec is kidding itself if it thinks this is the prevailing
-sentiment.  Quebec nationalism has a strong cultural component to it,
-sometimes flirting with a mild form of out-and-out [ethnic nationalism][6].
+I belong to a school of thought which advocates
+[the separation of culture and state][7] in the same way, and for exactly
+the same reasons, as the separation of church and state.  It is, however, an
+unfortunate reality in this province that, for a lot of people, their
+culture is indelibly linked to nationhood and state involvement.  It's an
+odd stance to take, considering how many are against state involvement in
+religious matters.  The irony appears to be lost on many.
 
 
 [1]: https://en.wikipedia.org/wiki/Quebec_referendum,_1995#Immediate_responses
@@ -79,4 +89,5 @@ sometimes flirting with a mild form of out-and-out [ethnic nationalism][6].
 [3]: /blog/2012/11/29/cultureless
 [4]: https://en.wikipedia.org/wiki/Civic_nationalism
 [5]: https://en.wikipedia.org/wiki/Cultural_nationalism
-[5]: https://en.wikipedia.org/wiki/Ethnic_nationalism
+[6]: https://en.wikipedia.org/wiki/Ethnic_nationalism
+[7]: /blog/2012/08/16/church-and-state
