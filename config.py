@@ -27,7 +27,8 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.collections.YawtCollections',
                    'yawtext.search.YawtSearch',
                    'yawtext.micropost.YawtMicropost',
-                   'yawtext.sync.YawtSync']
+                   'yawtext.sync.YawtSync',
+                   'yawtext.notify.YawtNotify']
 
 YAWT_EXCERPT_WORDCOUNT = 100
 
