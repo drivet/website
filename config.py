@@ -64,3 +64,5 @@ YAWT_SMART_ATTRIBUTES = {
     'smart_create_time': ['md_create_time', 'create_time'],
     'smart_modified_time': ['md_modified_time', 'modified_time']
 }
+
+YAWT_NOTIFY_BASE_URL = 'http://www.desmondrivet.com'
