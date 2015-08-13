@@ -1,0 +1,11 @@
+---
+title: Using Emacs to Write Python Code
+tags: emacs,python
+---
+
+I use Emacs for python development.  There are actually a significant number
+of resources available on the web for customizing Emacs as a python IDE, but
+I've made a couple of specialized tweaks that I feel may be worth sharing.
+So here we are.
+
+
