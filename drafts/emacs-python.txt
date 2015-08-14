@@ -1,11 +1,32 @@
 ---
-title: Using Emacs to Write Python Code
+title: Emacs and Python
 tags: emacs,python
 ---
 
-I use Emacs for python development.  There are actually a significant number
-of resources available on the web for customizing Emacs as a python IDE, but
-I've made a couple of specialized tweaks that I feel may be worth sharing.
-So here we are.
+I use Emacs as a python IDE.  The Web already offers a significant number of
+resources concerning this subject but I've made a couple of specialized
+tweaks that I feel may be worth sharing.  So here we are.
+
+## What Was I Looking For?
+
+I am mainly a Java and Eclipse user at work.  Eclipse makes Java programming
+somewhat tolerable.  I tend to use the following features:
+
+ * automatic import management
+ * jump to definition
+ * auto completion
+ * refactoring tools, like method and variable renaming
+
+A python IDE, for me, would have to have roughly the same feature set,
+insofar as the dynamic nature of the language makes it possible.  It turns
+out that this is possible in Emacs, with a little bit of elbow grease.
+
+## Installing Rope
+
+The first thing to do is to install [Rope][1], a python refactoring library.
+This library isn't Emacs specific, so the second thing to do is to integrate
+it with Emacs, via a library called [ropemacs][2].
 
 
+[1]: https://github.com/python-rope/rope
+[2]: https://github.com/python-rope/ropemacs
