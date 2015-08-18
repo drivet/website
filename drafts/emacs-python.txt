@@ -7,10 +7,10 @@ I use Emacs as a python IDE.  The Web already offers a significant number of
 resources concerning this subject but I've made a couple of specialized
 tweaks that I feel may be worth sharing.  So here we are.
 
-## What Was I Looking For?
+## Desired Feature Set
 
-I am mainly a Java and Eclipse user at work.  Eclipse makes Java programming
-somewhat tolerable.  I tend to use the following features:
+I am mainly a Java developer and Eclipse user at work.  Eclipse makes Java
+programming somewhat tolerable.  I tend to use the following features:
 
  * automatic import management
  * jump to definition
@@ -85,14 +85,45 @@ equivalent is.
 
 Most of my python projects are tucked away inside virtualenvs.  Using a
 virtualenv means I can pip install any python package I want without
-worrying about whether it's polluting my other projects.
+worrying about whether it's polluting my other projects.  You can install
+it, once again, using pip:
 
-Using virtualenvs complicates the whole emacs setup, but there are ways to
+`pip install virtualenv`
+
+Most of the time I don't use virtualenv directly, but rather a set of
+extensions that operate one layer above it called [virtualenvwrapper][7].
+It's also installable using pip.
+
+With virtualenvwrapper, you get tools to easily create, delete and list
+existing virtualenvs, as well a hook system that lets you perform certain
+tasks during certain times. I will have more to say about that feature
+later.
+
+Using virtualenvs complicates the emacs setup, but there are ways to
 mitigate the problems that crop up.  My solution of choice is to use
 [virtualenvwrapper.el][6], which lets you switch between virtualenvs from
-within emacs.  The package handles a number of things for you; for example,
-it will prepend the virtualenv's bin directory to the PATH environment
-variable so you can run any executables local to the virtualenv.
+within emacs.  It basically replicates many of the features of
+virtualenvwrapper, but in emacs.
+
+The virtualenvwrapper.el package handles a number of things for you; for
+example, it will prepend the current virtualenv's bin directory to the PATH
+environment variable so you can run any virtualenv local executable directly
+from emacs.
+
+Unfortunately, virtualenvwrapper.el and ropemacs don't really play nice
+together; as mentioned before, ropemacs works via pymacs, and pymacs works
+by launching a single python process from within emacs.  That python
+process, with its attendant libraries, is usually *not* the one that's used
+by the virtualenv that emacs is currently pointing to, which means that
+features like "jump to definition" don't work properly when you have a
+virtualenv activated.  You *could* launch your emacs editor on the command
+line once you've activated your virtualenv, but this is inconvenient if you
+use emacs for non-python work and you already have an instance running
+before you start editing your python files.
+
+The solution I came up with is a bit involved, but it's also fairly general.
+
+
 
 
 
@@ -102,3 +133,4 @@ variable so you can run any executables local to the virtualenv.
 [4]: https://virtualenv.pypa.io/en/latest/
 [5]: https://www.docker.com/
 [6]: https://github.com/porterjamesj/virtualenvwrapper.el
+[7]: https://virtualenvwrapper.readthedocs.org/en/latest/
