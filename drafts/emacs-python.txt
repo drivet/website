@@ -7,7 +7,7 @@ I use Emacs as a python IDE.  The Web already offers a significant number of
 resources concerning this subject but I've made a couple of specialized
 tweaks that I feel may be worth sharing.  So here we are.
 
-## Desired Feature Set
+## Immediate goals
 
 I am mainly a Java developer and Eclipse user at work.  Eclipse makes Java
 programming somewhat tolerable.  I tend to use the following features:
@@ -27,31 +27,31 @@ These instructions focus on Emacs 24.
 The first thing to do is to install [Rope][1], a python refactoring library
 and, since it isn't Emacs specific, the second thing to do is to integrate
 it with Emacs via a package called [ropemacs][2].  According to the github
-page, Ropemacs is an "emacs mode that uses rope library to provide features
+page, Ropemacs is an "Emacs mode that uses rope library to provide features
 like python refactorings and code-assists".  Both packages are written in
-python and can be installed via pip.
+python and can be installed easily via pip.
 
 Though these libraries are usually available via the package management
 system of your favourite Linux distribution, and though I'm normally an
 advocate of using a Linux distribution's packaging system wherever possible,
-the versions on PyPI are much more up-to-date are much more likely to work.
-Plus, using pip makes it easier to use [virtualenv][4], if that's your thing
-(which it should be, unless you're using [docker][5], which is on my list of
-things to try out.
+the versions on PyPI, installed via pip, are much more up-to-date are much
+more likely to work.  Plus, using pip makes it easier to use
+[virtualenv][4], if that's your thing (which it should be, unless you're
+using [docker][5], which is on my list of things to try out).
 
-"But wait!", I hear you cry.  "Ropemacs is an emacs mode, and it's written
-in *python*?  What sorcery is this?".  No sorcery, as it turns out; Ropemacs
-works via another package called Pymacs, which provides an interface between
-Emacs and python, allowing one to write emacs extensions in said language.
+"But wait!", I hear you cry.  "Ropemacs is an Emacs mode, and it's written
+in *python*?  What sorcery is this?".  No sorcery; ropemacs works via
+another package called Pymacs, which provides an interface between Emacs and
+python, allowing one to write Emacs extensions in said language.
 
 Anyway, like I said, rope and ropemacs are easy to install via pip:
 
     :::bash
     pip install rope ropemacs
 
-Pymacs has two pieces to it: an emacs lisp piece and a python piece.  The
-lisp piece is easy to install if you have ELPA set up.  I have this in my
-init.el file:
+Pymacs has two pieces to it: an Emacs lisp piece and a python piece.  The
+lisp piece is easy to install if you have ELPA set up.  I have this written
+in my init.el file:
 
     ::lisp
     (when (>= emacs-major-version 24)
@@ -65,12 +65,12 @@ init.el file:
                '("melpa" . "http://melpa.milkbox.net/packages/") t))
 
 Run `M-x list-packages` and you'll get a buffer with a bunch of packages to
-choose from.  Find the pymacs package, press 'i' and then 'x' to execute.
+choose from.  Find the Pymacs package, press 'i' and then 'x' to execute.
 In short order you should have the package installed.
 
-The python part of Pymacs is *surprisingly* difficult to install, mostly
-because of its archaic build system.  I ended up installing it globally (So
-I wouldn't have to do this for every virtualenv) as follows:
+The python piece of Pymacs is surprisingly difficult to install, mostly
+because of its archaic build system.  I ended up installing it globally (so
+I wouldn't have to do this for every virtualenv I manage) as follows:
 
     ::bash
     pip install -e "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
@@ -81,50 +81,166 @@ I wouldn't have to do this for every virtualenv) as follows:
 Replace the `/usr/local/lib/python2.7/dist-packages` part by whatever your
 equivalent is.
 
-## Using virtualenvs in Emacs
+Finally, make sure you have this somewhere in your init.el file:
+
+    ::lisp
+    (require 'pymacs)
+    (pymacs-load "ropemacs" "rope-")
+    (setq ropemacs-enable-autoimport t)
+    (defun pymacs-reload-rope () 
+        "Reload rope"
+        (interactive)
+        (pymacs-terminate-services )
+        (pymacs-load "ropemacs" "rope-"))
+
+
+## Dealing with virtualenvs
 
 Most of my python projects are tucked away inside virtualenvs.  Using a
 virtualenv means I can pip install any python package I want without
-worrying about whether it's polluting my other projects.  You can install
-it, once again, using pip:
+worrying about whether it's polluting my other projects.  It's basically a
+way of isolation a project's dependencies.  You can install it, once again,
+using pip:
 
 `pip install virtualenv`
 
 Most of the time I don't use virtualenv directly, but rather a set of
-extensions that operate one layer above it called [virtualenvwrapper][7].
+extensions that operate a layer above it called [virtualenvwrapper][7].
 It's also installable using pip.
 
 With virtualenvwrapper, you get tools to easily create, delete and list
 existing virtualenvs, as well a hook system that lets you perform certain
-tasks during certain times. I will have more to say about that feature
+tasks during certain times.  I will have more to say about that feature
 later.
 
-Using virtualenvs complicates the emacs setup, but there are ways to
-mitigate the problems that crop up.  My solution of choice is to use
+Before you can use a virtualenv, you have to *activate* it.  The standard
+way to do this with the virtualenvwrapper toolkit is to use the `workon`
+alias from the command line.  Sometimes, though, you *already* have a python
+process running (maybe it's an interactive shell), and you want to activate
+the virtualenv from *within* the python process.  In such a case, the
+standard virtualenvwrapper package includes a script called
+`activate_this.py` which you can run from the python process as follows:
+
+    ::python
+    activate_this = '/path/to/env/bin/activate_this.py'
+    execfile(activate_this, dict(__file__=activate_this))
+
+This will load the virtualenv located at /path/to/env into the currently
+running python process.  Note that there is no equivalent way to
+*deactivate* a virtualenv in this manner.
+
+### Emacs and virtualenvs
+
+Using virtualenvs complicates the Emacs setup, but there are ways to
+mitigate the issues that crop up.  My solution of choice is to use
 [virtualenvwrapper.el][6], which lets you switch between virtualenvs from
-within emacs.  It basically replicates many of the features of
-virtualenvwrapper, but in emacs.
+within Emacs.  It basically replicates, in Emacs, many of the features of
+virtualenvwrapper.
 
 The virtualenvwrapper.el package handles a number of things for you; for
 example, it will prepend the current virtualenv's bin directory to the PATH
 environment variable so you can run any virtualenv local executable directly
-from emacs.
+from Emacs (for example, pep8, pylint, or nosetests).  It also comes with a
+hook system, in the same spirit as its namesake.  Specifically - this will
+be important later - it comes with a venv-postactivate-hook function and a
+venv-predeactivate-hook function which get run just after a virtualenv is
+activated and just before it's deactivated, respectively.
 
 Unfortunately, virtualenvwrapper.el and ropemacs don't really play nice
-together; as mentioned before, ropemacs works via pymacs, and pymacs works
-by launching a single python process from within emacs.  That python
+together; as mentioned before, ropemacs works via Pymacs, and Pymacs works
+by launching a single python process from within Emacs.  That python
 process, with its attendant libraries, is usually *not* the one that's used
-by the virtualenv that emacs is currently pointing to, which means that
+by the virtualenv that Emacs is currently pointing to, which means that
 features like "jump to definition" don't work properly when you have a
-virtualenv activated.  You *could* launch your emacs editor on the command
+virtualenv activated.  You *could* launch your Emacs editor on the command
 line once you've activated your virtualenv, but this is inconvenient if you
-use emacs for non-python work and you already have an instance running
+use Emacs for non-python work and you already have an instance running
 before you start editing your python files.
 
+Another possibility that comes to mind is to use the `activate_this.py`
+method described before to activate the current virtualenv inside the Pymacs
+process.  This *almost* works but, as noted, there appears to be no easy
+way, out of the box, to *deactivate* the virtualenv, which poses a problem
+when you want to switch to another one.
+
 The solution I came up with is a bit involved, but it's also fairly general.
+It consists of two parts.
+
+First, I use the postmkvirtualenv hook (run by virtualenvwrapper) to copy a
+specialized `activate_this.py` script into the newly created virtualenv.  In
+addition, I also copy, to the same location, a special `deactivate_this.py`
+script which undoes the work of the previous script.  The hook
+('postmkvirtualenv`) looks like this:
+
+    ::bash
+    copy blah
+
+Secondly, I run the `activate_this.py` script from the
+venv-postactivate-hook in Emacs to prep the Pymacs python process, and I use
+the venv-predeactivate-hook to run the `deactivate_this.py` script, undoing
+the changes when I'm done.  The requisite code in my init.el file looks like
+this:
+
+    ::lisp
+    (defun pymacs-activate-virtualenv () 
+        (when (boundp 'python-shell-virtualenv-path)
+            (let ((activate-file (concat python-shell-virtualenv-path "bin/activate_this.py"))) 
+                (when (file-exists-p activate-file)
+                    (pymacs-exec (concat "execfile('" activate-file 
+                             "', dict(__file__='" activate-file "'))"))))))
+
+    (defun pymacs-deactivate-virtualenv()
+        (when (boundp 'python-shell-virtualenv-path)
+            (let ((deactivate-file (concat python-shell-virtualenv-path "bin/deactivate_this.py")))
+                (when (file-exists-p deactivate-file)
+                    (pymacs-exec (concat "execfile('" deactivate-file 
+                             "', dict(__file__='" deactivate-file "'))"))))))
+                             
+    (add-hook 'venv-postactivate-hook 
+          (lambda () (pymacs-activate-virtualenv)))
+
+    (add-hook 'venv-predeactivate-hook 
+          (lambda () (pymacs-deactivate-virtualenv)))
 
 
+The specialized `activate_this.py` script is exactly the same as the
+standard one, except that it remembers the paths that it changes, so that
+the `deactivate_this.py` can do it's work later on.  They look like this:
 
+`activate_this.py`
+
+    ::python
+    blah
+
+`deactivate_this.py`
+
+    ::python
+    blah
+
+### Activating a virtualenv upon opening a file
+
+It's useful to be able to automatically activate a virtualenv by opening any
+file in the project.  I didn't do anything special here; i just followed the
+advice given in the virtualenvwrapper.el README file, and I used a
+.dir-locals.el in the relavent projects.  Put a .dir-local.el file in your
+projects root directory, with the following contents:
+
+`.dir-local.el`
+
+    ::lisp
+    ((python-mode . ((project-venv-name . "myproject-env"))))
+
+And make sure you have this somewhere in your init.el file:
+
+    ::lisp
+    (add-hook 'python-mode-hook (lambda ()
+        (hack-local-variables)
+            (when (boundp 'project-venv-name)
+                (venv-workon project-venv-name))))
+
+## Flymake, pylint, pep8
+
+## Autocompletion
 
 
 [1]: https://github.com/python-rope/rope
