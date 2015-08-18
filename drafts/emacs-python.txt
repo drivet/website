@@ -20,13 +20,85 @@ somewhat tolerable.  I tend to use the following features:
 A python IDE, for me, would have to have roughly the same feature set,
 insofar as the dynamic nature of the language makes it possible.  It turns
 out that this is possible in Emacs, with a little bit of elbow grease.
+These instructions focus on Emacs 24.
 
 ## Installing Rope
 
-The first thing to do is to install [Rope][1], a python refactoring library.
-This library isn't Emacs specific, so the second thing to do is to integrate
-it with Emacs, via a library called [ropemacs][2].
+The first thing to do is to install [Rope][1], a python refactoring library
+and, since it isn't Emacs specific, the second thing to do is to integrate
+it with Emacs via a package called [ropemacs][2].  According to the github
+page, Ropemacs is an "emacs mode that uses rope library to provide features
+like python refactorings and code-assists".  Both packages are written in
+python and can be installed via pip.
+
+Though these libraries are usually available via the package management
+system of your favourite Linux distribution, and though I'm normally an
+advocate of using a Linux distribution's packaging system wherever possible,
+the versions on PyPI are much more up-to-date are much more likely to work.
+Plus, using pip makes it easier to use [virtualenv][4], if that's your thing
+(which it should be, unless you're using [docker][5], which is on my list of
+things to try out.
+
+"But wait!", I hear you cry.  "Ropemacs is an emacs mode, and it's written
+in *python*?  What sorcery is this?".  No sorcery, as it turns out; Ropemacs
+works via another package called Pymacs, which provides an interface between
+Emacs and python, allowing one to write emacs extensions in said language.
+
+Anyway, like I said, rope and ropemacs are easy to install via pip:
+
+    :::bash
+    pip install rope ropemacs
+
+Pymacs has two pieces to it: an emacs lisp piece and a python piece.  The
+lisp piece is easy to install if you have ELPA set up.  I have this in my
+init.el file:
+
+    ::lisp
+    (when (>= emacs-major-version 24)
+        (require 'package)
+        (package-initialize)
+        (add-to-list 'package-archives
+               '("elpa" . "http://tromey.com/elpa/"))
+           (add-to-list 'package-archives 
+               '("marmalade" .  "http://marmalade-repo.org/packages/"))
+           (add-to-list 'package-archives 
+               '("melpa" . "http://melpa.milkbox.net/packages/") t))
+
+Run `M-x list-packages` and you'll get a buffer with a bunch of packages to
+choose from.  Find the pymacs package, press 'i' and then 'x' to execute.
+In short order you should have the package installed.
+
+The python part of Pymacs is *surprisingly* difficult to install, mostly
+because of its archaic build system.  I ended up installing it globally (So
+I wouldn't have to do this for every virtualenv) as follows:
+
+    ::bash
+    pip install -e "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+    cd $VIRTUAL_ENV/src/pymacs
+    make
+    cp /root/src/pymacs/Pymacs.py /usr/local/lib/python2.7/dist-packages
+
+Replace the `/usr/local/lib/python2.7/dist-packages` part by whatever your
+equivalent is.
+
+## Using virtualenvs in Emacs
+
+Most of my python projects are tucked away inside virtualenvs.  Using a
+virtualenv means I can pip install any python package I want without
+worrying about whether it's polluting my other projects.
+
+Using virtualenvs complicates the whole emacs setup, but there are ways to
+mitigate the problems that crop up.  My solution of choice is to use
+[virtualenvwrapper.el][6], which lets you switch between virtualenvs from
+within emacs.  The package handles a number of things for you; for example,
+it will prepend the virtualenv's bin directory to the PATH environment
+variable so you can run any executables local to the virtualenv.
+
 
 
 [1]: https://github.com/python-rope/rope
 [2]: https://github.com/python-rope/ropemacs
+[3]: https://github.com/pinard/Pymacs
+[4]: https://virtualenv.pypa.io/en/latest/
+[5]: https://www.docker.com/
+[6]: https://github.com/porterjamesj/virtualenvwrapper.el
