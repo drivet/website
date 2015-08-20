@@ -7,11 +7,10 @@ I use Emacs as a python IDE.  The web already offers a [significant][13]
 [number][14] of resources on the subject but I've made a couple of
 specialized tweaks that I feel may be worth sharing.  So here we go.
 
-## Why do this?
-
-I like using Emacs.  I do most of my writing in it.  I use it as my task
-manager and TODO list.  I have, in the past, used it as my email client.  So
-it makes sense that I would use it as my python development environment.
+Why am I doing this?  Well, the simple answer is that I like using Emacs.  I
+do most of my writing in it.  I use it as my task manager and TODO list.  I
+have, in the past, used it as my email client.  So it makes sense that I
+would use it as my python development environment.  Your mileage may vary.
 
 ## Immediate goals
 
@@ -110,7 +109,7 @@ This will load the virtualenv located at /path/to/env into the currently
 running python process.  Note that there is no equivalent way to
 *deactivate* a virtualenv in this manner.
 
-### Emacs and virtualenvs
+## Emacs and virtualenvs
 
 Using virtualenvs complicates the Emacs setup, but there are ways to
 mitigate this.  My solution of choice is to use [virtualenvwrapper.el][6],
@@ -149,8 +148,10 @@ It consists of two parts.
 First, I use the postmkvirtualenv hook (run by virtualenvwrapper) to copy a
 specialized `activate_this.py` script into the newly created virtualenv.  In
 addition, I also copy, to the same location, a special `deactivate_this.py`
-script which undoes the work of the previous script.  The hook
-('postmkvirtualenv`) looks like this:
+script which undoes the work of the previous script.  The hook looks like
+this:
+
+    `postmkvirtualenv`:
 
     ::bash
     #!/bin/bash
@@ -256,15 +257,13 @@ this:
         delattr(sys, 'old_os_path')
 
 
-### Activating a virtualenv upon opening a file
+## Activating a virtualenv upon opening a file
 
 It's useful to be able to automatically activate a virtualenv by opening any
 file in the project.  I didn't do anything special here; i just followed the
 advice given in the virtualenvwrapper.el README file, and I used a
 .dir-locals.el in the relevant projects.  Put a .dir-local.el file in your
 projects root directory, with the following contents:
-
-`.dir-local.el`:
 
     ::lisp
     ((python-mode . ((project-venv-name . "myproject-env"))))
@@ -282,7 +281,7 @@ And make sure you have this somewhere in your init.el file:
 I use [flymake][8], coupled with [pylint][9] and [pep8][10], for on-the-fly
 detection of errors and deviations from pep8 style conventions.
 
-Getting the packages is easy, Install flymake in Emacs via ELPA.  Install
+Getting the packages is easy.  Install flymake in Emacs via ELPA.  Install
 pylint and pep8 via pip.
 
 Flymake works by running a syntax checker tool against the current buffer,
