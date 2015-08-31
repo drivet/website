@@ -28,7 +28,9 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.search.YawtSearch',
                    'yawtext.micropost.YawtMicropost',
                    'yawtext.sync.YawtSync',
-                   'yawtext.notify.YawtNotify']
+                   'yawtext.notify.YawtNotify',
+                   'yawtext.autodates.YawtAutodates',
+                   'yawtext.autotags.YawtAutotags']
 
 YAWT_EXCERPT_WORDCOUNT = 100
 
@@ -45,7 +47,7 @@ WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
 YAWT_WHOOSH_ARTICLE_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
                                    'categories': IDLIST(),
                                    'tags': KEYWORD()}
-YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT()}
+YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT(vector=True)}
 
 YAWT_COLLECTIONS_SORT_FIELD = 'smart_create_time'
 
