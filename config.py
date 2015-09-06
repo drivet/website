@@ -6,7 +6,6 @@ YAWT_DEFAULT_FLAVOUR = 'html'
 YAWT_INDEX_FILE = 'index'
 YAWT_ARTICLE_TEMPLATE = 'article'
 YAWT_ARTICLE_EXTENSIONS = ['txt']
-YAWT_DEFAULT_EXTENSION = 'txt'
 YAWT_STATE_FOLDER = '_state'
 YAWT_CONTENT_TYPE_RSS = 'application/rss+xml'
 YAWT_META_TYPES = {'md_create_time': 'iso8601',
@@ -15,8 +14,7 @@ YAWT_META_TYPES = {'md_create_time': 'iso8601',
 
 YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.excerpt.YawtExcerpt',
-                   'flask_git.Git',
-                   'yawtext.git.YawtGit',
+                   'yawtext.vc.YawtVersionControl',
                    'yawtext.smartattributes.YawtSmartAttributes',
                    'yawtext.breadcrumbs.YawtBreadcrumbs',
                    'yawtext.categories.YawtCategories',
@@ -37,10 +35,6 @@ YAWT_EXCERPT_WORDCOUNT = 100
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
 YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite']
 
-
-GIT_REPOPATH = '/home/dcr/blogging/website'
-GIT_SEARCH_PATH = '/home/dcr/blogging/website'
-YAWT_GIT_FOLLOW_RENAMES = True
 
 from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
@@ -67,6 +61,7 @@ YAWT_SMART_ATTRIBUTES = {
     'smart_modified_time': ['md_modified_time', 'modified_time']
 }
 
+YAWT_MICROPOST_NETWORKS = ['facebook', 'twitter']
 YAWT_NOTIFY_BASE_URL = 'http://www.desmondrivet.com'
 YAWT_NOTIFY_CATEGORIES = ['blog']
 YAWT_NOTIFY_HOSTS = ['argon']
