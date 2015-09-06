@@ -28,11 +28,20 @@
               {{article.info.smart_create_time|dateformat('%Y-%m-%d %I:%M:%S %p')}}
           </span>
           |
+          {% if article.info.fbpost is defined %}
           <span class="postedsocial">
               <a href="{{article.info.fbpost}}" title="Facebook">
                   <span class="fa fa-facebook-square"></span>
               </a>
-          </span>
+          </span> 
+          {% endif %} 
+          {% if article.info.twitterpost is defined %}
+          <span class="postedsocial">
+              <a href="{{article.info.twitterpost}}" title="Twitter">
+                  <span class="fa fa-twitter-square"></span>
+              </a>
+          </span> 
+          {% endif %} 
       </div>
   </header>
   {{article.info.summary}}
