@@ -21,7 +21,7 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.tagging.YawtTagging',
                    'yawtext.archives.YawtArchives',
                    'flask_whoosh.Whoosh',
-                   'yawtext.indexer.YawtWhoosh',
+                   'yawtext.indexer.YawtIndexer',
                    'yawtext.collections.YawtCollections',
                    'yawtext.search.YawtSearch',
                    'yawtext.micropost.YawtMicropost',
@@ -38,10 +38,11 @@ YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite']
 
 from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
-YAWT_WHOOSH_ARTICLE_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
+YAWT_INDEXER_WHOOSH_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
                                    'categories': IDLIST(),
                                    'tags': KEYWORD()}
-YAWT_WHOOSH_ARTICLE_FIELDS = {'content': TEXT(vector=True)}
+YAWT_INDEXER_WHOOSH_FIELDS = {'content': TEXT(vector=True)}
+
 
 YAWT_COLLECTIONS_SORT_FIELD = 'smart_create_time'
 
@@ -49,7 +50,7 @@ YAWT_TAGGING_BASE = ['blog', 'microposts']
 YAWT_TAGGING_COUNT_FILE = 'tagcounts'
 YAWT_TAGGING_FULL_ARTICLE_FLAVOURS = ['rss']
 
-YAWT_CATEGORY_BASE = '/blog/'
+YAWT_CATEGORY_BASE = ['blog']
 YAWT_CATEGORY_COUNT_FILE = 'categorycounts'
 YAWT_CATEGORY_FULL_ARTICLE_FLAVOURS = ['rss']
 
