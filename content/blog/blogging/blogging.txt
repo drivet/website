@@ -1,6 +1,6 @@
 ---
-md_create_time: 2007-06-01 23:29:47
-md_modified_time: 2015-05-16 01:52:59.661339
+create_time: 2007-06-01 23:29:47
+modified_time: 2015-05-16 01:52:59.661339
 tags: blosxom
 title: Joining the Rest of Mankind...
 ---

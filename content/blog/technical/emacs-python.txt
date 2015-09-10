@@ -1,8 +1,8 @@
 ---
 title: Emacs and Python
 tags: emacs,python
-md_create_time: 2015-08-20 01:48:47
-md_modified_time: 2015-08-21 01:53:02
+create_time: 2015-08-20 01:48:47
+modified_time: 2015-08-21 01:53:02
 ---
 
 I use Emacs as a python IDE.  The web already offers a [significant][13]

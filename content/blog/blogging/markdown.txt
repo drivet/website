@@ -1,6 +1,6 @@
 ---
-md_create_time: 2007-06-24 11:51:14
-md_modified_time: 2015-05-16 01:52:59.483961
+create_time: 2007-06-24 11:51:14
+modified_time: 2015-05-16 01:52:59.483961
 title: Markdown Is Cool
 ---
 

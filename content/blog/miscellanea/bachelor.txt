@@ -1,6 +1,6 @@
 ---
-md_create_time: 2007-08-04 21:44:52
-md_modified_time: 2015-05-16 01:53:01.528339
+create_time: 2007-08-04 21:44:52
+modified_time: 2015-05-16 01:53:01.528339
 title: Duckie Fuzz
 ---
 

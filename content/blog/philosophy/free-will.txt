@@ -1,6 +1,6 @@
 ---
-md_create_time: 2014-05-13 00:59:24
-md_modified_time: 2015-05-16 01:52:56.840039
+create_time: 2014-05-13 00:59:24
+modified_time: 2015-05-16 01:52:56.840039
 tags: free-will
 title: On Billiard Balls and Scorched Cats
 ---

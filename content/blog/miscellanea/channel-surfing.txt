@@ -1,6 +1,6 @@
 ---
-md_create_time: 2008-02-27 14:52:50
-md_modified_time: 2015-05-16 01:53:01.352853
+create_time: 2008-02-27 14:52:50
+modified_time: 2015-05-16 01:53:01.352853
 tags: television
 title: Why Watching "Buffy the Vampire Slayer" Is Not a Waste of Time
 ---

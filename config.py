@@ -8,14 +8,13 @@ YAWT_ARTICLE_TEMPLATE = 'article'
 YAWT_ARTICLE_EXTENSIONS = ['txt']
 YAWT_STATE_FOLDER = '_state'
 YAWT_CONTENT_TYPE_RSS = 'application/rss+xml'
-YAWT_META_TYPES = {'md_create_time': 'iso8601',
-                   'md_modified_time': 'iso8601',
+YAWT_META_TYPES = {'create_time': 'iso8601',
+                   'modified_time': 'iso8601',
                    'tags': 'list'}
 
 YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
                    'yawtext.excerpt.YawtExcerpt',
                    'yawtext.vc.YawtVersionControl',
-                   'yawtext.smartattributes.YawtSmartAttributes',
                    'yawtext.breadcrumbs.YawtBreadcrumbs',
                    'yawtext.categories.YawtCategories',
                    'yawtext.tagging.YawtTagging',
@@ -38,13 +37,13 @@ YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite']
 
 from whoosh.fields import TEXT, DATETIME, IDLIST, KEYWORD
 WHOOSH_INDEX_ROOT = '/home/dcr/blogging/website/_state/index'
-YAWT_INDEXER_WHOOSH_INFO_FIELDS = {'smart_create_time': DATETIME(sortable=True),
+YAWT_INDEXER_WHOOSH_INFO_FIELDS = {'create_time': DATETIME(sortable=True),
                                    'categories': IDLIST(),
                                    'tags': KEYWORD()}
 YAWT_INDEXER_WHOOSH_FIELDS = {'content': TEXT(vector=True)}
 
 
-YAWT_COLLECTIONS_SORT_FIELD = 'smart_create_time'
+YAWT_COLLECTIONS_SORT_FIELD = 'create_time'
 
 YAWT_TAGGING_BASE = ['blog', 'microposts']
 YAWT_TAGGING_COUNT_FILE = 'tagcounts'
@@ -54,13 +53,8 @@ YAWT_CATEGORY_BASE = ['blog']
 YAWT_CATEGORY_COUNT_FILE = 'categorycounts'
 YAWT_CATEGORY_FULL_ARTICLE_FLAVOURS = ['rss']
 
-YAWT_ARCHIVE_DATEFIELD = 'smart_create_time'
+YAWT_ARCHIVE_DATEFIELD = 'create_time'
 YAWT_ARCHIVE_BASE = ['blog', 'microposts']
-
-YAWT_SMART_ATTRIBUTES = {
-    'smart_create_time': ['md_create_time', 'create_time'],
-    'smart_modified_time': ['md_modified_time', 'modified_time']
-}
 
 YAWT_MICROPOST_NETWORKS = ['facebook', 'twitter']
 YAWT_NOTIFY_BASE_URL = 'http://www.desmondrivet.com'

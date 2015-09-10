@@ -1,6 +1,6 @@
 ---
-md_create_time: 2007-06-11 16:13:04
-md_modified_time: 2015-05-16 01:53:00.916933
+create_time: 2007-06-11 16:13:04
+modified_time: 2015-05-16 01:53:00.916933
 tags: language
 title: Why I'll Never Be a Good Speller
 ---

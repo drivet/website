@@ -1,6 +1,6 @@
 ---
-md_create_time: 2012-06-28 11:51:00
-md_modified_time: 2015-05-16 01:53:01.933752
+create_time: 2012-06-28 11:51:00
+modified_time: 2015-05-16 01:53:01.933752
 tags: niqabs,islam,religion,france
 title: On the Banning of Niqabs
 ---

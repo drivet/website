@@ -25,7 +25,7 @@
   <header class="statusheader">
       <div class="articleinfo">
           <span class="postedon">
-              {{article.info.smart_create_time|dateformat('%Y-%m-%d %I:%M:%S %p')}}
+              {{article.info.create_time|dateformat('%Y-%m-%d %I:%M:%S %p')}}
           </span>
           |
           {% if article.info.fbpost is defined %}

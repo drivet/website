@@ -1,6 +1,6 @@
 ---
-md_create_time: 2008-04-06 20:00:44
-md_modified_time: 2015-05-16 01:52:58.976361
+create_time: 2008-04-06 20:00:44
+modified_time: 2015-05-16 01:52:58.976361
 tags: yawt,blosxom
 title: New Blog
 ---

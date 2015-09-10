@@ -1,6 +1,6 @@
 ---
-md_create_time: 2015-01-16 01:31:40
-md_modified_time: 2015-05-16 01:53:02.343155
+create_time: 2015-01-16 01:31:40
+modified_time: 2015-05-16 01:53:02.343155
 tags: religion,france,islam
 title: You Keep Using That Word...
 ---

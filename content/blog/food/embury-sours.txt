@@ -1,6 +1,6 @@
 ---
-md_create_time: 2012-09-14 01:24:20
-md_modified_time: 2015-05-16 01:52:58.247854
+create_time: 2012-09-14 01:24:20
+modified_time: 2015-05-16 01:52:58.247854
 tags: drinks,cocktails,embury
 title: Sour Cocktails and the Embury Ratio
 ---

@@ -1,6 +1,6 @@
 ---
-md_create_time: 2011-07-16 18:28:00
-md_modified_time: 2015-05-16 01:52:58.789859
+create_time: 2011-07-16 18:28:00
+modified_time: 2015-05-16 01:52:58.789859
 og_image: http://www.desmondrivet.com/static/images_from_entries/IMG_6394.JPG
 tags: drinks,cocktails,tonic
 title: Adventures With Tonic Water
