@@ -15,7 +15,7 @@
         <span class="tags">
             <span class="fa fa-tag fa-flip-horizontal"></span>
             {% for tag in article.info.tags: %}
-            <a href="{{tagbase}}tags/{{tag}}">{{tag}}</a>{% if not loop.last %},{% endif %}
+            <a href="/blog/tags/{{tag}}">{{tag}}</a>{% if not loop.last %},{% endif %}
             {% endfor %}
         </span>
         {% endif %}

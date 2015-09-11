@@ -30,7 +30,7 @@
         <ul class="nav nav-list">
             <li class="nav-header">Categories</li>
             {% for c in categorycounts['blog'].children recursive %}
-            <li class="nav-item"><a href="{{categorycountbase}}{{c.category}}">
+            <li class="nav-item"><a href="/blog/{{c.category}}">
                     {{c.category}} ({{c.count}})</a>
                 {% if c.subcategories %}
                 <ul>{{ loop(c.subcategories) }}</ul>
