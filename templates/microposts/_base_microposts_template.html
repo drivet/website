@@ -25,13 +25,13 @@
                 Subscribe
             </a>
         </div>
-    {% if tagcounts and tagcounts['microposts']|count %}
+    {% if tagcounts and tagcounts|count %}
     <nav>
         <ul class="nav nav-list"> 
             <li class="nav-header">Tags</li>
             {% for tag in tagcounts['microposts']: %}
             <li class="nav-item"><a href="/microposts/tags/{{tag}}">
-                    {{tag}} ({{tagcounts['microposts'][tag]}})</a></li>
+                    {{tag}} ({{tagcounts[tag]}})</a></li>
             {% endfor %}
         </ul>
     </nav>
@@ -40,7 +40,7 @@
     <nav>
         <ul class="nav nav-list">
             <li class="nav-header">Archives</li>
-            {% for year_node in archivecounts['microposts'].children  %}
+            {% for year_node in archivecounts.children  %}
             {% for month_node in year_node.children  %}
             <li class="nav-item">
                 <a href="{{ "/microposts/%s/%s" % (year_node.category, month_node.category)}}">
