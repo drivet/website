@@ -22,7 +22,7 @@
       <link>{{site_url}}{{a.info|permalink}}</link>
       <description>{{a.info.summary|striptags}}</description>
       <category>{{a.info.category}}</category>
-      <pubDate>{{a.info.smart_create_time|dateformat('%a, %e %b %Y %H:%M:%S')}} GMT</pubDate>
+      <pubDate>{{a.info.create_time|dateformat('%a, %e %b %Y %H:%M:%S')}} GMT</pubDate>
       <guid>{{site_url}}{{a.info|permalink}}</guid>
       {% if a.content %}
       <content:encoded><![CDATA[ {{a.content}} ]]></content:encoded>
