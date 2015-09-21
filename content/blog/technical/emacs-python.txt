@@ -58,7 +58,7 @@ however, is surprisingly difficult to install, mostly because of its archaic
 build system.  I ended up installing it globally (so I wouldn't have to do
 this for every virtualenv I manage) as follows:
 
-    ::bash
+    :::bash
     pip install -e "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
     cd $VIRTUAL_ENV/src/pymacs
     make
@@ -69,7 +69,7 @@ equivalent is.
 
 Finally, make sure you have this somewhere in your init.el file:
 
-    ::lisp
+    :::lisp
     (require 'pymacs)
     (pymacs-load "ropemacs" "rope-")
     (setq ropemacs-enable-autoimport t)
@@ -103,7 +103,7 @@ activate the virtualenv from *within* the python process.  In such a case,
 the standard virtualenvwrapper package includes a script called
 `activate_this.py` which you can run from the python process as follows:
 
-    ::python
+    :::python
     activate_this = '/path/to/env/bin/activate_this.py'
     execfile(activate_this, dict(__file__=activate_this))
 
@@ -155,7 +155,7 @@ this:
 
     `postmkvirtualenv`:
 
-    ::bash
+    :::bash
     #!/bin/bash
     # This hook is sourced after a new virtualenv is activated.
     cp $WORKON_HOME/custom_activate_this.py "${VIRTUAL_ENV}"/bin/activate_this.py
@@ -168,7 +168,7 @@ the venv-predeactivate-hook to run the `deactivate_this.py` script, undoing
 the changes when I'm done.  The requisite code in my init.el file looks like
 this:
 
-    ::lisp
+    :::lisp
     (defun pymacs-activate-virtualenv () 
         (when (boundp 'python-shell-virtualenv-path)
             (let ((activate-file
@@ -199,7 +199,7 @@ this:
 
 `custom_activate_this.py`:
 
-    ::python
+    :::python
     try:
         __file__
     except NameError:
@@ -239,7 +239,7 @@ this:
 
 `custom_deactivate_this.py`:
 
-    ::python
+    :::python
     try:
         __file__
     except NameError:
@@ -267,12 +267,12 @@ advice given in the virtualenvwrapper.el README file, and I used a
 .dir-locals.el in the relevant projects.  Put a .dir-local.el file in your
 projects root directory, with the following contents:
 
-    ::lisp
+    :::lisp
     ((python-mode . ((project-venv-name . "myproject-env"))))
 
 And make sure you have this somewhere in your init.el file:
 
-    ::lisp
+    :::lisp
     (add-hook 'python-mode-hook (lambda ()
         (hack-local-variables)
             (when (boundp 'project-venv-name)
@@ -297,7 +297,7 @@ look at, but it works:
 
 `pycheckers`:
 
-    ::bash:
+    :::bash:
     epylint $1 -enable=C,R,I,W,E,F
     pep8 $1
 
@@ -307,7 +307,7 @@ package.
 
 Next, add the following to your init.el file:
 
-    ::lisp
+    :::lisp
     (require 'flymake-cursor)
     (defun my-flymake-mode-hook ()
         (local-set-key (kbd "C-.") 'flymake-goto-next-error)
@@ -352,7 +352,7 @@ Javascript, but I still find it occasionally useful.
 
 Anyway, I added this to my init.el:
 
-    ::lisp
+    :::lisp
     (require 'yasnippet)
     (yas-global-mode 1)
     (define-key yas-minor-mode-map (kbd "<tab>") nil)
