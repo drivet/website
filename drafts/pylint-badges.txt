@@ -1,0 +1,25 @@
+---
+title: Generating Pylint Badges
+---
+
+Badges, on Github and other code sharing sites, are a way to communicate
+small snippets of information concerning the status of your repository.
+They generally appear on your README file, so they are one of the first
+things you see when you load a repository page.
+
+On my [yawt][1] Github page, for example, you can see several badges for
+things like my [travis][2] build status, and my GPA at [code climate][3].
+
+One badge that I *couldn't* find, however, was a [pylint][4] badge - a
+simple status that displayed your pylint score on 10.  This surprised me; it
+seemed like such an obvious thing to want to do.  Indeed, I'm still not 100%
+that I haven't simply overlooked something glaringly obvious.
+
+But, alas, for whatever reason, I couldn't find one, and I haven't seen any
+on the various python projects I'm come across.  So I decided to make one.
+It turns out that it's really not that hard.
+
+[1]: https://github.com/drivet/yawt
+[2]: https://travis-ci.org
+[3]: https://codeclimate.com/
+[4]: http://www.pylint.org/
