@@ -64,3 +64,4 @@ YAWT_MICROPOST_NETWORKS = ['facebook', 'twitter']
 YAWT_NOTIFY_BASE_URL = 'http://www.desmondrivet.com'
 YAWT_NOTIFY_CATEGORIES = ['blog']
 YAWT_NOTIFY_HOSTS = ['argon']
+YAWT_NOTIFY_NETWORKS = ['facebook', 'twitter']
