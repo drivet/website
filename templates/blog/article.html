@@ -5,6 +5,9 @@
 {% endblock %}
 
 {% block headtags %}
+    <meta name="twitter:card" content="summary" /> 
+    <meta property="og:type" content="website" />
+
     <meta property="og:title" content="{{article.info.title}}" />
     {% if article.info.og_description %} 
     <meta property="og:description" content="{{article.info.og_description|striptags}}" />
@@ -13,8 +16,7 @@
     {% endif %}
     <meta property="og:url" content="{{article.info.fullname|url}}" />
     <meta property="og:site_name" content="{{blogtitle}} - {{sitetitle}}" />
-    <meta property="og:type" content="website" />
-
+   
     {% if article.info.og_image %}
     <meta property="og:image" content="{{article.info.og_image}}" />
     {% else %}
