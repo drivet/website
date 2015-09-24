@@ -1,9 +1,81 @@
-title: Yet Another Requirements Versus Setup Post
-tags: python,programming
+---
+title: Yet Another requirements.txt Versus setup.py Post
+---
 
-In [previous post][1] I wrote down some notes on the current state of the
+In a [previous post][1] I wrote down some notes on the current state of the
 python packaging ecosystem.  I felt that this was useful because most of the
-information that I found online was oit of date or spread out in various
+information that I found online was out of date or spread out in various
 places.
 
+One area that still confuses the hell out of me is the relative merits of
+requirements.txt versus setup.py.  Ironically, the
+[best article I've read on the subject][2] is aimed at ruby developers.  I
+think python developers should read it - it's surprising (or maybe not so
+surprising) how similar the ecosystems are in this respect.  I've even made
+a handy Rosetta stone, which is hopefully not completely inaccurate:
+
+Ruby  | Python
+----- | ------
+gem  | no cute name here; python people just use "reusable component" or some such
+Gemfile.lock  | requirements.txt
+.gemspec | setup.py
+Rubygems | PyPI
+Bundler | pip, when used with a requirements file
+
+Someone wrote a [version of the ruby article for python][3] but, honestly,
+with no offence meant to the author, I found the original clearer.
+
+I'll repeat what has been said many times before: setup.py is meant for
+reusable python components and requirements.txt is meant for standalone
+python applications.  With setup.py, generally, you only specify your
+immediate dependencies, and you do not specify their exact version numbers;
+usually, you specify a range of acceptable versions.  With requirements.txt,
+on the other hand, you generally specify a flat list of packages required to
+run the application.  Furthermore, those packages will generally have exact
+version numbers attached to them; the goal is to control the exact
+environment in which your application will be deployed.
+
+There's another reason to use requirements.txt files: you can specify
+specific package sources.  For example, if you're hosting a local mirror of
+PyPI, the place to specify this fact would be the requirements.txt file.
+Although you can perform similar shenanigans with setup.py, it's generally
+frowned upon; setup.py is meant for specifying *abstract* dependencies, with
+no information about the specifics of how to meet them.
+
+This is pretty simple.  Where it gets hazy is when you are actively
+developing a reusable python component.  In this kind of situation, your
+library is, in a sense, your application.  Sometimes, for example, your
+library depends on another that hasn't yet made it to PyPI.  Or maybe it
+has, but you need a more recent version that's only available from git.
+And, of course, the component you're actually working on usually isn't
+coming from PyPI - it's probably coming from a cloned git repository or
+something similar.  So what do you do?
+
+What you do is you make yourself a requirements.txt file that looks like
+this:
+
+`requirements.txt`
+-e .
+
+This tells pip to use the setup.py file located in the current directory,
+installing the whole dependency tree as usual as if you ran `python setup.py
+install`.  So why use a requirements file instead of just running `python
+setup.py install`?  Because doing so lets you do something like this:
+
+`requirements.txt`
+-e https://github.com/foo/bar.git#egg=bar
+-e .
+
+This is basically saying that you want to use the bar package from github in
+preference to any bar package spcified in setup.py.  Remove the line if you
+want to get the bar package from PyPI again.
+
+Keep in mind that you're doing this, not to specify exact dependency
+versions, but rather to give yourself the ability to use packages from other
+sources, like git.  The setup.py file would not be an appropriate place for
+this kind of information; it's supposed to contain only abstract
+dependencies.
+
 [1]: /blog/2015/01/15/python-packaging
+[2]: http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
+[3]: https://caremad.io/2013/07/setup-vs-requirement/

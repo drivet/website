@@ -35,7 +35,7 @@ YAWT_EXTENSIONS = ['yawtext.multimarkdown.YawtMarkdown',
 YAWT_EXCERPT_WORDCOUNT = 100
 
 YAWT_MULTIMARKDOWN_FILE_EXTENSIONS = ['md', 'txt']
-YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite',
+YAWT_MULTIMARKDOWN_EXTENSIONS = ['extra', 'codehilite', 'tables',
                                  'gfm.autolink:AutolinkExtension']
 
 
