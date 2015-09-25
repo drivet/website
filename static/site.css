@@ -164,3 +164,16 @@ article.entry {
     border-bottom: 1px solid #ddd;
     margin-bottom: 0.5em;
 }
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 5px;
+}
