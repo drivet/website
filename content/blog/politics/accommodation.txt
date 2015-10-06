@@ -1,7 +1,7 @@
 ---
 create_time: 2015-10-06 02:52:17.295924
-modified_time: 2015-10-06 02:52:17.295924
-tags: niqab
+modified_time: 2015-10-06 02:54:53.341724
+tags: niqabs,religion,canada
 title: On Being "Accommodating"
 ---
 
