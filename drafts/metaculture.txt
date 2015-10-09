@@ -4,24 +4,24 @@ title: Putting "Meta" In Front of Words Makes Them Sound Cooler, Right?
 
 One time, back when I was actually semi-active on Google+, I came across a
 rather heated debate.  Someone had posted an [article][1] telling the story
-of a child bride who had died on her wedding night.  The article was
-directed at self-described proponents of "multiculturalism", an ideology
-which, in the poster's opinion, was in the same category as "cultural
-relativism", which he considered morally depraved.
+of a child bride who had died on her wedding night.  The post was directed
+at self-described proponents of "multiculturalism", an ideology which, in
+the poster's opinion, was in the same category as "cultural relativism",
+which he considered deeply depraved.
 
 Interestingly, the debate didn't center around whether child marriage was a
 horrific practice that needed to be roundly condemned in the harshest terms
 possible - pretty much everyone was on the same page on that score - but
 rather around the original poster's insistence on conflating
-"multiculturalism" and "cultural relativism".  He wasn't the only one who
-considered the latter to be an evil philosophy.
+"multiculturalism" and "cultural relativism".  People were insulted; He
+wasn't the only one who considered the latter to be an evil philosophy.
 
 One of these days I'm going to write something about how people can become
 emotionally attached to, or emotionally repelled by, certain charged
 combinations of words.  Think of terms like "euthanasia" or "rape" or "life"
-or "free will" or "consciousness" and you'll know what I mean.  The original
-poster, in this case, had an emotional attachment to his own notion of
-"multiculturalism" and seemed unwilling to entertain the idea that other
+or "free will" or "consciousness" and you'll know what I mean.  I think the
+original poster, in this case, had an emotional attachment to his own notion
+of "multiculturalism" and seemed unwilling to entertain the idea that other
 people might use the word differently.  I, for example, subscribe to a
 philosophy that I call "multiculturalism", and yet I have no problem
 condemning sati or child marriage.
@@ -36,11 +36,10 @@ that's just how they do things over there and who are we to judge?
 
 I'll say it flat out: if *that's* your definition of "multiculturalism",
 then it's not a philosophy to which I subscribe - but, then again, I don't
-know anyone who does.
-
-I'm no expert, but I believe this is what is called a "straw man" argument.
-One defines a concept in such way that you can't help but condemn it, but
-which bears little resemblance to way the concept is usually used.
+know anyone who does.  I'm no expert, but I believe this is what is called a
+"straw man" argument.  One defines a concept in such way that you can't help
+but condemn it, but which bears little resemblance to way the concept is
+usually used.
 
 All that being said, here's where it gets a little hazy and here's where I
 can see some people misconstruing my beliefs.
@@ -54,19 +53,39 @@ to pick and choose the best (or at least neutral) bits from each, and reject
 the rest.
 
 Female circumcision is evil.  Praying five times a day facing Mecca is not.
-Accepting one does not mean accepting the other.  Despite the rhetoric some
-people use, cultures are not *monolithic*; they are not *package deals*.
-Recognizing this truth isn't ethical or cultural relativism in the sense
-that I understand it.  I'm very willing to label certain cultural practices
-(sati, etc.), and the people who observe them, as unambiguously evil.  But
-I'm unwilling to *define* an entire culture by its unsavory elements.  I
-simply try to pick the wheat from the chaff, so to speak.
+Accepting one does not mean accepting the other.  Cultures are not
+*monolithic*.  They are not *package deals*.  Recognizing this truth isn't
+ethical or cultural relativism in the sense that I understand it.  I'm very
+willing to label certain cultural practices, and the people who observe
+them, as unambiguously evil.  But I'm unwilling to *define* an entire
+culture by its unsavory elements.  I simply try to pick the wheat from the
+chaff, so to speak.
 
 ## The Metaculture
 
-I'll go even further and say that I'm pretty conventional when it comes to
-liberal, western values.  I believe in free speech, freedom of religion and
-all that jazz.  I still call myself a multiculturalist
+I'm pretty conventional when it comes to liberal, western values.  I believe
+in free speech, freedom of religion and all that jazz.  There are some
+people who take this to mean that I'm not, in fact, a multiculturalist, as
+if the belief that there are such things as shared national values somehow
+negates the term.
 
+They're wrong.  They are just mistaken as to what the term means.  More
+importantly, they are are mistaken as to what a culture is.
+
+I have [said it before][2]: I don't think there is such a thing a strong
+Canadian culture, in the same sense that one would refer to a strong French
+culture or a strong Chinese culture.  Freedom of speech, freedom of
+religion, these *do not count* - not in the way some people think.  These
+are not cultural artifacts, from my perspective.  They are basic human
+rights.  Far from negating the concept of multiculturalism, they are
+neccessary for it to work at all.  They are the basic substrate of civilized
+human and cultural interaction.
+
+Together they form, for lack of a better word, a *metaculture* - a culture
+*about* cultures.  A general strategy for dealing with people who come from
+different parts of the world and who now live together in the same physical
+space.  The term is generalized from words like, for example, "metalogic"
+(logic about logic) and metablogging (blogging about blogging).
 
 [1]: http://www.upi.com/Top_News/World-News/2013/09/08/8-year-old-Yemeni-girl-dies-from-internal-injuries-on-wedding-night/UPI-61081378653499/?spt=hs&or=tn
+[2]: /blog/miscellanea/cultureless
