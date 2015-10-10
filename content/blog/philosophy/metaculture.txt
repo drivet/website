@@ -1,4 +1,7 @@
 ---
+create_time: 2015-10-10 00:31:28.202881
+modified_time: 2015-10-10 00:31:28.202881
+tags: multiculturalism
 title: Putting "Meta" in Front of Words Makes them Sound Cooler, Right?
 ---
 
@@ -93,7 +96,7 @@ space.  The term is generalized from words like, for example, "metalogic"
 
 I believe in a strong Canadian metaculture.  And yes, some parts of some
 cultures clash with this strong metaculture and must be rejected.  This is
-not the same as rejecting the entire culture.  I know it's a cliché, but one
+not the same as rejecting the entire culture.  I know it's a cliche, but one
 does not throw the baby out with the bathwater.
 
 I've sometimes heard Canada's policy of multiculturalism contrasted against
