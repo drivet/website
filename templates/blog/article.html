@@ -5,6 +5,9 @@
 {% endblock %}
 
 {% block headtags %}
+    {% if is_permalink %}
+    <link rel="canonical" href="{{article.info|canonical}}">
+    {% endif %}
     <meta name="twitter:card" content="summary" /> 
     <meta property="og:type" content="website" />
 

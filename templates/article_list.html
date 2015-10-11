@@ -10,6 +10,10 @@ our base template is the site wide one not the blog.
 {% if collection_title %}{{collection_title}} | {% endif %}{{sitetitle}}
 {% endblock %}
 
+{% block headtags %}
+<meta name="robots" content="noindex, nofollow">
+{% endblock %}
+
 {% block content %}
 {% set base = "" %}
 {% include '_article_collection.html' %}

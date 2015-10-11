@@ -1,12 +1,14 @@
 {% extends "blog/_base_blog_template.html" %}
 
 {% block browsertitle %} 
-
 {% if collection_title %}
 {{collection_title}} | 
 {% endif %}
 {{blogtitle}} | {{sitetitle}}
+{% endblock %}
 
+{% block headtags %}
+<meta name="robots" content="noindex, nofollow">
 {% endblock %}
 
 {% block blogcontent %}
