@@ -1,3 +1,9 @@
+---
+create_time: 2015-11-16 23:53:22.594563
+modified_time: 2015-11-16 23:53:22.594563
+tags: religion,islam
+---
+
 Title: Have You Ever Actually Read That Thing?
 
 I saw this headline today:
