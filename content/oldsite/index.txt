@@ -1,0 +1,43 @@
+---
+title: A Trip Down Memory Lane
+---
+
+I've had some form of web presence since about 1998 or so, when I made my
+first hand coded website available online.  Or maybe I used Netscape
+Composer. Honestly, I can't remember.  Over the years, the various
+incarnations of my website have been hosted on, in no particular order,
+[U of T][1] servers, [PCI Geomatics][2] servers, [Geocities][3],
+[Netfirms][4], and a series of home machines set aside for this express
+purpose.
+
+When I finally started my blog in earnest, I basically pushed aside all the
+old content in favour of the new.  The stuff I had written up until that
+point was largely forgotten, and started gathering dust on my old Sun Ultra
+10, which was the last machine to host my site before I finally gave in and
+started using a web hosting company (then a VPS and then, finally, a
+dedicated server which I rent from [kimsufi][5])
+
+I've recently dug out my Sun Ultra 10 from my closet and have since been
+knee-deep in nostalgia.  I think my old site, or, at least, selected parts
+of it, deserves a home, and this page will act as such - your gateway to the
+past!  Expect new (well, actually, *old*) things to show up here as I work
+my way through the years.
+
+The content, for the most part, remains unchanged, with a few exceptions
+(like converting the HTML to markdown and fixing broken links where
+possible).  Enjoy!
+
+## Personal Stuff
+
+* [PEY - The Good, the Bad, and the Ugly](pey.html)
+
+## Projects
+
+* [The Graphics Pipeline](gp.html)
+* [Animats and Active Vision Systems](thesis.html)
+
+[1]: https://www.utoronto.ca/
+[2]: http://www.pcigeomatics.com/
+[3]: https://en.wikipedia.org/wiki/Yahoo!_GeoCities
+[4]: https://www.netfirms.ca/
+[5]: https://www.kimsufi.com/ca/en/
