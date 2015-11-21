@@ -33,6 +33,10 @@ At the moment this domain is home to a [wiki][2], and a [blog][3], mostly
 for whatever musings du jour I feel the need to get off my chest. Feel free
 to peruse them both.  I've also written up some [personal information][1]
 and [site design notes][4] if you're interested.
+
+Before I started maintaining blog, I used to just write random, ad-hoc
+essays and pages.  I've [indexed most of these][6] elsewhere on my site.
+
 </div>
 
 <div class="question" markdown="1">
@@ -86,3 +90,4 @@ You have two options if you want to access the wiki:
 [3]: /blog
 [4]: design-notes.html
 [5]: /static/desmond_rivet_intl_ca.crt
+[6]: /oldsite

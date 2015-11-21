@@ -25,7 +25,7 @@ my way through the years.
 
 The content, for the most part, remains unchanged, with a few exceptions
 (like converting the HTML to markdown and fixing broken links where
-possible).  Enjoy!
+possible).  Enjoy! Or Not!
 
 ## Personal Stuff
 
@@ -33,8 +33,32 @@ possible).  Enjoy!
 
 ## Projects
 
-* [The Graphics Pipeline](gp.html)
-* [Animats and Active Vision Systems](thesis.html)
+* [The Graphics Pipeline](gp.html).  A graphics library I wrote.
+* [Animats and Active Vision Systems](thesis.html).  My undergrad thesis.
+
+
+## Various Essays
+
+* [In Defense of Emacs](emacsdefense.html).  I use emacs.  I sometimes feel the need to defend this.
+* [The Computer as a Tool](msdefense.html).  An apology for Microsoft.  I was young once.
+* [Why I'll Never Torture Cats](freewill.html). My version of free
+  will. Developed from a talk I had with my friends Scott and Philip.
+* [Metal Souls and Mental Darwinism](ai.html). I wrote this one about 6
+  years ago. It was my first attempt to put into words my beliefs about the
+  validity of A.I. I think I was on the wrong track with this essay, but it
+  remains here for reference.
+* [The Moral Basis for the Right to Health Care](bioessay.html).  I went
+  through a libertarian phase in my youth.  Take this essay with a grain of
+  salt.
+* [The Nature of Omnipotence](god.html). My first attempt at explaining why
+  I'm an athiest.
+* [Defending Physicalism](essaymind.html). This one was written for my
+  fourth year philosophy of mind course. I think it's a persuasive essay.
+* [When A Red Ball Is Not A Red Ball](logic.html). My as-yet unfinished
+  follow up to <a href="essays/god.html">The Nature of
+  Omnipotence</a>. Unpolished but the outline is clear. Heavily influenced
+  by the philosophy of mind course I took in my 4th year at U of T
+
 
 [1]: https://www.utoronto.ca/
 [2]: http://www.pcigeomatics.com/
