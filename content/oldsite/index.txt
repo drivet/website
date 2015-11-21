@@ -2,9 +2,9 @@
 title: A Trip Down Memory Lane
 ---
 
-I've had some form of web presence since about 1998 or so, when I made my
-first hand coded website available online.  Or maybe I used Netscape
-Composer. Honestly, I can't remember.  Over the years, the various
+I've had a web presence in some form or another since about 1998 or so, when
+I made my first hand coded HTML pages available online.  Or maybe I used
+Netscape Composer; honestly, I can't remember.  Over the years, the various
 incarnations of my website have been hosted on, in no particular order,
 [U of T][1] servers, [PCI Geomatics][2] servers, [Geocities][3],
 [Netfirms][4], and a series of home machines set aside for this express
@@ -18,19 +18,19 @@ started using a web hosting company (then a VPS and then, finally, a
 dedicated server which I rent from [kimsufi][5])
 
 I've recently dug out my Sun Ultra 10 from my closet and have since been
-knee-deep in nostalgia.  I think my old site, or, at least, selected parts
-of it, deserves a home, and this page will act as such - your gateway to the
+knee-deep in nostalgia.  I think my old site or, at least, selected parts of
+it, deserves a home, and this page will act as such - your gateway to the
 past!  Expect new (well, actually, *old*) things to show up here as I work
 my way through the years.
 
 The content, for the most part, remains unchanged, with a few exceptions
 (like converting the HTML to markdown and fixing broken links where
-possible).  Enjoy! Or Not!
+possible).  Enjoy! Or not...
 
 ## Personal Stuff
 
 * [PEY - The Good, the Bad, and the Ugly](pey.html)
-* [Desmond's Trip to France](france.html). I had alot of vacation time
+* [Desmond's Trip to France](france.html). I had a lot of vacation time
   coming to me, so I took three weeks off work and decided to visit France
   in the fall of 2003.
 
@@ -54,7 +54,7 @@ possible).  Enjoy! Or Not!
   through a libertarian phase in my youth.  Take this essay with a grain of
   salt.
 * [The Nature of Omnipotence](god.html). My first attempt at explaining why
-  I'm an athiest.
+  I'm an atheist.
 * [Defending Physicalism](essaymind.html). This one was written for my
   fourth year philosophy of mind course. I think it's a persuasive essay.
 * [When A Red Ball Is Not A Red Ball](logic.html). My as-yet unfinished
