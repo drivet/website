@@ -1,0 +1,9 @@
+---
+create_time: 2015-11-23 00:01:56.221092
+fbpost: http://www.facebook.com/desmond.rivet/posts/10153740021340350
+modified_time: 2015-11-23 03:10:56.582442
+tags: scifi
+twitterpost: http://www.twitter.com/desmondrivet/status/668580191753666560
+---
+
+The first two episodes of "The Man in the High Castle" are, indeed, appropriately grim
