@@ -1,5 +1,8 @@
 ---
 title: Graffiti and the Art Test
+create_time: 2015-11-26 03:44:00
+modified_time: 2015-11-26 03:44:00
+tags: saint-henri,montreal
 ---
 
 If you're in the tech industry, or you're just generally interested in
