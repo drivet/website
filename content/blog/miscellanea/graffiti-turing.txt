@@ -45,7 +45,7 @@ I guess.  Keep that in mind with what follows.
 But then I see something like this:
 
 <div style="clear: both; text-align: center;"> 
-<img border="0" height="640" width="480" 
+<img border="0" height="480" width="640" 
      src="/static/images_from_entries/saint_henri_mural.jpg" 
      alt="Saint Henri Mural" />
 </div>
@@ -67,7 +67,7 @@ I don't know.  Neither do you.  I *shouldn't* be able to win that debate
 because the answer is completely subjective and that's good because that
 means everyone gets to decide the question for themselves.  I'm all for it.
 
-But I still have that burning, nagging question of what to do with all the
+But I still have that burning, nagging question of what to do about all the
 graffiti in Saint Henri.  Have I mentioned, for the most part, that I hate
 it?
 
