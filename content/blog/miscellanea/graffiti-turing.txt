@@ -2,20 +2,21 @@
 title: Graffiti and the Art Test
 ---
 
-If you're in the tech industry, chances are you've heard of the Turing test.
-It's usually billed as a litmus test for intelligence in machines (however
-you define "intelligence" and however you define "machine").  The idea is
-simple: a judge poses a series of questions to subject that may be human or
-computer, via some sort of mechanism that hides the physical characteristics
-of the subject. If the judge cannot tell the humans from the machines, we
-say that the machines are intelligent.  Simple as that.
+If you're in the tech industry, or you're just generally interested in
+technology, chances are you've heard of the Turing test.  It's usually
+billed as a litmus test for intelligence in machines.  The idea, in its most
+basic form, is simple. A judge converses with two subjects, one of which is
+human and one of which is a machine, via some sort of mechanism that hides
+the physical characteristics of the subjects.  If the judge cannot tell the
+human from the machine, we say that the machine is intelligent.  Simple as
+that.
 
 The Turing test has been a *major* source of controversy in Philosophy of
-Mind circles, but the irony is that Turing intended his test to be a way of
+Mind circles, but the irony is that Turing intended it to be a way of
 *sidestepping* debate.  In his view, asking whether a machine could think
-was about as useful as asking whether a submarine could swim; the answer
-completely depends on what you mean by "machine" and "think".  These are
-questions with very subjective answers, so instead of going down that
+was about as useful as asking whether a submarine could swim; the answer, of
+course, completely depends on what you mean by "machine" and "think".  These
+are questions with very subjective answers, so instead of going down that
 particular rabbit hole, he came up with his test.  He thought it was a
 reasonable one for a very good reason: we use it to judge the intelligence
 of *other people* every single day.  One judges the intelligence of another
@@ -25,8 +26,8 @@ shouldn't machines be subject to the same treatment?
 
 Keep in mind, you're allowed to ask the machine any question whatsoever on
 any subject under the sun.  Ask it to tell you a joke.  Ask it to explain a
-joke.  Ask it its opinion on Sarah Palin and the refugee crisis.  You get to
-be the judge here.  It's a very hard test to pass in its full glory.
+joke.  Ask it its opinion on Sarah Palin and refugees.  You get to be the
+judge here.  It's a very hard test to pass in its full glory.
 
 ## The Question of Art
 
@@ -35,8 +36,8 @@ Montreal has a graffiti problem, but Saint Henri takes the cake here.
 
 I won't lie.  Graffiti bugs me.  I mean, really, *really* bugs me.  I see
 graffiti and I start to use words like "hooligan" and I start itching to
-tell people to get off my lawn.  So...I'm biased, I guess.  Keep that in
-mind with what follows.
+tell people to get off my lawn.  So...I'm biased is what I'm trying to say,
+I guess.  Keep that in mind with what follows.
 
 But then I see something like this:
 
@@ -63,14 +64,14 @@ I don't know.  Neither do you.  I *shouldn't* be able to win that debate
 because the answer is completely subjective and that's good because that
 means everyone gets to decide the question for themselves.  I'm all for it.
 
-But we still have that burning, nagging question of what to do with all the
+But I still have that burning, nagging question of what to do with all the
 graffiti in Saint Henri.  Have I mentioned, for the most part, that I hate
 it?
 
-One of the issues is that there are plenty of people who genuinely like that
-stuff.  They actually do see random paint tags as street art.  And art is
-good, right?  The graffiti adds a certain flavour to the neighbourhood, as
-the argument goes.
+One of the issues is that there are plenty of people who genuinely it.  They
+actually do see random paint tags as street art.  And art is good, right?
+The graffiti adds a certain flavour to the neighbourhood, as the argument
+goes.
 
 Like I keep saying, it's not a debate I can win.  Who am I to say they're
 wrong?  There's no accounting for taste, as the cliche goes, and one
@@ -87,7 +88,8 @@ far too often ignored in these sorts of discussions.  Is the graffiti on
 someone else's property without their permission?  Then it's vandalism, no
 matter how nice of a mural it is.  Is the graffiti on someone else's
 property *with* their permission?  Then it's called whatever the hell they
-want to call it, including "art" if that tickles their fancy.  Aesthetics
-don't, and shouldn't enter into the picture at all.
+want to call it, including "art", if that tickles their fancy.  Aesthetics
+don't, and shouldn't, enter into the picture at all.  So to speak.
 
-Yes, my inner curmudgeon is showing.  I don't care.
+Yes, my inner curmudgeon is showing.  I don't care.  This is the only way we
+can live together.
