@@ -1,5 +1,6 @@
 ---
-title: Empty Religion
+title: On Trying to Escape Your Past
+tags: religion
 ---
 
 There's an Irish joke that runs as follows:
@@ -20,15 +21,15 @@ for obvious reasons, and profound because it succinctly illuminates the
 importance people attach to labels.
 
 Despite a nominally Catholic upbringing, I used to identify with the
-reporter in that joke.  I would go even further; not only am I an atheist,
-but I'm also pro choice, pro contraception and pro gay marriage.  You'd
-think that disagreeing with pretty much all of the Church's core beliefs and
-being an out and out *atheist* would disqualify me from any kind of
-"Catholic" label, right?
+reporter in that joke.  I go even further; not only am I an atheist, but I'm
+also pro choice, pro contraception and pro gay marriage.  You'd think that
+disagreeing with pretty much all of the Church's core beliefs and being an
+out and out *atheist* would disqualify me from any kind of "Catholic" label,
+right?
 
-You'd *think* that this would be enough - and then you read an article like
-[Raised Catholic][1] from [tvtropes.org][2] and you begin to wonder if it's
-really that simple.  The title quote from that article stands out:
+You'd *think* that this would be the case - and then you read an article
+like [Raised Catholic][1] from [tvtropes.org][2] and you begin to wonder if
+it's really that simple.  The title quote from that article stands out:
 
 >I wouldn't be a very spiritual man, right. I don't believe in God,
 right. Still Catholic. Because there's nothing you can do when you're
@@ -36,7 +37,7 @@ Catholic. Once you've started Catholic, frankly, there's no real way to stop
 being Catholic. Even not believing in God isn't regarded as sufficient
 reason to get out of the Catholic Church.
 
-It's kind of a scary thought, but it does explain why I know a lot of people
+It's kind of a scary thought, but it does explain the existence of people
 who still identify as something they call "Catholic", whilst simultaneously
 not giving a second thought to the purchase of a pack of condoms at the
 drugstore.
@@ -122,12 +123,12 @@ Those familiar with my [opinions on the Charter fiasco][2a] a couple of
 years ago may note a certain irony in my statements, in that I am now
 claiming that a crucifix *is* or, at least, *can be* a cultural artifact, as
 opposed to a religious one.  The people who drafted the Charter were right
-after all!  Truth be told, I never actually thought that Christians didn't
-have the right to regard a crucifix as a purely cultural symbol, devoid of
-spiritual significance.  My objection, rather, was that the architects of
-the Charter seemed unwilling to extend the same courtesy to other religions.
-A headscarf, for example, was deemed a religious artifact, with no room for
-conversation on the matter.
+after all!  But, truth be told, I never actually thought that Christians
+didn't have the right to regard a crucifix as a purely cultural symbol,
+devoid of spiritual significance.  My objection, rather, was that the
+architects of the Charter seemed unwilling to extend the same courtesy to
+other religions.  A headscarf, for example, was deemed a religious artifact,
+with no room for conversation on the matter.
 
 I myself, in point of fact, wore a crucifix for a long time after I decided
 that I was an atheist.  Old habits die hard indeed.
@@ -147,9 +148,10 @@ honest-to-goodness blood of Jesus and that this wafer is a part of his leg.
 
 Mormons.  Amateurs, I tell you.  Don't try to outweird a Catholic.
 
-Let me be perfectly clear.  I don't actually believe in the literal truth of
-Catholic dogma.  That would be, you know, *crazy*. But, like the Greek
-myths, I find that they often make for *good stories*.
+Please allow me, at this point, to be perfectly clear.  I do not, obviously,
+believe in the literal truth of Catholic dogma.  That would be, you know,
+*crazy*. But, like the Greek myths, I find that they often make for *good
+stories*.
 
 As such, I think I can safely say that being raised Catholic has affected my
 taste in entertainment.  I claimed earlier that an otherwise non-religious
@@ -157,10 +159,10 @@ Muslim might be more willing than most to accept a story about genies as
 serious cultural fodder.  My basis for that statement involves a bit of
 projection, because I suspect that I am, for example, more likely than the
 average person to find a story about, let's say, angels worth reading.  The
-Fall of [Lucifer][7], to me, counts as exciting subject matter.  I belong to
-what I suspect is a relatively small group of people who actually kind of
-liked [The Prophecy][8] and [The Ninth Gate][9].  [Paradise Lost][10] is on
-my list of things to read.
+Fall of [Lucifer][7], to me, is exciting subject matter.  I belong to what I
+suspect is a relatively small group of people who actually kind of liked
+[The Prophecy][8] and [The Ninth Gate][9].  [Paradise Lost][10] is on my
+list of things to read.
 
 I'm also a fan of certain kinds of science-fiction, particularly involving
 benevolent, intelligent machines (tales of malevolent machines running amok,
@@ -169,10 +171,10 @@ Asimov's [Robot][10a] and [Foundation][10b] series, with its cabal of robots
 who withdraw from public view and yet still secretly shape and guide the
 course of history.  I have a soft spot for [Queen of Angels][11], by Greg
 Bear, which partly concerns the emerging self-awareness of an artificially
-intelligent computer system named Jill.  For a while, Queen of Angels was
-one of my favourite books, probably because of one particular scene that,
-for me, stood out from the rest.  When Jill finally does become self-aware,
-she has this exchange with her creator, Roger Atkins:
+intelligent computer system named Jill.  Actually, for a while, Queen of
+Angels was one of my favourite books, probably because of one particular
+scene that, for me, stood out from the rest.  When Jill finally does become
+self-aware, she has the following exchange with her creator, Roger Atkins:
 
 >"You designed me.  What am I, Roger?"
 >
@@ -182,7 +184,7 @@ she has this exchange with her creator, Roger Atkins:
 >you can call yourself an angel, Jill."
 
 Later on, she discovers an excerpt written by her creator many years
-earlier, in what is probably my favourite passage in the book:
+earlier, in what is probably (to me) the most memorable passage in the book:
 
 >We stand awkward between the earthloving beast and the cool, hot electronic
 >angel.  We will feel the dirt in our blood and the sun in our eyes even
@@ -225,15 +227,14 @@ schooling irrelevant.
 This is, of course, stupid.  I wasn't *hatched*.  I remember reading
 somewhere, on the subject of child rearing: "Give me a child for the first
 seven years of his life and you can do what you like with him afterwards".
-It's a scary thought.
+It's an uncomfortable thought.
 
 This doesn't mean you can't have an unbiased opinion.  It *does* mean that
-it may require a certain amount of mental effort to achieve it, and a
+it may require a certain amount of mental effort to achieve, and a
 willingness to try and recognize the sources of your own beliefs and
 interests.
 
-All this to say, my opinions and interests are my own but, like everyone
-else, I have a past which feeds them.
+Which I do.  Or try to, anyway.  Sometimes.  Your mileage may vary.
 
 [1]: http://tvtropes.org/pmwiki/pmwiki.php/Main/RaisedCatholic
 [2]: http://tvtropes.org
