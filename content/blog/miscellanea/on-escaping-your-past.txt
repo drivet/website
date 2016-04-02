@@ -1,6 +1,6 @@
 ---
 create_time: 2016-04-02 01:45:01.152350
-modified_time: 2016-04-02 01:45:01.152350
+modified_time: 2016-04-02 02:34:58.532228
 tags: religion
 title: On Trying to Escape Your Past
 ---
@@ -92,11 +92,11 @@ Or a Mormon atheist?
 
 I don't know the answers to those questions either, but I can make what I
 hope are educated guesses.  I *imagine*, for example, that a Jewish atheist
-might still avoid mixing meat and dairy - not for religious reasons, of
-course, but for that most prosaic of reasons: that old habits die hard.  If
-you were brought up avoiding cheeseburgers, then maybe you continue to avoid
-cheeseburgers into adulthood, even if the gesture no longer has any
-religious significance.
+might still write "G-d" instead of "God", or might still avoid mixing meat
+and dairy - not for religious reasons, of course, but for that most prosaic
+of reasons: that old habits die hard.  If you were brought up avoiding
+cheeseburgers, then maybe you continue to avoid cheeseburgers into
+adulthood, even if the gesture no longer has any religious significance.
 
 This might be especially true if everyone else around you is doing the same
 thing.  I remember reading somewhere that kosher laws are much, much less
