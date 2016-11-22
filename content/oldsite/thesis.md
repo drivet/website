@@ -1,6 +1,4 @@
----
 title: Animats and Active Vision Systems in Realistic 3D Virtual Worlds
----
 
 My fourth year undergraduate thesis (required to graduate from
 [Engineering Science][1] at [U of T][2]) was done under

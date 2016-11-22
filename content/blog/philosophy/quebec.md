@@ -1,9 +1,7 @@
----
 date: 2008-04-09 01:50:44
 modified: 2015-05-16 01:52:56.441248
 tags: french,quebec
 title: French as an Emergent Property
----
 
 In a [previous blog entry][1], I described various solar system simulations
 I played around with in high school. These were perhaps more properly termed

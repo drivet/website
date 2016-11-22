@@ -1,8 +1,6 @@
----
 date: 2007-12-12 18:09:33
 modified: 2015-05-16 01:52:57.561237
 title: The Intersection of Art and Science
----
 
 Someone at work commented that, one night, she got into a long rambling
 discussion about the intersection between art and science. I said that art

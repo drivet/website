@@ -1,9 +1,7 @@
----
 title: Don't Make the Joke...
 tags: travel,greece
 date: 2015-07-11 15:33:00
 modified: 2015-07-11 15:33:00
----
 
 [Visiting Greece][1] presented some interesting linguistic challenges.
 

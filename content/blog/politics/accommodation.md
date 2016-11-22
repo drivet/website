@@ -1,9 +1,7 @@
----
 date: 2015-10-06 02:52:17.295924
 modified: 2015-10-06 02:54:53.341724
 tags: niqabs,religion,canada
 title: On Being "Accommodating"
----
 
 Niqabs are in the news again.  [Stephen Harper][2] wants them off during the
 Canadian citizenship ceremony.  The whole thing is surely a tempest in a

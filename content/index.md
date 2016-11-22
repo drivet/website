@@ -1,6 +1,4 @@
----
 title: Welcome to the Low Rent District
----
 
 Hi everyone. You've reached the personal domain of Desmond Rivet.  There
 have been a few over the years but I'm going to try and make this one last.

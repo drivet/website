@@ -1,6 +1,4 @@
----
 title: The Computer as a Tool
----
 
 > If the designers of X-windows built cars, there would be no 
 fewer than five steering wheels hidden about the cockpit, 

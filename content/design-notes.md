@@ -1,8 +1,6 @@
----
 date: 2012-07-12 01:44:03
 modified: 2015-05-16 01:52:55.879342
 title: Site Design and Layout
----
 
 At the moment, this site is mostly an experiment in python.  The pages and
 the blog are all delivered via a home-grown blogging system/CMS that I've

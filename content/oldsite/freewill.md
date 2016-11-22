@@ -1,6 +1,4 @@
----
 title: Why I'll Never Torture Cats
----
 
 > I am a determinist. ...The real issue, so far as the will is
 concerned, is not whether we can do what we choose to do, but whether

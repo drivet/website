@@ -1,9 +1,7 @@
----
 date: 2013-10-30 01:50:12
 modified: 2015-05-16 01:53:02.520519
 tags: emacs
 title: Being an Emacs User in the Cloud Age
----
 
 I'm a long time (15 years) [Emacs][1] user. Please don't draw too many
 conclusions from this fact. I'm not, by any stretch of the imagination, an

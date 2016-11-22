@@ -1,9 +1,7 @@
----
 date: 2015-09-22 02:15:12.632484
 modified: 2015-09-22 02:15:12.632484
 tags: python,pylint
 title: Generating Pylint Badges
----
 
 Badges, on github and other code sharing sites, are a way to communicate
 small snippets of information concerning the status of your repository.

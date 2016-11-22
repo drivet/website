@@ -1,9 +1,7 @@
----
 date: 2008-07-06 19:00:01
 modified: 2015-05-16 01:53:03.040613
 tags: perl,programming
 title: Error Handling in Perl
----
 
 Okay, this won't be the most exciting entry in the world. There are
 several different ways of logging or recording errors and warnings in

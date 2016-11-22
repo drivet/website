@@ -1,11 +1,9 @@
----
 date: 2013-07-31 00:51:26
 modified: 2015-05-16 01:53:01.162350
 tags: quebec,montreal,saint-henri
 og_image: http://www.desmondrivet.com/static/images_from_entries/IMG_0646.JPG
 og_description: In which I try to gauge my reaction to the Canada Malting building
 title: Oatmeal Stout Under the Watchful Eye of Abandoned Silos
----
 
 For a long time I've been trying to gauge my personal feelings about this
 building:

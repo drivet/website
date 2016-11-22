@@ -1,6 +1,4 @@
----
 title: PEY - The Good, the Bad, and the Ugly
----
 
 ## Part 1 - The Facts
 

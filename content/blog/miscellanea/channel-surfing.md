@@ -1,9 +1,7 @@
----
 date: 2008-02-27 14:52:50
 modified: 2015-05-16 01:53:01.352853
 tags: television
 title: Why Watching "Buffy the Vampire Slayer" Is Not a Waste of Time
----
 
 I've been recently spending a significant amount of my free time
 watching "Buffy the Vampire Slayer" and "Angel" on DVD. I never

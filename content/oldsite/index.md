@@ -1,6 +1,4 @@
----
 title: A Trip Down Memory Lane
----
 
 I've had a web presence in some form or another since about 1998 or so, when
 I made my first hand coded HTML pages available online.  Or maybe I used

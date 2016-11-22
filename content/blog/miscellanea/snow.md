@@ -1,8 +1,6 @@
----
 date: 2007-12-17 16:10:31
 modified: 2015-05-16 01:53:00.741175
 title: Let It Snow
----
 
 Cheesy title, I'm aware, but Montreal just got something like 30-60 cm
 of snow, depending on which weather report you read, and it's

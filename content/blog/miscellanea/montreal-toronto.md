@@ -1,9 +1,7 @@
----
 title: Toronto Versus Montreal
 date: 2012-02-23 10:42:00
 modified: 2015-11-21 02:06:25
 tags: montreal,toronto
----
 
 Debates about the relative merits of Toronto versus Montreal are rarely 
 level headed.  Each city has its champions and its detractors and,

@@ -1,9 +1,7 @@
----
 date: 2015-11-16 23:53:22.594563
 modified: 2015-11-16 23:54:53.292529
 tags: religion,islam
 title: Have You Ever Actually Read That Thing?
----
 
 I saw this headline today:
 

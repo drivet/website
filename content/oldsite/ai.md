@@ -1,6 +1,4 @@
----
 title: Metal Souls and Mental Darwinism
----
 
 > What can we expect of a machine soul, an organon of self awareness?  We
 must not expect this organon to mirror our own selves.  We have arisen as

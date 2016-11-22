@@ -1,9 +1,7 @@
----
 title: Reflections on the Ethnic Vote
 tags: quebec
 date: 2015-08-13 00:31:21
 modified: 2015-08-21 01:54:00
----
 
 Jacques Parizeau died not too long ago.  He infamously commented that the
 1995 Quebec Referendum was lost due to [money and the ethnic vote][1].

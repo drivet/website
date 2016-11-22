@@ -1,9 +1,7 @@
----
 date: 2007-06-11 16:13:04
 modified: 2015-05-16 01:53:00.916933
 tags: language
 title: Why I'll Never Be a Good Speller
----
 
 English spelling is notoriously...arbitrary. Any and all attempts to
 pin down a spelling rule will be met with at least six different

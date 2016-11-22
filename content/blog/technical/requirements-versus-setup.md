@@ -1,9 +1,7 @@
----
 date: 2015-09-25 22:48:19.716056
 modified: 2015-09-25 23:03:13.315350
 tags: python
 title: Yet Another Requirements Versus Setup Post
----
 
 In a [previous post][1] I wrote down some notes on the current state of the
 python packaging ecosystem.  I felt that this was useful because most of the

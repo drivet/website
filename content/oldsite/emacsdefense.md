@@ -1,6 +1,4 @@
----
 title: In Defense Of Emacs
----
 
 When I use Linux, I almost always use emacs, even though the usual
 alternatives are at my disposal. Among my friends, I am apparently in the

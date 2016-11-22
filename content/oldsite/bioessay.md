@@ -1,6 +1,4 @@
----
 title: The Moral Basis for the Right to Health Care
----
 
 > Government is not reason, it is not eloquence, it is force; like fire, a
 troublesome servant and a fearful master. Never for a moment should it be left

@@ -1,9 +1,7 @@
----
 date: 2014-10-16 01:01:35
 modified: 2015-05-16 01:53:02.815585
 tags: python,yawt,flask,programming
 title: Thoughts on Modularizing Flask Applications
----
 
 I've been playing around with the [Flask][1] web framework for a while
 now. It's the basis for [YAWT][2], the CMS/blogging system I'm currently

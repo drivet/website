@@ -1,6 +1,4 @@
----
 title: The Nature of Omnipotence
----
 
 > Let us break the chains of the prejudice called Logic.  Are we going to be
 stopped by a syllogism? -- Dr. Floyd Ferris, from Ayn Rand's novel

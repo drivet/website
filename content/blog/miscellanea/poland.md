@@ -1,7 +1,5 @@
----
 title: Pierogieland
 tags: travel
----
 
 Evelyn and I went to Poland this past May, with her dad, uncle and cousins.
 Her second cousin was getting married and we were invited to the wedding.

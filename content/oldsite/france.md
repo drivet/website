@@ -1,6 +1,4 @@
----
 title: Desmond's Trip to France
----
 
 <div style="float:left">
 <!--

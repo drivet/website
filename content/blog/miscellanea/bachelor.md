@@ -1,8 +1,6 @@
----
 date: 2007-08-04 21:44:52
 modified: 2015-05-16 01:53:01.528339
 title: Duckie Fuzz
----
 
 I went to my friend Neil's bachelor party last Saturday (July 28th). I
 met the group at the Saint-Sulpice around 2:30pm and I didn't leave

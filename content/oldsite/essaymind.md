@@ -1,6 +1,4 @@
----
 title: Defending Physicalism
----
 
 > The imitation man can know sea and sky are alike in color, and even call
 them "blue"...When he looks at sea or sky he forms the belief that what he

@@ -1,8 +1,6 @@
----
 date: 2008-01-06 20:26:29
 modified: 2015-05-16 01:52:56.237031
 title: Solar System Simulations
----
 
 When I was in high school, I used to program two dimensional solar
 system simulations for fun (as you can surely tell, I was extremely

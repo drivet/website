@@ -1,9 +1,7 @@
----
 date: 2014-05-13 00:59:24
 modified: 2015-05-16 01:52:56.840039
 tags: free-will
 title: On Billiard Balls and Scorched Cats
----
 
 I once got into a relatively lively email debate with a friend of mine
 concerning the nature of free will. One of us argued that we had it and the

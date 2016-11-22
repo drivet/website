@@ -1,8 +1,6 @@
----
 date: 2007-06-24 11:51:14
 modified: 2015-05-16 01:52:59.483961
 title: Markdown Is Cool
----
 
 I'm using [Markdown][1] to write this blog entry. I've converted all my
 other entries to use Markdown as well. Markdown is cool.

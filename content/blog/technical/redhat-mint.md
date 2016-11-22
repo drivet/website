@@ -1,9 +1,7 @@
----
 date: 2012-12-15 00:51:46
 modified: 2015-05-16 01:53:03.581847
 tags: linux
 title: Of Red Hats and Mints
----
 
 ## Part 1: A Brief History of Desmond, as it Relates to Linux
 

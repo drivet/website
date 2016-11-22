@@ -1,9 +1,7 @@
----
 date: 2012-08-05 02:18:53
 modified: 2015-05-16 01:52:57.214090
 tags: islam,religion,culture
 title: Religion Versus Culture
----
 
 In the past, I've [commented][1] on France's ban of the niqab, noting in
 passing that the distinction some people make between religion and culture

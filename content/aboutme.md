@@ -1,8 +1,6 @@
----
 date: 2012-07-12 01:44:03
 modified: 2016-06-16 02:45:26.653850
 title: The Story So Far...
----
 
 <img src="/static/images_from_entries/me_200x200.jpg" class="about_me_selfie"
      alt="Mug shot" title="Mug shot"/>

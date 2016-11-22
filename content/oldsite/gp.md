@@ -1,6 +1,4 @@
----
 title: The Graphics Pipeline
----
 
 ## More fun than it sounds...
 

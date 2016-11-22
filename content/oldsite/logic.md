@@ -1,6 +1,4 @@
----
 title: When a Red Ball is Not a Red Ball
----
 
 >He is not a male: He is not a female: He is not a neuter.  
 He is not to be seen: He neither is nor is not.  

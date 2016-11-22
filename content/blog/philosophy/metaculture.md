@@ -1,9 +1,7 @@
----
 date: 2015-10-10 00:31:28.202881
 modified: 2015-10-10 00:31:28.202881
 tags: multiculturalism
 title: Putting "Meta" in Front of Words Makes them Sound Cooler, Right?
----
 
 One time, back when I was actually semi-active on Google+, I came across a
 rather heated debate.  Someone had posted an [article][1] telling the story

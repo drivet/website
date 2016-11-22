@@ -1,9 +1,7 @@
----
 date: 2007-07-13 11:56:32
 modified: 2015-05-16 01:52:59.845906
 tags: blosxom
 title: Blosxom Warts
----
 
 At the moment I'm using [blosxom][1] to generate this blog. I'm using
 blosxom for the following reasons:
