@@ -1,7 +1,0 @@
----
-fbpost: http://www.facebook.com/desmond.rivet/posts/10153314542960350
-create_time: 2015-05-17 19:40:59.061701
-modified_time: 2015-05-17 19:40:59.061701
----
-
-gorgeous weather = bike ride + gin and tonic

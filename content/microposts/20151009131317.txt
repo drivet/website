@@ -1,9 +1,0 @@
----
-create_time: 2015-10-09 13:13:17.481803
-fbpost: http://www.facebook.com/desmond.rivet/posts/10153662529555350
-modified_time: 2015-10-09 17:23:11.429491
-tags: scifi
-twitterpost: http://www.twitter.com/desmondrivet/status/652471887675699201
----
-
-Line from Asimov's 'The Stars, Like Dust': 'Gillbret fingered and stroked the knobs gently'.  Oh 1951, you were a simpler time.
