@@ -1,0 +1,144 @@
+body {
+    font-family: 'Lato', serif;
+    font-size: 16px;  
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.fa-twitter-square {
+    color: #25a7df
+}
+
+.fa-facebook-square {
+    color: #4d67a3
+}
+
+.fa-google-plus-square {
+    color: #d74936
+}
+
+.fa-linkedin-square {
+    color: #0178b5
+}
+
+.social-nav a i {
+    font-size: 1.7em;
+}
+
+li.social-nav a {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.banner {
+    margin: -20px 0 30px 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.banner header {
+    text-align: center;
+}
+
+.blognavlinks {
+    margin-top: 15px;
+}
+
+/* for the root page */
+.faqtitle {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.question {
+    margin-bottom: 2.5em;
+}
+
+.question > h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* end root page */
+
+.entry-content a {
+    color: #337ab7;
+    text-decoration: none;
+    border-bottom: 0
+}
+
+.article-list-header {
+    font-size: 1.2em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+article header h1 {
+    margin-top: 10px;
+}
+
+article h1 a {
+    color: #333;
+}
+
+.articleinfo {
+     color: #888;
+     font-size: 85%;
+}
+
+.postedon, .postedin {
+    margin-right: 0.3em;
+}
+
+.permalink {
+    margin-left: 0.3em;
+}
+
+blockquote {
+   font-size: inherit;
+   border-left: 0;
+   padding: 10px 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td, th {
+    padding: 5px;
+}
+
+.index-link:first-child {
+  margin-left: 0px;
+}
+
+.index-link {
+  margin-left: 10px;
+}

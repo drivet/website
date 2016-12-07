@@ -44,7 +44,7 @@ But then I see something like this:
 
 <div style="clear: both; text-align: center;"> 
 <img border="0" height="480" width="640" 
-     src="/static/images_from_entries/saint_henri_mural.jpg" 
+     src="/blog/miscellanea/saint_henri_mural.jpg" 
      alt="Saint Henri Mural" />
 </div>
 
@@ -57,7 +57,7 @@ mean, is this art?
 
 <div style="clear: both; text-align: center;"> 
 <img border="0" height="250" width="153" 
-     src="/static/images_from_entries/campbells.jpg" 
+     src="/blog/miscellanea/campbells.jpg" 
      alt="Campbell's Soup Can" />
 </div>
 

@@ -43,7 +43,7 @@ and it turned out that one of the town simulations that came with Performer
 suite was perfect as a "realistic 3D urban environment". It was just left
 for me to actually get it up and running and to implement the vision system.
 
-Anyway, if you're interested, I have the [final paper](/static/thesis.ps). It was
+Anyway, if you're interested, I have the [final paper](/oldsite/thesis.ps). It was
 originally written in LaTeX, but I unfortunately lost all the LaTeX code
 when my hard drive crashed. I did manage to save the PostScript, which is
 what you get here.

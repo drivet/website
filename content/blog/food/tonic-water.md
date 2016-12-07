@@ -42,10 +42,10 @@ if it weren't, right?). But...they sell quinquina bark! Huzza!  It looks
 like this:
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_6394.JPG"
+<a href="/blog/food/IMG_6394.JPG"
 style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="240" width="320" 
-     src="/static/images_from_entries/IMG_6394_thumb.JPG" 
+     src="/blog/food/IMG_6394_thumb.JPG" 
      alt="Quinquina bark" />
 </a>
 </div>
@@ -65,21 +65,21 @@ Asian grocery stores (I went to Marche PA on Fort).
 Here's the mix ready to boil: 
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_6396.JPG"
+<a href="/blog/food/IMG_6396.JPG"
 style="margin-left: 1em; margin-right: 1em;">
 <img border="0" width="320" height="240" 
-     src="/static/images_from_entries/IMG_6396_thumb.JPG" 
+     src="/blog/food/IMG_6396_thumb.JPG" 
      alt="Unboiled tonic mix" />
 </a></div>
 
 It's a bit of a mess, but it looks more promising after 20 minutes of
 boiling and filtering:
-
+0
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_6399.JPG"
+<a href="/blog/food/IMG_6399.JPG"
 style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="240" 
-     src="/static/images_from_entries/IMG_6399_thumb.JPG" width="320" 
+     src="/blog/food/IMG_6399_thumb.JPG" width="320" 
      alt="Boiled and filtered tonic mix" />
 </a></div>
 
@@ -97,10 +97,10 @@ I let it cool a bit and then assembled a gin and tonic: 1 ounce tonic syrup,
 2 ounces gin, in a high ball glass with ice, topped off with club soda: 
 
 <div class="separator" style="clear: both; text-align: center;"> <a
-href="/static/images_from_entries/IMG_6401.JPG"
+href="/blog/food/IMG_6401.JPG"
 imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="240" 
-     src="/static/images_from_entries/IMG_6401_thumb.JPG" width="320" 
+     src="/blog/food/IMG_6401_thumb.JPG" width="320" 
      alt="Homemade gin and tonic" />
 </a></div>
 

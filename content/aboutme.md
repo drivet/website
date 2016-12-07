@@ -2,7 +2,8 @@ date: 2012-07-12 01:44:03
 modified: 2016-06-16 02:45:26.653850
 title: The Story So Far...
 
-<img src="/static/images_from_entries/me_200x200.jpg" class="about_me_selfie"
+<img src="{filename}/me_200x200.jpg"
+     style="float: right; margin-left:1em; margin-bottom: 1em;"
      alt="Mug shot" title="Mug shot"/>
 
 There's not much to tell. My name is Desmond Rivet. I'm a software

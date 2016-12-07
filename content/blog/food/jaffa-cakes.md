@@ -71,9 +71,9 @@ Anyway, this jelly could totally withstand the heat from the melted
 chocolate.  The end result looked like this:
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_0659.JPG"
+<a href="/blog/food/IMG_0659.JPG"
 style="margin-left: 1em; margin-right: 1em;">
-<img border="0" height="240" width="320" src="/static/images_from_entries/IMG_0659_thumb.JPG"/>
+<img border="0" height="240" width="320" src="/blog/food/IMG_0659_thumb.JPG"/>
 </a>
 </div>
 

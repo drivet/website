@@ -5,7 +5,7 @@ title: Desmond's Trip to France
 <table>
 <tr><td align="center">
 -->
-<img src="/static/images_from_entries/mfrance_trip3.jpg" usemap="#francemap" 
+<img src="/oldsite/mfrance_trip3.jpg" usemap="#francemap" 
 alt="Map of France" style="border: none; margin-right:1em; margin-bottom: 1em;"/>
 
 <!--

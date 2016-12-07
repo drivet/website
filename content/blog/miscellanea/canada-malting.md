@@ -9,16 +9,16 @@ For a long time I've been trying to gauge my personal feelings about this
 building:
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_0631.JPG" 
+<a href="/blog/miscellanea/IMG_0631.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/static/images_from_entries/IMG_0631_thumb.JPG" 
+     src="/blog/miscellanea/IMG_0631_thumb.JPG" 
      alt="Canada malting silos" />
 </a>
-<a href="/static/images_from_entries/IMG_0646.JPG" 
+<a href="/blog/miscellanea/IMG_0646.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/static/images_from_entries/IMG_0646_thumb.JPG" 
+     src="/blog/miscellanea/IMG_0646_thumb.JPG" 
      alt="Canada malting silos" />
 </a>
 </div>
@@ -42,10 +42,10 @@ terrace, operated in the summer by the McAuslan brewery itself. It sits
 comfortably on the foothills of the factory. It's an interesting view:
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_0641.JPG" 
+<a href="/blog/miscellanea/IMG_0641.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/static/images_from_entries/IMG_0641_thumb.JPG" 
+     src="/blog/miscellanea/IMG_0641_thumb.JPG" 
      alt="View of silos from beer terrace" />
 </a>
 </div>
@@ -76,10 +76,10 @@ but on another level, I sometimes find it hard to sympathize.  Take this,
 for example:
 
 <div style="clear: both; text-align: center;"> 
-<a href="/static/images_from_entries/IMG_0660.JPG" 
+<a href="/blog/miscellanea/IMG_0660.JPG" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/static/images_from_entries/IMG_0660_thumb.JPG" 
+     src="/blog/miscellanea/IMG_0660_thumb.JPG" 
      alt="Graffiti on Saint-Henri Cafe" />
 </a>
 </div>
