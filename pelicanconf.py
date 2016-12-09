@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 # DCR - additional config to define the parent site
 PARENT_SITENAME = 'The Low Rent District'
-PARENT_SITEURL = ''
 
 AUTHOR = 'Desmond Rivet'
 # most themes expect the SITENAME to be the blog name

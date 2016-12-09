@@ -65,8 +65,20 @@ li.social-nav a {
     text-align: center;
 }
 
+header h2 {
+   margin-top: 10px;
+}
+
+.blognavlinks, .rsslinks {
+    font-size: 85%;
+}
+
 .blognavlinks {
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+.rsslinks {
+    margin-top: 20px;
 }
 
 /* for the root page */
@@ -141,4 +153,16 @@ td, th {
 
 .index-link {
   margin-left: 10px;
+}
+
+.fa-rss-square {
+    color: #f08a20
+}
+
+.index-link span {
+    margin-right: 3px;
+}
+
+.category-rsslinks {
+   font-size: 14px;
 }
