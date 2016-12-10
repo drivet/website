@@ -119,8 +119,7 @@ come - a bit like Gentoo!  And since the repository is from Debian Testing,
 the software is more up to date than a standard Debian install.  It seems
 perfect.
 
-## Part 3: In Which Desmond Installs Linux Mint Debian Edition and Feels
-   Slightly Disconcerted
+## Part 3: In Which Desmond Installs Linux Mint Debian Edition and Feels Slightly Disconcerted
 
 I installed Linux Mint Debian Edition and felt slightly disconcerted.
 

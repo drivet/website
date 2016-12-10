@@ -55,30 +55,40 @@ li.social-nav a {
 }
 
 .banner {
-    margin: -20px 0 30px 0;
-    background-color: #fafafa;
+    margin: -20px 0 0 0;
+    background-color: #fcfcfc;
     border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
+    padding: 30px 0;
 }
 
 .banner header {
     text-align: center;
 }
 
-header h2 {
-   margin-top: 10px;
-}
-
-.blognavlinks, .rsslinks {
-    font-size: 85%;
+.banner h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .blognavlinks {
-    margin-top: 5px;
+    font-size: 85%;
+    margin-bottom: 10px;
 }
 
-.rsslinks {
-    margin-top: 20px;
+.blognavlinks a {
+    color: #888;
+}
+
+.subtitle {
+    color: #888;
+}
+.maincontent {
+    padding: 20px 0;
+}
+.page-footer {
+    background-color: #fcfcfc;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
 }
 
 /* for the root page */
@@ -117,8 +127,8 @@ article h1 a {
 }
 
 .articleinfo {
-     color: #888;
-     font-size: 85%;
+    color: #888;
+    font-size: 85%;
 }
 
 .postedon, .postedin {
@@ -155,9 +165,11 @@ td, th {
   margin-left: 10px;
 }
 
+/*
 .fa-rss-square {
     color: #f08a20
 }
+*/
 
 .index-link span {
     margin-right: 3px;
