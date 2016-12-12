@@ -1,6 +1,6 @@
 date: 2008-04-06 20:00:44
 modified: 2015-05-16 01:52:58.976361
-tags: yawt,blosxom
+tags: yawt,blosxom,perl
 title: New Blog
 
 So I got myself a new weblog, hosted on [Netfirms][1].  I'm not particularly

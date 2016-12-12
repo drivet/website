@@ -1,6 +1,6 @@
 date: 2007-06-12 14:54:00
 modified: 2015-05-16 01:53:00.392549
-title: I Don't Even Like Heights...
+title: I Don't Even Like Heights
 
 Several months back I won a free gliding session with [Vol Recreatif][1] in
 a raffle. My natural laziness, combined with my nervousness about heights,
@@ -33,4 +33,4 @@ That didn't stop me, however, from snapping some [photos][2] of the event,
 for interested parties.
 
 [1]: http://volrecreatif.com/
-[2]: https://plus.google.com/u/0/photos/117299838889583871071/albums/5938501265407336721
+[2]: https://photos.desmondrivet.com/index.php?/category/27

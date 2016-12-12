@@ -46,7 +46,7 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet'),
 MENUITEMS = (('About', '/aboutme.html'),
              ('Blog', '/blog'),
              ('Photos', 'https://photos.desmondrivet.com'),
-             ('Wiki', 'https://wiki.desmondrivetcom'))
+             ('Wiki', 'https://wiki.desmondrivet.com'))
 
 DEFAULT_PAGINATION = 10
 

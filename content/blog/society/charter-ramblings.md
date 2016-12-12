@@ -1,6 +1,6 @@
 date: 2013-11-20 03:53:49
 modified: 2015-05-16 01:53:02.140388
-tags: canada,quebec
+tags: quebec,religion,charter,atheism
 title: Charter Ramblings
 
 Many years ago I read a book called [The Diamond Age][1], by Neal

@@ -1,5 +1,5 @@
 title: Nobody Drinks Metaxa
-tags: travel,greece
+tags: greece
 og_description: Evelyn and I decided, more or less on a whim, to travel to Greece this year. We went for ten days.
 og_image: https://photos.desmondrivet.com/upload/2015/07/11/20150711160704-b7f657a8.jpg
 date: 2015-07-11 01:08:00

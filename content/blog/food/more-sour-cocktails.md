@@ -1,6 +1,6 @@
 date: 2014-12-22 04:37:20
 modified: 2015-05-16 01:52:58.419418
-tags: drinks,cocktails,embury
+tags: cocktails,embury,recipes
 title: More on Sour Cocktails
 
 I've [posted before][1] about sour cocktails, but I felt that the subject

@@ -1,6 +1,6 @@
 date: 2014-12-23 04:49:32
 modified: 2015-05-16 01:52:58.602584
-tags: drinks,cocktails,embury
+tags: cocktails,embury,recipes
 title: Meditations on the Aromatic Cocktail
 
 David Embury classifies cocktails into two distinct groups: sour cocktails

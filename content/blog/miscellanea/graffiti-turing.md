@@ -1,7 +1,7 @@
 title: Graffiti and the Art Test
 date: 2015-11-26 03:44:00
 modified: 2015-11-26 03:44:00
-tags: saint-henri,montreal
+tags: saint-henri,montreal,graffiti
 
 If you're in the tech industry, or you're just generally interested in
 technology, chances are you've heard of the Turing test.  It's usually

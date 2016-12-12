@@ -1,7 +1,7 @@
 date: 2015-01-16 01:31:40
 modified: 2015-05-16 01:53:02.343155
-tags: religion,france,islam
-title: You Keep Using That Word...
+tags: religion,france,islam,free-speech
+title: You Keep Using That Word
 
 It's hard to talk about the attack on the offices of Charlie Hebdo without
 sounding like you're either a) apologizing for violence or b) spouting tired

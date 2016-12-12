@@ -1,6 +1,6 @@
 date: 2012-08-06 01:37:37
 modified: 2015-05-16 01:52:57.383328
-tags: free-speech
+tags: free-speech,rape
 title: What Free Speech Isn't
 
 I can never seem to blog in a timely manner. Lots of things in the world

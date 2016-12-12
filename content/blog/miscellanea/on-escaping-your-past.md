@@ -1,6 +1,6 @@
 date: 2016-04-02 01:45:01.152350
 modified: 2016-04-02 02:34:58.532228
-tags: religion
+tags: religion,atheism
 title: On Trying to Escape Your Past
 
 There's an Irish joke that runs as follows:

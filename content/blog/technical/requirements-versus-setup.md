@@ -1,6 +1,6 @@
 date: 2015-09-25 22:48:19.716056
 modified: 2015-09-25 23:03:13.315350
-tags: python
+tags: python,programming
 title: Yet Another Requirements Versus Setup Post
 
 In a [previous post][1] I wrote down some notes on the current state of the

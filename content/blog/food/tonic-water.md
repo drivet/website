@@ -1,7 +1,7 @@
 date: 2011-07-16 18:28:00
 modified: 2015-05-16 01:52:58.789859
-og_image: http://www.desmondrivet.com/static/images_from_entries/IMG_6394.JPG
-tags: drinks,cocktails,tonic
+og_image: /blog/food/IMG_6394.JPG
+tags: cocktails,tonic,recipes
 title: Adventures With Tonic Water
 
 Some people from work invited me to the [Dominion Tavern][1] a week or two

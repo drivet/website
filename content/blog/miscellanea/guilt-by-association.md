@@ -1,6 +1,6 @@
 date: 2013-01-23 03:14:25
 modified: 2015-05-16 01:53:00.028186
-tags: feminism
+tags: feminism,rape
 title: Guilt by Association
 
 How exactly am I supposed to react when I hear about the particularly brutal

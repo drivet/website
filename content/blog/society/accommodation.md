@@ -6,9 +6,9 @@ title: On Being "Accommodating"
 Niqabs are in the news again.  [Stephen Harper][2] wants them off during the
 Canadian citizenship ceremony.  The whole thing is surely a tempest in a
 teapot, as there have been a grand total of *two*, count 'em, *two* women
-since 2011 who have refused to show their faces during the ceremony,
-but it *has* started occasionally ugly debates on the limits of what is
-generally known as "religious accommodation".
+since 2011 who have refused to show their faces during the ceremony, but it
+has started occasionally ugly debates on the limits of what is generally
+known as "religious accommodation".
 
 First off, I should mention that I really dislike the term "religious
 accommodation".
@@ -24,19 +24,19 @@ This is stupid.  You are not being *inconvenienced* when a woman wears a
 niqab, any more than you are being inconvenienced when she wears high heels.
 Your rights are not being violated.  No one is forcing *you* to wear high
 heels, and no one is forcing *you* to wear a niqab.  The only onus on you is
-to leave her alone.  Refraining from *assaulting* someone (verbally or
+to leave her alone.  Refraining from assaulting someone (physically or
 otherwise) is not the same as "religious accommodation".  It's called "not
 engaging in criminal behaviour".
 
 When I talk about women who wear niqabs, I am referring, of course, to women
-who, for whatever reason, have *chosen* to wear it.  We can assume (I hope)
+who, for whatever reason, have chosen to wear it.  We can assume (I hope)
 that all rational people find any other scenario repulsive and criminal. If
 you find the concept of a woman choosing to wear a niqab unimaginable then,
 forgive my saying so, but you lack imagination.
 
 When people voice a reluctance to "accommodate" these women, what they
 *really* mean is that they feel uncomfortable in their presence.  I actually
-*do* sympathize here - I'll admit that I find it jarring to see someone
+do sympathize here - I'll admit that I find it jarring to see someone
 wearing what amounts to a mask in the middle of summer.  But the notion of
 an outright ban on these particular items of clothing basically boils down
 to the idea that one person's discomfort trumps another person's rights.

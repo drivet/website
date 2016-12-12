@@ -1,6 +1,6 @@
 date: 2012-09-14 01:24:20
 modified: 2015-05-16 01:52:58.247854
-tags: drinks,cocktails,embury
+tags: cocktails,embury,recipes
 title: Sour Cocktails and the Embury Ratio
 
 Over the last couple of years I've put together what I consider to be a

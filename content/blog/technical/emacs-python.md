@@ -1,5 +1,5 @@
 title: Emacs and Python
-tags: emacs,python
+tags: emacs,python,programming
 date: 2015-08-20 01:48:47
 modified: 2015-08-21 01:53:02
 

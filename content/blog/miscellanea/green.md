@@ -1,5 +1,6 @@
 date: 2007-07-15 18:23:30
 modified: 2015-05-16 01:52:56.646553
+tags: philosophy,qualia
 title: Seeing Green
 
 Evelyn's birthday passed a few months ago. We were at a bar with her friends

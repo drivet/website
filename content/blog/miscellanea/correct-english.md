@@ -1,6 +1,6 @@
 date: 2014-09-08 01:09:19
 modified: 2015-05-16 01:53:01.885293
-tags: grammar,language
+tags: language
 title: The Plural of Book
 
 I just finished a book called *[The Unfolding of Language][1]* by Guy

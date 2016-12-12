@@ -1,7 +1,7 @@
 date: 2013-07-30 03:08:15
 modified: 2015-05-16 01:52:58.078096
-tags: baking
-title: "Jaffa Cakes for North Americans: an Odyssey"
+tags: baking,jaffa-cakes,recipes
+title: Jaffa Cakes for North Americans: an Odyssey
 
 Evelyn and I found a polish bakery in Point St Charles. One of the things we
 saw (aside from the actual pastries) were packages of [Jaffa cakes][1] for
@@ -85,4 +85,4 @@ bought Jaffa cakes, but they're an acceptable substitute. Evelyn put it
 succinctly: they tasted "homemade".
 
 [1]: http://en.wikipedia.org/wiki/Jaffa_Cakes
-[2]: http://sortedfood.com/#!/jaffacakes/
+[2]: http://www.bbc.co.uk/food/recipes/homemadejaffacakes_91480

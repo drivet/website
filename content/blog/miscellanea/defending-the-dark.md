@@ -1,6 +1,6 @@
 date: 2013-04-05 00:50:47
 modified: 2015-05-16 01:53:01.703092
-tags: movies,comics,television
+tags: television
 title: In Defence of the Dark
 
 I'm addicted to a site called [tvtropes.org][1].  It's basically a catalogue

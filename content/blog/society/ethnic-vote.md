@@ -1,5 +1,5 @@
 title: Reflections on the Ethnic Vote
-tags: quebec
+tags: quebec,referendum,culture
 date: 2015-08-13 00:31:21
 modified: 2015-08-21 01:54:00
 

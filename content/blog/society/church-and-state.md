@@ -1,6 +1,6 @@
 date: 2012-08-17 01:47:26
 modified: 2015-05-16 01:52:57.043134
-tags: religion,culture,quebec
+tags: religion,quebec,culture,atheism
 title: Church, State, and Culture
 
 Have you ever wondered why the separation of church and state is good idea?
