@@ -111,4 +111,4 @@ Anyway, at some point I hope to make it back, armed with better words.
 
 **P.S.**  It was all Greek to me!  Ha!  I made the joke!
 
-[1]: /blog/2015/07/10/trip-greece
+[1]: /blog/2015/07/11/trip-greece

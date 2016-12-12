@@ -159,6 +159,6 @@ Again, this a pretty high ratio of vermouth, but even at that concentration, I
 find it just adds a bit of sweetness, and I can barely tell that it's
 vermouth at all.
 
-[1]: /blog/2012/09/13/embury-sours
-[2]: /blog/2014/12/21/more-sour-cocktails
+[1]: /blog/2012/09/14/embury-sours
+[2]: /blog/2014/12/22/more-sour-cocktails
 [3]: http://en.wikipedia.org/wiki/The_Fine_Art_of_Mixing_Drinks

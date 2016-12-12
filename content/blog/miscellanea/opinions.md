@@ -47,4 +47,4 @@ has merit, or that there's no such thing as universal truth or
 falsehood. It's nothing more than a statement of jurisdiction and jealous
 sovereignty over one's own soul.
 
-[1]: /blog/philosophy/
+[1]: /blog/tags/philosophy

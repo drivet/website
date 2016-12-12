@@ -37,7 +37,7 @@ essays and pages.  I've [indexed most of these][5] elsewhere on my site.
 </div>
 
 
-[1]: aboutme.html
+[1]: /aboutme
 [2]: https://wiki.desmondrivet.com
 [3]: /blog
 [4]: design-notes.html

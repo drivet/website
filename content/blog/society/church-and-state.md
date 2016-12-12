@@ -69,4 +69,4 @@ exactly the same reason, that we need the separation of church and state.
 
 [1]: http://www.cbc.ca/news/canada/quebecvotes2012/story/2012/08/15/montreal-quebec-election-wednesday.html
 [2]: http://en.wikipedia.org/wiki/Sati_(practice)
-[3]: /blog/2012/08/04/religion-and-culture
+[3]: /blog/2012/08/05/religion-and-culture
