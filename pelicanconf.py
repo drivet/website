@@ -108,3 +108,6 @@ CUSTOM_CSS = 'static/custom.css'
 HIDE_SIDEBAR = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_BREADCRUMBS = False
+
+PIWIK_SITE_ID = 3
+PIWIK_URL = "piwik.desmondrivet.com"
