@@ -1,6 +1,6 @@
 date: 2016-12-27 20:45:00
 tags: cocktails,recipes
-title: Bitterness is King
+title: Life is Bitter
 og_image: blog/food/negroni.jpg
 
 [The Fine Art of Mixing Drinks][1], David Embury's classic, is notable for
