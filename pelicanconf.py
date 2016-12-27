@@ -110,4 +110,5 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_BREADCRUMBS = False
 
 PIWIK_SITE_ID = 3
-PIWIK_URL = "piwik.desmondrivet.com"
+PIWIK_URL = 'piwik.desmondrivet.com'
+OPEN_GRAPH_IMAGE = 'me_200x200.jpg'
