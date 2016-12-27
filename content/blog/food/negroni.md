@@ -1,7 +1,7 @@
-date: 2016-12-22 22:17:00
+date: 2016-12-27 20:45:00
 tags: cocktails,recipes
 title: Bitterness is King
-og_image: blog/food/vesper.jpg
+og_image: blog/food/negroni.jpg
 
 [The Fine Art of Mixing Drinks][1], David Embury's classic, is notable for
 being somewhat rigid in its definition of a cocktail.  He basically divides
@@ -151,11 +151,12 @@ As before, you can make a version of the Americano out of this recipe:
 
 ## Placating the Spirit of Embury
 
-Although the Negroni is absent from Embury's book, it's not hard to turn it
-into a drink that could have fit on its pages.  He did it himself with the
-Brandy Alexander. The basic trick is to increase the liquor components in
-the cocktail until they becomes the dominant flavour.  If you were to do
-this with the Negroni, you'd get something like:
+I will note one last thing before I go. Although the Negroni is absent from
+Embury's book, it's not hard to turn it into a drink that could have fit on
+its pages.  He did it himself with the Brandy Alexander. The basic trick is
+to increase the liquor components in the cocktail until they becomes the
+dominant flavour.  If you were to do this with the Negroni, you'd get
+something like:
 
 **Negroni (Spirit forward style)**
 
@@ -188,7 +189,8 @@ speaking, whiskey cocktails work well in their spirit forward variations,
 though you need a decent whiskey for this to work.  Or maybe I just like
 whiskey.
 
-
+In any case, there's quite a lot of room for experimentation here.  Have
+fun!
 
 [1]: https://en.wikipedia.org/wiki/The_Fine_Art_of_Mixing_Drinks
 [2]: https://en.wikipedia.org/wiki/Negroni

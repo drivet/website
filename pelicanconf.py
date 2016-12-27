@@ -6,6 +6,8 @@ from __future__ import unicode_literals
 PARENT_SITENAME = 'The Low Rent District'
 
 AUTHOR = 'Desmond Rivet'
+#AUTHOR_OG = 'https://www.facebook.com/desmond.rivet'
+
 # most themes expect the SITENAME to be the blog name
 SITENAME = 'The Soapbox'
 SITESUBTITLE = 'Random Musings in Blog Form'
