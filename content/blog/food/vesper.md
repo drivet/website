@@ -1,7 +1,6 @@
 date: 2016-12-22 22:17:00
 tags: cocktails,recipes
 title: It Started with the Vesper
-og_image: blog/food/vesper.jpg
 
 Lately I've been experimenting with "mixers".  By "mixer" I mean aperitifs,
 liqueurs, and digestifs that almost always appear as secondary ingredients
