@@ -58,14 +58,14 @@ DEFAULT_PAGINATION = 10
 SLUGIFY_SOURCE = 'basefile'
 
 FILENAME_METADATA = '(?P<slug>.*)'
-PLUGIN_PATHS = ['/home/dcr/repos/']
-PLUGINS = ['paragraphed-summary', 'pelican-cool-uri']
+PLUGIN_PATHS = ['/home/dcr/repos/', '/home/dcr/blogging/website/plugins']
+PLUGINS = ['paragraphed-summary', 'pelican-cool-uri', 'tipue_search']
 
 # I'm the only author
 AUTHORS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
 
-DIRECT_TEMPLATES = ['index', 'categories', 'archives', 'tags']
+DIRECT_TEMPLATES = ['index', 'categories', 'archives', 'tags', 'search']
 ARCHIVES_SAVE_AS = 'blog/archives.html'
 ARCHIVES_URL = 'blog/archives.html'
 CATEGORIES_SAVE_AS = 'blog/categories.html'
