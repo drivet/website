@@ -1,5 +1,5 @@
-date: 2017-02-23 01:50:12
-modified: 2017-02-23 01:53:02
+date: 2017-02-25 21:35:00
+modified: 2017-02-25 21:35:00
 tags: pelican
 title: On the Irony of Using Static Site Generators
 
