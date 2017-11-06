@@ -8,8 +8,8 @@ third-party plugins enabled:
 
 And I have the following homegrown plugins enabled as well:
 
-* [paragraphed-summary][https://github.com/drivet/paragraphed-summary]
-* [pelican-cool-uri][https://github.com/drivet/pelican-cool-uri]
+* [paragraphed-summary](https://github.com/drivet/paragraphed-summary)
+* [pelican-cool-uri](https://github.com/drivet/pelican-cool-uri)
 
 To browse a local copy, you'll need a pelican virtualenv set up with pelican
 and its dependencies installed.  The plugins are handled separately.  You
