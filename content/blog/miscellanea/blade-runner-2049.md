@@ -1,5 +1,5 @@
-date: 2017-10-28 21:00:00
-modified: 2017-10-28 21:00:00
+date: 2017-11-05 19:58:00
+modified: 2017-11-05 19:58:00
 tags: movies
 title: Thoughts on Blade Runner 2049
 
