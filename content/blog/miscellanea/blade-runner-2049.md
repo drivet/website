@@ -64,16 +64,18 @@ the zeerust is lovingly treated as canon. It's brilliant.
 So Pan-Am, Atari, and the Soviet Union are *still* going concerns in 2049 if
 their neon and holographic billboards are any indication.  The technology,
 though noticeably sleeker, is still clearly descended from the gadgets in
-the original movie.  It's still satisfyingly *chunky*.  I remember reading
-an article which said that the tech in Blade Runner looks as if it were
-descended from the [Walkman][16] rather than the [iPod][17], and truer words
-were never spoken (not surprising given that [Sony][18] is one of the
-backers of the movie).
+the original movie.  It's still satisfyingly *chunky*.  The flying cars look
+like they were inspired by DeLoreans.  The voice commands used to control
+the various devices sound vaguely like the sort you'd give to an
+[Infocom][28] game.  I read an article which said that the tech in Blade
+Runner looks as if it were descended from the [Walkman][16] rather than the
+[iPod][17], and truer words were never spoken (not surprising given that
+[Sony][18] is one of the backers of the movie).
 
 So, yes, the movie, like its predecessor, is simply gorgeous.  This is a
 *luxurious* film.  You can sense the huge amount of thought and effort that
-went into making it.  And you can sense someone behind the scenes arranging
-things just so.  Nothing is there by accident.
+went into the making of it.  And you can sense someone behind the scenes
+arranging things just so.  Nothing is there by accident.
 
 ## Refrigerators, Everywhere!
 
@@ -83,10 +85,11 @@ Some people focus on the film's rather gratuitous nudity in this regard, but
 I won't do that since I feel it's a symptom of a bigger problem.  In any
 case, I'll note that while naked women parading about on gigantic,
 holographic billboards might be an utterly sexist form of advertising, it's
-also, unfortunately, very realistic.  The kind of in-your-face t&a so
-prevalent in the world of *Blade Runner 2049* is a simple, straightforward
-extrapolation of the kind of advertising one sees today.  The future
-depicted in this world is not meant to be anything other than bleak.
+also, unfortunately, a very realistic one and the kind of in-your-face t&a
+so prevalent in the world of *Blade Runner 2049* is a simple,
+straightforward extrapolation of the kind of advertising one sees today.
+The future depicted in this world is not meant to be anything other than
+bleak.
 
 No, the film's biggest problem revolves around the use of a trope called
 ["Women in Refrigerators"][19].  If you're not familiar with the term, it's
@@ -97,9 +100,9 @@ narrative drama or (invariably male) character growth.
 *Blade Runner 2049* makes liberal use of this trope, and it mars the film.
 The first example that comes to mind would be the scene near the beginning
 where an unnamed female replicant is brought out of stasis, in the nude,
-only to be stabbed in the belly a few minutes later, just make it clear, in
-case we had any lingering doubts, that Niader Wallace (the movie's
-[Big Bad][20]) is a heartless asshole.  It all seemed so bewilderingly
+only to be stabbed in the belly a few minutes later, just to make it clear,
+in case we had any lingering doubts, that Niander Wallace (the movie's
+[Big Bad][20]) is a heartless asshole.  It all seems so bewilderingly
 pointless, especially since Wallace manages to demonstrate how much of an
 asshole he is in later scenes just fine.  To be honest, it just felt like an
 excuse to show off some boobs - and the fact that it ended in a bloodbath
@@ -122,8 +125,8 @@ because I care about the human race" fame).  In an effort to show that he
 has more to offer than just pain, he trots out a fresh copy of Rachel from
 the original film.  From a technical standpoint, it was amazingly
 done. Though I knew that it had to have been so, I simply could not tell
-that [Sean Young][22]'s 20 year old face had been grafted onto a completely
-different body via CGI.  From a narrative standpoint, however, it was a
+that [Sean Young][22]'s 20 year old face had been digitally grafted onto a
+completely different body.  From a narrative standpoint, however, it was a
 completely wasted exercise since the character is summarily executed when
 Deckard refuses her advances.
 
@@ -141,7 +144,7 @@ that it was deemed necessary.
 
 Was there really no way to make an older Rachel work?  Here's a scene I've
 been toying with: Deckard is tied to a chair as before, but this time
-Wallace beings out an *aged* Rachel, played by a *real* Sean Young, and
+Wallace brings out an *aged* Rachel, played by a *real* Sean Young, and
 offers to implant memories of a full and happy life together if he just
 cooperates.  And Deckard is sorely *tempted*.
 
@@ -191,3 +194,4 @@ actually come out ahead in this regard?
 [25]: https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off
 [26]: https://en.wikipedia.org/wiki/Superman_(1978_film)
 [27]: https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road
+[28]: https://en.wikipedia.org/wiki/Infocom
