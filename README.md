@@ -22,7 +22,16 @@ Generating the website locally is done with this command:
 pelican content/ -o output/
 ```
 
-And if you're generating for publication, run this:
+Then you can serve up the pages by doing this:
+
+```
+cd output
+python -m http.server
+```
+
+And pointing your browser at http://localhost:8000
+
+If you're generating for publication, run this:
 
 ```
 pelican -s publishconf.py content/ -o output_p/
