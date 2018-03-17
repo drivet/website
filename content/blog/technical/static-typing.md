@@ -1,5 +1,5 @@
 date: 2018-01-18 20:46:00
-modified: 2018-01-18 20:46:00
+modified: 2018-03-17 19:03:39
 tags: programming
 title: Static Typing, IDEs, Automated Testing: An Eternal Golden Braid
 
@@ -20,6 +20,7 @@ cannot.  Consider the following example:
 
 `StaticTyping.java`:
 
+    :::java
     public class StaticTyping {
         public static void main(String[] args) {
             int a = 6;
@@ -34,16 +35,18 @@ On the other hand, consider the equivalent example in Python:
 
 `dynamic_typing.py`:
 
+    :::python
     a = 6
     b = "3"
     print a / b
 
-This will also fail, but only at runtime.  This may not seems like such a
-big deal, but it becomes a bit more insidious when you modify the example
+This will also fail, but only at runtime.  This may not seem like such a big
+deal, but it becomes a bit more insidious when you modify the example
 slightly:
 
 `dynamic_typing_insidious.py`:
 
+    :::python
     def func1():
         a = 6
         b = "3"
@@ -115,9 +118,9 @@ JavaScript libraries.
 TypeScript is different.  TypeScript is a superset of JavaScript; you can
 write standard EcmaScript 5 code and it will be recognized as valid
 TypeScript code.  You can also write more or less standard EcmaScript 6 code
-and transpile it to standard EcmaScript 5 code (a la Babel).  Perhaps most
-importantly, however, you can optionally add static typing to your code and
-the transpiler will enforce it.
+and transpile it to standard EcmaScript 5 code (a la [Babel][6.5]).  Perhaps
+most importantly, however, you can optionally add static typing to your code
+and the transpiler will enforce it.
 
 This last part is key.  The static typing in TypeScript is *optional* and
 *inferred*; unlike Java, it's not an all-or-nothing proposition.  You don't
@@ -242,6 +245,7 @@ Ultimately, I guess what I'm trying to say is the following:
 [4]: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
 [5]: http://coffeescript.org/
 [6]: https://en.wikipedia.org/wiki/ECMAScript#5th_Edition
+[6.5]: https://babeljs.io/
 [7]: https://palantir.github.io/tslint/
 [8]: https://lodash.com/
 [9]: http://reactivex.io/rxjs/
