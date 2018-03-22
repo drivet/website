@@ -14,7 +14,7 @@ SSH_USER=dcr
 SSH_TARGET_DIR=/home/dcr/wwwroot/pelican_blog
 
 html:
-	pelican -s $(CONFFILE) $(INPUTDIR) -o $(OUTPUTDIR)
+	$(PELICAN) -s $(CONFFILE) $(INPUTDIR) -o $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
