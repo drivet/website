@@ -97,7 +97,6 @@ PAGE_URL = '{path_no_ext}.html'
 DRAFT_URL = 'blog/drafts/{slug}.html'
 DRAFT_SAVE_AS = 'blog/drafts/{slug}.html'
 
-
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
