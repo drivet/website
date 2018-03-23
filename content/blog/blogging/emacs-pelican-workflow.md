@@ -144,7 +144,7 @@ The targets can be summarized as follows:
  * `serve` will start a local HTTP server so you can see your blog
 
 Projectile lets you edit the compile command before running it, so you can
-easily `pulish` and `rsync` using this mechanism as well.
+easily `publish` and `rsync` using this mechanism as well.
 
 ## Using Markdown
 
