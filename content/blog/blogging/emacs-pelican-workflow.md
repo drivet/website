@@ -28,27 +28,28 @@ Projectile's notion of a "project" is flexible but version controlled repos
 such by default.  Thus, the first step should be to put your pelican blog
 under version control.  The usual advantages of a version control system
 apply but, more importantly with respect to emacs integration, you get to
-use _projectile_ out of the box.
+use projectile out of the box.
 
 ## Using Magit
 
 I chose git as my version control system for my blog.  For most people this
 would require no justification, but I'm not most people.
 
-I'm not trying to start a war, and I'll admit to preferring the rather tidy
-mercurial command line interface to git's hodge podge of commands and
-options, but there actually several reasons to specifically use git here:
+I'm not trying to start a war, and I'll admit to preferring the comparably
+tidy mercurial command line interface to git's hodge podge of commands and
+options, but there are actually several reasons to specifically use git
+here:
 
- * git has much more mindshare than any other VCS, and so you're more likely
-   to get help when you need it.
+ * git has much more mindshare than any other version control system, so
+   you're more likely to get help when you need it.
  * github is a hotbed of developer activity.  This, in itself, probably
    consitutes the single most important to know and use git.
  * emacs has rather nice git support in the form of magit.
 
 [Magit][5] is a full git front end embedded in emacs. That makes it a
-complex piece of software but if you're like me and you're the sole
-maintainer of your repo, then a little bit of magit goes a long way.  The
-[Getting Started][6] chapter basically covers 90% of what you need to know.
+complex piece of software but if you're like me and you try and keep your
+repo history nice and linear, then a little bit of magit goes a long way.
+The [Getting Started][6] page basically covers 90% of what you need to know.
 
 Everything starts with the magit status buffer, brought up with the
 `magit-status` command.  The guide recommends binding this to `C-x g` and
