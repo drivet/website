@@ -24,11 +24,11 @@ you're working on.  A good chunk of the advantages of using emacs for
 writing pelican entries ultimately stem from using projectile.
 
 Projectile's notion of a "project" is flexible but version controlled repos
-(such as those managed by git, mercurial, daarcs and bazaar) are treated as
-such by default.  Thus, the first step should be to put your pelican blog
-under version control.  The usual advantages of a version control system
-apply but, more importantly with respect to emacs integration, you get to
-use projectile out of the box.
+(such as git, mercurial, daarcs and bazaar repos) are treated as such by
+default.  Thus, the first step should be to put your pelican blog under one
+of these version control system.  The usual advantages of a version control
+system apply but, more importantly with respect to emacs integration, you
+get to use projectile out of the box.
 
 ## Using Magit
 
@@ -148,9 +148,44 @@ easily `publish` and `rsync` using this mechanism as well.
 
 ## Using Markdown
 
+My blog entries are all written in [markdown][7], which I edit in emacs
+using [markdown mode][8].  Markdown's basic idea is to take "natural"
+markers in pure text and convert them to HTML; a piece of text flanked by
+the "*" symbol, for example, will be rendered in bold.  This is an organic
+fit for people like me, who like to write in pure text and who tend to use
+these kinds of markers in their writing anyway.
+
+Markdown mode provides syntax highlighting and editing capabilities but
+since markdown is already pretty easy to write on its own, and my articles
+are not overly structured, I haven't actually made much use of the editing
+capabilities.  I just write my text manually.
+
+One major exception would be external references, like links.  It's a bit
+difficult to devise an organic way to fit these kinds of artifacts into your
+writing.  In markdown, there are two ways to do it.  With option 1, you can
+inline the URL of the referenced external resource right next to the text
+you're trying to hyperlink, like this:
+
+    [Some text](http://www.example.com)
+
+With option 2, you can use a reference label which has to match up to a URL
+later in your article, like this:
+
+    [Some text][label]  
+    ...  
+    ...  
+
+    [label]: http://www.example.com
+
+I almost always use the reference style, because I find that it makes my
+text flow better.  Markdown mode makes it easy to add a reference style
+link.
+
+
 ## Creating and Finding your Drafts
 
-## Updaing Timestamps
+## Updating Timestamps
+
 
 [1]: https://blog.getpelican.com
 
@@ -163,3 +198,7 @@ easily `publish` and `rsync` using this mechanism as well.
 [5]: https://magit.vc/manual/magit.html
 
 [6]: https://magit.vc/manual/magit.html#Getting-Started
+
+[7]: https://daringfireball.net/projects/markdown/
+
+[8]: https://jblevins.org/projects/markdown-mode/
