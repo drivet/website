@@ -26,7 +26,7 @@ writing pelican entries ultimately stem from using projectile.
 Projectile's notion of a "project" is flexible but version controlled repos
 (such as git, mercurial, daarcs and bazaar repos) are treated as such by
 default.  Thus, the first step should be to put your pelican blog under one
-of these version control system.  The usual advantages of a version control
+of these version control systems.  The usual advantages of a version control
 system apply but, more importantly with respect to emacs integration, you
 get to use projectile out of the box.
 
@@ -139,7 +139,7 @@ The targets can be summarized as follows:
  * `publish` is like `html` except it uses a special publish conf file.
  * `rsync` depends on `publish` and copies over the generated blog to your
    server with SSH
- * `regenerate` is like `html` but keeps running and will regenrate your
+ * `regenerate` is like `html` but keeps running and will regenerate your
    blog upon detecting that something has changed.
  * `serve` will start a local HTTP server so you can see your blog
 
@@ -148,8 +148,8 @@ easily `publish` and `rsync` using this mechanism as well.
 
 ## Using Markdown
 
-My blog entries are all written in [markdown][7], which I edit in emacs
-using [markdown mode][8].  Markdown's basic idea is to take "natural"
+My blog entries are all written in [Markdown][7], which I edit in emacs
+using [Markdown mode][8].  Markdown's basic idea is to take "natural"
 markers in pure text and convert them to HTML; a piece of text flanked by
 the "*" symbol, for example, will be rendered in bold.  This is an organic
 fit for people like me, who like to write in pure text and who tend to use
@@ -177,9 +177,28 @@ later in your article, like this:
 
     [label]: http://www.example.com
 
-I almost always use the reference style, because I find that it makes my
-text flow better.  Markdown mode makes it easy to add a reference style
-link.
+Both styles involve some non-trivial syntax, which is not unexpected given
+that links are not really "natural" textual artifacts.  I do prefer the
+reference style because it makes for better flowing text and the syntax is a
+bit easier to remember, but it comes at a cost: you have to think up a
+label, and you have to put the actual URL somewhere else in your document.
+
+Markdown mode helps here.  It provides an interactive command,
+`markdown-insert-link` (bound to `C-c C-a L`) which prompts you for text
+(defaulting to whatever you have highlighted), the URL and the label, and
+which will insert the reference at your preferred location (controlled by
+the `markdown-reference-location` variable, which I've set to `end`,
+i.e. the end of my document).
+
+### Automatic Reference Labels
+
+This works, as far as it goes, but it's not quite as convenient as it could
+be.  I generally don't try to attach any semantic meaning to my link labels;
+my usual approach is to simply use an ever increasing series of numbers.
+This lends itself to automation rather easily; my next link label is always
+just the next number after the previous one.
+
+
 
 
 ## Creating and Finding your Drafts
