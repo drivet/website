@@ -177,11 +177,15 @@ later in your article, like this:
 
     [label]: http://www.example.com
 
-Both styles involve some non-trivial syntax, which is not unexpected given
-that links are not really "natural" textual artifacts.  I do prefer the
-reference style because it makes for better flowing text and the syntax is a
-bit easier to remember, but it comes at a cost: you have to think up a
-label, and you have to put the actual URL somewhere else in your document.
+I'm using hyperlinks in the above example.  Images have a similar structure,
+but the "text" is considered to be the "alt text" for the image tag.
+
+Both options involve some non-trivial syntax, which is not unexpected given
+that links and images are not really "natural" textual artifacts.  I do
+prefer the reference style because it makes for better flowing text and the
+syntax is a bit easier to remember, but it comes at a cost: you have to
+think up a label, and you have to put the actual URL somewhere else in your
+document.
 
 Markdown mode helps here.  It provides an interactive command,
 `markdown-insert-link` (bound to `C-c C-a L`) which prompts you for text
@@ -195,8 +199,8 @@ i.e. the end of my document).
 This works, as far as it goes, but it's not quite as convenient as it could
 be.  I generally don't try to attach any semantic meaning to my link labels;
 my usual approach is to simply use an ever increasing series of numbers.
-This lends itself to automation rather easily; my next link label is always
-just the next number after the previous one.
+This lends itself to automation rather easily; my next label is always just
+the next number after the previous one.
 
 
 
