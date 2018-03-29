@@ -40,7 +40,7 @@ to specifically use git here:
 * Git has much more mindshare than any other version control system, so
   you're more likely to get help when you need it.
 * [Github][10] is a hotbed of developer activity.  This, in itself,
-  probably consitutes the single most important to know and use git.
+  probably constitutes the single most important to know and use git.
 * Emacs has rather nice git support in the form of magit.
 
 [Magit][5] is a full git front end embedded in emacs. That makes it a
@@ -205,15 +205,14 @@ variable, which I've set to `end`, i.e. the end of my document).
 ### Automatic Reference Labels
 
 This works, as far as it goes, but it's not quite as convenient as it could
-be.  I generally don't try to attach any semantic meaning to my link labels;
-my usual approach is to simply use an ever increasing series of numbers.
-This lends itself well to automation; my next label is always just the next
-number after the previous one.
+be.  I generally don't try to attach any semantic meaning to my link or
+image labels; my usual approach is to simply use an ever increasing series
+of numbers.  This lends itself well to automation; my next label is always
+just the next number after the previous one.
 
 With some shameless pilfery from [Emacs Wiki][9], I managed to cobble
 together some functions to allow me to easily add referenced links and
-images, incrementing the label as you add more.  This is my markdown.el
-file:
+images, incrementing the label as you add more.  Here is the code:
 
 
     :::elisp
@@ -331,10 +330,15 @@ So, I wrote some code to do it.  Here it is:
     (global-set-key (kbd "C-c w d") 'create-pelican-draft)
     (global-set-key (kbd "C-c w s") 'switch-to-pelican-drafts)
 
-The `switch-to-pelican-drafts` performs a simple grep to find the drafts.
-The result is a standard emacs grep buffer window.  You visit the drafts the
-same way you would visit any other grep hit, with the `next-error` function,
-usually bound to ``C-x ```
+The `create-pelican-draft` prompts you for the content path (relative to
+your blog root) and the title from the minibuffer.  It will create the
+buffer at the content path and insert the title as metadata upong creation.
+You still have to save the buffer and commit the contents.
+
+The `switch-to-pelican-drafts` function performs a simple grep at the root
+of your blog to find the drafts.  The result is a standard emacs grep buffer
+window.  You visit the drafts the same way you would visit any other grep
+hit, with the `next-error` function, usually bound to ``C-x ```
 
 ## Updating Timestamps
 
@@ -360,9 +364,9 @@ appropriate date.
 
 To this end, I've written some code to make the date insertions easy.  I
 wrote one function to refresh both the post date and the last modified date,
-and another to refresh just the last modified date.  I can;t think of a use
-to refresh just the creation date without the last modified date, so I don't
-have a function for that.  Here it is:
+and another to refresh just the last modified date.  I can't think of a use
+case to refresh just the creation date without the last modified date, so I
+don't have a function for that.  Here's the code:
 
     :::elisp
     (defun insert-header (header value)
@@ -404,7 +408,8 @@ have a function for that.  Here it is:
     (global-set-key (kbd "C-c w n") 'refresh-dates)
 
 The code doesn't work if the header spans more than one line, but that
-doesn't really happen very often in my workflow, so I haven't handled it.
+doesn't really happen very often in my workflow (certainly not for date
+entries), so I haven't handled it.
 
 
 [1]: https://blog.getpelican.com
