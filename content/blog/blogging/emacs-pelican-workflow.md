@@ -24,27 +24,24 @@ you're working on.  A good chunk of the advantages of using emacs for
 writing pelican entries ultimately stem from using projectile.
 
 Projectile's notion of a "project" is flexible but version controlled repos
-(such as git, mercurial, daarcs and bazaar repos) are treated as such by
-default.  Thus, the first step should be to put your pelican blog under one
-of these version control systems.  The usual advantages of a version control
-system apply but, more importantly with respect to emacs integration, you
-get to use projectile out of the box.
+(such as those managed by git, mercurial, daarcs or bazaar) are treated as
+such by default.  Thus, the first step should be to put your pelican blog
+under one of these version control systems.  The usual advantages of a
+version control system apply but, more importantly with respect to emacs
+integration, you get to use projectile out of the box.
 
 ## Using Magit
 
-I chose git as my version control system for my blog.  For most people this
-would require no justification, but I'm not most people.
+I chose git as my version control system for my blog.  I'll cop to
+preferring the comparably tidy mercurial command line interface to git's
+hodge podge of commands and options, but there are actually several reasons
+to specifically use git here:
 
-I'm not trying to start a war, and I'll admit to preferring the comparably
-tidy mercurial command line interface to git's hodge podge of commands and
-options, but there are actually several reasons to specifically use git
-here:
-
- * git has much more mindshare than any other version control system, so
+ * Git has much more mindshare than any other version control system, so
    you're more likely to get help when you need it.
- * github is a hotbed of developer activity.  This, in itself, probably
-   consitutes the single most important to know and use git.
- * emacs has rather nice git support in the form of magit.
+ * [Github][10] is a hotbed of developer activity.  This, in itself,
+   probably consitutes the single most important to know and use git.
+ * Emacs has rather nice git support in the form of magit.
 
 [Magit][5] is a full git front end embedded in emacs. That makes it a
 complex piece of software but if you're like me and you try and keep your
@@ -158,13 +155,13 @@ these kinds of markers in their writing anyway.
 Markdown mode provides syntax highlighting and editing capabilities but
 since markdown is already pretty easy to write on its own, and my articles
 are not overly structured, I haven't actually made much use of the editing
-capabilities.  I just write my text manually.
+capabilities.  I just write my text out manually.
 
-One major exception would be external references, like links.  It's a bit
-difficult to devise an organic way to fit these kinds of artifacts into your
-writing.  In markdown, there are two ways to do it.  With option 1, you can
-inline the URL of the referenced external resource right next to the text
-you're trying to hyperlink, like this:
+One major exception would be the management of external content, like
+hyperlinks or images.  It's a bit difficult to devise an organic way to fit
+these kinds of artifacts into your writing.  In markdown, there are two ways
+to do it.  With option 1, you can inline the URL of the external resource
+right next to the text with which it's associated, like this:
 
     [Some text](http://www.example.com)
 
@@ -178,7 +175,18 @@ later in your article, like this:
     [label]: http://www.example.com
 
 I'm using hyperlinks in the above example.  Images have a similar structure,
-but the "text" is considered to be the "alt text" for the image tag.
+but the "text" is considered to be the "alternative text" for the image tag,
+like this:
+
+    ![Alt text](/img/piano.jpg)
+    
+or this:
+
+    ![Alt text][label]
+    ...  
+    ...  
+
+    [label]: /img/piano.jpg
 
 Both options involve some non-trivial syntax, which is not unexpected given
 that links and images are not really "natural" textual artifacts.  I do
@@ -188,19 +196,101 @@ think up a label, and you have to put the actual URL somewhere else in your
 document.
 
 Markdown mode helps here.  It provides an interactive command,
-`markdown-insert-link` (bound to `C-c C-a L`) which prompts you for text
-(defaulting to whatever you have highlighted), the URL and the label, and
-which will insert the reference at your preferred location (controlled by
-the `markdown-reference-location` variable, which I've set to `end`,
-i.e. the end of my document).
+`markdown-insert-link` (bound to `C-c C-l`) which is a kind of "all-in-one"
+interactive function which lets you enter an inline or reference link,
+depending on the parameters you provide.  Reference links will be inserted
+at your preferred location (controlled by the `markdown-reference-location`
+variable, which I've set to `end`, i.e. the end of my document).
 
 ### Automatic Reference Labels
 
 This works, as far as it goes, but it's not quite as convenient as it could
 be.  I generally don't try to attach any semantic meaning to my link labels;
 my usual approach is to simply use an ever increasing series of numbers.
-This lends itself to automation rather easily; my next label is always just
-the next number after the previous one.
+This lends itself well to automation; my next label is always just the next
+number after the previous one.
+
+With some shameless pilfery from [Emacs Wiki][9], I managed to cobble
+together some functions to allow me to easily add referenced links and
+images, incrementing the label as you add more.  This is my markdown.el
+file:
+
+
+    :::elisp
+    (defun my-markdown-insert-reference-image-dwim ()
+     "Insert a reference image of the form ![text][label] at point.
+    If there is an active region, the text in the region will be used
+    as the alt text.  If the point is at a word, it will be used as
+    the alt text.  Otherwise, the alt text will be read from the
+    minibuffer.  The ref label will be read from the minibuffer in
+    both cases, with completion from the set of currently defined
+    references.  To create an implicit reference link, press RET to
+    accept the default, an empty label.  If the entered referenced
+    label is not defined, additionally prompt for the URL
+    and (optional) title.  The reference definition is placed at the
+    location determined by `markdown-reference-location'."
+      (interactive)
+      (my-markdown-insert-reference-dwim 't))
+
+    (defun my-markdown-insert-reference-link-dwim ()
+     "Insert a reference link of the form [text][label] at point.
+    If there is an active region, the text in the region will be used
+    as the link text.  If the point is at a word, it will be used as
+    the link text.  Otherwise, the link text will be read from the
+    minibuffer.  The link label will be read from the minibuffer in
+    both cases, with completion from the set of currently defined
+    references.  To create an implicit reference link, press RET to
+    accept the default, an empty label.  If the entered referenced
+    label is not defined, additionally prompt for the URL
+    and (optional) title.  The reference definition is placed at the
+    location determined by `markdown-reference-location'."
+      (interactive)
+      (my-markdown-insert-reference-dwim 'nil))
+
+    (defun my-markdown-insert-reference-dwim (image-p)
+      (let* ((defined-labels (markdown-get-defined-references))
+             (bounds (or (and (markdown-use-region-p)
+                              (cons (region-beginning) (region-end)))
+                         (markdown-bounds-of-thing-at-point 'word)))
+             (text (if bounds
+                       (buffer-substring (car bounds) (cdr bounds))
+                     (read-string "Text: ")))
+             (label (completing-read
+                     "Label (default is incremented numerical label): " defined-labels
+                     nil nil nil 'markdown-reference-label-history 
+                     (next-markdown-label defined-labels)))
+             (ref (markdown-reference-definition
+                   (concat "[" (if (> (length label) 0) label text) "]")))
+             (url (unless ref (read-string "URL: ")))
+             (title (when (> (length url) 0)
+                      (read-string "Title (optional): "))))
+        (when bounds (delete-region (car bounds) (cdr bounds)))
+        (if image-p
+            (markdown-insert-reference-image text label url title)
+          (markdown-insert-reference-link text label url title))))
+
+    (defun next-markdown-label(reflabels)
+      (number-to-string (+ 1 (max-list (mapcar 'string-to-number
+                            (remove-if-not 'string-integer-p reflabels))))))
+
+    (defun max-list(list)
+      (if (not list) 
+          0
+        (max (car list) (max-list (cdr list)))))
+
+    (defun string-integer-p (string)
+       (if (string-match "\\`[-+]?[0-9]+\\'" string)
+           t
+         nil))
+
+    (defun my-markdown-mode-keys ()
+      "Modify keymaps used by `markdown-mode'."
+      (local-set-key (kbd "C-c C-a r") 'my-markdown-insert-reference-link-dwim)
+      (local-set-key (kbd "C-c C-i r") 'my-markdown-insert-reference-image-dwim))
+    (add-hook 'markdown-mode-hook 'my-markdown-mode-keys)
+
+    (setq markdown-reference-location 'end)
+    (setq markdown-font-lock-support-mode nil)
 
 
 
@@ -225,3 +315,7 @@ the next number after the previous one.
 [7]: https://daringfireball.net/projects/markdown/
 
 [8]: https://jblevins.org/projects/markdown-mode/
+
+[9]: https://www.emacswiki.org/
+
+[10]: https://github.com/
