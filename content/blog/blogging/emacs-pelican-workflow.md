@@ -37,11 +37,11 @@ preferring the comparably tidy mercurial command line interface to git's
 hodge podge of commands and options, but there are actually several reasons
 to specifically use git here:
 
- * Git has much more mindshare than any other version control system, so
-   you're more likely to get help when you need it.
- * [Github][10] is a hotbed of developer activity.  This, in itself,
-   probably consitutes the single most important to know and use git.
- * Emacs has rather nice git support in the form of magit.
+* Git has much more mindshare than any other version control system, so
+  you're more likely to get help when you need it.
+* [Github][10] is a hotbed of developer activity.  This, in itself,
+  probably consitutes the single most important to know and use git.
+* Emacs has rather nice git support in the form of magit.
 
 [Magit][5] is a full git front end embedded in emacs. That makes it a
 complex piece of software but if you're like me and you try and keep your
@@ -53,22 +53,22 @@ Everything starts with the magit status buffer, brought up with the
 this is what I've done.  From the status buffer, you can see various
 sections displaying various pieces of information, among them:
 
- * Unstaged changes
- * Staged changes
- * Untracked files
+* Unstaged changes
+* Staged changes
+* Untracked files
 
 Using the status buffer is pretty easy if you stick to the very basics:
 
- * Pressing `s` next to an unstaged file will stage it.
- * Pressing `u` next to a staged file will unstage it.
- * Staging/unstaging applies to hunks as well.  You can use TAB to expand a
-   file to see the hunks.
- * Pressing `c` will bring up the commit buffer.  Just press `c` again to
-   start the commit message, and C-c C-c to make the commit.
- * Pressing `P` will bring up the push buffer, Press `p` to actually push
-   your changes
- * Pressing `F` will bring up the pull buffer (i.e. to pull and merge in one
-   shot).
+* Pressing `s` next to an unstaged file will stage it.
+* Pressing `u` next to a staged file will unstage it.
+* Staging/unstaging applies to hunks as well.  You can use TAB to expand a
+  file to see the hunks.
+* Pressing `c` will bring up the commit buffer.  Just press `c` again to
+  start the commit message, and C-c C-c to make the commit.
+* Pressing `P` will bring up the push buffer, Press `p` to actually push
+  your changes
+* Pressing `F` will bring up the pull buffer (i.e. to pull and merge in one
+  shot).
    
 Git is, of course, capable of much, much more than this, and by extension so
 is magit, but I don't make use of these features on my pelican repo, so I
@@ -131,14 +131,14 @@ this:
 
 The targets can be summarized as follows:
 
- * `html` will generate a local copy of your blog.  This is the default
-   target, and hence what gets run by projectile by default.
- * `publish` is like `html` except it uses a special publish conf file.
- * `rsync` depends on `publish` and copies over the generated blog to your
-   server with SSH
- * `regenerate` is like `html` but keeps running and will regenerate your
-   blog upon detecting that something has changed.
- * `serve` will start a local HTTP server so you can see your blog
+* `html` will generate a local copy of your blog.  This is the default
+  target, and hence what gets run by projectile by default.
+* `publish` is like `html` except it uses a special publish conf file.
+* `rsync` depends on `publish` and copies over the generated blog to your
+  server with SSH
+* `regenerate` is like `html` but keeps running and will regenerate your
+  blog upon detecting that something has changed.
+* `serve` will start a local HTTP server so you can see your blog
 
 Projectile lets you edit the compile command before running it, so you can
 easily `publish` and `rsync` using this mechanism as well.
@@ -292,12 +292,119 @@ file:
     (setq markdown-reference-location 'end)
     (setq markdown-font-lock-support-mode nil)
 
-
-
-
 ## Creating and Finding your Drafts
 
+Projectile lets you quickly find a file once you are _in_ your project.
+Projectile even lets you quickly switch to a project from whichever buffer
+you happen to be editing.
+
+Out of the box, however, projectile does _not_ let me
+
+* Create a new blog draft entry
+* Switch to a particular blog draft entry that is currently in progress
+
+So, I wrote some code to do it.  Here it is:
+
+    :::elisp
+    (setq pelican-root "~/blogging/website/")
+    (setq content-root (concat pelican-root "content/"))
+    (setq blog-root (concat content-root "blog/"))
+    (setq blog-exts "*.md")
+
+    (defun create-pelican-draft (content-path title)
+      "Create draft blogging entry at path specified."
+      (interactive "sContent path: \nsTitle: ")
+      (find-file (concat blog-root content-path))
+      (let ((date-str (format-time-string "%Y-%m-%d %H:%M:%S"))
+            (draft-template "title: %s\ndate: %s\nmodified: %s\nstatus: draft\n\n"))
+        (insert (format draft-template title date-str date-str))))
+
+    (defun switch-to-pelican-drafts ()
+      "Switch to the global pelican blog project, and provide a list
+    of drafts to choose from"
+      (interactive)
+      (let ((grep-find-ignored-directories '())
+            (grep-find-ignored-files '()))
+        (grep-compute-defaults)
+        (rgrep "status: draft" blog-exts pelican-root)))
+
+    (global-set-key (kbd "C-c w d") 'create-pelican-draft)
+    (global-set-key (kbd "C-c w s") 'switch-to-pelican-drafts)
+
+The `switch-to-pelican-drafts` performs a simple grep to find the drafts.
+The result is a standard emacs grep buffer window.  You visit the drafts the
+same way you would visit any other grep hit, with the `next-error` function,
+usually bound to ``C-x ```
+
 ## Updating Timestamps
+
+My blog entries contain metadata at the top of the file, like so:
+
+    title: Blogging with Emacs and Pelican  
+    date: 2018-03-22 10:06:38  
+    modified: 2018-03-22 10:06:38  
+    status: draft  
+
+    Pelican is my blogging engine of choice these days...
+
+The format is called [MultiMarkdown][11] [Metadata][12].  It's a markdown
+extension.
+
+Pelican uses the date header to order the blog entries. To my knowledge, it
+doesn't really use the last modified date header for anything in particular,
+but I like having it around just in case.
+
+Notably, pelican does _not_ actually provide a way to manage or otherwise
+insert the dates automatically; it's completely up to you to insert an
+appropriate date.
+
+To this end, I've written some code to make the date insertions easy.  I
+wrote one function to refresh both the post date and the last modified date,
+and another to refresh just the last modified date.  I can;t think of a use
+to refresh just the creation date without the last modified date, so I don't
+have a function for that.  Here it is:
+
+    :::elisp
+    (defun insert-header (header value)
+      "This function will find the matching header in the header
+    block, delete the line, and leave the point there for inserting a
+    new header.  If no header exists it will position at the end of
+    the block.  If there is no header block, it will return nil,
+    otherwise non-nil"
+      (save-excursion
+        (goto-char 0)
+        (let ((end-of-headers (search-forward "\n\n" (point-max) 't))
+              (header-regex (format "^[ ]\\{0,3\\}%s:" header))
+              (kill-whole-line 't))
+          (if end-of-headers
+              (progn
+                (goto-char 0)
+                (if (search-forward-regexp header-regex end-of-headers 't)
+                    (progn
+                      (beginning-of-line)
+                      (kill-line))
+                  (goto-char (- end-of-headers 1)))
+                (insert (format "%s: %s\n" header value)))
+            'nil))))
+
+    (defun refresh-dates ()
+      "Refresh the date and modified date with the current date"
+      (interactive)
+      (let ((current-date (format-time-string "%Y-%m-%d %H:%M:%S")))
+        (insert-header "date" current-date)
+        (insert-header "modified" current-date)))
+
+    (defun refresh-modified-date ()
+      "Refresh the modified date with the current date"
+      (interactive)
+      (let ((current-date (format-time-string "%Y-%m-%d %H:%M:%S")))
+        (insert-header "modified" current-date)))
+
+    (global-set-key (kbd "C-c w m") 'refresh-modified-date)
+    (global-set-key (kbd "C-c w n") 'refresh-dates)
+
+The code doesn't work if the header spans more than one line, but that
+doesn't really happen very often in my workflow, so I haven't handled it.
 
 
 [1]: https://blog.getpelican.com
@@ -319,3 +426,7 @@ file:
 [9]: https://www.emacswiki.org/
 
 [10]: https://github.com/
+
+[11]: http://fletcherpenney.net/multimarkdown/
+
+[12]: http://fletcher.github.io/MultiMarkdown-4/metadata.html
