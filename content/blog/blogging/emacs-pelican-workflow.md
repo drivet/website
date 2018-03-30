@@ -4,54 +4,55 @@ modified: 2018-03-22 10:06:38
 status: draft
 
 [Pelican][1] is my blogging engine of choice these days.  Given that
-[emacs][2] is often (but not always) my text editor of choice, it made sense
-to try and streamline the process of writing blog entries for pelican with
-emacs.  What follows is my attempt to document such an endeavor, partly
-because I think it might be useful to the (undoubtedly tiny) cross section
-of people who use both emacs and pelican, but mostly so that I have
+[Emacs][2] is usually (though not always) my text editor of choice, it made
+sense to try and streamline the process of writing blog entries for Pelican
+with Emacs.  What follows is my attempt to document such an endeavour,
+partly because I think it might be useful to the (undoubtedly tiny) cross
+section of people who use both Emacs and Pelican, but mostly so that I have
 something to refer back to when the need arises.
 
 ## Projectile and Version Control
 
 Emacs is already pretty good at editing files, once you manage to find and
-load them into buffers. _Projectile_, on the other hand, is an emacs package
+load them into buffers. _Projectile_, on the other hand, is an Emacs package
 for managing the (sometimes very large) collection of files that make up
-your _project_ (such as, to pick an example out of thin air, your pelican
+your _project_ (such as, to pick an example out of thin air, your Pelican
 blog).  You can peruse the [github page][4] for more information but,
-briefly, with projectile you can easily do things like find a file, perform
+briefly, with Projectile you can easily do things like find a file, perform
 a grep, or run a compile command, all scoped to the particular project
-you're working on.  A good chunk of the advantages of using emacs for
-writing pelican entries ultimately stem from using projectile.
+you're working on.  A good chunk of the advantages of using Emacs for
+writing Pelican entries ultimately stem from using Projectile.
 
-Projectile's notion of a "project" is flexible but version controlled repos
-(such as those managed by git, mercurial, daarcs or bazaar) are treated as
-such by default.  Thus, the first step should be to put your pelican blog
-under one of these version control systems.  The usual advantages of a
-version control system apply but, more importantly with respect to emacs
-integration, you get to use projectile out of the box.
+Projectile's notion of a "project" is flexible but version controlled
+repositories (such as those managed by Git, Mercurial, Daarcs or Bazaar) are
+treated as such by default.  Thus, the first step should be to put your
+Pelican blog under one of these version control systems.  The usual
+advantages of a version control system apply but, more importantly with
+respect to Emacs integration, you get to use Projectile out of the box.
 
 ## Using Magit
 
-I chose git as my version control system for my blog.  I'll cop to
-preferring the comparably tidy mercurial command line interface to git's
+I chose Git as my version control system for my blog.  I'll cop to
+preferring the comparably tidy Mercurial command line interface to Git's
 hodge podge of commands and options, but there are actually several reasons
-to specifically use git here:
+to specifically use Git here:
 
-* Git has much more mindshare than any other version control system, so
+* Git has much more mind share than any other version control system, so
   you're more likely to get help when you need it.
 * [Github][10] is a hotbed of developer activity.  This, in itself,
-  probably constitutes the single most important to know and use git.
-* Emacs has rather nice git support in the form of magit.
+  probably constitutes the single most important to know and use Git.
+* Emacs has rather nice Git support in the form of Magit.
 
-[Magit][5] is a full git front end embedded in emacs. That makes it a
+[Magit][5] is a full Git front end embedded in Emacs. That makes it a
 complex piece of software but if you're like me and you try and keep your
-repo history nice and linear, then a little bit of magit goes a long way.
-The [Getting Started][6] page basically covers 90% of what you need to know.
+repository history fairly linear, then a little bit of Magit goes a long
+way.  The [Getting Started][6] page basically covers 90% of what you need to
+know.
 
-Everything starts with the magit status buffer, brought up with the
-`magit-status` command.  The guide recommends binding this to `C-x g` and
-this is what I've done.  From the status buffer, you can see various
-sections displaying various pieces of information, among them:
+Everything starts with the Magit status buffer, brought up with the
+`magit-status` command (bound to `C-x g`, as per the guide).  From the
+status buffer, you can see various sections displaying various pieces of
+information, among them:
 
 * Unstaged changes
 * Staged changes
@@ -61,8 +62,9 @@ Using the status buffer is pretty easy if you stick to the very basics:
 
 * Pressing `s` next to an unstaged file will stage it.
 * Pressing `u` next to a staged file will unstage it.
-* Staging/unstaging applies to hunks as well.  You can use TAB to expand a
-  file to see the hunks.
+* Pressing `k` will revert a file.
+* Staging/unstaging/reverting applies to hunks as well.  You can use TAB to
+  expand a file to see the hunks.
 * Pressing `c` will bring up the commit buffer.  Just press `c` again to
   start the commit message, and C-c C-c to make the commit.
 * Pressing `P` will bring up the push buffer, Press `p` to actually push
@@ -71,21 +73,21 @@ Using the status buffer is pretty easy if you stick to the very basics:
   shot).
    
 Git is, of course, capable of much, much more than this, and by extension so
-is magit, but I don't make use of these features on my pelican repo, so I
-haven't bothered to go that far (yet).
+is Magit, but I don't make use of these features on my Pelican repository,
+so I haven't bothered to go that far (yet).
 
 ## Compiling and Publishing
 
 Projectile lets you easily run a compile command for your project (C-c p c).
 You can configure the default command with the
 `projectile-project-compilation-cmd` variable, which I've set via a standard
-emacs `.dir-local.el` file located at the root of my blog:
+Emacs `.dir-local.el` file located at the root of my blog:
 
     :::elisp
     ((nil . ((projectile-project-compilation-cmd . "make"))))
 
 
-My default compile command is a simple `make` because pelican can easily
+My default compile command is a simple `make` because Pelican can easily
 produce a Makefile for your blog out of the box.  Makefiles can seem rather
 old school nowadays, but for something as simple as blog compilation, it's a
 good fit.
@@ -106,9 +108,9 @@ this:
     CONFFILE=$(BASEDIR)/pelicanconf.py
     PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-    SSH_HOST=desmondrivet.com
-    SSH_USER=dcr
-    SSH_TARGET_DIR=/home/dcr/wwwroot/pelican_blog
+    SSH_HOST=yourhost.com
+    SSH_USER=youruser
+    SSH_TARGET_DIR=/home/youruser/wwwroot/pelican_blog
 
     html:
 	    $(PELICAN) -s $(CONFFILE) $(INPUTDIR) -o $(OUTPUTDIR)
@@ -132,20 +134,42 @@ this:
 The targets can be summarized as follows:
 
 * `html` will generate a local copy of your blog.  This is the default
-  target, and hence what gets run by projectile by default.
-* `publish` is like `html` except it uses a special publish conf file.
+  target, and hence what gets run by Projectile by default.
+* `publish` is like `html` except it uses a special publish configuration
+  file.
 * `rsync` depends on `publish` and copies over the generated blog to your
-  server with SSH
+  server with SSH.
 * `regenerate` is like `html` but keeps running and will regenerate your
   blog upon detecting that something has changed.
-* `serve` will start a local HTTP server so you can see your blog
+* `serve` will start a local HTTP server so you can see your blog.
 
 Projectile lets you edit the compile command before running it, so you can
 easily `publish` and `rsync` using this mechanism as well.
 
+### Using a Virtualenv
+
+A Pelican based blog such as my own is essentially a specialized Python
+project and, like all my Python projects, I have the supporting libraries
+tucked away in a [virtualenv][13].  Hence, the above Makefile doesn't
+actually work out of the box.
+
+Emacs comes with several virtualenv packages to help in this situation.  I
+used to use [virtualenvwrapper.el][14] here but I decided to switch to
+[pyvenv][15] since I get the (perhaps erroneous) impression that it works
+better with Python 3.  Or maybe I just wanted to try something new.  In any
+case, pyvenv is easy to use.  I set up a key sequence to easily switch to my
+Pelican environment:
+
+    :::elisp
+    (require 'pyvenv)
+    (defun pyvenv-activate-pelican ()
+      (interactive)
+      (pyvenv-activate pelican-venv-root))
+    (global-set-key (kbd "C-c w v") 'pyvenv-activate-pelican)
+
 ## Using Markdown
 
-My blog entries are all written in [Markdown][7], which I edit in emacs
+My blog entries are all written in [Markdown][7], which I edit in Emacs
 using [Markdown mode][8].  Markdown's basic idea is to take "natural"
 markers in pure text and convert them to HTML; a piece of text flanked by
 the "*" symbol, for example, will be rendered in bold.  This is an organic
@@ -294,10 +318,10 @@ images, incrementing the label as you add more.  Here is the code:
 ## Creating and Finding your Drafts
 
 Projectile lets you quickly find a file once you are _in_ your project.
-Projectile even lets you quickly switch to a project from whichever buffer
-you happen to be editing.
+Projectile even lets you quickly switch to a project from whichever
+arbitrary buffer you happen to be editing (even outside a project).
 
-Out of the box, however, projectile does _not_ let me
+Out of the box, however, Projectile does _not_ let me
 
 * Create a new blog draft entry
 * Switch to a particular blog draft entry that is currently in progress
@@ -332,13 +356,13 @@ So, I wrote some code to do it.  Here it is:
 
 The `create-pelican-draft` prompts you for the content path (relative to
 your blog root) and the title from the minibuffer.  It will create the
-buffer at the content path and insert the title as metadata upong creation.
+buffer at the content path and insert the title as metadata upon creation.
 You still have to save the buffer and commit the contents.
 
 The `switch-to-pelican-drafts` function performs a simple grep at the root
-of your blog to find the drafts.  The result is a standard emacs grep buffer
+of your blog to find the drafts.  The result is a standard Emacs grep buffer
 window.  You visit the drafts the same way you would visit any other grep
-hit, with the `next-error` function, usually bound to ``C-x ```
+hit, with the `next-error` function, usually bound to `C-x <backtick>`
 
 ## Updating Timestamps
 
@@ -358,7 +382,7 @@ Pelican uses the date header to order the blog entries. To my knowledge, it
 doesn't really use the last modified date header for anything in particular,
 but I like having it around just in case.
 
-Notably, pelican does _not_ actually provide a way to manage or otherwise
+Notably, Pelican does _not_ actually provide a way to manage or otherwise
 insert the dates automatically; it's completely up to you to insert an
 appropriate date.
 
@@ -411,6 +435,19 @@ The code doesn't work if the header spans more than one line, but that
 doesn't really happen very often in my workflow (certainly not for date
 entries), so I haven't handled it.
 
+## Conclusion
+
+And that's about it.  With these modifications I have a fairly nice
+environment for blogging when the mood strikes.
+
+Part of the reason for streamlining this process was that I wanted to lessen
+the friction I was feeling when creating new blog entries, in an attempt to
+encourage myself to write more.  We'll see if I'm successful in this regard.
+
+If you have any suggestions feel free to drop me a line - unless, of course,
+your suggestion is "don't use Emacs or Pelican" in which case you will be
+politely ignored :)
+
 
 [1]: https://blog.getpelican.com
 
@@ -435,3 +472,9 @@ entries), so I haven't handled it.
 [11]: http://fletcherpenney.net/multimarkdown/
 
 [12]: http://fletcher.github.io/MultiMarkdown-4/metadata.html
+
+[13]: https://virtualenv.pypa.io/en/stable/
+
+[14]: https://github.com/porterjamesj/virtualenvwrapper.el
+
+[15]: https://github.com/jorgenschaefer/pyvenv
