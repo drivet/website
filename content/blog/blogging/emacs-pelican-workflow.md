@@ -1,7 +1,7 @@
 title: Blogging with Emacs and Pelican
-date: 2018-03-22 10:06:38
-modified: 2018-03-22 10:06:38
-status: draft
+date: 2018-03-30 13:25:49
+modified: 2018-03-30 13:25:49
+tags: python,pelican,emacs
 
 [Pelican][1] is my blogging engine of choice these days.  Given that
 [Emacs][2] is usually (though not always) my text editor of choice, it made
@@ -10,6 +10,11 @@ with Emacs.  What follows is my attempt to document such an endeavour,
 partly because I think it might be useful to the (undoubtedly tiny) cross
 section of people who use both Emacs and Pelican, but mostly so that I have
 something to refer back to when the need arises.
+
+Note that this blog entry does not cover things like actually setting up
+your Pelican blog.  It also doesn't cover my reasons for using Pelican in
+the first place; for that, feel free to peruse my other [blog entry][16] on
+the subject.
 
 ## Projectile and Version Control
 
@@ -478,3 +483,5 @@ politely ignored :)
 [14]: https://github.com/porterjamesj/virtualenvwrapper.el
 
 [15]: https://github.com/jorgenschaefer/pyvenv
+
+[16]: /blog/2016/12/12/pelican-move.html

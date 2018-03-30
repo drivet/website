@@ -15,8 +15,8 @@ RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DRAFT_URL = None
-DRAFT_SAVE_AS = None
+DRAFT_URL = ''
+DRAFT_SAVE_AS = ''
 
 # Following items are often useful when publishing
 
