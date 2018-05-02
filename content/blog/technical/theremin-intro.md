@@ -1,31 +1,25 @@
-title: On Plucking Musical Notes Out of Thin Air
-date: 2018-03-22 10:10:44
-modified: 2018-03-22 10:10:44
+title: On Pulling Musical Notes Out of Thin Air
+date: 2018-05-01 22:45:07
+modified: 2018-05-01 22:45:07
 status: draft
 
-I am an unapologetic Downton Abbey fan.  The series is full of memorable
-scenes, but one in particular has stuck with me.  Daisy, one of the scullery
-maids, when asked if she turned on the electric lights in one of the rooms,
-replies "No. I daren't".
+I am an unapologetic [Downton Abbey][3] fan.  The series is full of
+memorable scenes, but one in particular has stuck with me.  Daisy, one of
+the scullery maids, is asked if she turned on the electric lights in one of
+the rooms and she replies "No. I daren't".
 
-Daisy is afraid of electricity.  It's hard to imagine now, that there was a
-time when electricity was _known_ but not _ubiquitous_.  It seems like such
-a minor, throwaway line, but I feel like it succinctly captures how people
-must have related to it back then.
+It seems like such a minor, throwaway line, but I feel like it succinctly
+captures how the uninitiated must have felt about electricity back then.
+Daisy is downright _afraid_ of it.  Steam, and fire are very direct and
+literal sources of energy, but electricity is much more abstract.  You never
+see the electricity moving or burning, even as the motor spins or the lamp
+shines.
 
-I can only imagine how it must have seemed to uninitiated.  Horses, steam,
-gas, water wheels, fire - these are all very visible and tangible ways to
-power a machine, or to light a lamp.  But you never see electricity moving
-or burning, even as you see the motor spinning or the lamp go bright.  It's
-weird, when you think about it.
-
-It must have seemed ghostly.  Spooky, even. 
+It must have seemed rather ghostly.  Spooky, even.
 
 And the idea that one could make music from this stuff - that one could
-build a device to turn this abstract, invisible force into something
-audible - must have been a hard one to swallow.
-
-Hell, it must have been downright _unnerving_.
+build a device to turn this abstract, invisible force into something audible
+and pleasing to the ear - must have been downright _unnerving_.
 
 ## Music from the Void
 
@@ -37,16 +31,88 @@ certainly qualifies as one of the most unusual instruments ever invented.
 To my knowledge it is the only musical instrument that one plays with no
 physical contact.
 
-It consists of two metal rods which are usually called antenna, though they
-do not operate on the same principles as, for example, a radio antenna.  One
-of the rods is usually pointing in the air, and the other is usually curved
-in a loop.  One controls the pitch by moving one's hand around the rod; the
-closer your hand, the higher the pitch.  One controls the volume in the same
-way, but with the looped rod; moving your hand closer makes the volume
-lower.
+Even if you've never heard of a theremin, you've probably heard one being
+played without realizing it.  You know that high-pitched twang from a
+typical 1950's sci-fi movie?  That's a theremin in action.  Because it was
+typically used for these kinds of soundtracks, people came to associate it
+with eerie, spooky situations (which I feel is somewhat appropriate, given
+the eerie, spooky nature of electricity itself).
 
+The instrument consists of two metal rods (usually called "antenna", though
+they operate on different principles).  One of the rods is usually pointing
+in the air, and the other is usually curved in a loop.  One controls the
+pitch by moving one's hand to and from the first rod; the closer one's hand,
+the higher the pitch.  The second antenna controls the volume in the same
+way; moving your hand closer lowers the volume.  A typical setup looks like
+this:
+
+<div style="clear: both; text-align: center;">
+<img border="0"  width="320" height="240"
+    src="/blog/technical/etherwave_theremin.jpg"/>
+</div>
+
+Given the lack of anything physical to manipulate, they are notoriously
+difficult to play.  They are also the butt of many jokes.  For example:
+
+<div style="clear: both; text-align: center;">
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/_YYABE0R3uA" frameborder="0"
+    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+In the right hands, however, they are very, very cool.  Don't believe me?
+Consider exhibit A. She starts playing the theremin around the one minute
+mark but you should watch the whole thing :
+
+<div style="clear: both; text-align: center;">
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/ajM4vYCZMZk" frameborder="0"
+    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+I'll be honest, this video makes me want to learn to play the theremin.
+
+## Basic Principles
+
+From a cultural and musical standpoint, theremins are fascinating devices.
+They are also fascinating from an engineering standpoint.
+
+Internally, for each antenna, one constructs an [electronic oscillator][5]
+out of [capacitors][6] and [inductors][7].  The frequency of the oscillator
+is a function of the particular capacitors and inductors used in the
+circuit.  Each antenna forms one half of a capacitor, connected directly
+into its oscillator.  The player's hand forms the other half; when their
+hand moves to and fro, the capacitance of the antenna changes, thus changing
+the frequency of the oscillator.  Though this frequency is not in the
+audible range, theremins use a process called [_heterodyning_][4], which
+basically consists of shifting the frequency onto the audible spectrum so
+that one may actually hear a note.
+
+In other words, a theremin works because the player effectively forms a part
+of the circuit - one half of a capacitor. I don't know why, but I find that
+idea pleasing to think about.
+
+## Onward and Upward
+
+Why am I writing about theremins?  Well, one answer is simply that I like
+theremins, and that this is _my_ blog and I'll write about what I darn well
+please.
+
+_Another_ answer, closer to the mark, is that they're great fodder if you're
+looking to tinker with hobby electronics.  Stay tuned for more information
+on how far I got on _that_ score.
 
 
 [1]: https://en.wikipedia.org/wiki/Theremin
 
 [2]: https://en.wikipedia.org/wiki/Synthesizer
+
+[3]: https://en.wikipedia.org/wiki/Downton_Abbey
+
+[4]: https://en.wikipedia.org/wiki/Heterodyne
+
+[5]: https://en.wikipedia.org/wiki/Electronic_oscillator
+
+[6]: https://en.wikipedia.org/wiki/Capacitor
+
+[7]: https://en.wikipedia.org/wiki/Inductor
