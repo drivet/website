@@ -87,17 +87,16 @@ and Function switch, but on the whole I don't think it's that bad.
 
 The kit doesn't actually come with the antennae - only the connectors which,
 thankfully, are merely screwed on, not soldered (using the pads on the upper
-left and right sides). The web site does some handwaving about this,
-claiming that the required 4 mm alumunium tubes are difficult to ship, and
-then goes on to say that they should be widely available at any hardware
-store.  This is simply untrue, at least in Montreal, where I live; I
-couldn't find tubes of the right size anywhere.  I eventually had to order
-them from Ebay.
+left and right sides). The web site hand waves about this a bit, claiming
+that the required 4 mm aluminum tubes are difficult to ship, and then goes
+on to say that they should be widely available at any hardware store.  This
+is simply untrue, at least in Montreal, where I live; I couldn't find tubes
+of the right size anywhere.  I eventually had to order them from Ebay.
 
-The website also does some handwaving on what exactly you're supposed to do
-with the tubes. It claims that "you can easily bend antennas from aluminium
+The website also does some hand waving on what exactly you're supposed to do
+with the tubes. It claims that "you can easily bend antennas from aluminum
 tubes of 6 mm diameter by hand to the desired shape" which isn't _entirely_
-untrue; I had to bend mine around a hard plastic tube about 10 cm in
+untrue; I had to bend mine around a hard plastic cylinder about 10 cm in
 diameter.  I've heard that wine bottles also work well.
 
 Anyway, you put it all together, add an Arduino, connect the resulting
@@ -118,10 +117,10 @@ theremin.  The final result look like this:
 I made it sound like all you had to do was plug it in, connect up some
 speakers and start playing but sadly it's not quite that simple.
 
-For one thing, proper grounding is cruicial.  Given that the player is
+For one thing, proper grounding is crucial.  Given that the player is
 actually part of the circuit (forming one half of a capacitor, the other
 half being the antennae), the instrument simply won't unless both the player
-and the instrument are conected to ground.  Luckily, the board comes with a
+and the instrument are connected to ground.  Luckily, the board comes with a
 grounding pad, which I connected to a makeshift copper wire bracelet via
 alligator clips.
 
@@ -133,15 +132,13 @@ could get to work.
 
 ## Calibrating the Theremin
 
-Once the instrument is grounded, you have to _calibrate_ it.  The first step
-in this process is to position yourself roughly 1.5 to 2 feet away from the
-theremin.
+Once the instrument is grounded, you have to _calibrate_ it.
 
 Any theremin that's more than just a toy (like the Open Theremin) comes with
-a pitch knob that allows you to adjust the length of the playable field.
-Once you're seated comfortably, the idea is to use this knob to calibrate
-the field so that the lowest (silent) note is somewhere in the middle of
-your torso.
+a pitch knob that allows you to calibrate the length of the playable field.
+Once you're seated comfortably, the idea is to use this knob to adjust the
+field so that the lowest (silent) note is somewhere in the middle of your
+torso, with the player being positioned roughly 1.5 to 2 feet away.
 
 After that comes the fine tuning.  How you do this depends on how you play.
 Thereminist [Carolina Eyck][9], for example, has developed a technique
@@ -151,9 +148,9 @@ steps:
 
 1. You make finger position 1 and you find the C note in your playable field
    (in her videos, Eyck appears to have perfect pitch but I needed to
-   download a Note Recognizer program on my phone to be able to do this)
+   download a Note Recognizer app on my phone to be able to do this)
 2. You then make finger position 8 and adjust the field so that this
-   poistion is the next highest C note.
+   position is the next highest C note.
 
 When you're finished, your hand will span an octave, and you can play all
 the notes in between by making the appropriate finger positions (much,
@@ -183,10 +180,10 @@ theremins are quite difficult by the very nature of the instrument.
 One of the issues that plagues theremins is the non-linearity of the playing
 field, and a lot of circuitry will often go into mitigating that particular
 problem.  The Open Theremin is _exceptionally_ linear, I suspect due to the
-fact that it "cheats" by using an Arduino, so I suppose that's one checkmark
+fact that it "cheats" by using an Arduino, so I suppose that's one check mark
 in the easy column.
 
-As you might imagine, Carolina Eyck has a video that introduces her playing
+As you might imagine, Eyck has a video that introduces her playing
 technique:
 
 <div style="clear: both; text-align: center;">
@@ -195,10 +192,10 @@ src="https://www.youtube.com/embed/qz-Ijf9JfpI" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-The basic upshot of that video is that if you learn how to play the four
-high notes of an octave, plus the starting C note, you can play the
-beginning of "Somewhere Over The Rainbow".  A concrete goal - I like it.
-I'll let you all know how it goes.
+The basic upshot is that if you learn how to play the four high notes of an
+octave, plus the starting C note, you can play the beginning of "Somewhere
+Over The Rainbow".  A concrete goal - I like it.  I'll let you all know how
+it goes.
 
 In the meantime, here's a video of me just making random noises:
 
