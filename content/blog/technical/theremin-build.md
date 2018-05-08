@@ -1,6 +1,7 @@
 title: On Finding an Excuse to Buy an Arduino or: How I Finally Got Myself a Theremin
 date: 2018-03-22 10:10:44
 modified: 2018-03-22 10:10:44
+tags: theremin,arduino
 status: draft
 
 In my last blog entry, I talked about theremins.  I've known about them for
@@ -170,6 +171,37 @@ One of the interesting things about the Open Theremin project is that it's
 able to automate the first step in the tuning process - the positioning of
 the lowest note near your torso.  The mechanism by which this occurs will be
 the subject of another blog entry.
+
+## Playing the Theremin
+
+So, once you've tuned your Open Theremin, what is it like to play?
+
+This is a difficult question to answer.  By all accounts, the Open Theremin
+is relatively easy to play, but how easy is that?  Even so called "easy"
+theremins are quite difficult by the very nature of the instrument.
+
+One of the issues that plagues theremins is the non-linearity of the playing
+field, and a lot of circuitry will often go into mitigating that particular
+problem.  The Open Theremin is _exceptionally_ linear, I suspect due to the
+fact that it "cheats" by using an Arduino, so I suppose that's one checkmark
+in the easy column.
+
+As you might imagine, Carolina Eyck has a video that introduces her playing
+technique:
+
+<div style="clear: both; text-align: center;">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/qz-Ijf9JfpI" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+The basic upshot of that video is that if you learn how to play the four
+high notes of an octave, plus the starting C note, you can play the
+beginning of "Somewhere Over The Rainbow".  A concrete goal - I like it.
+I'll let you all know how it goes.
+
+In the meantime, here's a video of me just making random noises:
+
 
 
 [4]: https://en.wikipedia.org/wiki/Arduino
