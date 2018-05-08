@@ -1,7 +1,7 @@
 title: On Pulling Musical Notes Out of Thin Air
 date: 2018-05-01 22:45:07
 modified: 2018-05-01 22:45:07
-status: draft
+tags: theremin
 
 I am an unapologetic [Downton Abbey][3] fan.  The series is full of
 memorable scenes, but one in particular has stuck with me.  Daisy, one of
