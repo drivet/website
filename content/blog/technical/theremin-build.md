@@ -4,15 +4,15 @@ modified: 2018-03-22 10:10:44
 tags: theremin,arduino
 status: draft
 
-In my last blog entry, I talked about theremins.  I've known about them for
-a while, and I've always found them fascinating, but I've never taken the
-plunge and bought one, despite being being tempted on many occasions
-(they're not actually that expensive).
+In my [last blog entry][3], I talked about theremins.  I've known about them
+for a while, and I've always found them fascinating, but I've never actually
+taken the plunge and bought one, despite being being tempted on many
+occasions (they're not that expensive).
 
 At the same time, I've known about [Arduinos][4] for a long time, and I've
-always wanted an excuse to buy one, but I've never taken the plunge and
-bought one.  As I'm fond of saying, an Arduino is a solution in search of a
-problem, and I just never found the right problem for it.
+always wanted an excuse to buy one, but I've never actually taken the plunge
+and bought one.  As I'm fond of saying, an Arduino is a solution in search
+of a problem, and I just never found the right problem for one.
 
 That is, until I found this website:
 
@@ -34,7 +34,8 @@ with this project:
 I stood a much better chance of accomplishing (1) if I bought the kit.  I
 stood a much better chance of accomplishing (2) if I built one from scratch.
 I eventually decided to try for both; I bought the kit and started the
-process of buying the component parts separately.
+process of buying the component parts separately.  My success on that score
+will be detailed in subsequent blog entries.
 
 ## Building the Theremin
 
@@ -48,13 +49,13 @@ hand, are not.  The bare board looks like this:
 <a href="/blog/technical/open_theremin_board.jpg" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="266" width="200" 
-     src="/blog/technical/open_theremin_board.jpg" 
+     src="/blog/technical/open_theremin_board_t.jpg" 
      alt="Open Theremin Board (Front)" />
 </a>
 <a href="/blog/technical/open_theremin_board_back.jpg" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="266" width="200" 
-     src="/blog/technical/open_theremin_board_back.jpg" 
+     src="/blog/technical/open_theremin_board_back_t.jpg" 
      alt="Open Theremin Board (Back)" />
 </a>
 </div>
@@ -77,7 +78,7 @@ it should have.  The soldered result looks like this:
 <a href="/blog/technical/open_theremin_soldered.jpg" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/blog/technical/open_theremin_soldered.jpg" 
+     src="/blog/technical/open_theremin_soldered_t.jpg" 
      alt="Open Theremin Board (Soldered)" />
 </a>
 </div>
@@ -108,10 +109,13 @@ theremin.  The final result look like this:
 <a href="/blog/technical/complete_theremin.jpg" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="266" width="200" 
-     src="/blog/technical/complete_theremin.jpg" 
+     src="/blog/technical/complete_theremin_t.jpg" 
      alt="Complete Open Theremin Board" />
 </a>
 </div>
+
+This particular theremin is sitting on a camera tripod, which is itself
+seated on a stool.  The speakers were the cheapest I could find.
 
 ## Grounding the Theremin
 
@@ -123,7 +127,17 @@ actually part of the circuit (forming one half of a capacitor, the other
 half being the antennae), the instrument simply won't unless both the player
 and the instrument are conected to ground.  Luckily, the board comes with a
 grounding pad, which I connected to a makeshift copper wire bracelet via
-alligator clips.
+alligator clips:
+
+<div style="clear: both; text-align: center;"> 
+<a href="/blog/technical/grounding_bracelet.jpg" 
+   style="margin-left: 1em; margin-right: 1em;">
+<img border="0" height="200" width="266" 
+     src="/blog/technical/grounding_bracelet_t.jpg" 
+     alt="Complete Open Theremin Board" />
+</a>
+</div>
+
 
 Note that, in theory, you can also use a properly grounded power plug, but
 either my house isn't properly grounded (a distinct possibility) or the
@@ -178,7 +192,7 @@ So, once you've tuned your Open Theremin, what is it like to play?
 
 This is a difficult question to answer.  By all accounts, the Open Theremin
 is relatively easy to play, but how easy is that?  Even so called "easy"
-theremins are quite difficult by the very nature of the instrument.
+theremins are quite difficult, given the nature of the instrument.
 
 One of the issues that plagues theremins is the non-linearity of the playing
 field, and a lot of circuitry will often go into mitigating that particular
@@ -195,14 +209,15 @@ src="https://www.youtube.com/embed/qz-Ijf9JfpI" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-The basic upshot of that video is that if you learn how to play the four
-high notes of an octave, plus the starting C note, you can play the
-beginning of "Somewhere Over The Rainbow".  A concrete goal - I like it.
-I'll let you all know how it goes.
+The basic upshot is that if you learn how to play the four high notes of an
+octave, plus the starting C note, you can play the beginning of "Somewhere
+Over The Rainbow".  A concrete goal - I like it.  I'll let you all know how
+it goes.
 
 In the meantime, here's a video of me just making random noises:
 
 
+[3]: /blog/miscellanea/theremin-intro.html
 
 [4]: https://en.wikipedia.org/wiki/Arduino
 
