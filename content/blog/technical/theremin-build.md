@@ -34,8 +34,11 @@ with this project:
 I stood a much better chance of accomplishing (1) if I bought the kit.  I
 stood a much better chance of accomplishing (2) if I built one from scratch.
 I eventually decided to try for both; I bought the kit and started the
-process of buying the component parts separately.  My success on that score
-will be detailed in subsequent blog entries.
+process of buying the component parts separately.
+
+This blog entry will detail the steps involved in putting together the kit;
+my success (or lack of it) in building the project from scratch will be
+detailed in subsequent blog entries.
 
 ## Building the Theremin
 
@@ -43,7 +46,6 @@ The kit basically consists of the board and the control knobs (along with a
 couple of LEDs, and the antennae connectors).  The electronics are all
 pretty much pre-soldered onto the board; the knobs and LEDs, on the other
 hand, are not.  The bare board looks like this:
-
 
 <div style="clear: both; text-align: center;"> 
 <a href="/blog/technical/open_theremin_board.jpg" 
@@ -60,11 +62,12 @@ hand, are not.  The bare board looks like this:
 </a>
 </div>
 
-There's not actually that much to put together.  You have to solder on the
-Arduino connectors and the knobs, as well as the LEDs, but that's about it.
-It all sounds very easy, and it is - if you know how to solder.  I was
-reasonably good at it 20 years ago, back in school, but did I still have the
-knack?  Was it like riding a bike?
+There's not actually that much to put together (like I said, the components
+are mostly already soldered for you).  You have to solder on the Arduino
+connectors and the knobs, as well as the LEDs, but that's about it.  It all
+sounds very easy, and it is - if you know how to solder.  I was reasonably
+good at it 20 years ago, back in school, but did I still have the knack?
+Was it like riding a bike?
 
 The answer is...no.  It is not like riding a bike. Not even close.
 Soldering was much harder than I remembered it.  In addition, the LEDs and
@@ -113,8 +116,8 @@ theremin.  The final result look like this:
 </a>
 </div>
 
-This particular theremin is sitting on a camera tripod, which is itself
-seated on a stool.  The speakers were the cheapest I could find.
+This particular theremin is screwed into a small camera tripod, which is
+itself seated on a stool.  The speakers were the cheapest I could find.
 
 ## Grounding the Theremin
 
@@ -123,10 +126,10 @@ speakers and start playing but sadly it's not quite that simple.
 
 For one thing, proper grounding is crucial.  Given that the player is
 actually part of the circuit (forming one half of a capacitor, the other
-half being the antennae), the instrument simply won't unless both the player
-and the instrument are connected to ground.  Luckily, the board comes with a
-grounding pad, which I connected to a makeshift copper wire bracelet via
-alligator clips:
+half being the antennae), the instrument simply won't work unless both the
+player and the instrument are connected to ground.  Luckily, the board comes
+with a grounding pad, which I connected to a makeshift copper wire bracelet
+via alligator clips:
 
 <div style="clear: both; text-align: center;"> 
 <a href="/blog/technical/grounding_bracelet.jpg" 
@@ -137,9 +140,8 @@ alligator clips:
 </a>
 </div>
 
-
 Note that, in theory, you can also use a properly grounded power plug, but
-either my house isn't properly grounded (a distinct possibility) or the
+either my house isn't properly grounded (a very real possibility) or the
 carpet I play on is a better insulator than I thought, because using such a
 plug was ineffective.  Manual grounding via the pad was the only thing I
 could get to work.
@@ -151,8 +153,9 @@ Once the instrument is grounded, you have to _calibrate_ it.
 Any theremin that's more than just a toy (like the Open Theremin) comes with
 a pitch knob that allows you to calibrate the length of the playable field.
 Once you're seated comfortably, the idea is to use this knob to adjust the
-field so that the lowest (silent) note is somewhere in the middle of your
-torso, with the player being positioned roughly 1.5 to 2 feet away.
+field so that the lowest note (the term I've heard used is "zero beat") is
+somewhere in the middle of your torso, with the player being positioned
+roughly 1.5 to 2 feet away.
 
 After that comes the fine tuning.  How you do this depends on how you play.
 Thereminist [Carolina Eyck][9], for example, has developed a technique
@@ -180,8 +183,8 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 One of the interesting things about the Open Theremin project is that it's
 able to automate the first step in the tuning process - the positioning of
-the lowest note near your torso.  The mechanism by which this occurs will be
-the subject of another blog entry.
+the zero beat.  The mechanism by which this occurs will be the subject of
+another blog entry.
 
 ## Playing the Theremin
 
@@ -213,6 +216,10 @@ it goes.
 
 In the meantime, here's a video of me just making random noises:
 
+
+
+My hope is that, at some point, the random noises will begin to sound like
+actual music.  Once again, we'll see how it goes.  Stay tuned!
 
 [3]: /blog/miscellanea/theremin-intro.html
 

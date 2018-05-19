@@ -10,7 +10,7 @@ the rooms and she replies "No. I daren't".
 
 It seems like such a minor, throwaway line, but I feel like it succinctly
 captures how the uninitiated must have felt about electricity back then.
-Daisy is downright _afraid_ of it.  Steam, and fire are very direct and
+Daisy is downright _afraid_ of it.  Steam and fire are very direct and
 literal sources of energy, but electricity is much more abstract.  You never
 see the electricity moving or burning, even as the motor spins or the lamp
 shines.
@@ -70,7 +70,8 @@ mark but you should watch the whole thing :
     allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-I'll be honest, this video makes me want to learn to play the theremin.
+I'll be honest, this video, more than any other, makes me want to learn to
+play.
 
 ## Basic Principles
 

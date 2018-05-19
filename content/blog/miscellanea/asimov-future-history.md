@@ -1,5 +1,6 @@
 title: Reading Between the Lines in the Foundation Universe
 tags: scifi
+status: draft
 
 I read Issac Asimov's Foundation series in high school.  I was looking for
 something to read, the trilogy was bound as one volume in my school library,
