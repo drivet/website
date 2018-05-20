@@ -1,6 +1,6 @@
 title: On Finding an Excuse to Buy an Arduino or: How I Finally Got Myself a Theremin
-date: 2018-03-22 10:10:44
-modified: 2018-03-22 10:10:44
+date: 2018-05-20 15:38:34
+modified: 2018-05-20 15:38:34
 tags: theremin,arduino
 status: draft
 
@@ -70,12 +70,12 @@ good at it 20 years ago, back in school, but did I still have the knack?
 Was it like riding a bike?
 
 The answer is...no.  It is not like riding a bike. Not even close.
-Soldering was much harder than I remembered it.  In addition, the LEDs and
-one of the knobs were surface mounted (somewhat gratuitously, I thought,
-since it seemed to me that the components could just as easily have been
-soldered "through-hole"), which just added a new layer of difficulty.  In my
-opinion, I ended up doing a not-horrible job, but it took _way_ longer than
-it should have.  The soldered result looks like this:
+Soldering was much harder than I remembered.  In addition, the LEDs and one
+of the knobs were surface mounted (somewhat gratuitously, I thought, since
+it seemed to me that the components could have just as easily been soldered
+"through-hole"), which just added a new layer of difficulty.  In my opinion,
+I ended up doing a not-horrible job, but it took _way_ longer than it should
+have.  The soldered result looks like this:
 
 <div style="clear: both; text-align: center;"> 
 <a href="/blog/technical/open_theremin_soldered.jpg" 
@@ -216,7 +216,11 @@ it goes.
 
 In the meantime, here's a video of me just making random noises:
 
-
+<div style="clear: both; text-align: center;">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/IKFrCKCUyaI" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 My hope is that, at some point, the random noises will begin to sound like
 actual music.  Once again, we'll see how it goes.  Stay tuned!
