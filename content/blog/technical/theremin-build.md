@@ -1,8 +1,7 @@
 title: On Finding an Excuse to Buy an Arduino or: How I Finally Got Myself a Theremin
-date: 2018-05-20 15:38:34
-modified: 2018-05-20 15:38:34
+date: 2018-05-20 15:45:11
+modified: 2018-05-20 15:45:11
 tags: theremin,arduino
-status: draft
 
 In my [last blog entry][3], I talked about theremins.  I've known about them
 for a while, and I've always found them fascinating, but I've never actually
