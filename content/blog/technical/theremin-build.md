@@ -13,9 +13,7 @@ always wanted an excuse to buy one, but I've never actually taken the plunge
 and bought one.  As I'm fond of saying, an Arduino is a solution in search
 of a problem, and I just never found the right problem for one.
 
-That is, until I found this website:
-
-[http://www.gaudi.ch/OpenTheremin/][5]
+That is, until I found this website: [http://www.gaudi.ch/OpenTheremin/][5]
 
 A chance to build a theremin out of an Arduino?  How could I pass this up?
 I couldn't, that's how.
