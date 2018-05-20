@@ -38,10 +38,10 @@ LINKS = ()
 
 # Social widget
 SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet'),
+          ('Instagram', 'https://www.instagram.com/thegreatdesmondo/'),
           ('Twitter', 'http://www.twitter.com/desmondrivet'),
-          ('Google+', 'https://plus.google.com/u/0/117299838889583871071'),
           ('Github', 'https://github.com/drivet'),
-          ('LinkedIn', 'http://ca.linkedin.com/in/desmondrive'))
+          ('LinkedIn', 'http://ca.linkedin.com/in/desmondrivet'))
 
 # DCR added this
 # Links for the nav bar
