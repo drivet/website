@@ -31,39 +31,30 @@ from one octave and the corresponding pitch from a higher octave were
 perceived, in some sense, to be the same note, in what has been referred to
 as "the basic miracle of music".
 
-But I didn't really give the topic much thought beyond that.  I was under
-the vague impression that you could basically play any tune you wanted with
-only these 7 notes (repeated indefinitely).
+I even understood, in my limited way, that you could sound out the Do-Re-Mi
+musical pattern on a piano by hitting a certain contiguous sequence of white
+keys.  I knew that the sounds and the keys were associated with letters (the
+Do sound was a C, I knew, and the Re sound was a D).
 
-Then I read the Wikipedia article on the [Major scale][7].  From the
-article:
+But I didn't really give the topic much thought beyond that.  The term
+"major scale" had not yet entered my brain.  I was under the vague
+impression that you could basically play any tune you wanted with only these
+7 notes, repeated indefinitely as octaves do.
 
-> Like many musical scales, it is made up of seven notes: the eighth
-> duplicates the first at double its frequency so that it is called a higher
-> octave of the same note (from Latin "octavus", the eighth).
->
-> The simplest major scale to write is C major, the only major scale not
-> requiring sharps or flats
+I mean, I had a vague notion that there existed these mysterious notes
+called "sharps" and "flats", and I had a vague sense that they were somehow
+related to the black keys on a piano, but I had no idea what role they
+played in a Do-Re-Mi world, so I basically just ignored them.
 
-A couple of questions stand out for me in that quote:
-
-* There's more to music than Do-Re-Mi?
-* What the heck are sharps and flats?
+It's weird, I know.  I mean, what did I think the black keys were used for?
+Jazz?
 
 ## The Colour Wheel
 
-"But Desmond!", I can hear everyone saying in chorus. "What did you think the
-black keys on a piano were used for?"
+When you start reading about musical scales, you very quickly come across
+two notions: a major scale and a chromatic scale.
 
-And with only a hint of flippancy and exaggeration, my response is:
-
-"I dunno, jazz?"
-
-The plain fact is that I really didn't give the black keys on a piano much
-thought at all.  I didn't understand what role they played in a Do-Re-Mi
-world so I kind of just ignored them.
-
-When you start reading about musical scales, you very soon come across
+you very soon come across
 something called the chromatic scale.  It's often depicted as a circle like
 this:
 
