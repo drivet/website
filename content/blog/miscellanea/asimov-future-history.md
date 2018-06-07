@@ -1,4 +1,6 @@
 title: Reading Between the Lines in the Foundation Universe
+date: 2018-06-04 11:26:47
+modified: 2018-06-04 11:26:47
 tags: scifi
 status: draft
 
