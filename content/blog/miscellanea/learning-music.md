@@ -51,22 +51,25 @@ Jazz?
 
 ## Major Scales and Colour Wheels
 
-Read enough and you eventually learned that Do-Re-Mi is actually an example
-of something called a [major scale][7], the [C major scale][2] to be
-precise.
+Read enough and you eventually discover that Do-Re-Mi is an example of
+something called a [major scale][7] - the [C major scale][2] to be precise.
+One line stands out from the major scale Wikipedia article:
+
+> The simplest major scale to write is C major, the only major scale not
+> requiring sharps or flats
 
 This tells me a couple of things:
 
-* There are other major scales aside from C major.  There's more to music
-  than Do-Re-Mi!
+* There are other major scales aside from C major, which means that there's
+  more to music than Do-Re-Mi.  Who knew?
+  
 * The sharps and flats becomes important when you start constructing other
   major scales.
 
+What's not immediately clear is _why_.  Why are sharps and flats required
+for other major scales?  How exactly does one go about making a major scale?
 
-When you start reading about musical scales, you very quickly come across
-two notions: a major scale and a chromatic scale.
-
-you very soon come across
+When faced with these kinds of inquiries, you very soon come across
 something called the chromatic scale.  It's often depicted as a circle like
 this:
 
@@ -80,59 +83,59 @@ Chromatic means "colour" in Greek, and I'm not entirely sure why it's used
 in this context.  Is it supposed to evoke the image of a colour palette?
 Are notes considered "colourful" to certain people?  I don't know.
 
-It's a bit of a simplification, but the chromatic scale basically embodies
+It's a bit of a simplification, but the chromatic scale basically contains
 all the notes that one ever hears in Western classical music.  I find it
-amazing that the whole of Western music is built from a repertoire of only
-12 notes, but there you go.
+amazing and disconcerting that the whole of Western music is built from a
+repertoire of only 12 notes, but there you have it.
 
-As someone mulling these things over for the first time in his life, I'm
-immediately struck by the weirdness in labelling.  Why is there a note in
-between C and D, that feels like it was added as an afterthought?
-Conversely, why is there no note between E and F?  Or to put it another way,
-why is C# not simply called a D?  It's the next note, after all.  Or, if you
-insist on having sharps in between the notes, then why is F not called an
-E#?
-
-All things considered, why not just label the notes 1 through 12, or A
-through L?
-
-These kinds of questions become more pointed when you start reading about a
-concept called a "major scale".  A major scale is collection of 7 notes with
-the following frequency intervals:
+All other scales are necessarily a subset of the chromatic scale.  In
+particular, with a _major scale_, one selects 7 notes from the chromatic
+scale according to the following frequency pattern:
 
 whole, whole, half, whole, whole, whole, half
 
 A "half" in this context means one "hour" of the chromatic circle, so a
-"whole" means two "hours".  A major scale is obtained by picking a note on
+"whole" means two "hours".  A major scale is obtained by picking any note on
 the circle and counting out the interval pattern above until you get to the
-same spot again, thus obtaining an octave.
+same spot again, thus obtaining an octave.  Since you can start from any
+note, there are 12 major scales.
 
-So if you start from C, you get C, D, E, F, G, A, B, and C again.  You've
-just written out the C major scale, the simplest one because it skips all
-the sharp notes in between and thus can be played using only the white keys
-on a piano.  It's the only major scale with this feature; all the other
-major scales have at least one sharp in them.  D major, for example,
-consists of the notes D, E, F#, G, A, B, C# and D again.
+In particular, if you start from C, and you follow the pattern, you get C,
+D, E, F, G, A, B, and C again.  You've just written out the C major scale,
+the simplest one because it skips all the sharp notes in between and thus
+can be played using only the white keys on a piano.  As the above quote
+mentions, it's the only major scale with this feature; all the other major
+scales have at least one sharp in them.  D major, for example, consists of
+the notes D, E, F#, G, A, B, C# and D again.
 
-## It's Still Confusing
+## Why is There No E Sharp?
 
-The ongoing discussion, quite frankly, raised more questions than it
-answered for me.
+As someone mulling these things over for the first time in his life, I'm
+immediately struck by the weirdness in chromatic labeling.  Why is there a
+note (C#) in between C and D, that feels like it was added as an
+afterthought?  Conversely, why is there no note between E and F?  Or to put
+it another way, why is C# not simply called a D?  It's the next letter,
+after all.  Or, if you insist on having sharps in between the notes, then
+why is F not called an E#?
+
+All things considered, why not just label the notes 1 through 12, or A
+through L?
 
 I mean, it's all very well and good to say that the C major scale skips all
 the sharp notes, but *that's* only true because someone decided, seemingly
 arbitrarily, that a major scale followed a certain interval pattern (W, W,
-H, W, W, W, H) *and* furthermore decided that there was no sharp in between
-E and F.
+H, W, W, W, H) *and*, furthermore, decided that there was no sharp in
+between E and F.
 
 I mean, what's so special about a C major scale that we will seemingly bend
 over backwards in order to be able to label its notes with simple, unadorned
 letters - to the point where every *other* note in the chromatic scale is
-labelled as a kind of "correction" to these notes?  I honestly don't know.
+labeled as a kind of "correction" to these notes?  I honestly don't know.
 
 I get the impression that asking these kinds of questions is akin to asking
 why a yard has 36 inches.  There's an answer, of course, but it's not
-particularly germane to the task at hand, which is to measure something.
+particularly germane to the task at hand, which is to be able to play a
+tune.
 
 Of course, I can make what I hope are educated guesses.  If you look at the
 interval pattern for a major scale (W, W, H, W, W, W, H) you can see that it
