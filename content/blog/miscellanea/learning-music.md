@@ -33,23 +33,35 @@ as "the basic miracle of music".
 
 I even understood, in my limited way, that you could sound out the Do-Re-Mi
 musical pattern on a piano by hitting a certain contiguous sequence of white
-keys.  I knew that the sounds and the keys were associated with letters (the
-Do sound was a C, I knew, and the Re sound was a D).
+keys.  And I knew that the sounds and the keys were associated with letters
+(the Do sound was a C, I knew, and the Re sound was a D).
 
 But I didn't really give the topic much thought beyond that.  The term
 "major scale" had not yet entered my brain.  I was under the vague
 impression that you could basically play any tune you wanted with only these
 7 notes, repeated indefinitely as octaves do.
 
-I mean, I had a vague notion that there existed these mysterious notes
-called "sharps" and "flats", and I had a vague sense that they were somehow
-related to the black keys on a piano, but I had no idea what role they
-played in a Do-Re-Mi world, so I basically just ignored them.
+To be fair, I did have a vague notion that there existed these mysterious
+notes called "sharps" and "flats", and I had a vague sense that they were
+somehow related to the black keys on a piano, but I had no idea what role
+they played in a Do-Re-Mi world, so I basically just ignored them.
 
 It's weird, I know.  I mean, what did I think the black keys were used for?
 Jazz?
 
-## The Colour Wheel
+## Major Scales and Colour Wheels
+
+Read enough and you eventually learned that Do-Re-Mi is actually an example
+of something called a [major scale][7], the [C major scale][2] to be
+precise.
+
+This tells me a couple of things:
+
+* There are other major scales aside from C major.  There's more to music
+  than Do-Re-Mi!
+* The sharps and flats becomes important when you start constructing other
+  major scales.
+
 
 When you start reading about musical scales, you very quickly come across
 two notions: a major scale and a chromatic scale.
