@@ -1,8 +1,7 @@
 title: Why Is There No E Sharp?
-date: 2018-06-04 11:26:47
-modified: 2018-06-04 11:26:47
+date: 2018-06-10 14:10:24
+modified: 2018-06-10 14:10:24
 tags: theremin
-status: draft
 
 In an attempt to at least *try* and get to know my theremin a bit better, I
 caved and bought Carolina Eyck's [*The Art of Playing the Theremin*][1].  I
