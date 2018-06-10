@@ -1,6 +1,7 @@
-title: On Learning Music From Scratch
+title: Why Is There No E Sharp?
 date: 2018-06-04 11:26:47
 modified: 2018-06-04 11:26:47
+tags: theremin
 status: draft
 
 In an attempt to at least *try* and get to know my theremin a bit better, I
@@ -10,9 +11,8 @@ really give you a proper sense of how to move your fingers when playing a
 tune.  Her book, on the other hand, does.
 
 It's probably obvious to everyone else in the world, and I'm not sure what
-exactly I was expecting, but it turns out, quite reasonably, that you have
-to know how to read sheet music in order to fully benefit from the book.
-Crazy, right?
+exactly I was expecting, but it turns out that you have to know how to read
+sheet music in order to fully benefit from the book.  Crazy, right?
 
 Unfortunately, to put it bluntly, I know pretty much nothing about reading
 sheet music - or music in general, really.  Given that I really want to
@@ -23,7 +23,7 @@ old software developer starting almost entirely from zero.
 
 ## Do Re Mi
 
-Okay, so I'm not starting from *exactly* zero.  Like most people, I was at
+Okay, so I'm not starting *exactly* from zero.  Like most people, I was at
 least partially familiar with the [Do-Re-Mi][5] song from [The Sound of
 Music][6].  I understood, more or less, that the syllables were sounding out
 the notes in an octave and, furthermore, that octaves "repeated" - a pitch
@@ -31,7 +31,7 @@ from one octave and the corresponding pitch from a higher octave were
 perceived, in some sense, to be the same note, in what has been referred to
 as "the basic miracle of music".
 
-I even understood, in my limited way, that you could sound out the Do-Re-Mi
+I even understood, in a limited way, that you could sound out the Do-Re-Mi
 musical pattern on a piano by hitting a certain contiguous sequence of white
 keys.  And I knew that the sounds and the keys were associated with letters
 (the Do sound was a C, I knew, and the Re sound was a D).
@@ -39,7 +39,7 @@ keys.  And I knew that the sounds and the keys were associated with letters
 But I didn't really give the topic much thought beyond that.  The term
 "major scale" had not yet entered my brain.  I was under the vague
 impression that you could basically play any tune you wanted with only these
-7 notes, repeated indefinitely as octaves do.
+7 notes, repeated indefinitely as octaves are.
 
 To be fair, I did have a vague notion that there existed these mysterious
 notes called "sharps" and "flats", and I had a vague sense that they were
@@ -51,9 +51,9 @@ Jazz?
 
 ## Major Scales and Colour Wheels
 
-Read enough and you eventually discover that Do-Re-Mi is an example of
-something called a [major scale][7] - the [C major scale][2] to be precise.
-One line stands out from the major scale Wikipedia article:
+Read enough on the topic and you eventually discover that Do-Re-Mi is an
+example of something called a _major scale_ - the [C major scale][2] to be
+precise.  One line stands out from the [major scale][7] Wikipedia article:
 
 > The simplest major scale to write is C major, the only major scale not
 > requiring sharps or flats
@@ -62,7 +62,6 @@ This tells me a couple of things:
 
 * There are other major scales aside from C major, which means that there's
   more to music than Do-Re-Mi.  Who knew?
-  
 * The sharps and flats becomes important when you start constructing other
   major scales.
 
@@ -70,8 +69,8 @@ What's not immediately clear is _why_.  Why are sharps and flats required
 for other major scales?  How exactly does one go about making a major scale?
 
 When faced with these kinds of inquiries, you very soon come across
-something called the chromatic scale.  It's often depicted as a circle like
-this:
+something called the [chromatic scale][8].  It's often depicted as a circle
+like this:
 
 <div style="clear: both; text-align: center;"> 
 <img border="0"
@@ -105,8 +104,8 @@ D, E, F, G, A, B, and C again.  You've just written out the C major scale,
 the simplest one because it skips all the sharp notes in between and thus
 can be played using only the white keys on a piano.  As the above quote
 mentions, it's the only major scale with this feature; all the other major
-scales have at least one sharp in them.  D major, for example, consists of
-the notes D, E, F#, G, A, B, C# and D again.
+scales have at least one sharp in them.  [D major][9], for example, consists
+of the notes D, E, F#, G, A, B, C# and D again.
 
 ## Why is There No E Sharp?
 
@@ -127,39 +126,60 @@ arbitrarily, that a major scale followed a certain interval pattern (W, W,
 H, W, W, W, H) *and*, furthermore, decided that there was no sharp in
 between E and F.
 
-I mean, what's so special about a C major scale that we will seemingly bend
-over backwards in order to be able to label its notes with simple, unadorned
+What's so special about a C major scale that we will seemingly bend over
+backwards in order to be able to label its notes with simple, unadorned
 letters - to the point where every *other* note in the chromatic scale is
-labeled as a kind of "correction" to these notes?  I honestly don't know.
-
-I get the impression that asking these kinds of questions is akin to asking
+labeled as a kind of "correction" to these notes?  I honestly don't know.  I
+get the impression that asking these kinds of questions is akin to asking
 why a yard has 36 inches.  There's an answer, of course, but it's not
 particularly germane to the task at hand, which is to be able to play a
 tune.
 
-Of course, I can make what I hope are educated guesses.  If you look at the
-interval pattern for a major scale (W, W, H, W, W, W, H) you can see that it
-can be broken down into two patterns of intervals (W, W, H) separated by a
-whole interval.
+## Idle Speculation
+
+Of course, I can make what I hope are educated guesses.
+
+If you look at the interval pattern for a major scale (W, W, H, W, W, W, H)
+you can see that it can be broken down into two patterns of intervals (W, W,
+H) separated by a whole interval.
 
 If you consider just C major, for example, you get the first group of notes
 C, D, E, F and the second group of notes G, A, B, C, separated by a whole
-interval.  The ratio in frequency between F and (lower) C is about 4:3, as
-is the ratio between (upper) C and G.
+interval.  For each group of four notes, the ratio of the heighest note to
+the lowest note is about 4:3.
 
-I imagine that the ancient Greeks simply thought that these two notes
+I suppose that the ancient Greeks simply thought that these two notes
 sounded nice together in that ratio.  If you consider that the
-quintessential [lyre][3] has 4 strings, you can envision an ancient musician
-choosing the first and last string to correspond to a 4:3 ratio, and then
-filling in the middle two strings in a simple manner - one whole interval
-apart, starting from the first string.  Label the strings with letters and
-you have yourself the first 4 notes of a major scale.
+quintessential [lyre][3] has 4 strings, you can imagine an ancient musician
+making sure the first and last strings on his instrument contained those two
+notes.
 
-Is this accurate?  I have no idea, but it seems plausible to me.  It's one
-explanation, at least, for why C and D are double the distance of E and F.
+When deciding how to tune the two middle strings, I can imagine this
+hypothetical musician deciding to do something fairly simple - space them
+both one whole interval apart, starting with the first string.  Doing so, of
+course, means that the distance between the third and fourth strings is only
+a half interval, but such is life.  Label the strings and you have, roughly,
+half a major scale.
+
+Is this accurate?  I have no idea, but it seems plausible to me.  One starts
+with some fixed constraints (for example, the constraint that one always
+needs two strings in a 4:3 ratio), and you fill in the rest around those
+constraints.
 
 Of course this *doesn't* explain why the notes in C major scale, in
-particular, all get simple letters.
+particular, all get simple letters.  Maybe middle C is just a really easy
+note to play?
+
+## Will This Help?
+
+It says something about my personality that I find all this music theory
+somewhat more interesting than actually practising my theremin.  It's a
+character flaw; I'm more bookish than practical.
+
+So all this theory, while fascinating, does not help me play an instrument.
+
+Not sure how to get around this, except to just put the research down and
+start playing, I guess.   We'll see how it goes.
 
 
 [1]: http://www.carolinaeyck.com/method/
@@ -175,3 +195,7 @@ particular, all get simple letters.
 [6]: https://en.wikipedia.org/wiki/The_Sound_of_Music
 
 [7]: https://en.wikipedia.org/wiki/Major_scale
+
+[8]: https://en.wikipedia.org/wiki/Chromatic_scale
+
+[9]: https://en.wikipedia.org/wiki/D_major
