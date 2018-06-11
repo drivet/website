@@ -36,12 +36,12 @@ keys.  And I knew that the sounds and the keys were associated with letters
 (the Do sound was a C, I knew, and the Re sound was a D).
 
 But I didn't really give the topic much thought beyond that.  The term
-"major scale" had not yet entered my brain.  I was under the vague
-impression that you could basically play any tune you wanted with only these
-7 notes, repeated indefinitely as octaves are.
+"major scale" had not yet entered my brain.  I was under the hazy impression
+that you could basically play any tune you wanted with only these 7 notes,
+repeated indefinitely as octaves are.
 
 To be fair, I did have a vague notion that there existed these mysterious
-notes called "sharps" and "flats", and I had a vague sense that they were
+notes called "sharps" and "flats", and I had the sense that they were
 somehow related to the black keys on a piano, but I had no idea what role
 they played in a Do-Re-Mi world, so I basically just ignored them.
 
