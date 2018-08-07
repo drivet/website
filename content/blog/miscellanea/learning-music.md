@@ -52,7 +52,8 @@ Jazz?
 
 Read enough on the topic and you eventually discover that Do-Re-Mi is an
 example of something called a _major scale_ - the [C major scale][2] to be
-precise.  One line stands out from the [major scale][7] Wikipedia article:
+precise.  One line stands out from the Wikipedia article on [major
+scales][7]:
 
 > The simplest major scale to write is C major, the only major scale not
 > requiring sharps or flats
@@ -61,7 +62,7 @@ This tells me a couple of things:
 
 * There are other major scales aside from C major, which means that there's
   more to music than Do-Re-Mi.  Who knew?
-* The sharps and flats becomes important when you start constructing other
+* The sharps and flats become important when you start constructing other
   major scales.
 
 What's not immediately clear is _why_.  Why are sharps and flats required
