@@ -1,6 +1,6 @@
 title: Angst and the Angular Module System
-date: 2018-07-28 14:42:25
-modified: 2018-07-28 14:42:25
+date: 2018-09-02 16:03:25
+modified: 2018-09-02 16:03:25
 status: draft
 
 Google's [AngularJS][2] is one of the most popular web frameworks out there,
@@ -298,7 +298,20 @@ loaded modules.  Since this version contains no providers, the lazily loaded
 module will use the providers and services from the root module, and you'll
 end up using the same service instances across your application.
 
-Like I said...complicated, right?
+
+    @NgModule({
+        // declarations and providers
+        imports: [ModuleWithComponentsAndServices.forRoot()] 
+    })
+    export class EagerModule {}
+    
+    @NgModule({
+        // just declarations, no providers
+        imports: [ModuleWithComponentsAndServices] 
+    })
+    export class LazyModule {}
+    
+Like I said...complicated, right?  Sometimes, I get the hate.
 
 [1]: https://angular.io/docs
 [2]: https://angularjs.org/
