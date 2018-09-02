@@ -1,7 +1,6 @@
 title: Angst and the Angular Module System
 date: 2018-09-02 16:03:25
 modified: 2018-09-02 16:03:25
-status: draft
 
 Google's [AngularJS][2] is one of the most popular web frameworks out there,
 but it comes with its share of criticism (performance around two way binding
