@@ -22,6 +22,12 @@ Generating the website locally is done with this command:
 pelican content/ -o output/
 ```
 
+You can provide the -r option to autoreload on changes:
+
+```
+pelican content/ -o output/ -r
+``
+
 Then you can serve up the pages by doing this:
 
 ```

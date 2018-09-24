@@ -1,16 +1,42 @@
 title: Angst and the Angular Module System
-date: 2018-07-28 14:42:25
-modified: 2018-07-28 14:42:25
-status: draft
+date: 2018-09-02 16:03:25
+modified: 2018-09-02 16:03:25
 
-Angular 2+ (henceforth simply Angular) introduces a concept called a
-*module*, to be quickly distinguished from the standard notion of a
-Javascript module, which is an entirely different beast.  It can be a bit
-difficult to understand what an Angular module for, and how best to organize
-code around it, so I decided to try and fill the gap.
+Google's [AngularJS][2] is one of the most popular web frameworks out there,
+but it comes with its share of criticism (performance around two way binding
+being one of the more prominent complaints).  Google responded by releasing
+Angular 2 (and, as of now, 4, 5 and 6), which addressed some of the issues
+but at the cost of being drastically incompatible with its predecessor, with
+no realistic way to upgrade except through pure elbow grease.  Angular 2+
+might as well be a completely different framework.
+
+I never got the chance to become familiar with AngularJS, but my employer
+did decide to take the plunge with Angular 2 on one of their newer projects
+and so, for better or for worse, I am somewhat familiar how an Angular 2+
+project works.
+
+Aside from the rather gratuitous break with AngularJS, Angular 2+
+(henceforth simply Angular) gets a lot of flak for being overly complicated.
+I completely understand this reaction; the learning curve is dauntingly
+high, especially compared to something like [React][3], which lets you write
+a bare-bones web component with a lot fewer lines of code.  I suspect that
+as your application gets more complicated, the differences between the two
+frameworks mellow out, but I don't judge the initial impression.
+
+Simply put, there's just a lot more *stuff* in Angular.
+
+
+## Modules
+
+One of the things that you need to learn to become proficient in Angular is
+a concept called a *module*, to be quickly distinguished from standard
+[Javascript modules][4], which are an entirely different beasts.  It can be
+a bit difficult to understand what an Angular module for, and how best to
+organize code around it, so I decided to try and fill the gap.
 
 Please note that this article assumes a certain degree of familiar with
-Angular in general.  See the [docs][1] if you wish to learn more.
+Angular in general.  See the fine [documentation][1] if you wish to learn
+more.
 
 A module is used in Angular for several things, but in this article we're
 mostly concerned with:
@@ -45,9 +71,9 @@ particularly around dependency injection, which will be discussed later.
 
 ## Components and Templates
 
-When you create a component in Angular (see [docs][1] if you don't know what
-these are), you are creating an entity with the intention of using it in a
-HTML template somewhere else.
+When you create a component in Angular (again, see the [docs][1] if you
+don't know what these are), you are creating an entity with the intention of
+using it in a HTML template somewhere else.
 
 (Though we'll focus on components in this document, pipes and directives are
 treated similarly in that they are entities which are used in templates).
@@ -67,6 +93,13 @@ So, for example, if you have a component called AwesomeComponent
 AwesomeComponent needs to be declared in a module somewhere (let's call it
 AwesomeModule):
 
+    @Component({
+        selector: 'comp-awesome',
+        template: `put your template here`
+    })
+    export class AwesomeComponent {
+    }
+    
     @NgModule({
         declarations: [AwesomeComponent]
     })
@@ -114,7 +147,7 @@ To summarize:
 
 Though not especially germane to the ongoing discussion, it's worth noting
 in passing that an exports field can also contain other modules, in which
-case you are exporting all the things which the module is exporting.
+case you are exporting all the public things which the module is exporting.
 
 
 ## Dependency Injection, Modules and Providers
@@ -124,13 +157,13 @@ Injection (DI) system.  DI is a really big topic in Angular and I won't
 pretend to cover it all here but, in essence, DI is how components receive
 their service dependencies.  We say that a service is *injected* into a
 component.  When you list a service class in a component's constructor, the
-DI system will provide an instance (usually a singleton, in the default
-configuration) of the service to the component so it can use it.
+DI system will provide an instance of the service to the component so it can
+use it.
 
 For a service to be available for injection in some class, that service
-needs to be configured in the *providers* field of a module somewhere (read
-the [docs][1] for the details of how this is done; the easiest way is
-usually just to use the class name directly in the providers field):
+needs to be configured in the *providers* field of a module somewhere (as
+always, read the [docs][1] for the details of how this is done; the easiest
+way is usually just to use the class name directly in the providers field):
 
     @NgModule({
         ...
@@ -140,14 +173,14 @@ usually just to use the class name directly in the providers field):
 
 Broadly speaking, if you don't do anything special, Angular services are
 singletons.  You can override this behaviour by supplying a different kind
-of provider.  See the [docs][1] for more details.
+of provider.
 
 The Angular docs like to describe the DI system as hierarchical, and it is,
 but I find that thinking about it this way makes things more confusing when
 you start off.  The hierarchical nature of the DI system only really comes
 into play when you start using relatively advanced features like lazily
 loaded modules or when you start overriding providers at the component level
-(something usually done only for testing purposes - I won't cover that
+(something that's often done only for testing purposes - I won't cover that
 here).
 
 In particular, developers sometimes assume that there exists some kind of
@@ -160,17 +193,11 @@ you declare your provider, though for your own sanity you'll of course want
 to keep your provider fields relevant to the module you're defining
 (i.e. don't declare AwesomeService in CoolModule when it really belongs in
 AwesomeModule).  It doesn't matter because providers declared in a module
-become global in scope (lazily loaded modules are an exception; see below).
-As long as the module in which your provider is defined is imported
-*somewhere* in your application (or, alternatively, is configured as the
-bootstrap application module), then your service is injectable anywhere in
-your application.
-
-Simply declaring a module doesn't actually do anything on its own.  For the
-module to be useful, you have to, well, *use* it.  This means either
-importing it in another module somewhere or using it as your bootstrap
-module.  I will note, once again, that lazily loaded modules are the
-exception here.
+become global in scope (lazily loaded modules are an exception, as we will
+soon see).  As long as the module in which your provider is defined is
+imported *somewhere* in your application (or, alternatively, is configured
+as the bootstrap application module), then your service is injectable
+anywhere in your application.
 
 Unless one is trying to write a re-usable Angular library, one doesn't
 generally write "floating" application modules; as a rule, every module you
@@ -180,6 +207,10 @@ will usually import core utility and feature modules, for example, which
 will themselves import still other modules.  As far as the DI provider
 system is concerned, all these imports are flattened into one global
 injector at boot time, which is then used everywhere.
+
+Once again, lazily loaded module are exceptional here; they aren't loaded at
+boot time, but rather on demand.  It makes sense that they are not part of
+the global injector.
 
 
 ## Declarations Versus Providers
@@ -210,7 +241,7 @@ clause).  Your service providers field will be globally re-declared each
 time you import, which is admittedly useless but more or less harmless.
 
 It's when you start using lazily loaded modules that things become less
-simple.  See below.
+simple.
 
 
 ## Root Modules, Lazy Loading, and the forRoot() Convention
@@ -224,7 +255,9 @@ By definition, a lazily loaded module is activated only when you navigate to
 a particular route, not during the bootstrapping of the application.  This
 means that a lazily loaded module will not participate in the configuration
 of the DI system during boot time.  Instead, Angular creates a new injector
-as needed when the new module is loaded.
+as needed when the new module is loaded.  The new injector is considered a
+*child* of the root injector, and this is one of the ways that the DI's
+hierarchy comes into play.
 
 If your module only contains declarations, and no providers, then you don't
 have to worry about this detail; you just import your module where needed,
@@ -233,12 +266,12 @@ module into the root module as well with no issue.
 
 It's when your module contains providers that possible issues arise. Angular
 will create a new injector for the lazily loaded module when it's finally
-loaded - when the application navigates to the associated route.  The new
-injector is considered a *child* of the root injector, meaning that any
-providers declared here will override those declared on the root.  It also
-means that you'll be provided with one instance of the service in your root
-module and another instance in your lazily loaded module (if you import them
-in both).  Your service, in other words, won't be a singleton anymore.
+loaded - when the application navigates to the associated route.  Since new
+injector is considered a child of the root injector, any providers declared
+here will override those declared on the root.  The practical upshot is that
+you'll be provided with one instance of the service in your root module and
+another instance in your lazily loaded module (if you import them in both).
+Your service, in other words, won't be a singleton anymore.
 
 For many services, this is irrelevant, because many services don't keep
 state, and it doesn't matter if you use different instances in different
@@ -265,4 +298,21 @@ module will use the providers and services from the root module, and you'll
 end up using the same service instances across your application.
 
 
+    @NgModule({
+        // declarations and providers
+        imports: [ModuleWithComponentsAndServices.forRoot()] 
+    })
+    export class EagerModule {}
+    
+    @NgModule({
+        // just declarations, no providers
+        imports: [ModuleWithComponentsAndServices] 
+    })
+    export class LazyModule {}
+    
+Like I said...complicated, right?  Sometimes, I get the hate.
+
 [1]: https://angular.io/docs
+[2]: https://angularjs.org/
+[3]: https://reactjs.org/
+[4]: https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
