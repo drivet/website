@@ -30,8 +30,8 @@ Simply put, there's just a lot more *stuff* in Angular.
 
 One of the things that you need to learn to become proficient in Angular is
 a concept called a *module*, to be quickly distinguished from standard
-[Javascript modules][4], which are an entirely different beasts.  It can be
-a bit difficult to understand what an Angular module for, and how best to
+[Javascript modules][4], which are entirely different beasts.  It can be a
+bit difficult to understand what an Angular module for, and how best to
 organize code around it, so I decided to try and fill the gap.
 
 Please note that this article assumes a certain degree of familiar with
