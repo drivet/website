@@ -1,4 +1,4 @@
-title: Endless Streets and Fedoras
+title: Fedoras and Endless Streets
 date: 2018-11-06 10:04:27
 modified: 2018-11-06 10:04:27
 status: draft
@@ -17,7 +17,8 @@ like you're missing out on most of it, like each road you don't go down is a
 lost opportunity, a closed door, a story you'll never get to hear.  You feel
 like there are countless Woody Allen movies going on at the same time but
 you'll never know anything about them because you didn't choose to walk down
-those roads.
+the roads that would have led you to them, and the sense of loss can
+sometimes be very powerful.
 
 Weirdly, Manhattan can also feel claustrophobic. You feel like you're
 jostling for space with every other inhabitant of the City.  The buildings
@@ -40,7 +41,15 @@ knife in your back.
 Chicago does not feel as claustrophobic as Manhattan.  The streets are wider
 and the skyscrapers are laid bare in front of you like a metropolis-sized
 picnic made of concrete and steel, inviting you - nay, _daring_ you! - to
-gawk.  The buildings look like they belong in a different era, for the
-simple reason that they _do_ belong to a different era, and it's almost as if
-your eyes begin to involuntarily develop the ability to see the world in
-sepia.
+gawk.  The buildings look like they belong in a different era, because they
+_do_, and it's almost as if your eyes begin to involuntarily develop the
+ability to see the world in sepia.
+
+Drinking in Chicago feels a bit more rebellious than drinking in New York
+City, given the former's history.  It's stupid - I mean, New York had
+Prohibition and gangsters too, but somehow they just don't stick out like
+they do in Chicago.  New York just doesn't seem as gritty, which is weird
+because New York is so much dirtier than Chicago and New Yorkers honk their
+horns so much more.  And yet, somehow, New York gives you the sense that
+anything is possible, while Chicago gives you the sense that the Man will
+always get you in the end.
