@@ -16,7 +16,7 @@ The procedure I came up with is strongly influenced by several personal
 idiosyncrasies.
 
  * I have a strict rule about keeping my original photos intact and under my
-   control.  The masters will never be stored anywhere but on my hard drive
+   control.  The masters are never be stored anywhere but on my hard drive
    (which is backed up every night).
    
  * The process of selecting and then touching up the photos that make it
@@ -45,10 +45,10 @@ tucked under the folder where I keep all my organized photos.
 
 Since I tend not to delete the contents of my camera when I do this, I'll
 often end up with duplicates at this point - some (maybe even most) of the
-photos I just downloaded will have already been organized into my final
-folder.  So the next step is to remove duplicates photos.  For this purpose
-I use a command line tool called fdupes[1], readily available in my Linux
-Mint distribution.  One line will do it:
+photos I just downloaded will have already been organized into their final
+destinations.  The next step, therefore, is to remove duplicates photos.
+For this purpose I use a command line tool called [fdupes][1], readily
+available in my Linux Mint distribution.  One line will do it:
 
 `fdupes -rdN organized_image_folder/`
 
@@ -57,7 +57,7 @@ should only come from the folder you dumped.  It doesn't matter which file
 gets deleted, since the next step will smooth that over.
 
 The next step is to move your new photos into your organized image folder.
-For this purpose I use a command line tool called sortphotos[2].  From the
+For this purpose I use a command line tool called [sortphotos][2].  From the
 README file:
 
 > SortPhotos is a Python script that organizes photos into folders by date
@@ -65,22 +65,42 @@ README file:
 
 The tool uses photo EXIF data to move your photos into a folder hierarchy
 that you define.  I just use the default folder structure, which is just
-year and month based.  An example would be "2018/10-Oct"
+year and month based.  An example would be "2018/10-Oct".
 
 If there is an obvious way to sub-categorize the photos within the folder
 structure, I'll do that as well.  So, for example, if I went on a trip some
-month, or it was someone birthday, I'll tuck those photos under a sub-folder
-named for the event.  So you'll occasionally see a folder hierarchy that
-looks like year/month/category (for example, "2018/10-Oct/Chicago").
+month, or it was someone's birthday, I'll tuck those photos under a
+sub-folder named for the event.  So you'll occasionally see a folder
+hierarchy that looks like year/month/category (for example,
+"2018/10-Oct/Chicago").
 
 ## Selecting Photos for Sharing
 
 As I mentioned before, because I take a lot of mediocre photos, only a small
-fraction are suitable for sharing.  And even then, I often find myself
-editing the selected photos, rotating cr
+fraction are suitable for sharing.  Even then, I often find myself editing
+the selected photos, rotating and cropping and sharpening to compensate for
+my lack of photography skills.
 
-The process of weeding out the winners
-can be time consuming.
+The process of curating, polishing and sharing my photos can be time
+consuming and I don't want the fruits of that labour to reside solely in the
+software that I choose to use.  I don't want my "albums", for example, to
+exist only as bits and bytes on Facebook's servers - or any other server,
+even if it's under my control.
+
+
+When choosing a piece of software for this purpose, I'm influenced by a few
+factors.
+
+My photo sharing software of choice is [piwigo][3], partly because I have a
+bias towards self-hosted software, but also because piwigo lets people
+download the entire, unmodified image if they want.
+
+I use an open source piece of software called [digikam][4] for this process.
+
+Once I've done the work of choosing and editing the images for my albums, I
+don't want to repeat the work.
 
 [1]: https://linux.die.net/man/1/fdupes
 [2]: https://github.com/andrewning/sortphotos
+[3]: https://piwigo.org/
+[4]: https://www.digikam.org/
