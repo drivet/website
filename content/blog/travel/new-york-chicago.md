@@ -13,7 +13,7 @@ _those_ roads are as well, and how they _also_ seem to go on forever in the
 distance.
 
 It feels like Manhattan is made up entirely of infinite streets.  It's so
-big you that feel like you're missing out on most of it, like each road you
+big that you feel like you're missing out on most of it, like each road you
 pass on your way to your destination is a lost opportunity, a story you'll
 never get to hear.  You feel like there are countless Woody Allen movies and
 Seinfeld episodes going on at the same time but you'll never know anything
@@ -23,7 +23,7 @@ of loss can be very powerful.
 Paradoxically, Manhattan can also feel claustrophobic. You feel like you're
 jostling for space with every other inhabitant of the City.  The buildings
 are mind-numbingly tall, and some of them are even beautiful, but you rarely
-see them "in the distance", unlike the vanishing poin that you'll never
+see them "in the distance", unlike the vanishing point that you'll never
 reach, and you often have to crane your neck to get a good view.
 
 On the other hand...
