@@ -1,7 +1,7 @@
 title: How I Organize my Photos
 date: 2018-11-09 21:16:02
 modified: 2018-11-09 21:16:02
-status: draft
+tags: photography
 
 I have a large collection of digital photos dating back over 15 years.  An
 impressively small fraction of them are actually any good, but that's a
