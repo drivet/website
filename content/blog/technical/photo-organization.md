@@ -14,7 +14,9 @@ Anyway, I have one! I thought I'd share in case anyone finds it useful
 (including a future version of myself, my mind being a sieve and all).
 
 The procedure I came up with is strongly influenced by several personal
-idiosyncrasies.
+idiosyncrasies.  Obviously, not everyone shares these traits, so the
+methodology I've come up with won't work for everyone.  Your mileage will
+definitely vary.
 
  * I have a strict rule about keeping my original photos intact and under my
    control.  The masters are never be stored anywhere but on my hard drive
@@ -25,7 +27,7 @@ idiosyncrasies.
    service over which I have no control.  So while I don't mind showing or
    exporting my albums on Facebook or Instagram, I don't want these services
    to _define_ my albums.
-
+   
  * I don't want to rely too much on any particular desktop application.  If
    I ever decide to switch tools, I don't want that process to be too
    arduous.
