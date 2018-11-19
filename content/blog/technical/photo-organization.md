@@ -8,18 +8,18 @@ impressively small fraction of them are actually any good, but that's a
 different conversation, probably revolving around my digital hoarding
 habits.
 
-Anyway, such a large collection deserves a particular method of
-organization.  Or maybe it doesn't.  Did I mention they're mostly mediocre?
-Anyway, I have one! I thought I'd share in case anyone finds it useful
-(including a future version of myself, my mind being a sieve and all).
+Such a large collection deserves a particular method of organization.  Or
+maybe it doesn't.  Did I mention they're mostly mediocre?  Anyway, I have
+one! I thought I'd share in case anyone finds it useful (including a future
+version of myself, my mind being a sieve and all).
 
 The procedure I came up with is strongly influenced by several personal
-idiosyncrasies.  Obviously, not everyone shares these traits, so the
-methodology I've come up with won't work for everyone.  Your mileage will
-definitely vary.
+idiosyncrasies.  Obviously, not everyone shares these traits, so your
+mileage will definitely vary - though I think it's always interesting to
+read about how other people do things.
 
  * I have a strict rule about keeping my original photos intact and under my
-   control.  The masters are never be stored anywhere but on my hard drive
+   control.  The masters are never stored anywhere but on my hard drive
    (which is backed up every night).
    
  * The process of curating, editing and sharing my photos is time consuming,
@@ -28,20 +28,19 @@ definitely vary.
    exporting my albums on Facebook or Instagram, I don't want these services
    to _define_ my albums.
    
- * I don't want to rely too much on any particular desktop application.  If
-   I ever decide to switch tools, I don't want that process to be too
-   arduous.
+ * I don't want to rely too much on any particular application.  If I ever
+   decide to switch tools, I don't want that process to be too arduous.
    
  * I'm a Linux user, and I tend to prefer command line tools, though when
    you're dealing with photos it's often counterproductive to take this
    attitude to extremes.
 
-All of my photos, every single one, is stored and organized under one folder
-on my hard drive.  When I have new photos that I want to bring into the
-fold, the first step is to download the contents of my camera onto my hard
-disk.  Sometimes the camera is my phone and sometimes it's a real camera.
-In any case, I don't try to be clever at this point; I just do a brainless
-dump of the camera contents into a temporary folder.
+All of my photos, every single one, are stored and organized under one
+folder on my hard drive.  When I have new photos that I want to bring into
+the fold, the first step is to download the contents of my camera onto my
+hard disk.  Sometimes the camera is my phone and sometimes it's a real
+camera.  In any case, I don't try to be clever at this point; I just do a
+brainless dump of the camera contents into a temporary folder.
 
 To make things easier for the next step, this temporary folder is usually
 tucked under the folder where I keep all my organized photos.
