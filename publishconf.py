@@ -13,8 +13,6 @@ from pelicanconf import *
 SITEURL = 'http://www.desmondrivet.com'
 RELATIVE_URLS = False
 
-DELETE_OUTPUT_DIRECTORY = True
-
 DRAFT_URL = ''
 DRAFT_SAVE_AS = ''
 

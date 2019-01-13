@@ -2,21 +2,19 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# DCR - additional config to define the parent site
-PARENT_SITENAME = 'The Low Rent District'
-
 AUTHOR = 'Desmond Rivet'
-#AUTHOR_OG = 'https://www.facebook.com/desmond.rivet'
-
+# AUTHOR_OG = 'https://www.facebook.com/desmond.rivet'
 # most themes expect the SITENAME to be the blog name
-SITENAME = 'The Soapbox'
-SITESUBTITLE = 'Random Musings in Blog Form'
+SITENAME = 'Desmond Rivet'
+BLOGNAME = 'The Soapbox'
+BLOGSUBTITLE = 'Random Musings in Blog Form'
 SITEURL = ''
 
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
 
-THEME = 'themes/pelican-website'
+THEME = '/home/dcr/repos/pelican-website'
+#THEME_TEMPLATES_OVERRIDES = ['templates']
 
 TIMEZONE = 'America/Montreal'
 
@@ -24,11 +22,11 @@ DEFAULT_LANG = 'en'
 
 # Syndication
 FEED_DOMAIN = SITEURL
-FEED_ALL_ATOM = 'blog/feeds/all.atom.xml'
 FEED_ALL_RSS = 'blog/feeds/all.rss'
-CATEGORY_FEED_ATOM = 'blog/feeds/%s.atom.xml'
-CATEGORY_FEED_RSS = 'blog/feeds/%s.rss'
+CATEGORY_FEED_RSS = 'blog/feeds/{slug}.rss'
 
+CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -58,8 +56,13 @@ DEFAULT_PAGINATION = 10
 SLUGIFY_SOURCE = 'basefile'
 
 FILENAME_METADATA = '(?P<slug>.*)'
-PLUGIN_PATHS = ['/home/dcr/repos/', '/home/dcr/blogging/website/plugins']
-PLUGINS = ['paragraphed-summary', 'pelican-cool-uri', 'tipue_search']
+PLUGIN_PATHS = ['/home/dcr/repos', '/home/dcr/repos/pelican-plugins']
+PLUGINS = ['paragraphed-summary', 'pelican-cool-uri', 'tipue_search',
+           'i18n_subsites']
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 # I'm the only author
 AUTHORS_SAVE_AS = ''
