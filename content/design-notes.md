@@ -4,7 +4,7 @@ title: Site Design and Layout
 
 In the past, this website was diven by homemade blogging engine called
 [YAWT][1].  It worked fairly well, but I eventually got tired of maintaining
-it, so I switched to a static site genertaor called [pelican][4].  Like
+it, so I switched to a static site generator called [pelican][4].  Like
 YAWT, it's written in python and uses the [Jinja2][5] tempating system, so I
 didn't feel completely out of place.
 
@@ -24,8 +24,10 @@ site off of a somewhat tweaked version of the [pelican-boostrap3][2] theme.
 
 This site consists of standalone pages, like this one, and a [blog][3] which
 publishes random thoughts on a semi-regular basis.  I have hope of
-incorportaing a simple wiki as well, but until that happens, I run a
-[separate one][6].
+incorporating a simple wiki as well, but until that happens, I run a
+[separate one][6].  Before I started blogging, I also used to write random,
+ad-hoc essays and pages, which I've [indexed][7] elsewhere on my site if
+you're interested.
 
 [1]: https://github.com/drivet/yawt
 [2]: https://github.com/DandyDev/pelican-bootstrap3
@@ -33,3 +35,4 @@ incorportaing a simple wiki as well, but until that happens, I run a
 [4]: http://blog.getpelican.com/
 [5]: http://jinja.pocoo.org/docs/dev/
 [6]: http://wiki.desmondrivet.com
+[7]: /oldsite

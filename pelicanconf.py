@@ -43,7 +43,8 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet'),
 
 # DCR added this
 # Links for the nav bar
-MENUITEMS = (('About', '/aboutme.html'),
+MENUITEMS = (('About me', '/aboutme'),
+             ('About site', '/design-notes'),
              ('Blog', '/blog'),
              ('Photos', 'https://photos.desmondrivet.com'),
              ('Wiki', 'https://wiki.desmondrivet.com'))
@@ -70,11 +71,11 @@ AUTHOR_SAVE_AS = ''
 
 DIRECT_TEMPLATES = ['index', 'categories', 'archives', 'tags', 'search']
 ARCHIVES_SAVE_AS = 'blog/archives.html'
-ARCHIVES_URL = 'blog/archives.html'
+ARCHIVES_URL = 'blog/archives'
 CATEGORIES_SAVE_AS = 'blog/categories.html'
-CATEGORIES_URL = 'blog/categories.html'
+CATEGORIES_URL = 'blog/categories'
 TAGS_SAVE_AS = 'blog/tags.html'
-TAGS_URL = 'blog/tags.html'
+TAGS_URL = 'blog/tags'
 INDEX_SAVE_AS = 'blog/index.html'
 
 PAGE_PATHS = ['']
@@ -83,21 +84,23 @@ STATIC_PATHS = ['']
 
 YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
+YEAR_ARCHIVE_URL = 'blog/{date:%Y}/'
+MONTH_ARCHIVE_URL = 'blog/{date:%Y}/{date:%m}/'
 
-CATEGORY_URL = 'blog/{slug}/index.html'
+CATEGORY_URL = 'blog/{slug}/'
 CATEGORY_SAVE_AS = 'blog/{slug}/index.html'
 
-ARTICLE_URL = 'blog/{category}/{slug}.html'
+ARTICLE_URL = 'blog/{category}/{slug}'
 ARTICLE_SAVE_AS = 'blog/{category}/{slug}.html'
 
-TAG_URL = 'blog/tags/{slug}.html'
+TAG_URL = 'blog/tags/{slug}'
 TAG_SAVE_AS = 'blog/tags/{slug}.html'
 
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 PAGE_SAVE_AS = '{path_no_ext}.html'
-PAGE_URL = '{path_no_ext}.html'
+PAGE_URL = '{path_no_ext}'
 
-DRAFT_URL = 'blog/drafts/{slug}.html'
+DRAFT_URL = 'blog/drafts/{slug}'
 DRAFT_SAVE_AS = 'blog/drafts/{slug}.html'
 
 DISPLAY_PAGES_ON_MENU = False
@@ -109,7 +112,7 @@ SUMMARY_MAX_LENGTH = 100
 # For the moment, we only provide Cool URIs for blog entries until I
 # figure out what role my stand-alone pages fill in the grand scheme
 # of things
-COOLURI_PATH = 'blog'
+COOLURI_PATH = ''
 
 # theme options
 CUSTOM_CSS = 'static/custom.css'
@@ -117,9 +120,11 @@ HIDE_SIDEBAR = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_BREADCRUMBS = False
 
-PIWIK_SITE_ID = 3
-PIWIK_URL = 'piwik.desmondrivet.com'
+#PIWIK_SITE_ID = 3
+#PIWIK_URL = 'piwik.desmondrivet.com'
 OPEN_GRAPH_IMAGE = 'me_200x200.jpg'
 
-ISSO_SERVER = 'http://isso.desmondrivet.com'
+ISSO_SERVER = 'https://isso.desmondrivet.com'
 ISSO_DISPLAY_COUNTS = True
+
+GA_TRACKING_ID = 'UA-132755534-1'

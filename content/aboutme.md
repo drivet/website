@@ -1,20 +1,21 @@
 date: 2012-07-12 01:44:03
 modified: 2016-06-16 02:45:26.653850
-title: The Story So Far...
+title: About Me
 
-<img src="{filename}/me_200x200.jpg"
+<img src="{static}/me_200x200.jpg"
      style="float: right; margin-left:1em; margin-bottom: 1em;"
      alt="Mug shot" title="Mug shot"/>
 
-There's not much to tell. My name is Desmond Rivet. I'm a software
-developer. I live in Montreal, Canada.
+Hi everyone! You've reached the personal domain of Desmond Rivet.  There
+have been a few over the years but I'm going to try and make this one last.
+I'm a software developer living in Montreal, Canada.
 
-The whole story is, of course, more complicated than that.  I was born in
-Montreal, then moved to Toronto when I was 12, where I went to high school
-and University and basically spent a lot of my formative years.  I graduated
-from the [Engineering Science][1] program at the [University of Toronto][2]
-(I chose the Computer option at the time, but it appears that they have now
-[merged][3] with the Electrical option).
+As usual, the whole story is, of course, a bit more complicated than that.
+I was born in Montreal, then moved to Toronto when I was 12, where I went to
+high school and University and basically spent a lot of my formative years.
+I graduated from the [Engineering Science][1] program at the [University of
+Toronto][2] (I chose the Computer option at the time, but it appears that
+they have now [merged][3] with the Electrical option).
 
 After graduating from the University of Toronto, I started work as a
 software developer at a telecom company that eventually ended up moving me
@@ -47,4 +48,6 @@ that.  You can find a few of my experiments and recipes on my [wiki][5] and
 [3]: http://engsci.utoronto.ca/explore_our_program/majors/ece.htm
 [4]: http://www.intelerad.com/en/
 [5]: https://wiki.desmondrivet.com/
-[6]: /blog/
+[6]: /blog
+[7]: /design-notes
+[8]: /oldsite
