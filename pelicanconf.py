@@ -43,8 +43,7 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet'),
 
 # DCR added this
 # Links for the nav bar
-MENUITEMS = (('About me', '/aboutme'),
-             ('About site', '/design-notes'),
+MENUITEMS = (('About site', '/design-notes'),
              ('Blog', '/blog'),
              ('Photos', 'https://photos.desmondrivet.com'),
              ('Wiki', 'https://wiki.desmondrivet.com'))
@@ -128,3 +127,11 @@ ISSO_SERVER = 'https://isso.desmondrivet.com'
 ISSO_DISPLAY_COUNTS = True
 
 GA_TRACKING_ID = 'UA-132755534-1'
+
+# h-card info
+H_CARD_NICKNAME = "desmondrivet"
+H_CARD_EMAIL = "desmond.rivet@gmail.com"
+H_CARD_URL = SITEURL
+H_CARD_PHOTO = "/me01.jpg"
+
+

@@ -1,19 +1,10 @@
 title: A Trip Down Memory Lane
 
-I've had a web presence in some form or another since about 1998 or so, when
-I made my first hand coded HTML pages available online.  Or maybe I used
-Netscape Composer; honestly, I can't remember.  Over the years, the various
-incarnations of my website have been hosted on, in no particular order,
-[U of T][1] servers, [PCI Geomatics][2] servers, [Geocities][3],
-[Netfirms][4], and a series of home machines set aside for this express
-purpose.
-
-When I finally started my blog in earnest, I basically pushed aside all the
-old content in favour of the new.  The stuff I had written up until that
-point was largely forgotten, and started gathering dust on my old Sun Ultra
-10, which was the last machine to host my site before I finally gave in and
-started using a web hosting company (then a VPS and then, finally, a
-dedicated server which I rent from [kimsufi][5])
+When I started blogging in earnest, around 2007, I basically pushed aside
+all of the old content on my website in favour of the new.  The stuff I had
+written up until that point was largely forgotten, and started gathering
+dust on my old Sun Ultra 10, which was the last machine to host my site
+before I finally gave in and started using a web hosting company.
 
 I've recently dug out my Sun Ultra 10 from my closet and have since been
 knee-deep in nostalgia.  I think my old site or, at least, selected parts of
@@ -60,9 +51,3 @@ possible).  Enjoy! Or not...
   Omnipotence</a>. Unpolished but the outline is clear. Heavily influenced
   by the philosophy of mind course I took in my 4th year at U of T
 
-
-[1]: https://www.utoronto.ca/
-[2]: http://www.pcigeomatics.com/
-[3]: https://en.wikipedia.org/wiki/Yahoo!_GeoCities
-[4]: https://www.netfirms.ca/
-[5]: https://www.kimsufi.com/ca/en/
