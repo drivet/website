@@ -29,6 +29,7 @@ incorporating a simple wiki as well, but until that happens, I run a
 ad-hoc essays and pages, which I've [indexed][7] elsewhere on my site if
 you're interested.
 
+
 [1]: https://github.com/drivet/yawt
 [2]: https://github.com/DandyDev/pelican-bootstrap3
 [3]: /blog
