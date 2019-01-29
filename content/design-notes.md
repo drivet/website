@@ -23,11 +23,11 @@ based browsers, as long as you turn off the CSS.  I've based the look of the
 site off of a somewhat tweaked version of the [pelican-boostrap3][2] theme.
 
 This site consists of standalone pages, like this one, and a [blog][3] which
-publishes random thoughts on a semi-regular basis.  I have hope of
-incorporating a simple wiki as well, but until that happens, I run a
-[separate one][6].  Before I started blogging, I also used to write random,
-ad-hoc essays and pages, which I've [indexed][7] elsewhere on my site if
-you're interested.
+publishes random thoughts on a semi-regular basis.  I have hopes of
+incorporating a simple wiki using pelican as well, but until that happens, I
+run a [separate one][6].  Before I started blogging, I also used to write
+random, ad-hoc essays and pages, which I've [indexed][7] elsewhere on my
+site if you're interested.
 
 [1]: https://github.com/drivet/yawt
 [2]: https://github.com/DandyDev/pelican-bootstrap3
