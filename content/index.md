@@ -22,7 +22,7 @@ Though I was born in Montreal, and currently reside there, I spent a lot of
 my formative years in Toronto.  I have a Bachelor's degree in Engineering
 from the Univerity of Toronto's Engineering Science program.
 
-I guess my main hobby would be programming, but I also enjoy writing,
+I suppose my main hobby would be programming, but I also enjoy writing,
 reading and cooking.  Oh, and mixing drinks.  You can blame Mad Men for
 that.
 
