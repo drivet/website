@@ -16,7 +16,7 @@ tags (i.e. prefering "em" over "i").  More recently, this has meant making
 sure that my site was HTML5 compliant.  Where appropriate, I've made use of
 the newer tags such as "header", "footer" and "article" and I've taken
 advantage of the newer HTML5 outlining algorithm to embed multiple h1 where
-it makes sense.
+appropriate.
 
 For the most part, the stuff on this site should look okay in older and text
 based browsers, as long as you turn off the CSS.  I've based the look of the
