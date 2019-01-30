@@ -41,6 +41,8 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet'),
           ('Github', 'https://github.com/drivet'),
           ('LinkedIn', 'http://ca.linkedin.com/in/desmondrivet'))
 
+FAVICON = 'me01.jpg'
+
 # DCR added this
 # Links for the nav bar
 MENUITEMS = (('About site', '/design-notes'),
