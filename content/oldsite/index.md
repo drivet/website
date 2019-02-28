@@ -18,36 +18,36 @@ possible).  Enjoy! Or not...
 
 ## Personal Stuff
 
-* [PEY - The Good, the Bad, and the Ugly](pey.html)
-* [Desmond's Trip to France](france.html). I had a lot of vacation time
+* [PEY - The Good, the Bad, and the Ugly](/oldsite/pey.html)
+* [Desmond's Trip to France](/oldsite/france.html). I had a lot of vacation time
   coming to me, so I took three weeks off work and decided to visit France
   in the fall of 2003.
 
 ## Projects
 
-* [The Graphics Pipeline](gp.html).  A graphics library I wrote.
-* [Animats and Active Vision Systems](thesis.html).  My undergrad thesis.
+* [The Graphics Pipeline](/oldsite/gp.html).  A graphics library I wrote.
+* [Animats and Active Vision Systems](/oldsite/thesis.html).  My undergrad thesis.
 
 
 ## Various Essays
 
-* [In Defense of Emacs](emacsdefense.html).  I use emacs.  I sometimes feel the need to defend this.
-* [The Computer as a Tool](msdefense.html).  An apology for Microsoft.  I was young once.
-* [Why I'll Never Torture Cats](freewill.html). My version of free
+* [In Defense of Emacs](/oldsite/emacsdefense.html).  I use emacs.  I sometimes feel the need to defend this.
+* [The Computer as a Tool](/oldsite/msdefense.html).  An apology for Microsoft.  I was young once.
+* [Why I'll Never Torture Cats](/oldsite/freewill.html). My version of free
   will. Developed from a talk I had with my friends Scott and Philip.
-* [Metal Souls and Mental Darwinism](ai.html). I wrote this one about 6
+* [Metal Souls and Mental Darwinism](/oldsite/ai.html). I wrote this one about 6
   years ago. It was my first attempt to put into words my beliefs about the
   validity of A.I. I think I was on the wrong track with this essay, but it
   remains here for reference.
-* [The Moral Basis for the Right to Health Care](bioessay.html).  I went
+* [The Moral Basis for the Right to Health Care](/oldsite/bioessay.html).  I went
   through a libertarian phase in my youth.  Take this essay with a grain of
   salt.
-* [The Nature of Omnipotence](god.html). My first attempt at explaining why
+* [The Nature of Omnipotence](/oldsite/god.html). My first attempt at explaining why
   I'm an atheist.
-* [Defending Physicalism](essaymind.html). This one was written for my
+* [Defending Physicalism](/oldsite/essaymind.html). This one was written for my
   fourth year philosophy of mind course. I think it's a persuasive essay.
-* [When A Red Ball Is Not A Red Ball](logic.html). My as-yet unfinished
-  follow up to <a href="essays/god.html">The Nature of
+* [When A Red Ball Is Not A Red Ball](/oldsite/logic.html). My as-yet unfinished
+  follow up to <a href="/oldsite/god.html">The Nature of
   Omnipotence</a>. Unpolished but the outline is clear. Heavily influenced
   by the philosophy of mind course I took in my 4th year at U of T
 
