@@ -67,7 +67,7 @@ themselves, running alongside the traditional Javascript support.
 Like I said, it's doable - but would I ever actually go to the trouble?
 Probably not.  But I'm still allowed to feel a little sad.
 
-[1]: /blog/2016/12/12/pelican-move.html
+[1]: /2016/12/12/pelican-move
 [2]: https://blog.getpelican.com/
 [3]: https://rsync.samba.org/
 [4]: https://www.nginx.com/resources/wiki/

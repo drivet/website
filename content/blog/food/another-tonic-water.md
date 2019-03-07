@@ -43,5 +43,5 @@ The result is simpler to make and, in my opinion, better than the previous
 batch.  I think it pairs better with a good gin since there's less in the
 tonic water to compete with the spirit.
 
-[1]: /blog/2011/07/16/tonic-water
+[1]: /2011/07/16/tonic-water
 [2]: http://herboristeriedesjardins.com/

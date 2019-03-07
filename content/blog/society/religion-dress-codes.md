@@ -104,7 +104,7 @@ shouldn't be any standards of dress at all.
 
 
 
-[1]: www.desmondrivet.com
-[2]: www.desmondrivet.com
+[1]: /2013/11/20/charter-ramblings
+[2]: https://en.wikipedia.org/wiki/Kim_Davis
 [3]: https://www.cbc.ca/news/canada/montreal/legault-says-woman-claiming-immigrants-are-erasing-quebec-was-close-to-racist-1.4843602
 [4]: https://www.theguardian.com/world/2015/apr/28/french-muslim-student-banned-from-school-for-wearing-long-skirt

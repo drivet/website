@@ -176,7 +176,7 @@ requirements files are basically used for two things:
 Pretty simple once you take a deep breath and try to figure it out.
 
 
-[1]: /blog/2015/01/15/python-packaging
+[1]: /2015/01/15/python-packaging
 [2]: http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
 [3]: https://caremad.io/2013/07/setup-vs-requirement/
 [4]: https://nose.readthedocs.org/en/latest/

@@ -31,9 +31,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# No blogroll
-LINKS = ()
-
 # Social widget
 SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet', 'fab fa-facebook-square'),
           ('Instagram', 'https://www.instagram.com/thegreatdesmondo/', 'fab fa-instagram'),
@@ -58,7 +55,8 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ['/home/dcr/repos',
                 '/home/dcr/repos/pelican-plugins',
                 '/home/dcr/PycharmProjects']
-PLUGINS = ['paragraphed-summary', 'tipue_search', 'i18n_subsites', 'pelican-posts']
+PLUGINS = ['paragraphed-summary', 'tipue_search', 'i18n_subsites',
+           'pelican_article_type', 'pelican_notedown']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -98,6 +96,11 @@ NOTE_INDEX_TEMPLATE = "notes"
 NOTE_FEED_RSS = 'feeds/notes.rss'
 NOTE_TITLE = "Notes"
 
+ALL_TITLE = "All"
+
+TWITTER_LINK = 'https://twitter.com/desmondrivet/status/{twitterid}'
+TWITTER_HASHTAG = 'https://twitter.com/hashtag/{hashtag}'
+
 PAGINATED_TEMPLATES = {
     'index': None,
     'tag': None,
@@ -116,6 +119,7 @@ PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 # this more or less implements my favored permalink scheme
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
 ARTICLE_SAVE_AS = ARTICLE_URL+'.html'
+
 
 YEAR_ARCHIVE_URL = '{date:%Y}/'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
@@ -163,3 +167,6 @@ H_CARD_NICKNAME = "desmondrivet"
 H_CARD_EMAIL = "desmond.rivet@gmail.com"
 H_CARD_URL = SITEURL
 H_CARD_PHOTO = "/me01.jpg"
+
+NOTEDOWN_HASHTAG_TEMPLATE = r'https://twitter.com/hashtag/{hashtag}'
+NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'

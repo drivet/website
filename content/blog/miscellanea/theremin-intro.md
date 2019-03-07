@@ -105,15 +105,9 @@ on how far I got on _that_ score.
 
 
 [1]: https://en.wikipedia.org/wiki/Theremin
-
 [2]: https://en.wikipedia.org/wiki/Synthesizer
-
 [3]: https://en.wikipedia.org/wiki/Downton_Abbey
-
 [4]: https://en.wikipedia.org/wiki/Heterodyne
-
 [5]: https://en.wikipedia.org/wiki/Electronic_oscillator
-
 [6]: https://en.wikipedia.org/wiki/Capacitor
-
 [7]: https://en.wikipedia.org/wiki/Inductor

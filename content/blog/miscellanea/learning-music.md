@@ -183,19 +183,11 @@ start playing, I guess.   We'll see how it goes.
 
 
 [1]: http://www.carolinaeyck.com/method/
-
 [2]: https://en.wikipedia.org/wiki/C_major
-
 [3]: https://en.wikipedia.org/wiki/Lyre
-
 [4]: https://www.youtube.com/channel/UCYkSWMBi1pZUqjs2OngjUyA
-
 [5]: https://en.wikipedia.org/wiki/Do-Re-Mi
-
 [6]: https://en.wikipedia.org/wiki/The_Sound_of_Music
-
 [7]: https://en.wikipedia.org/wiki/Major_scale
-
 [8]: https://en.wikipedia.org/wiki/Chromatic_scale
-
 [9]: https://en.wikipedia.org/wiki/D_major

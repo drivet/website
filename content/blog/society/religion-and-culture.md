@@ -72,5 +72,5 @@ trying to claim that they aren't part of at least *some* of them is
 analogous to saying that the tradition of avoiding meat on Fridays is not
 part of Catholicism.  It's a hair splitting exercise that serves no one.
 
-[1]: /blog/2012/06/28/niqabs
+[1]: /2012/06/28/niqabs
 [2]: http://en.wikipedia.org/wiki/Paradise_lost

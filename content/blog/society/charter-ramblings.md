@@ -287,7 +287,7 @@ run some candidates in my riding!
 [1]: http://en.wikipedia.org/wiki/The_Diamond_Age
 [2]: http://en.wikipedia.org/wiki/Charter_of_Quebec_Values
 [3]: http://en.wikipedia.org/wiki/Godwin%27s_law
-[4]: /blog/2012/06/28/niqabs
+[4]: /2012/06/28/niqabs
 [5]: http://itspronouncedmetrosexual.com/2012/11/30-examples-of-male-privilege/
 [6]: http://xkcd.com/385/
 [7]: http://en.wikipedia.org/wiki/La%C3%AFcit%C3%A9

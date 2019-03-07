@@ -247,5 +247,5 @@ property of the interactions of your citizens.  The language of your
 province should simply "fall out of the math" of your associated social
 fabric.
 
-[1]: /blog/2008/01/06/ellipse
+[1]: /2008/01/06/ellipse
 [2]: http://en.wikipedia.org/wiki/Nativism

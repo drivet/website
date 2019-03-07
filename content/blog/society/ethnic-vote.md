@@ -86,8 +86,8 @@ religious matters.  The irony appears to be lost on many.
 
 [1]: https://en.wikipedia.org/wiki/Quebec_referendum,_1995#Immediate_responses
 [2]: https://en.wikipedia.org/wiki/Quebec_Charter_of_Values
-[3]: /blog/2012/11/30/cultureless
+[3]: /2012/11/30/cultureless
 [4]: https://en.wikipedia.org/wiki/Civic_nationalism
 [5]: https://en.wikipedia.org/wiki/Cultural_nationalism
 [6]: https://en.wikipedia.org/wiki/Ethnic_nationalism
-[7]: /blog/2012/08/17/church-and-state
+[7]: /2012/08/17/church-and-state

@@ -105,7 +105,7 @@ life more interesting.
 
 
 [1]: http://www.upi.com/Top_News/World-News/2013/09/08/8-year-old-Yemeni-girl-dies-from-internal-injuries-on-wedding-night/UPI-61081378653499/?spt=hs&or=tn
-[2]: /blog/2012/11/30/cultureless
+[2]: /2012/11/30/cultureless
 [3]: http://www.telegraph.co.uk/foodanddrink/foodanddrinknews/8827721/Italian-town-bans-any-new-kebab-shops-or-other-ethnic-food.html
 [4]: https://en.wikipedia.org/wiki/Sati_(practice)
 [5]: https://en.wikipedia.org/wiki/Female_genital_mutilation

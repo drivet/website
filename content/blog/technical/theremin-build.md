@@ -222,14 +222,9 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 My hope is that, at some point, the random noises will begin to sound like
 actual music.  Once again, we'll see how it goes.  Stay tuned!
 
-[3]: /blog/miscellanea/theremin-intro.html
-
+[3]: /2018/05/01/theremin-intro
 [4]: https://en.wikipedia.org/wiki/Arduino
-
 [5]: http://www.gaudi.ch/OpenTheremin/
-
 [7]: http://www.gaudi.ch/OpenTheremin/index.php?option=com_content&view=article&id=181&Itemid=116
-
 [8]: http://www.gaudi.ch/OpenTheremin/index.php?option=com_content&view=article&id=182&Itemid=117
-
 [9]: http://www.carolinaeyck.com

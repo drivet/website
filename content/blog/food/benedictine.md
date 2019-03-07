@@ -149,9 +149,9 @@ Really, there are a lot of possibilities here.  This is one bottle that
 lends itself quite well to experimentation.  So...go to it!
 
 [1]: https://en.wikipedia.org/wiki/B%C3%A9n%C3%A9dictine
-[2]: /blog/2016/12/31/chartreuse
-[3]: /blog/2014/12/23/aromatic-cocktails
+[2]: /2016/12/31/chartreuse
+[3]: /2014/12/23/aromatic-cocktails
 [4]: https://en.wikipedia.org/wiki/Sazerac
-[5]: /blog/2016/12/22/vesper
+[5]: /2016/12/22/vesper
 [6]: https://en.wikipedia.org/wiki/Old_Fashioned
 [7]: https://en.wikipedia.org/wiki/Lancashire

@@ -109,5 +109,5 @@ There are several drinks is this category:
  * Bourbon sidecar - bourbon, triple sec, lemon juice
  * Apple Cart - calvados, triple sec, lemon juice
 
-[1]: /blog/2012/09/14/embury-sours
+[1]: /2012/09/14/embury-sours
 [2]: http://en.wikipedia.org/wiki/The_Fine_Art_of_Mixing_Drinks

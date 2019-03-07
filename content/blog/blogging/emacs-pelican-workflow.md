@@ -455,33 +455,18 @@ politely ignored :)
 
 
 [1]: https://blog.getpelican.com
-
 [2]: https://www.gnu.org/software/emacs/
-
 [3]: https://git-scm.com/
-
 [4]: https://github.com/bbatsov/projectile
-
 [5]: https://magit.vc/manual/magit.html
-
 [6]: https://magit.vc/manual/magit.html#Getting-Started
-
 [7]: https://daringfireball.net/projects/markdown/
-
 [8]: https://jblevins.org/projects/markdown-mode/
-
 [9]: https://www.emacswiki.org/
-
 [10]: https://github.com/
-
 [11]: http://fletcherpenney.net/multimarkdown/
-
 [12]: http://fletcher.github.io/MultiMarkdown-4/metadata.html
-
 [13]: https://virtualenv.pypa.io/en/stable/
-
 [14]: https://github.com/porterjamesj/virtualenvwrapper.el
-
 [15]: https://github.com/jorgenschaefer/pyvenv
-
-[16]: /blog/2016/12/12/pelican-move.html
+[16]: /2016/12/12/pelican-move
