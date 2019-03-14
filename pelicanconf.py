@@ -6,7 +6,7 @@ AUTHOR = 'Desmond Rivet'
 # AUTHOR_OG = 'https://www.facebook.com/desmond.rivet'
 # most themes expect the SITENAME to be the blog name
 SITENAME = 'Desmond Rivet'
-BLOGNAME = 'Soapbox'
+BLOGNAME = 'Lifestream'
 SITEURL = ''
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -40,10 +40,11 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet', 'fab fa-facebook
 
 FAVICON = 'me_200x200.jpg'
 
-# DCR added this
 # Links for the nav bar
 MENUITEMS = (('About site', '/design-notes'),
-             ('Soapbox', '/all'),
+             ('Lifestream', '/all'),
+             ('Notes', '/notes'),
+             ('Blog', '/blog'),
              ('Photos', 'https://photos.desmondrivet.com'),
              ('Wiki', 'https://wiki.desmondrivet.com'))
 
@@ -95,8 +96,6 @@ NOTE_INDEX_SAVE_AS = 'notes/index.html'
 NOTE_INDEX_TEMPLATE = "notes"
 NOTE_FEED_RSS = 'feeds/notes.rss'
 NOTE_TITLE = "Notes"
-
-ALL_TITLE = "All"
 
 TWITTER_LINK = 'https://twitter.com/desmondrivet/status/{twitterid}'
 TWITTER_HASHTAG = 'https://twitter.com/hashtag/{hashtag}'
