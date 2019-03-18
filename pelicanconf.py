@@ -57,8 +57,8 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ['/home/dcr/repos',
                 '/home/dcr/repos/pelican-plugins',
                 '/home/dcr/PycharmProjects']
-PLUGINS = ['paragraphed-summary', 'tipue_search', 'i18n_subsites',
-           'pelican_notedown', 'subcategory']
+PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites',
+           'pelican_notedown', 'paragraphed-summary']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
