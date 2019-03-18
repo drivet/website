@@ -1,3 +1,4 @@
 *.py[cod]
 _state/
 .cov2emacs.log
+output/

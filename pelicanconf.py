@@ -24,12 +24,14 @@ DEFAULT_DATE_FORMAT = '%d %b, %Y %-I:%M %p'
 FEED_DOMAIN = SITEURL
 FEED_ALL_RSS = 'feeds/all.rss'
 CATEGORY_FEED_RSS = 'feeds/{slug}.rss'
+SUBCATEGORY_FEED_RSS = 'feeds/%s.rss'
 
 CATEGORY_FEED_ATOM = None
 FEED_ALL_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+SUBCATEGORY_FEED_ATOM = None
 
 # Social widget
 SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet', 'fab fa-facebook-square'),
@@ -41,8 +43,7 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet', 'fab fa-facebook
 FAVICON = 'me_200x200.jpg'
 
 # Links for the nav bar
-MENUITEMS = (('About site', '/design-notes'),
-             ('Lifestream', '/all'),
+MENUITEMS = (('Lifestream', '/all'),
              ('Notes', '/notes'),
              ('Blog', '/blog'),
              ('Photos', 'https://photos.desmondrivet.com'),
@@ -57,7 +58,7 @@ PLUGIN_PATHS = ['/home/dcr/repos',
                 '/home/dcr/repos/pelican-plugins',
                 '/home/dcr/PycharmProjects']
 PLUGINS = ['paragraphed-summary', 'tipue_search', 'i18n_subsites',
-           'pelican_article_type', 'pelican_notedown']
+           'pelican_notedown', 'subcategory']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -84,19 +85,6 @@ PAGE_PATHS = ['']
 ARTICLE_PATHS = ['blog', 'notes']
 STATIC_PATHS = ['']
 
-ARTICLE_TYPES = ['blogentry', 'note']
-BLOGENTRY_PATHS = ['blog']
-BLOGENTRY_INDEX_SAVE_AS = 'blog/index.html'
-BLOGENTRY_INDEX_TEMPLATE = 'blog'
-BLOGENTRY_FEED_RSS = 'feeds/blog.rss'
-BLOGENTRY_TITLE = "Blog"
-
-NOTE_PATHS = ['notes']
-NOTE_INDEX_SAVE_AS = 'notes/index.html'
-NOTE_INDEX_TEMPLATE = "notes"
-NOTE_FEED_RSS = 'feeds/notes.rss'
-NOTE_TITLE = "Notes"
-
 TWITTER_LINK = 'https://twitter.com/desmondrivet/status/{twitterid}'
 TWITTER_HASHTAG = 'https://twitter.com/hashtag/{hashtag}'
 
@@ -105,15 +93,14 @@ PAGINATED_TEMPLATES = {
     'tag': None,
     'category': None,
     'author': None,
-    'blog': None,
-    'notes': None,
+    'period_archives': None
 }
 
 # slug for article comes from base filename
 SLUGIFY_SOURCE = 'basefile'
 
 FILENAME_METADATA = '(?P<slug>.*)'
-PATH_METADATA = '(?P<path_no_ext>.*)\..*'
+PATH_METADATA = '(?P<path_no_ext>((?P<subcategory_path>.*)/.*)|(.*))\..*'
 
 # this more or less implements my favored permalink scheme
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
@@ -131,6 +118,8 @@ DAY_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/index.html'
 
 CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index.html'
+SUBCATEGORY_SAVE_AS = '{savepath}.html'
+SUBCATEGORY_URL = '{fullurl}'
 
 TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}.html'
@@ -140,9 +129,6 @@ PAGE_SAVE_AS = '{path_no_ext}.html'
 
 DRAFT_URL = 'drafts/{slug}'
 DRAFT_SAVE_AS = 'drafts/{slug}.html'
-
-DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = False
 
 SUMMARY_MAX_LENGTH = 100
 

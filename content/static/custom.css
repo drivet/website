@@ -96,3 +96,23 @@ article h1, article h2, article h3, article h4,  article h5, article h6 {
 .page-header {
     margin-top: 2em;
 }
+
+.archives .year-group {
+    cursor: pointer;
+}
+
+.archives .month-group {
+    cursor: default;
+}
+
+.month-group-item:last-child {
+    border-bottom-width: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+blockquote {
+    font-size: inherit;
+    border-left: 2px solid #eee;
+    padding: 10px 30px;
+}
