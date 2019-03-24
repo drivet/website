@@ -16,7 +16,7 @@ I'm a full-stack developer residing in Montreal, Canada.  I'm currently
 employed by a [medical imaging company][10] where I do work on their next
 generation image viewer.
 
-Aside from programming, I also enjoy writing, reading, cooking and mixing
+Apart from programming, I also enjoy writing, reading, cooking and mixing
 drinks (you can blame [Mad Men][11] for that last one).
 
 Recently I've discovered the [Indie Web][12] and though I am currently
