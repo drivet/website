@@ -155,3 +155,7 @@ H_CARD_PHOTO = "/me01.jpg"
 
 NOTEDOWN_HASHTAG_TEMPLATE = r'https://twitter.com/hashtag/{hashtag}'
 NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
+
+# root URL where you go to edit content files on the web
+#
+EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
