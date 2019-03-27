@@ -80,6 +80,7 @@ CATEGORIES_URL = 'categories'
 TAGS_SAVE_AS = 'tags.html'
 TAGS_URL = 'tags'
 INDEX_SAVE_AS = 'all.html'
+INDEX_URL = 'all'
 
 PAGE_PATHS = ['']
 ARTICLE_PATHS = ['blog', 'notes']
@@ -159,3 +160,7 @@ NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
 # root URL where you go to edit content files on the web
 #
 EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
+
+AUTH_ENDPOINT=r'https://desmondrivet.com/auth'
+TOKEN_ENDPOINT=r'https://tokens.indieauth.com/token'
+MICROPUB_ENDPOINT=r'https://desmondrivet.com/micropub'
