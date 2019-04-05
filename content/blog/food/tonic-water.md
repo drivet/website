@@ -120,6 +120,6 @@ All in all, a good first try!
 
 [1]: http://www.tavernedominion.com/
 [2]: http://en.wikipedia.org/wiki/Quinine
-[3]: http://www.jeffreymorgenthaler.com/2008/how-to-make-your-own-tonic-water/)
+[3]: http://www.jeffreymorgenthaler.com/2008/how-to-make-your-own-tonic-water/
 [4]: http://en.wikipedia.org/wiki/Cinchona
 [5]: http://herboristeriedesjardins.com/

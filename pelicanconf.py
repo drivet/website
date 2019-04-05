@@ -161,6 +161,9 @@ NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
 #
 EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
 
-AUTH_ENDPOINT=r'https://desmondrivet.com/auth'
-TOKEN_ENDPOINT=r'https://tokens.indieauth.com/token'
-MICROPUB_ENDPOINT=r'https://desmondrivet.com/micropub'
+AUTH_ENDPOINT = r'https://desmondrivet.com/auth/'
+TOKEN_ENDPOINT = r'https://tokens.indieauth.com/token'
+MICROPUB_ENDPOINT = r'https://desmondrivet.com/micropub'
+
+# only send mentions past this date
+WEBMENTION_DATE_FROM = ''
