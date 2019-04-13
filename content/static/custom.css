@@ -84,6 +84,12 @@ article h1, article h2, article h3, article h4,  article h5, article h6 {
     margin-bottom: 2rem;
 }
 
+.embedded-photo {
+    margin-top: 0.7em;
+    width: 100%;
+    height: auto;
+}
+
 .h-entry h1, .h-entry h2, .h-entry h3,
 .h-entry h4, .h-entry h5, .h-entry h6 {
     margin-bottom: 1rem;
