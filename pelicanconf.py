@@ -163,6 +163,7 @@ EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
 AUTH_ENDPOINT = r'https://desmondrivet.com/auth/'
 TOKEN_ENDPOINT = r'https://tokens.indieauth.com/token'
 MICROPUB_ENDPOINT = r'https://desmondrivet.com/micropub'
+WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
 
 # only send mentions past this date
 WEBMENTION_DATE_FROM = ''
