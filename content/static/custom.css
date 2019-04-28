@@ -80,8 +80,17 @@ article h1, article h2, article h3, article h4,  article h5, article h6 {
     margin-right: 0.3em;
 }
 
+.webmention {
+    margin-right: 2em;
+}
+
+.webmention i {
+    margin-right: 0.5em;
+}
+
 .entry-content {
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem !important;
+    margin-top: 0.75rem !important;
 }
 
 .embedded-photo {

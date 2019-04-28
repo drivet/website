@@ -12,7 +12,7 @@ SITEURL = ''
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
 
-THEME = '/home/dcr/repos/pelican-indieweb'
+THEME = '/home/dcr/repos/pelican-indieweb-kit/theme'
 #THEME_TEMPLATES_OVERRIDES = ['templates']
 
 TIMEZONE = 'America/Montreal'
@@ -56,8 +56,10 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['/home/dcr/repos',
                 '/home/dcr/repos/pelican-plugins',
-                '/home/dcr/PycharmProjects']
-PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_notedown', 'paragraphed-summary']
+                '/home/dcr/PycharmProjects',
+                '/home/dcr/repos/pelican-indieweb-kit']
+PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_notedown',
+           'paragraphed-summary', 'pelican_webmention']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -138,12 +140,7 @@ HIDE_SIDEBAR = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_BREADCRUMBS = False
 
-#PIWIK_SITE_ID = 3
-#PIWIK_URL = 'piwik.desmondrivet.com'
 OPEN_GRAPH_IMAGE = 'me_200x200.jpg'
-
-ISSO_SERVER = 'https://isso.desmondrivet.com'
-ISSO_DISPLAY_COUNTS = True
 
 GA_TRACKING_ID = 'UA-132755534-1'
 
@@ -167,3 +164,7 @@ WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
 
 # only send mentions past this date
 WEBMENTION_DATE_FROM = ''
+
+
+# webmention folder relative to content
+WEBMENTION_PATH = 'webmentions'
