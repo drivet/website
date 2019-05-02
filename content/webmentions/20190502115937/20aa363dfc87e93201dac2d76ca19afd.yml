@@ -1,0 +1,40 @@
+parsedSource:
+  debug:
+    description: mf2py - microformats2 parser for python
+    markup parser: html5lib
+    source: https://github.com/microformats/mf2py
+    version: 1.1.2
+  items:
+  - properties:
+      author:
+      - properties:
+          name:
+          - vuejs.amsterdam
+          nickname:
+          - vuejsamsterdam
+          numeric-id:
+          - '877997162818392064'
+          photo:
+          - https://pbs.twimg.com/profile_images/917316966217650176/jv58vEHy.jpg
+          uid:
+          - tag:twitter.com,2013:vuejsamsterdam
+          url:
+          - https://twitter.com/vuejsamsterdam
+        type:
+        - h-card
+        value: vuejs.amsterdam
+      like-of:
+      - https://twitter.com/desmondrivet/status/1123980401855348738
+      - https://desmondrivet.com/2019/05/02/20190502115937
+      name:
+      - ''
+      uid:
+      - tag:twitter.com,2013:1123980401855348738_favorited_by_877997162818392064
+      url:
+      - https://twitter.com/desmondrivet/status/1123980401855348738#favorited-by-877997162818392064
+    type:
+    - h-entry
+  rel-urls: {}
+  rels: {}
+sourceUrl: https://brid-gy.appspot.com/like/twitter/desmondrivet/1123980401855348738/877997162818392064
+targetUrl: https://desmondrivet.com/2019/05/02/20190502115937
