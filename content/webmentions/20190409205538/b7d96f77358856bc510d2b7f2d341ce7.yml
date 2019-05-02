@@ -1,0 +1,63 @@
+parsedSource:
+  debug:
+    description: mf2py - microformats2 parser for python
+    markup parser: html5lib
+    source: https://github.com/microformats/mf2py
+    version: 1.1.2
+  items:
+  - properties:
+      author:
+      - properties:
+          name:
+          - Alexandre C-V
+          nickname:
+          - Alexandre_C_V
+          numeric-id:
+          - '611952373'
+          photo:
+          - https://pbs.twimg.com/profile_images/769249116941680641/kLTFLqVf.jpg
+          uid:
+          - tag:twitter.com,2013:Alexandre_C_V
+          url:
+          - https://twitter.com/Alexandre_C_V
+        type:
+        - h-card
+        value: Alexandre C-V
+      category:
+      - properties:
+          name:
+          - Desmond Rivet
+          uid:
+          - tag:twitter.com,2013:desmondrivet
+          url:
+          - https://twitter.com/desmondrivet
+          - http://desmondrivet.com/
+        type:
+        - h-card
+        value: https://twitter.com/desmondrivet
+      content:
+      - html: Heh, I love python :). But if you're background is all strong type systems
+          I can see why someone wouldn't like it. The break with conventions for source
+          code structure also turns people off.
+        value: Heh, I love python :). But if you're background is all strong type
+          systems I can see why someone wouldn't like it. The break with conventions
+          for source code structure also turns people off.
+      in-reply-to:
+      - https://twitter.com/desmondrivet/status/1115780369805185025
+      - https://desmondrivet.com/2019/04/09/20190409205538
+      name:
+      - Heh, I love python :). But if you're background is all strong type systems
+        I can see why someone wouldn't like it. The break with conventions for source
+        code structure also turns people off.
+      published:
+      - '2019-04-10T01:27:05+00:00'
+      uid:
+      - tag:twitter.com,2013:1115788259198681088
+      url:
+      - https://twitter.com/Alexandre_C_V/status/1115788259198681088
+    type:
+    - h-entry
+  rel-urls: {}
+  rels: {}
+sourceUrl: https://brid-gy.appspot.com/comment/twitter/desmondrivet/1115780369805185025/1115788259198681088
+targetUrl: https://desmondrivet.com/2019/04/09/20190409205538
