@@ -1,0 +1,40 @@
+parsedSource:
+  debug:
+    description: mf2py - microformats2 parser for python
+    markup parser: html5lib
+    source: https://github.com/microformats/mf2py
+    version: 1.1.2
+  items:
+  - properties:
+      author:
+      - properties:
+          name:
+          - Luke deGruchy
+          nickname:
+          - LukeRdeGruchy
+          numeric-id:
+          - '3428064406'
+          photo:
+          - https://pbs.twimg.com/profile_images/1053635574320390145/Tzgm0Vc1.jpg
+          uid:
+          - tag:twitter.com,2013:LukeRdeGruchy
+          url:
+          - https://twitter.com/LukeRdeGruchy
+        type:
+        - h-card
+        value: Luke deGruchy
+      like-of:
+      - https://twitter.com/desmondrivet/status/1123980401855348738
+      - https://desmondrivet.com/2019/05/02/20190502115937
+      name:
+      - ''
+      uid:
+      - tag:twitter.com,2013:1123980401855348738_favorited_by_3428064406
+      url:
+      - https://twitter.com/desmondrivet/status/1123980401855348738#favorited-by-3428064406
+    type:
+    - h-entry
+  rel-urls: {}
+  rels: {}
+sourceUrl: https://brid-gy.appspot.com/like/twitter/desmondrivet/1123980401855348738/3428064406
+targetUrl: https://desmondrivet.com/2019/05/02/20190502115937
