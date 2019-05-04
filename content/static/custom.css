@@ -85,6 +85,10 @@ article h1, article h2, article h3, article h4,  article h5, article h6 {
     margin-bottom: 0.5em;
 }
 
+a.webmention {
+    color: inherit;
+}
+
 .webmention {
     margin-right: 2em;
 }
@@ -92,6 +96,12 @@ article h1, article h2, article h3, article h4,  article h5, article h6 {
 .webmention i {
     margin-right: 0.5em;
 }
+
+.webmention-item img {
+    width: 40px;
+    height: 40px;
+}
+
 
 .entry-content {
     margin-bottom: 0.75rem !important;
