@@ -1,0 +1,40 @@
+parsedSource:
+  debug:
+    description: mf2py - microformats2 parser for python
+    markup parser: html5lib
+    source: https://github.com/microformats/mf2py
+    version: 1.1.2
+  items:
+  - properties:
+      author:
+      - properties:
+          name:
+          - Santa Cucinotta
+          nickname:
+          - santac1019
+          numeric-id:
+          - '2613739459'
+          photo:
+          - https://pbs.twimg.com/profile_images/742793547439443969/LHMTrX6X.jpg
+          uid:
+          - tag:twitter.com,2013:santac1019
+          url:
+          - https://twitter.com/santac1019
+        type:
+        - h-card
+        value: Santa Cucinotta
+      like-of:
+      - https://twitter.com/desmondrivet/status/1125067057463287808
+      - https://desmondrivet.com/2019/05/05/20190505115734
+      name:
+      - ''
+      uid:
+      - tag:twitter.com,2013:1125067057463287808_favorited_by_2613739459
+      url:
+      - https://twitter.com/desmondrivet/status/1125067057463287808#favorited-by-2613739459
+    type:
+    - h-entry
+  rel-urls: {}
+  rels: {}
+sourceUrl: https://brid-gy.appspot.com/like/twitter/desmondrivet/1125067057463287808/2613739459
+targetUrl: https://desmondrivet.com/2019/05/05/20190505115734
