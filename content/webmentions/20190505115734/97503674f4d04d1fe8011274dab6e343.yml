@@ -1,0 +1,40 @@
+parsedSource:
+  debug:
+    description: mf2py - microformats2 parser for python
+    markup parser: html5lib
+    source: https://github.com/microformats/mf2py
+    version: 1.1.2
+  items:
+  - properties:
+      author:
+      - properties:
+          name:
+          - Veronique Aubry
+          nickname:
+          - veveroa
+          numeric-id:
+          - '1216640378'
+          photo:
+          - https://pbs.twimg.com/profile_images/1003004710247428096/3sZS2e6x.jpg
+          uid:
+          - tag:twitter.com,2013:veveroa
+          url:
+          - https://twitter.com/veveroa
+        type:
+        - h-card
+        value: Veronique Aubry
+      like-of:
+      - https://twitter.com/desmondrivet/status/1125067057463287808
+      - https://desmondrivet.com/2019/05/05/20190505115734
+      name:
+      - ''
+      uid:
+      - tag:twitter.com,2013:1125067057463287808_favorited_by_1216640378
+      url:
+      - https://twitter.com/desmondrivet/status/1125067057463287808#favorited-by-1216640378
+    type:
+    - h-entry
+  rel-urls: {}
+  rels: {}
+sourceUrl: https://brid-gy.appspot.com/like/twitter/desmondrivet/1125067057463287808/1216640378
+targetUrl: https://desmondrivet.com/2019/05/05/20190505115734
