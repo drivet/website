@@ -162,9 +162,32 @@ TOKEN_ENDPOINT = r'https://tokens.indieauth.com/token'
 MICROPUB_ENDPOINT = r'https://desmondrivet.com/micropub'
 WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
 
-# only send mentions past this date
-WEBMENTION_DATE_FROM = ''
-
 
 # webmention folder relative to content
 WEBMENTION_PATH = 'webmentions'
+
+WEBMENTION_FROM_DATE = '2019-05-10T12:00:00'
+WEBMENTIONS_CACHE_FILE = 'state/webmentions_cache.yml'
+WEBSITE_GITHUB_CONTENTS_URL = 'https://api.github.com/repos/drivet/website/contents'
+
+BRIDGY_MP_SYNDICATE_TO_MATCH = {
+    '^twitter_bridgy_no_link$': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
+    '^twitter_bridgy$': 'https://brid.gy/publish/twitter',
+}
+
+BRIDGY_LIKE_OF_MATCH = {
+    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
+}
+
+BRIDGY_REPOST_OF_MATCH = {
+    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
+}
+
+BRIDGY_IN_REPLY_TO_MATCH = {
+    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
+}
+
+BRIDGY_SYNDICATED_LOCATIONS = ['https://twitter.com/(.*)']
+
+WEBMENTIONS_CACHE_FILE = 'state/webmention_cache.yml'
+WEBMENTIONS_CONTENT_HEADERS = ['like_of', 'repost_of', 'in_reply_to']
