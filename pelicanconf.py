@@ -180,11 +180,11 @@ BRIDGY_LIKE_OF_MATCH = {
 }
 
 BRIDGY_REPOST_OF_MATCH = {
-    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
+    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
 }
 
 BRIDGY_IN_REPLY_TO_MATCH = {
-    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
+    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
 }
 
 BRIDGY_SYNDICATED_LOCATIONS = ['https://twitter.com/(.*)']
