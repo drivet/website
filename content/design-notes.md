@@ -1,6 +1,6 @@
 date: 2012-07-12 01:44:03
 modified: 2015-05-16 01:52:55.879342
-title: About This Site
+title: Design Notes
 
 I've maintained some form of personal website since roughly 1998 or so, when
 I made my first hand coded HTML pages available online.  There've been a few

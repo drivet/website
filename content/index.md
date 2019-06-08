@@ -3,8 +3,9 @@ title: Home
 heading: Desmond's Home on the Web
 template: homepage
 
-<img src="{static}/me01.jpg"
-     style="float: right; margin-left:1em; margin-bottom: 1em;"
+<img src="{static}/me02.jpg"
+     style="float: right; margin-left:1em; margin-bottom: 1em;
+            width: 200px; height: 200px"
      alt="Me" title="Me"/>
      
 Hello, and welcome!  You've reached the personal domain of Desmond Rivet.  I

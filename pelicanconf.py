@@ -148,7 +148,7 @@ GA_TRACKING_ID = 'UA-132755534-1'
 H_CARD_NICKNAME = "desmondrivet"
 H_CARD_EMAIL = "desmond.rivet@gmail.com"
 H_CARD_URL = SITEURL
-H_CARD_PHOTO = "/me01.jpg"
+H_CARD_PHOTO = "/me02.jpg"
 
 NOTEDOWN_HASHTAG_TEMPLATE = r'https://twitter.com/hashtag/{hashtag}'
 NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
@@ -165,7 +165,6 @@ WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
 
 # webmention folder relative to content
 WEBMENTION_PATH = 'webmentions'
-
 WEBMENTION_FROM_DATE = '2019-05-10T12:00:00'
 WEBMENTIONS_CACHE_FILE = 'state/webmentions_cache.yml'
 WEBSITE_GITHUB_CONTENTS_URL = 'https://api.github.com/repos/drivet/website/contents'
