@@ -1,5 +1,5 @@
-Title: The Use Case for OAuth
-Status: draft
+title: The Use Case for OAuth
+status: draft
 
 You have a Twitter account, with a feed of tweets.
 
