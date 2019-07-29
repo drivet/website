@@ -1,4 +1,5 @@
 title: Hot and Cold Observables
+date: 2019-07-02 12:00:00 
 status: draft
 
 You can call publish() on an observable.  This returns a new Observable
