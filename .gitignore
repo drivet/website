@@ -2,3 +2,5 @@
 _state/
 .cov2emacs.log
 output/
+repos/
+.idea/

@@ -12,7 +12,7 @@ SITEURL = ''
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
 
-THEME = '/home/dcr/repos/pelican-indieweb-kit/theme'
+THEME = './repos/pelican-indieweb-kit/theme'
 #THEME_TEMPLATES_OVERRIDES = ['templates']
 
 TIMEZONE = 'America/Montreal'
@@ -54,10 +54,9 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['/home/dcr/repos',
-                '/home/dcr/repos/pelican-plugins',
-                '/home/dcr/PycharmProjects',
-                '/home/dcr/repos/pelican-indieweb-kit']
+PLUGIN_PATHS = ['./repos',
+                './repos/pelican-plugins',
+                './repos/pelican-indieweb-kit']
 PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_notedown',
            'paragraphed-summary', 'pelican_webmention']
 
@@ -89,6 +88,9 @@ STATIC_PATHS = ['']
 
 TWITTER_LINK = 'https://twitter.com/desmondrivet/status/{twitterid}'
 TWITTER_HASHTAG = 'https://twitter.com/hashtag/{hashtag}'
+TWITTER_INTENT_LIKE = 'https://twitter.com/intent/like?tweet_id={twitterid}'
+TWITTER_INTENT_RETWEET = 'https://twitter.com/intent/retweet?tweet_id={twitterid}'
+TWITTER_INTENT_REPLY = 'https://twitter.com/intent/tweet?in_reply_to={twitterid}'
 
 PAGINATED_TEMPLATES = {
     'index': None,
@@ -107,7 +109,6 @@ PATH_METADATA = '(?P<path_no_ext>((?P<subcategory_path>.*)/.*)|(.*))\..*'
 # this more or less implements my favored permalink scheme
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
 ARTICLE_SAVE_AS = ARTICLE_URL+'.html'
-
 
 YEAR_ARCHIVE_URL = '{date:%Y}/'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
