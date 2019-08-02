@@ -136,6 +136,6 @@ def publish(c):
 #        '{} {production}:{dest_path}'.format(
 #            CONFIG['deploy_path'].rstrip('/') + '/',
 #            **CONFIG))
-    c.run('rsync -avzhe ssh {deploy_path}/* '
-          '{ssh_user}@{ssh_host}:{ssh_target_dir}'
+    c.run('rsync -avzh -e \'ssh -o "StrictHostKeyChecking=no"\' '
+          '{deploy_path}/* {ssh_user}@{ssh_host}:{ssh_target_dir}'
           .format(**CONFIG))
