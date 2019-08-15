@@ -13,7 +13,7 @@ DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
 
 THEME = './repos/pelican-indieweb-kit/theme'
-#THEME_TEMPLATES_OVERRIDES = ['templates']
+# THEME_TEMPLATES_OVERRIDES = ['templates']
 
 TIMEZONE = 'America/Montreal'
 
@@ -158,7 +158,8 @@ NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
 #
 EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
 
-AUTH_ENDPOINT = r'https://desmondrivet.com/auth/'
+# AUTH_ENDPOINT = r'https://desmondrivet.com/auth/'
+AUTH_ENDPOINT = r'https://indieauth.com/auth'
 TOKEN_ENDPOINT = r'https://tokens.indieauth.com/token'
 MICROPUB_ENDPOINT = r'https://desmondrivet.com/micropub'
 WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
