@@ -57,8 +57,9 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ['./repos',
                 './repos/pelican-plugins',
                 './repos/pelican-indieweb-kit']
+
 PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_notedown',
-           'paragraphed-summary', 'pelican_webmention']
+           'paragraphed_summary', 'pelican_webmention']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],

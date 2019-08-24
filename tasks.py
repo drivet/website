@@ -3,10 +3,8 @@
 import os
 import shutil
 import sys
-import datetime
 
 from invoke import task
-from invoke.util import cd
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
 
@@ -34,9 +32,6 @@ def clonedeps(c):
     """Clone non-pip dependencies"""
     c.run('rm -rf repos')
     c.run('mkdir -p repos')
-    c.run('git clone '
-          'https://github.com/drivet/paragraphed-summary.git '
-          'repos/paragraphed-summary')
     c.run('git clone '
           'https://github.com/drivet/pelican_notedown.git '
           'repos/pelican_notedown')
