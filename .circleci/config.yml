@@ -10,12 +10,7 @@ jobs:
         
     working_directory: ~/repo
 
-    steps:
-      - run:
-          name: install rsync
-          command: |
-            sudo apt-get update && sudo apt-get install rsync
-            
+    steps:       
       - checkout
 
       # Download and cache dependencies
@@ -26,12 +21,11 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install dependencies
+          name: install pip requirements
           command: |
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            invoke clonedeps
 
       - save_cache:
           paths:
@@ -39,7 +33,34 @@ jobs:
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       - run:
-          name: publish
+          name: clone required git repos
           command: |
             . venv/bin/activate
-            invoke publish
+            invoke clonedeps
+            
+      - run:
+          name: build site
+          command: |
+            . venv/bin/activate
+            invoke preview
+            
+      - persist_to_workspace:
+          root: .
+          paths:
+            - output/
+            - webmention_cache.yml
+  deploy:
+    docker:
+      - image: circleci/node:9.9.0
+    
+    steps:
+      - run:
+          name: install netlify-cli
+          command: npm install netlify-cli -g
+            
+      - attach_workspace:
+          at: /tmp/workspace
+
+      - run:
+          name: deploy to netlify
+          command:  netlify deploy --dir=/tmp/workspace/output

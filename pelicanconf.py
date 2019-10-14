@@ -52,14 +52,16 @@ MENUITEMS = (('Lifestream', '/all'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['./repos',
+PLUGIN_PATHS = ['./repos/pelican-webmention',
+                './repos/pelican-micropub',
+                './repos',
                 './repos/pelican-plugins',
                 './repos/pelican-indieweb-kit']
 
-PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_notedown',
-           'paragraphed_summary', 'pelican_webmention']
+PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_micropub',
+           'pelican_notedown', 'paragraphed_summary', 'pelican_webmention']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -152,12 +154,17 @@ H_CARD_EMAIL = "desmond.rivet@gmail.com"
 H_CARD_URL = SITEURL
 H_CARD_PHOTO = "/me02.jpg"
 
+
+MICROPUB_DEFAULT_CATEGORY = 'notes'
+MICROPUB_CATEGORY_MAP = {
+    'article': 'blog'
+}
 NOTEDOWN_HASHTAG_TEMPLATE = r'https://twitter.com/hashtag/{hashtag}'
 NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
 
 # root URL where you go to edit content files on the web
 #
-EDIT_ROOT=r'https://github.com/drivet/website/edit/master/'+PATH
+EDIT_ROOT = r'https://github.com/drivet/website/edit/master/' + PATH
 
 # AUTH_ENDPOINT = r'https://desmondrivet.com/auth/'
 AUTH_ENDPOINT = r'https://indieauth.com/auth'
@@ -166,30 +173,9 @@ MICROPUB_ENDPOINT = r'https://desmondrivet.com/micropub'
 WEBMENTION_ENDPOINT = r'https://desmondrivet.com/webmention'
 
 
-# webmention folder relative to content
-WEBMENTION_PATH = 'webmentions'
-WEBMENTION_FROM_DATE = '2019-05-10T12:00:00'
-WEBMENTIONS_CACHE_FILE = 'state/webmentions_cache.yml'
-WEBSITE_GITHUB_CONTENTS_URL = 'https://api.github.com/repos/drivet/website/contents'
-
-BRIDGY_MP_SYNDICATE_TO_MATCH = {
-    '^twitter_bridgy_no_link$': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
-    '^twitter_bridgy$': 'https://brid.gy/publish/twitter',
+WEBMENTION_BRIDGY_MP_SYNDICATE_MAP = {
+    'twitter_bridgy_no_link': 'twitter_no_link',
+    'twitter_bridgy': 'twitter'
 }
 
-BRIDGY_LIKE_OF_MATCH = {
-    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter',
-}
-
-BRIDGY_REPOST_OF_MATCH = {
-    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
-}
-
-BRIDGY_IN_REPLY_TO_MATCH = {
-    'https://twitter.com/(.*)': 'https://brid.gy/publish/twitter?bridgy_omit_link=true',
-}
-
-BRIDGY_SYNDICATED_LOCATIONS = ['https://twitter.com/(.*)']
-
-WEBMENTIONS_CACHE_FILE = 'state/webmention_cache.yml'
-WEBMENTIONS_CONTENT_HEADERS = ['like_of', 'repost_of', 'in_reply_to']
+WEBMENTION_BRIDGY_PUBLISH = []

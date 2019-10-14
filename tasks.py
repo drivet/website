@@ -32,14 +32,20 @@ def clonedeps(c):
     """Clone non-pip dependencies"""
     c.run('rm -rf repos')
     c.run('mkdir -p repos')
-    c.run('git clone '
-          'https://github.com/drivet/pelican_notedown.git '
+    c.run('git clone ' +
+          'https://github.com/drivet/pelican_notedown.git ' +
           'repos/pelican_notedown')
-    c.run('git clone '
-          'https://github.com/getpelican/pelican-plugins.git '
+    c.run('git clone ' +
+          'https://github.com/getpelican/pelican-plugins.git ' +
           'repos/pelican-plugins')
-    c.run('git clone '
-          'https://github.com/drivet/pelican-indieweb-kit.git '
+    c.run('git clone ' +
+          'https://github.com/drivet/pelican-micropub.git ' +
+          'repos/pelican-micropub')
+    c.run('git clone ' +
+          'https://github.com/drivet/pelican-webmention.git ' +
+          'repos/pelican-webmention')
+    c.run('git clone ' +
+          'https://github.com/drivet/pelican-indieweb-kit.git ' +
           'repos/pelican-indieweb-kit')
 
 
@@ -125,12 +131,14 @@ def livereload(c):
 @task
 def publish(c):
     """Publish to production via rsync"""
-    c.run('pelican -s {settings_publish}'.format(**CONFIG))
-#    c.run(
-#        'rsync --delete --exclude ".DS_Store" -pthrvz -c '
-#        '{} {production}:{dest_path}'.format(
-#            CONFIG['deploy_path'].rstrip('/') + '/',
-#            **CONFIG))
+    preview(c)
     c.run('rsync -avzh -O -e \'ssh -o "StrictHostKeyChecking=no"\' '
           '{deploy_path}/* {ssh_user}@{ssh_host}:{ssh_target_dir}'
           .format(**CONFIG))
+
+
+@task
+def buildall(c):
+    """Clone dependencies and then build site for publishing"""
+    clonedeps(c)
+    preview(c)
