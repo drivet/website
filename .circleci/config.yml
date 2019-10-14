@@ -60,10 +60,14 @@ jobs:
             
       - attach_workspace:
           at: /tmp/workspace
-
+          
+      - run:
+          name: link sit to netlify
+          command: sudo netlify link --name desmondrivet
+          
       - run:
           name: deploy to netlify
-          command:  sudo netlify deploy --dir=/tmp/workspace/output
+          command: sudo netlify deploy --dir=/tmp/workspace/output
           
 workflows:
   version: 2

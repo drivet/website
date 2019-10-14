@@ -4,3 +4,7 @@ _state/
 output/
 repos/
 .idea/
+
+# Local Netlify folder
+.netlify
+
