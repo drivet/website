@@ -56,7 +56,7 @@ jobs:
     steps:
       - run:
           name: install netlify-cli
-          command: npm install netlify-cli -g
+          command: sudo npm install netlify-cli -g
             
       - attach_workspace:
           at: /tmp/workspace
