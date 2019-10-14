@@ -67,7 +67,7 @@ jobs:
           
       - run:
           name: deploy to netlify
-          command: sudo /usr/local/bin/netlify deploy --dir=/tmp/workspace/output
+          command: sudo /usr/local/bin/netlify deploy --dir=/tmp/workspace/output --prod
           
 workflows:
   version: 2
