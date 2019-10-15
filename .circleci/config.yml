@@ -13,7 +13,6 @@ jobs:
     steps:       
       - checkout
 
-      # Download and cache dependencies
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "requirements.txt" }}
@@ -52,22 +51,30 @@ jobs:
   deploy:
     docker:
       - image: circleci/node:9.9.0
+
+    working_directory: ~/deploy
     
     steps:
-      - run:
-          name: install netlify-cli
-          command: sudo npm install netlify-cli -g
-            
       - attach_workspace:
           at: /tmp/workspace
           
+      - restore_cache:
+          keys:
+            - node-deps-{{ checksum "package-lock.json" }}
+            - node-deps-
+            
       - run:
-          name: link site to netlify
-          command: sudo /usr/local/bin/netlify link --name desmondrivet
+          name: install netlify-cli
+          command: npm install netlify-cli
           
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: node-deps-{{ checksum "package-lock.json" }}
+
       - run:
           name: deploy to netlify
-          command: sudo /usr/local/bin/netlify deploy --dir=/tmp/workspace/output --prod
+          command: ./node_modules/.bin/netlify deploy --dir=/tmp/workspace/output --prod
           
 workflows:
   version: 2
