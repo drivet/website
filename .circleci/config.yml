@@ -76,7 +76,7 @@ jobs:
 
       - run:
           name: deploy to netlify
-          command: ./node_modules/.bin/netlify deploy --dir=~/deploy/output --prod
+          command: ./node_modules/.bin/netlify deploy --dir=output --prod
           
 workflows:
   version: 2
