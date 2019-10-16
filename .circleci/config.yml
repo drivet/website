@@ -20,7 +20,7 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install pip requirements
+          name: Install pip requirements
           command: |
             python3 -m venv venv
             . venv/bin/activate
@@ -32,13 +32,13 @@ jobs:
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       - run:
-          name: clone required git repos
+          name: Clone required git repos
           command: |
             . venv/bin/activate
             invoke clonedeps
             
       - run:
-          name: build site
+          name: Build site
           command: |
             . venv/bin/activate
             invoke preview
@@ -66,7 +66,7 @@ jobs:
             - node-deps-
             
       - run:
-          name: install netlify-cli
+          name: Install netlify-cli
           command: npm install netlify-cli
           
       - save_cache:
@@ -75,9 +75,51 @@ jobs:
           key: node-deps-{{ checksum "package-lock.json" }}
 
       - run:
-          name: deploy to netlify
+          name: Deploy to netlify
           command: ./node_modules/.bin/netlify deploy --dir=output --prod
+            
+  webmentions:
+    docker:
+      - image: circleci/python:3.6.8
+        
+    working_directory: ~/repo
+
+    steps:       
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: Install pip requirements
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+
+      - attach_workspace:
+          at: ~/repo
           
+      - run:
+          name: Clone required git repos
+          command: |
+            . venv/bin/activate
+            invoke clonedeps
+            
+      - run:
+          name: Send webmentions
+          command: |
+            . venv/bin/activate
+            PYTHONPATH=$PYTHONPATH:~/repos/pelican-webmention python -m pelican_webmention.send
+  
 workflows:
   version: 2
   build_and_deploy:
@@ -86,3 +128,6 @@ workflows:
       - deploy:
           requires:
             - build
+      - webmentions:
+          requires:
+            - deploy
