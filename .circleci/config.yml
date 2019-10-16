@@ -118,7 +118,7 @@ jobs:
           name: Send webmentions
           command: |
             . venv/bin/activate
-            PYTHONPATH=$PYTHONPATH:~/repos/pelican-webmention python -m pelican_webmention.send
+            PYTHONPATH=$PYTHONPATH:./repos/pelican-webmention python -m pelican_webmention.send
   
 workflows:
   version: 2
