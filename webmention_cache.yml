@@ -312,5 +312,8 @@ results:
     https://doubleloop.net/2019/05/30/sicp-reading-group/:
       status_code: 200
   2019/06/28/20190628204047: {}
-  2019/08/02/20190802234458: {}
+  2019/08/02/20190802234458:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1184662522672177153
+      status_code: 201
 site_url: https://desmondrivet.com
