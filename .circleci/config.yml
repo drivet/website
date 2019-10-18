@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6.8
+      - image: circleci/python:3.6.8-node
         
     working_directory: ~/repo
 
@@ -14,6 +14,7 @@ jobs:
       - checkout
 
       - restore_cache:
+          name: Restore pip cache
           keys:
             - v1-dependencies-{{ checksum "requirements.txt" }}
             # fallback to using the latest cache if no exact match is found
@@ -27,6 +28,7 @@ jobs:
             pip install -r requirements.txt
 
       - save_cache:
+          name: Save pip cache
           paths:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
@@ -43,24 +45,8 @@ jobs:
             . venv/bin/activate
             invoke preview
             
-      - persist_to_workspace:
-          root: .
-          paths:
-            - output/
-            - webmention_cache.yml
-            - package-lock.json
-
-  deploy:
-    docker:
-      - image: circleci/node:9.9.0
-
-    working_directory: ~/deploy
-    
-    steps:
-      - attach_workspace:
-          at: ~/deploy
-          
       - restore_cache:
+          name: Restore npm cache
           keys:
             - node-deps-{{ checksum "package-lock.json" }}
             - node-deps-
@@ -70,64 +56,17 @@ jobs:
           command: npm install netlify-cli
           
       - save_cache:
+          name: Save npm cache
           paths:
             - ./node_modules
           key: node-deps-{{ checksum "package-lock.json" }}
-
+          
       - run:
           name: Deploy to netlify
           command: ./node_modules/.bin/netlify deploy --dir=output --prod
-            
-  webmentions:
-    docker:
-      - image: circleci/python:3.6.8
-        
-    working_directory: ~/repo
-
-    steps:       
-      - checkout
-
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "requirements.txt" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
-      - run:
-          name: Install pip requirements
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
-
-      - save_cache:
-          paths:
-            - ./venv
-          key: v1-dependencies-{{ checksum "requirements.txt" }}
-
-      - attach_workspace:
-          at: ~/repo
-          
-      - run:
-          name: Clone required git repos
-          command: |
-            . venv/bin/activate
-            invoke clonedeps
-            
+           
       - run:
           name: Send webmentions
           command: |
             . venv/bin/activate
             PYTHONPATH=$PYTHONPATH:./repos/pelican-webmention python -m pelican_webmention.send --commit-cache
-
-workflows:
-  version: 2
-  build_and_deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-      - webmentions:
-          requires:
-            - deploy
