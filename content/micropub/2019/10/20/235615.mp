@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I do understand the need for strategic voting, but at the same time it leaves an absolutely horrible taste in my mouth.  I'm glad I live in a riding where it's (hopefully) not necessary."], "mp-syndicate-to": ["twitter_no_link"], "published": ["2019-10-20T23:56:15.515868"]}}
