@@ -182,6 +182,7 @@ WEBMENTION_ENDPOINT = r'https://webmention.desmondrivet.com'
 
 WEBMENTION_BRIDGY_MP_SYNDICATE_MAP = {
     'twitter_bridgy_no_link': 'twitter_no_link',
+    'twitter_bridgy_maybe_link': 'twitter_maybe_link',
     'twitter_bridgy': 'twitter'
 }
 
