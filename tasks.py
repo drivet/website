@@ -33,9 +33,6 @@ def clonedeps(c):
     c.run('rm -rf repos')
     c.run('mkdir -p repos')
     c.run('git clone ' +
-          'https://github.com/drivet/pelican_notedown.git ' +
-          'repos/pelican_notedown')
-    c.run('git clone ' +
           'https://github.com/getpelican/pelican-plugins.git ' +
           'repos/pelican-plugins')
     c.run('git clone ' +

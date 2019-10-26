@@ -60,14 +60,15 @@ PLUGIN_PATHS = ['./repos/pelican-webmention',
                 './repos/pelican-plugins',
                 './repos/pelican-indieweb-kit']
 
-PLUGINS = ['subcategory', 'tipue_search', 'i18n_subsites', 'pelican_micropub',
-           'pelican_notedown', 'paragraphed_summary', 'pelican_webmention']
+PLUGINS = ['tipue_search', 'i18n_subsites', 'pelican_micropub',
+           'paragraphed_summary', 'pelican_webmention']
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 
-USE_FOLDER_AS_CATEGORY = True
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = 'blog'
 
 # I'm the only author, so don't save these
 AUTHORS_SAVE_AS = ''
@@ -86,8 +87,8 @@ INDEX_SAVE_AS = 'all.html'
 INDEX_URL = 'all'
 
 PAGE_PATHS = ['']
-ARTICLE_PATHS = ['blog', 'notes']
-STATIC_PATHS = ['']
+ARTICLE_PATHS = ['posts']
+STATIC_PATHS = ['posts', 'static']
 
 TWITTER_LINK = 'https://twitter.com/desmondrivet/status/{twitterid}'
 TWITTER_HASHTAG = 'https://twitter.com/hashtag/{hashtag}'
@@ -107,7 +108,8 @@ PAGINATED_TEMPLATES = {
 SLUGIFY_SOURCE = 'basefile'
 
 FILENAME_METADATA = '(?P<slug>.*)'
-PATH_METADATA = '(?P<path_no_ext>((?P<subcategory_path>.*)/.*)|(.*))\..*'
+# PATH_METADATA = '(?P<path_no_ext>((?P<subcategory_path>.*)/.*)|(.*))\..*'
+PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 
 # this more or less implements my favored permalink scheme
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
@@ -155,10 +157,15 @@ H_CARD_URL = SITEURL
 H_CARD_PHOTO = "/me02.jpg"
 
 
-MICROPUB_DEFAULT_CATEGORY = 'notes'
 MICROPUB_CATEGORY_MAP = {
-    'article': 'blog'
+    'article': 'blog',
+    'note': 'notes',
+    'reply': 'notes',
+    'repost': 'notes',
+    'like': 'notes',
+    'photo': 'notes'
 }
+
 NOTEDOWN_HASHTAG_TEMPLATE = r'https://twitter.com/hashtag/{hashtag}'
 NOTEDOWN_MENTION_TEMPLATE = r'https://twitter.com/{mention}'
 
@@ -183,3 +190,5 @@ WEBMENTION_BRIDGY_PUBLISH = [
     ('repost_of', 'twitter.com', 'twitter_no_link'),
     ('like_of', 'twitter.com', 'twitter_no_link')
 ]
+
+WEBMENTIONS_GENERATE_OUTGOING = False
