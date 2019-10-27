@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Kavaeric/status/1186655197541609472"], "published": ["2019-10-27T03:16:16.711875"]}}
