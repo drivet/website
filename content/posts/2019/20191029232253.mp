@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I'm reading Nemesis Games.  Book 5 of The Expanse."], "in-reply-to": ["https://twitter.com/kvlly/status/1189305502750117889"], "mp-syndicate-to": ["twitter_bridgy"], "published": ["2019-10-29T23:22:53.969236"]}}
