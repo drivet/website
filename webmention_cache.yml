@@ -332,4 +332,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1190472351374356480
       status_code: 201
+  2019/11/03/235009:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/Kavaeric/status/1191126991988281344?s=19
+      status_code: 201
 site_url: https://desmondrivet.com
