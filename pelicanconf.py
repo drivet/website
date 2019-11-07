@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
 AUTHOR = 'Desmond Rivet'
 # AUTHOR_OG = 'https://www.facebook.com/desmond.rivet'
 # most themes expect the SITENAME to be the blog name
@@ -56,11 +57,12 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['./repos/pelican-webmention',
                 './repos/pelican-micropub',
+                './repos/pelican-unfurl',
                 './repos',
                 './repos/pelican-plugins',
                 './repos/pelican-indieweb-kit']
 
-PLUGINS = ['tipue_search', 'i18n_subsites', 'pelican_micropub',
+PLUGINS = ['tipue_search', 'i18n_subsites', 'preview', 'pelican_micropub',
            'paragraphed_summary', 'pelican_webmention']
 
 JINJA_ENVIRONMENT = {

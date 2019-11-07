@@ -32,18 +32,16 @@ def clonedeps(c):
     """Clone non-pip dependencies"""
     c.run('rm -rf repos')
     c.run('mkdir -p repos')
+    clone(c, 'getpelican', 'pelican-plugins')
+    clone(c, 'drivet', 'pelican-micropub')
+    clone(c, 'drivet', 'pelican-webmention')
+    clone(c, 'drivet', 'pelican-indieweb-kit')
+    clone(c, 'drivet', 'pelican-unfurl')
+
+
+def clone(c, owner, repo):
     c.run('git clone ' +
-          'https://github.com/getpelican/pelican-plugins.git ' +
-          'repos/pelican-plugins')
-    c.run('git clone ' +
-          'https://github.com/drivet/pelican-micropub.git ' +
-          'repos/pelican-micropub')
-    c.run('git clone ' +
-          'https://github.com/drivet/pelican-webmention.git ' +
-          'repos/pelican-webmention')
-    c.run('git clone ' +
-          'https://github.com/drivet/pelican-indieweb-kit.git ' +
-          'repos/pelican-indieweb-kit')
+          f'https://github.com/{owner}/{repo}.git repos/{repo}')
 
 
 @task
