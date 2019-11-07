@@ -13,8 +13,8 @@ MarkupSafe==1.1.1
 mf2py==1.1.2
 mf2util==0.5.1
 micawber==0.5.1
-git+https://github.com/erikriver/opengraph.git
 paragraphed-summary==1.0.1
+git+https://github.com/erikriver/opengraph.git
 pelican==4.1.0
 Pygments==2.4.2
 python-dateutil==2.8.0
