@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Who's Dana Schwartz I'll bet she's funny I should find out more about her"], "in-reply-to": ["https://twitter.com/DanaSchwartzzz/status/1192291262977568768?s=19"], "published": ["2019-11-07T22:12:39.772174"]}}
