@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["\"There was absolutely, totally, positively, 100% no quid pro quo...and if there was, it was absolutely, totally, positively, 100% not an impeachable offense!\""], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-07T21:37:00.270138"]}}
