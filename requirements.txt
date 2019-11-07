@@ -1,3 +1,4 @@
+git+https://github.com/erikriver/opengraph.git
 beautifulsoup4==4.8.0
 blinker==1.4
 certifi==2019.6.16
@@ -13,7 +14,6 @@ MarkupSafe==1.1.1
 mf2py==1.1.2
 mf2util==0.5.1
 micawber==0.5.1
-opengraph==0.5
 paragraphed-summary==1.0.1
 pelican==4.1.0
 Pygments==2.4.2
