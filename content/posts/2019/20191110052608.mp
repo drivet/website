@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/WhoThat_One_Guy/status/1192988446928834561?s=19"], "published": ["2019-11-10T05:26:08.869338"]}}
