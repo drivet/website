@@ -33,10 +33,7 @@ def clonedeps(c):
     c.run('rm -rf repos')
     c.run('mkdir -p repos')
     clone(c, 'getpelican', 'pelican-plugins')
-    clone(c, 'drivet', 'pelican-micropub')
-    clone(c, 'drivet', 'pelican-webmention')
     clone(c, 'drivet', 'pelican-indieweb-kit')
-    clone(c, 'drivet', 'pelican-unfurl')
 
 
 def clone(c, owner, repo):

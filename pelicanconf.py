@@ -55,10 +55,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['./repos/pelican-webmention',
-                './repos/pelican-micropub',
-                './repos/pelican-unfurl',
-                './repos',
+PLUGIN_PATHS = ['./repos',
                 './repos/pelican-plugins',
                 './repos/pelican-indieweb-kit']
 

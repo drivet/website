@@ -1,3 +1,8 @@
+git+https://github.com/erikriver/opengraph.git
+git+https://github.com/drivet/indieweb-utils.git
+git+https://github.com/drivet/pelican-unfurl.git
+git+https://github.com/drivet/pelican-micropub.git
+git+https://github.com/drivet/pelican-webmention.git
 beautifulsoup4==4.8.0
 blinker==1.4
 certifi==2019.6.16
@@ -14,7 +19,6 @@ mf2py==1.1.2
 mf2util==0.5.1
 micawber==0.5.1
 paragraphed-summary==1.0.1
-git+https://github.com/erikriver/opengraph.git
 pelican==4.1.0
 Pygments==2.4.2
 python-dateutil==2.8.0
