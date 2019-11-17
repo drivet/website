@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Seeing Mythic! #mythic @segalcentre"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-17T23:54:01.736019"]}}
