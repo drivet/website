@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["The high point of any #Expanse novel is Bobbie Draper saving the day in power armour."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-17T17:42:02.659435"]}}
