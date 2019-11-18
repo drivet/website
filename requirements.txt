@@ -1,8 +1,8 @@
 git+https://github.com/erikriver/opengraph.git
-git+https://github.com/drivet/indieweb-utils.git
-git+https://github.com/drivet/pelican-unfurl.git
-git+https://github.com/drivet/pelican-micropub.git
-git+https://github.com/drivet/pelican-webmention.git
+-e git+https://github.com/drivet/indieweb-utils.git#egg=indieweb-utils
+-e git+https://github.com/drivet/pelican-unfurl.git#egg=pelican-unfurl
+-e git+https://github.com/drivet/pelican-micropub.git#egg=pelican-micropub
+-e git+https://github.com/drivet/pelican-webmention.git#egg=pelican-webmention
 beautifulsoup4==4.8.0
 blinker==1.4
 certifi==2019.6.16
