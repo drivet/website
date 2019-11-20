@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I really don't care.  Not a fan.\r\nhttps://www.cbc.ca/sports/hockey/nhl/don-cherry-podcast-launch-1.5364771"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-20T00:45:55.025957"]}}
