@@ -82,13 +82,13 @@ the reason was simpler: Disapora ultimately didn't have very many users.
 Imagine going to all the trouble to launch a Disapora pod only to discover
 that no one you knew was on the network?
 
-More subtly, the issue is one of interoperability.  The IndieWeb community's
-blanket term for sites like Facebook and Twitter is "silos" and the metaphor
-is apt.  People take it for granted that Facebook users don't get to follow
-you on Twitter unless they're also Twitter users.  Sending a message to
-someone on Facebook doesn't work unless that person is also a Facebook user.
-You don't get to comment on Medium articles unless you create yourself a
-Medium account.
+More subtly, the issue is also one of interoperability.  The IndieWeb
+community's blanket term for sites like Facebook and Twitter is "silos" and
+the metaphor is apt.  People take it for granted that Facebook users don't
+get to follow you on Twitter unless they're also Twitter users.  Sending a
+message to someone on Facebook doesn't work unless that person is also a
+Facebook user.  You don't get to comment on Medium articles unless you
+create yourself a Medium account.
 
 Despite being decentralized and free, Diaspora is also a kind of silo.
 Generally speaking, when you post something to Diaspora, the only people who
@@ -96,13 +96,54 @@ can see it are other Disapora users.  Your posts do not show up, for
 example, on someone's Twitter feed.
 
 Can you imagine if something as basic as email worked like that?  Can you
-imagine if gmail users couldn't send emails to anyone other than gmail
-users?  The fact that they can is directly because of the fact that the
-protocols involved in sending emails are open standards.
+imagine if Gmail users were restricted to sending emails to other Gmail
+users?  The fact that they are not so restricted is directly attributed to
+the fact that the protocols involved in sending emails are open standards.
+Even if you opt for a Gmail account, with your emails ultimately under
+Google's control, the idea that you couldn't use that account to send emails
+to someone who uses, say, [ProtonMail][7], is absurd.
 
-So why can't social networking work similarly?
+So...why can't social networking work like that?  Good question.
 
 ## Enter the IndieWeb
+
+The IndieWeb is an attempt to bring the benefits of social networking, such
+as posting and sharing status updates, likes and reposts, to the web at
+large, using open protocols.  Whereas a site like Twitter or Facebook is a
+kind of walled garden, with online social interactions restricted to the
+confines of the site, the IndieWeb tries to create a social network *out of
+the world wide web itself*.
+
+The Diaspora project, of course, tried to do the same thing, more or less,
+with its vision of a social network consisting of a decentralized collection
+of web "pods" communicating among themselves via the Diaspora software
+suite.  As noted, it failed because, at the end of the day, it tried to be
+an out-and-out replacement for Facebook, which was an unrealistic goal -
+Facebook has billions of users, and they aren't budging anytime soon.
+
+The IndieWeb is a somewhat different beast.  You don't need to run a
+specialized "pod" to become part of the IndieWeb.  You just need a standard,
+vanilla personal website - albeit one that conforms to certain
+(straightforward) patterns.  After that, sharing a status update consists of
+posting content to your own site, where anyone can read it, using whatever
+mechanism is most convenient for you.
+
+This is an important point to grasp, so I'll reiterate.  A personal website
+belonging to the IndieWeb isn't running any particular suite of software.
+It's a standard website, written with standard HTML and CSS.
+
+One of the key differences between the IndieWeb and similar projects like
+Disapora is that the former prescribes a methodology or pattern for
+[syndicating your content to sites like Twitter][8] and for [harvesting
+online interactions to those syndicated copies][9] for use on your own site.
+In other words, the IndieWeb is not trying to dislodge the existing social
+networking giants, but is rather trying to cooperate with them.  This is a
+crucial feature, and is the main reason why adoption numbers don't really
+matter as much to the IndieWeb as they did to other attempts at open social
+networking.  Even if the entire IndieWeb consisted of a single personal
+website, it would still "work", in the sense that the owner of the website
+would be in control of their own content and would still be able to share
+that content with their friends on (say) Twitter.
 
 
 [1]: https://en.wikipedia.org/wiki/Randall_Munroe
@@ -111,3 +152,6 @@ So why can't social networking work similarly?
 [4]: https://imgs.xkcd.com/comics/movie_ages.png 
 [5]: https://indieweb.org/
 [6]: https://diasporafoundation.org/
+[7]: https://protonmail.com/
+[8]: https://indieweb.org/POSSE
+[9]: https://indieweb.org/backfeed
