@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I...guess that means it sounds good? :)"], "in-reply-to": ["https://twitter.com/SurpriseSparrow/status/1199959564436815872"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-28T12:52:58.235630"]}}
