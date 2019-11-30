@@ -3,28 +3,17 @@ date: 2019-01-20 20:50:28
 modified: 2019-01-20 20:50:28
 status: draft
 
+I don't think I've ever felt quite as old as I felt when, last year, I
+discovered the [IndieWeb][5], an online community dedicated to resuscitating
+the personal website.
 
-The [artist][1] who draws [xkcd][2] will occasionally put out a comic
-designed to make people my age feel old.  There's this one for example:
-
-![XKCD Simpsons][3]
-
-And this one too:
-
-![XKCD Movie Ages][4]
-
-They are, for the most part, successful in their stated goal - I do indeed
-feel old when I read them. That being said, I don't think I've ever felt
-quite as old as I felt when, last year, I discovered the [IndieWeb][5], an
-online community dedicated to resuscitating the personal website.
-
-Why does this make me feel old?  It's simple. I've maintained some sort of
-personal web presence/site/blog since about 1998 or so, when I made my first
-hand-coded HTML pages available online at U of T, and apparently enough time
-has past not only for the concept of a "personal website" to have become
-quaint and old-fashioned but *also* for it to have been re-energized by an
-enthusiastic band of hobbyists with a taste for the retro and a fondness for
-old-school fan pages.
+This makes me feel old because I've maintained some sort of personal web
+presence/site/blog since about 1998 or so, when I made my first hand-coded
+HTML pages available online at U of T, and apparently enough time has past
+not *only* for the concept of a "personal website" to have become quaint and
+old-fashioned but *also* for it to have been re-energized by an enthusiastic
+band of hobbyists with a taste for the retro and a fondness for old-school
+fan pages.
 
 You hear that?  I've moved beyond passé into *retro*.  It's as if I never
 stopped wearing 80's clothes but now they're cool again so it's okay.
