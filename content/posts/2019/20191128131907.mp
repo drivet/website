@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["#MarcellaHazan 's famous (infamous?) tomato, butter and onion sauce is actually a *surprisingly* good, rich sauce, considering what went into it - four ingredients, including the salt. No garlic, no basil, no olive oil. "], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-11-28T13:19:07.949004"]}}
