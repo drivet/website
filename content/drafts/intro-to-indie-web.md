@@ -9,8 +9,8 @@ the personal website.
 
 This makes me feel old because I've maintained some sort of personal web
 presence/site/blog since about 1998 or so, when I made my first hand-coded
-HTML pages available online at U of T, and apparently enough time has past
-not *only* for the concept of a "personal website" to have become quaint and
+HTML pages available online at U of T.  Apparently enough time has past not
+*only* for the concept of a "personal website" to have become quaint and
 old-fashioned but *also* for it to have been re-energized by an enthusiastic
 band of hobbyists with a taste for the retro and a fondness for old-school
 fan pages.
@@ -26,31 +26,48 @@ retrospect, it does seem obvious that I'm a bit of an outlier.  Personal
 blogs (in the sense of someone running their own blogging software on their
 own domain) are not something you see much nowadays; people with something
 pithy to say will use Twitter or Facebook and those with longer attention
-spans will use something like Medium.  It's just easier, right?
+spans will use something like Medium.  You don't have to install anything
+and you automatically reach a larger audience than you probably could have
+on your own.
 
-Why would anyone want something different?  The answer could probably be
-summarized in one word: control.
+It sounds like a win all around, doesn't it?  So why would anyone want
+something different?  Why does the IndieWeb exist at all?  Aside from the
+obvious pleasures of DIY and of getting your hands dirty, the answer could
+probably be summarized in one word: control.
 
-When you post a tweet, it's no longer yours; it becomes the property of
-Twitter and they can do what they like with it.  What happens to your tweets
-or status updates if Twitter or Facebook go out of business?  It seems
-unlikely, but times change.
+When you post a tweet or a status update, it ceases to be yours the second
+you hit the enter key.  What happens to them if Twitter or Facebook go out
+of business?  If that seems too unlikely to contemplate, then ask yourself a
+simpler question: what happens if you simply want to leave?  Imagine that
+Facebook crosses one too many lines and you decide that you're better off
+without it.  What happens to your content then?
 
-Or, perhaps more likely, what happens if you simply want to leave? Imagine
-that Facebook crosses one too many lines and you decide that you're better
-off without it.  What happens to your content then?
+To be fair, Twitter *does* offer a feature allowing you to download your
+archive.  I can testify that it works; you make a request and a few minutes
+later you can download a zip file with your actual content, in a text format
+known as [JSON][10].
 
-What happens if Medium decides to start charging money and you decide it's
-not worth it?
+But...then what?  What is one supposed to do with that?  I mean, I'm a
+software developer by trade, so I happen to know what a JSON document looks
+like and how one goes about extracting information from it but can you say
+that about the average person?
 
-I mean, sure, there are other reasons to avoid these sites.  No one likes to
+And, not to be paranoid, but what happens if they decide to remove the
+feature?  What exactly could you do about it?  You know, except *leave*?
+
+Consider a site like Medium.  It started out as a free, clean, spare
+blogging site, aimed at people who valued *content* over bling.  It has now
+become a piece of nagware, constantly pestering you to create an account.  I
+don't know if its future consists of targeted ads or a paid subscription
+model, but it can only be a matter of time; Medium, is a business, after
+all.
+
+There are, of course other reasons to avoid these sites.  No one likes to
 see ads.  Facebook is constantly tracking your online activities and selling
 what it collects to nefarious organizations.  Twitter contributes to the
-echo chamber effect.
-
-But honestly? These all take a back seat to the issue of control.  Even if
-there existed a completely benign, free, adless, non-tracking social
-network, the problems I described would still exist.
+echo chamber effect.  But honestly? These all take a back seat to the issue
+of control.  Even if there existed a completely benign, free, ad-less,
+non-tracking social network, the problems I described would still exist.
 
 ## Failed Attempts
 
@@ -119,7 +136,8 @@ mechanism is most convenient for you.
 
 This is an important point to grasp, so I'll reiterate.  A personal website
 belonging to the IndieWeb isn't running any particular suite of software.
-It's a standard website, written with standard HTML and CSS.
+It's a standard website, written with standard HTML and CSS, using whatever
+tools you want.
 
 One of the key differences between the IndieWeb and similar projects like
 Disapora is that the former prescribes a methodology or pattern for
@@ -144,3 +162,4 @@ that content with their friends on (say) Twitter.
 [7]: https://protonmail.com/
 [8]: https://indieweb.org/POSSE
 [9]: https://indieweb.org/backfeed
+[10]: https://www.json.org/json-en.html
