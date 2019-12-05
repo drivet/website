@@ -3,8 +3,8 @@ date: 2019-07-02 12:00:00
 status: draft
 
 You can call publish() on an observable.  This returns a new Observable
-(with the old Observable as a source) which has a connect() function attched
-to it.
+(with the old Observable as a source) which has a connect() function
+attached to it.
 
 What this means is that the new Observable doesn't subscribe to the source
 in its constructor.  And multiple observers can subscribe to the new

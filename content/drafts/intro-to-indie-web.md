@@ -1,4 +1,4 @@
-title: In the Beginning was the Website: On Joining the IndieWeb
+title: In the Beginning was the Website: On Discovering the IndieWeb
 date: 2019-01-20 20:50:28
 modified: 2019-01-20 20:50:28
 status: draft
@@ -35,12 +35,15 @@ something different?  Why does the IndieWeb exist at all?  Aside from the
 obvious pleasures of DIY and of getting your hands dirty, the answer could
 probably be summarized in one word: control.
 
-When you post a tweet or a status update, it ceases to be yours the second
-you hit the enter key.  What happens to them if Twitter or Facebook go out
-of business?  If that seems too unlikely to contemplate, then ask yourself a
-simpler question: what happens if you simply want to leave?  Imagine that
-Facebook crosses one too many lines and you decide that you're better off
-without it.  What happens to your content then?
+When you post a tweet or a status update (or any form of content), it ceases
+to be yours the second you hit the enter key.  What happens if Twitter or
+Facebook go out of business?  And if that seems too unlikely to contemplate,
+ask yourself a simpler question: what happens if you simply want to *leave*?
+What happens if Facebook crosses one too many lines and you decide that
+you're better off without it?  What happens if Medium stops being a free,
+clean, spare blogging site and instead turns into an [annoying piece of
+nagware][11], constantly pestering you to create an account?  What happens
+then?
 
 To be fair, Twitter *does* offer a feature allowing you to download your
 archive.  I can testify that it works; you make a request and a few minutes
@@ -55,13 +58,6 @@ that about the average person?
 And, not to be paranoid, but what happens if they decide to remove the
 feature?  What exactly could you do about it?  You know, except *leave*?
 
-Consider a site like Medium.  It started out as a free, clean, spare
-blogging site, aimed at people who valued *content* over bling.  It has now
-become a piece of nagware, constantly pestering you to create an account.  I
-don't know if its future consists of targeted ads or a paid subscription
-model, but it can only be a matter of time; Medium, is a business, after
-all.
-
 There are, of course other reasons to avoid these sites.  No one likes to
 see ads.  Facebook is constantly tracking your online activities and selling
 what it collects to nefarious organizations.  Twitter contributes to the
@@ -74,19 +70,20 @@ non-tracking social network, the problems I described would still exist.
 There have been attempts over the years to push sites like Facebook off
 their perch.  They all failed for various reasons.
 
-One of the first and most notable ones was [Diaspora][6].  It was touted as a
-kind of decentralized Facebook, where users could post status updates and
+One of the first and most notable ones was [Diaspora][6].  It was touted as
+a kind of decentralized Facebook, where users could post status updates and
 pictures, send messages, etc.  Users joined Diaspora by hosting their own
-"pod", running specialized software, which would communicate with other pods
-in the Diaspora network.  There was also a hosted version that you could
-sign up for, but that kind of defeated the purpose of the whole endeavour.
+"pod" and running specialized software, which would communicate with other
+pods in the Diaspora network.  There was also a hosted version that you
+could sign up for, but that kind of defeated the purpose of the whole
+endeavour.
 
-It was an interesting experiment, but it failed miserably.  Many people
-point to the fact that the initial software offering was riddled with bugs,
-and that setting up your own pod was a daunting task, but in reality I think
-the reason was simpler: Disapora ultimately didn't have very many users.
-Imagine going to all the trouble to launch a Disapora pod only to discover
-that no one you knew was on the network?
+It was an interesting experiment, but it failed to take the world by storm.
+Many people point to the fact that the initial software offering was riddled
+with bugs, and that setting up your own pod was a daunting task, but in
+reality I think the reason was simpler: Disapora ultimately didn't have very
+many users.  Imagine going to all the trouble to launch a Disapora pod only
+to discover that no one you knew was on the network?
 
 More subtly, the issue is also one of interoperability.  The IndieWeb
 community's blanket term for sites like Facebook and Twitter is "silos" and
@@ -98,7 +95,7 @@ create yourself a Medium account.
 
 Despite being decentralized and free, Diaspora is also a kind of silo.
 Generally speaking, when you post something to Diaspora, the only people who
-can see it are other Disapora users.  Your posts do not show up, for
+can see it are other Diaspora users.  Your posts do not show up, for
 example, on someone's Twitter feed.
 
 Can you imagine if something as basic as email worked like that?  Can you
@@ -109,7 +106,7 @@ Even if you opt for a Gmail account, with your emails ultimately under
 Google's control, the idea that you couldn't use that account to send emails
 to someone who uses, say, [ProtonMail][7], is absurd.
 
-So...why can't social networking work like that?  Good question.
+So...why can't social networking work like that?  It's a good question.
 
 ## Enter the IndieWeb
 
@@ -135,9 +132,9 @@ posting content to your own site, where anyone can read it, using whatever
 mechanism is most convenient for you.
 
 This is an important point to grasp, so I'll reiterate.  A personal website
-belonging to the IndieWeb isn't running any particular suite of software.
-It's a standard website, written with standard HTML and CSS, using whatever
-tools you want.
+belonging to the IndieWeb isn't running any particular suite of software,
+and isn't running on any particular service.  It's a standard website,
+written with standard HTML and CSS, using whatever tools you want.
 
 One of the key differences between the IndieWeb and similar projects like
 Disapora is that the former prescribes a methodology or pattern for
@@ -152,6 +149,20 @@ website, it would still "work", in the sense that the owner of the website
 would be in control of their own content and would still be able to share
 that content with their friends on (say) Twitter.
 
+# Details to Come
+
+If you've read this far, I'm assuming you found the subject interesting.
+And yet, there are many unanswered questions.
+
+In concrete terms, what does it take for a website to become part of the
+IndieWeb?  What does the IndieWeb even *look like*?  How exactly do you
+"like" something or leave comments on another website without signing up for
+some sort of centralized service?  To put it simply, how does this all
+*work*?
+
+The IndieWeb community has answers for all of this, which I intend to cover
+in further blog entries.  If you are interested, I urge you to stay tuned.
+
 
 [1]: https://en.wikipedia.org/wiki/Randall_Munroe
 [2]: https://www.xkcd.com/
@@ -163,3 +174,4 @@ that content with their friends on (say) Twitter.
 [8]: https://indieweb.org/POSSE
 [9]: https://indieweb.org/backfeed
 [10]: https://www.json.org/json-en.html
+[11]: https://indieweb.org/Medium#Nagware
