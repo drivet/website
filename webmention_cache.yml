@@ -408,4 +408,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1202986784965169153
       status_code: 201
+  2019/12/06/173709:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/nickwalton00/status/1202706532095258625
+      status_code: 201
 site_url: https://desmondrivet.com
