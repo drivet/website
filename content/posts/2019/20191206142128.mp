@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Learning about Indo-European migration on  @englishhistpod and it sometimes feels like I'm listening to DnD prep or superhero origin stories"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-06T14:21:28.338807"]}}
