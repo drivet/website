@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/nickwalton00/status/1202706532095258625"], "published": ["2019-12-06T17:37:09.911324"]}}
