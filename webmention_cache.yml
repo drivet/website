@@ -105,6 +105,9 @@ excluded_domains:
 - angularjs.org
 - coffeescript.org
 - www.gwtproject.org
+- protonmail.com
+- www.json.org
+- diasporafoundation.org
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -419,5 +422,24 @@ results:
   2019/12/07/162426:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1203349837179236353
+      status_code: 201
+  2019/12/08/intro-to-indie-web:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1203733452085956608
+      status_code: 201
+    https://indieweb.org/:
+      location: https://webmention.io/indiewebcamp/webmention/M2QYrwocca5e7FUrxAAY
+      status_code: 201
+    https://indieweb.org/Medium#Nagware:
+      location: https://webmention.io/indiewebcamp/webmention/h2nmoN5Vd0RB-AkpRhkN
+      status_code: 201
+    https://indieweb.org/POSSE:
+      location: https://webmention.io/indiewebcamp/webmention/_2lvSSeotTXv9fVgMsnK
+      status_code: 201
+    https://indieweb.org/backfeed:
+      location: https://webmention.io/indiewebcamp/webmention/bGKcVVpGHuRDnGlBS85h
+      status_code: 201
+    https://indieweb.org/silo:
+      location: https://webmention.io/indiewebcamp/webmention/0CB3VrmeScJndGq3dTxg
       status_code: 201
 site_url: https://desmondrivet.com
