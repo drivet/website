@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Well, as the title suggests, if you are interested in the history of English and other Indo-European languages, including Farsi, then yes :)"], "in-reply-to": ["https://twitter.com/SurpriseSparrow/status/1203249066223816704?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-07T14:59:37.030677"]}}
