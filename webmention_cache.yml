@@ -108,6 +108,7 @@ excluded_domains:
 - protonmail.com
 - www.json.org
 - diasporafoundation.org
+- git-man-page-generator.lokaltog.net
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -441,5 +442,9 @@ results:
       status_code: 201
     https://indieweb.org/silo:
       location: https://webmention.io/indiewebcamp/webmention/0CB3VrmeScJndGq3dTxg
+      status_code: 201
+  2019/12/10/123147:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1204378431544270849
       status_code: 201
 site_url: https://desmondrivet.com
