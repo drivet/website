@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I feel this is accurate :-)"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2019/12/0_98cd9f66-937a-48c0-8332-8b19c9277f39.jpg"], "published": ["2019-12-10T14:28:28.664684"]}}
