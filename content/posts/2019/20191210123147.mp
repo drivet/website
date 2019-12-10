@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Definitely not alone. I'm sure everyone had seen this already, but it's too appropos not to share:\n\nhttps://git-man-page-generator.lokaltog.net/"], "in-reply-to": ["https://twitter.com/SaraSoueidan/status/1204340469926256640?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-10T12:31:47.296419"]}}
