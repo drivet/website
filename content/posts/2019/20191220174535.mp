@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Look, I like Christmas music, okay? Fight me."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-20T17:45:35.583341"]}}
