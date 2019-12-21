@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["What is it about the Farine Five Rose sign blinking crimson in the darkness that I find so sinister?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-21T22:29:02.904678"]}}
