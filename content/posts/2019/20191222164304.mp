@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["In my house, you can tell how cold it is outside by how hot the radiators are."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-22T16:43:04.365267"]}}
