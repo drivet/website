@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/CharlieRoseMari/status/1209266459312054273?s=19"], "published": ["2019-12-24T12:42:05.916408"]}}
