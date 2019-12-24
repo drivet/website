@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I find it confusing in general, not just with WordPress (although WordPress is extra confusing since I think you can have both multiple tags and categories, yeah?)"], "in-reply-to": ["https://twitter.com/CharlieRoseMari/status/1209288712787550208?s=19"], "published": ["2019-12-24T12:30:55.543838"]}}
