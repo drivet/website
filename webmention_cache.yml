@@ -483,4 +483,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1210025326157422592
       status_code: 201
+  2019/12/27/154849:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/SaraSoueidan/status/1210540426396143617?s=19
+      status_code: 201
 site_url: https://desmondrivet.com
