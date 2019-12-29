@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I kind of love that @BarackObama is also a Ted Chiang fan. Read Exhalation if you haven't already."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2019-12-28T23:45:12.578378"]}}
