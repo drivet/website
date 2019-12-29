@@ -33,11 +33,10 @@ it comes to the Indieweb - except, of course, that with the IndieWeb, a
 person's *website* is their castle.
 
 So the first thing you need to join the IndieWeb is a classic, personal
-website, hosted on your own domain.  The domain name itself isn't that
-important; what *is* important is that it's your domain, and that you
-control it.  That means that a renting a space under someone else's domain
-(in the style of https://notmydomain.com/~myname, for example) won't do; the
-domain itself has to be under your control,
+website, hosted on a domain that you control.  That means that a renting a
+space under someone else's domain (in the style of
+https://notmydomain.com/~myname, for example) won't do; the domain itself
+has to be under your control,
 
 But having your own website on your own domain, while necessary, is not
 sufficient.  In addition, you need to be able to use that domain to sign
@@ -53,8 +52,10 @@ can:
 1. Add a special "me" anchor tag to your home page detailing where to find
    the profile you want to use for authentication purposes.  You can, for
    example, use your Github account for this purpose:
-   
-   <a href="https://github.com/drivet" rel="me">Github</a>
+
+
+    <a href="https://github.com/drivet" rel="me">Github</a>
+
 
    Note that there is nothing special about this link, aside from the "me"
    attribute.  You can use it for regular navigation purposes, like any
@@ -66,7 +67,7 @@ can:
    
 3. Add a special link tag to the head of your home page:
 
-   <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
 
 Signing in to an IndieAuth enabled service is usually just a matter of
@@ -88,10 +89,10 @@ join the IndieWeb.
 ## Level 2 - Posting Content
 
 As I've alluded to before, the IndieWeb is an attempt to make a social
-network out of the web itself but, more than that, it's an attempt to
-formalize, generalize and modernize the notion of a personal blog.  Level 2
-encapsulates this latter idea, and unlocking it requires adding different
-forms of content to your website.
+network out of the web itself.  More than that, however, it's an attempt to
+formalize, generalize and modernize the notion of a personal blog.
+IndieMark Level 2 encapsulates this latter idea, and unlocking it requires
+adding different forms of content to your website.
 
 Central to this idea are the twin concepts of [posts][6] and
 [microformats][7].  A post is, very generally, a piece of chronologically
@@ -119,9 +120,9 @@ standardized way.
 For example, a standard post is designated with the [h-entry][10]
 microformat.
 
-<div class="h-entry">
-   This is a post.
-</div>
+    <div class="h-entry">
+       This is a post.
+    </div>
 
 All that's required here is that your post is surrounded by tags that
 incorporate a h-entry CSS class.  Beyond that, you can structure your post
