@@ -72,42 +72,107 @@ but at least the process starts with your own domain, and there are ways to
 detach yourself from your external profiles completely if you wish to go
 that far.
 
-## Going Further: Posting Content
+## Posting Content and Having Conversations
 
-As I've alluded to before, the IndieWeb is an attempt to make a social
-network out of the web itself.  More than that, however, it's an attempt to
-formalize, generalize and modernize the notion of a personal blog.
+At the heart of the IndieWeb is an attempt to unify the ideas behind
+personal websites, blogs and social networks, but in a manner consistent
+with how the world wide web operates.
 
-Central to this idea are the twin concepts of [posts][6] and
-[microformats][7].  A post is, roughly speaking, a piece of chronologically
-ordered content.  The IndieWeb recognizes many different kinds of posts, but
-the two most common ones are probably [*articles*][8] (corresponding to
-classic blog entries) and [*notes*][9] (corresponding to what other services
-call tweets or status updates).
+Central to this vision is the concept of a [post][6].  A post, roughly
+speaking, is simply a piece of chronologically ordered content appearing on
+your website, identifiable by a unique URL called a [permalink][17].  It's
+hard to underestimate their importance; they are the fundamental building
+blocks from which IndieWeb conversations are built.  They are the main
+mechanism by which one recreates, in a decentralized manner, the kinds of
+online interactions one has come to expect from private social networks.
 
-Remember, though, that the IndieWeb does not prescribe any particular
-blogging engine or, indeed, any particular technology at all (other than
-standard HTML and CSS) for publishing your site.  So how exactly does one
-"share" a status update in a way that another site can use?
+In the IndieWeb, almost all forms of content are considered posts, even
+things that one would not normally think of as a post.  In particular, we
+have:
 
-It's an important question - probably the first and most fundamental of
-questions if you're dealing with a social networking service like Twitter.
-It boils down to asking:
+* [*articles*][8].  These are the equivalent of classic blog entries -
+  titled, long form pieces of writing.
+* [*notes*][9].  These correspond to what other services might call tweets or
+  status updates - short, titleless bits of content.
+* [*reposts*][15]. These correspond to what other services might call
+  "retweets" or "shares" - posts which parrot other posts verbatim.
+* [*replies*][14]. These are bits of content written in reply to a post on
+  another website.
+* [*likes*][16].  These are posts which represent the act of liking another
+  post.
 
-* What is the format of a post?
-* How is it stored? 
-* How does one read it?
+Conceptually, articles and notes are probably the easiest to grasp, and the
+easiest to fit into the "post" mould.  Reposts are a bit more abstract, but
+still pretty straightforward, because it's still easy to see how they belong
+on *your* website, even if you're shamelessly stealing the content from
+someone else.
 
-In the past, the answer to these questions were technologies like [RSS][12]
-or [Atom][13], which effectively required you to repackage your content in a
-separate feed, usually as XML.  For the IndieWeb, this is instead
-accomplished via something called *microformats*.  Microformats are
-effectively the API of the IndieWeb.
+Replies in an IndieWeb context might require some conceptual adjustment if
+you're used to posting comments on standalone blogs. In the latter case,
+your reply ends up being trapped on someone else's site or service, an
+outcome which is anathema to the IndieWeb community.  Instead, a reply post
+is always on *your own* site, even though it refers to a post on another
+site.
+
+As mentioned above, a "like", in the IndieWeb community, is also considered
+a kind of post and this requires, perhaps, even more conceptual adjustment.
+People tend to think of a "like" as an *action* applied to a post on another
+site, rather than content living on your own.  The IndieWeb community begs
+to differ on this point and treats your "like" as if it were just another
+one of your posts, albeit one who's content, like a repost, refers almost
+entirely to *another* post.  In that sense, a like and a repost are almost
+exactly the same in terms how they're structured (i.e. they are both posts
+which derive their content by referring to an external post) and differ
+merely in the meaning they are intended to convey.
+
+## It's a Web Page!  It's a Web Service!  It's Both!
+
+Publishing content on your site is great and all, but where do the social
+networking aspects fit in to all of this?  How does one "share" a status
+update, for example?  How does one "reply" to it?  How does one "like" it?
+And how does one do all that in a decentralized manner?
+
+The problem becomes more obvious when one realizes that the IndieWeb does
+not prescribe the use of any particular blogging software or, indeed, any
+particular technology at all (other than the standard machinery of the web,
+like HTTP, HTML and CSS) for publishing posts to your site.  So how exactly
+would one able to even recognize that a piece of content on someone's
+website was a "post" that could be "replied to" or "liked" at all?
+
+These are important, fundamental questions if you're trying to understand
+how a social network functions, particularly a decentralized one.  It boils
+down to asking:
+
+* How and where are posts stored?
+* How does software read or consume the posts?
+* What do the posts look like?
+
+The question of how posts are stored is easy to answer, because the IndieWeb
+community doesn't specifically answer it.  A person's posts are stored on
+their website, in whatever way that person sees fit.  In a very real sense,
+every IndieWeb enabled website implicitly fronts a "database" (to use the
+term loosely) of posts and in this manner, all the collective posts of the
+IndieWeb community are spread out over the Internet.
+
+*Consumption* of an IndieWeb user's posts (by a third party reader, for
+example) is accomplished by hitting the same URL that one would use to read
+their content, i.e. the same URL that you'd type in a browser address bar.
+Every IndieWeb enabled website effectively doubles as both a web *page* and
+a web *service*.  It's the ultimately REST architecture.
+
+This naturally leads to the question of how 
+
+
+In the past, the answer to these questions tended to be technologies like
+[RSS][12] or [Atom][13], which effectively required you to repackage your
+content in a separate feed, in a separate format, usually XML.  The IndieWeb
+community, on the other hand, favours a standard called [*microformats*][7].
+Microformats are effectively the API of the IndieWeb.
 
 Microformats are unobtrusive annotations and/or markup added to your
-existing content - no separate feed needed.  For the most part, they're
-basically just specialized CSS classes that you add to your posts to make it
-possible to extract various pieces of information in a standardized way.
+existing content - no separate feed needed.  They're basically just
+specialized CSS classes that you add to your posts to make it possible to
+extract various pieces of information in a standardized way.
 
 For example, a standard post is designated with the [h-entry][10]
 microformat.
@@ -145,3 +210,7 @@ website - for example, when posting likes and replies (more on that later).
 [11]: https://indieweb.org/h-card
 [12]: https://en.wikipedia.org/wiki/RSS
 [13]: https://en.wikipedia.org/wiki/Atom_(Web_standard)
+[14]: https://indieweb.org/reply
+[15]: https://indieweb.org/repost
+[16]: https://indieweb.org/like
+[17]: https://indieweb.org/permalink
