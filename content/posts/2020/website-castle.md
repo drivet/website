@@ -5,23 +5,15 @@ status: draft
 
 In a [previous blog post][1], I gave a very brief, high level introduction
 to the [IndieWeb][5], hopefully giving a sense of what is it and why it
-matters.  In this post I'll zoom in a little bit and explain something of
-the mechanics of how the IndieWeb actually works and what it means to "join"
-(as well as what it means to "like" a post or "share" a status update).
-
-So, what does it take to join the IndieWeb?  Or, to put it another way, what
-turns a plain, vanilla website into an IndieWeb enabled one?  The IndieWeb
-community's [answer][2] to this question involves 5 different compliance
-"levels", which is okay if you're trying to collect "indieweb cred", I
-suppose, but which gets a bit daunting if you're new to the whole thing.  So
-this post will take a different tack and just give a high level overview of
-the typical features common to most IndieWeb enabled sites and, roughly, how
-they work.
+matters.  In this post I'll try and zoom in a tiny bit and explain something
+of the mechanics of how the IndieWeb actually works and what it means to
+"join" (as well as what it means to "like" a post or "share" a status
+update).  Further posts will go into more details.
 
 ## The Bare Minimum: Owning your own Identity
 
 They say a person's home is their castle, and this is especially true when
-it comes to the IndieWeb - except, of course, that with the IndieWeb, a
+it comes to the IndieWeb - except, of course, that with the IndieWeb a
 person's *website* is their castle.
 
 So the first thing you need to join the IndieWeb is, obviously, a classic,
@@ -35,11 +27,12 @@ step, is not sufficient.  In addition, you need to be able to use that
 domain to sign into other services using [IndieAuth][3], a login protocol
 based on OAuth2.
 
-In general, this means embedding your home page with various bits of
-information which can be used to figure out who you are.  There are numerous
-ways to do this, but one easy way involves using the [IndieAuth.com][4]
-service (distinct from the IndieAuth protocol) and delegating to a social
-networking profile of your choice.  What does that even mean?
+In general, this involves embedding your home page with various bits of
+information which can be used by various services to figure out who you are.
+There are numerous ways to do this, but one easy way involves using the
+[IndieAuth.com][4] service (distinct from the IndieAuth protocol) and
+delegating to a social networking profile of your choice.  What does that
+even mean?
 
 Well, first it means adding a special "me" anchor tag to your home page
 detailing where to find the profile you want to use for authentication
@@ -72,7 +65,7 @@ but at least the process starts with your own domain, and there are ways to
 detach yourself from your external profiles completely if you wish to go
 that far.
 
-## Posting Content and Having Conversations
+## Posting Content and Avoiding Solipsism
 
 At the heart of the IndieWeb is an attempt to unify the ideas behind
 personal websites, blogs and social networks, but in a manner consistent
@@ -82,48 +75,101 @@ Central to this vision is the concept of a [post][6].  A post, roughly
 speaking, is simply a piece of chronologically ordered content appearing on
 your website, identifiable by a unique URL called a [permalink][17].  It's
 hard to underestimate their importance; they are the fundamental building
-blocks from which IndieWeb conversations are built.  They are the main
-mechanism by which one recreates, in a decentralized manner, the kinds of
-online interactions one has come to expect from private social networks.
+blocks from which IndieWeb conversations are built.  They are the main data
+by which one recreates, in a decentralized manner, the kinds of online
+interactions one has come to expect from private social networks.
+
+If you come from a Facebook background, your website is basically your
+"wall".  It houses all your posts, and they remain under your control.  As I
+alluded to before, your website is your castle.
 
 In the IndieWeb, almost all forms of content are considered posts, even
-things that one would not normally think of as a post.  In particular, we
+things that one would not normally think of as posts.  In particular, we
 have:
 
 * [*articles*][8].  These are the equivalent of classic blog entries -
-  titled, long form pieces of writing.
+  titled, long-form pieces of writing.
 * [*notes*][9].  These correspond to what other services might call tweets or
   status updates - short, titleless bits of content.
 * [*reposts*][15]. These correspond to what other services might call
-  "retweets" or "shares" - posts which parrot other posts verbatim.
+  "retweets" or "shares" - posts which re-publish other posts verbatim.
 * [*replies*][14]. These are bits of content written in reply to a post on
   another website.
 * [*likes*][16].  These are posts which represent the act of liking another
   post.
 
-Conceptually, articles and notes are probably the easiest to grasp, and the
-easiest to fit into the "post" mould.  Reposts are a bit more abstract, but
-still pretty straightforward, because it's still easy to see how they belong
-on *your* website, even if you're shamelessly stealing the content from
-someone else.
+Articles and notes are probably the most familiar of these, and are probably
+what most people think of when they think of a "post".  They are pieces of
+writing which make sense "on their own", so to speak; they are not, strictly
+speaking, "about" anything else.  Reposts, replies and likes, on the other
+hand, are collectively "about" other pieces of content and they only make
+sense in the context of that other content.
 
-Replies in an IndieWeb context might require some conceptual adjustment if
-you're used to posting comments on standalone blogs. In the latter case,
-your reply ends up being trapped on someone else's site or service, an
-outcome which is anathema to the IndieWeb community.  Instead, a reply post
-is always on *your own* site, even though it refers to a post on another
-site.
+The concept of a repost will be familiar to any user of Twitter (where the
+feature is called a *retweet*) and its casting as a new post on *your own*
+site (despite the fact that its content is completely derived from another
+post from another site) probably makes sense in that context.
 
-As mentioned above, a "like", in the IndieWeb community, is also considered
-a kind of post and this requires, perhaps, even more conceptual adjustment.
-People tend to think of a "like" as an *action* applied to a post on another
-site, rather than content living on your own.  The IndieWeb community begs
-to differ on this point and treats your "like" as if it were just another
-one of your posts, albeit one who's content, like a repost, refers almost
-entirely to *another* post.  In that sense, a like and a repost are almost
-exactly the same in terms how they're structured (i.e. they are both posts
-which derive their content by referring to an external post) and differ
-merely in the meaning they are intended to convey.
+Reply posts, in an IndieWeb context, might require some conceptual
+adjustment if you're used to posting comments on standalone blogs. In the
+latter case, your reply ends up being trapped on someone else's site or
+service, an outcome which is anathema to the notion of owning your own data.
+Instead, like all posts, an IndieWeb reply is always on *your own* site,
+even though it refers to another post on some other site.
+
+In the same vein, and perhaps requiring even more conceptual adjustment, an
+IndieWeb "like" is *also* considered a kind of post.  It's a bit weird to
+formulate it this way, since people tend to think of a "like" as an *action*
+applied to a post on another site, rather than content living on your own.
+The IndieWeb community begs to differ on this point and treats your like as
+if it were just another one of your posts, albeit one who's content refers
+almost entirely to *another* post (in the same fashion as a repost or a
+reply).  In that sense, likes, reposts, and replies are all almost exactly
+the same in terms how they're structured on an IndieWeb site (i.e. they are
+all posts which derive at least part of their content by referring to an
+external post) and differ merely in the meaning they are intended to convey.
+
+An obvious question arises at this point: after you've liked (or reposted,
+or replied to) a post, how do you communicate that fact to the website
+owner?  It seems like the sort of thing they'd want to know; many websites,
+for example, display a count of likes and reposts under the post itself.
+The answer to this issue involves the twin concepts of [webmentions][19] and
+[microformats][20], but I will save the details for another post.
+
+## On Not Losing Your Friends
+
+It's all well and good to talk about owning your own content but the fact
+remains that most people are not on the IndieWeb.  How do you deal with
+people who are using sites like Twitter or Facebook?  Are they forever
+deprived of your wonderful content?
+
+This is always a bit of a glaring hole when talking about new social
+networks.  A social network's value is at least partly derived by its size
+(i.e. how many people see your post), and if the network is small, it's of
+limited value.
+
+The IndieWeb's answer to this dilemma, as usual, is not to prescribe any
+particular technology but rather to coin an acronym: [POSSE][18], or Publish
+(on your) Own Site, Syndicate Elsewhere.  The idea is to publish a post on
+your own site *first* and then, only after it's available there via its
+permalink, copying a version of the post to whatever other social networks
+you wish.
+
+There are lots of ways to do this, and it's strongly dependent on what
+software you use to publish your website.  Lots of people do it manually;
+they will just copy the content to wherever it needs to go.  Some blogging
+engines, like Wordpress, support automatic syndication to the social network
+of your choice.  I myself use a service called [Bridgy][21] to syndicate my
+posts to Twitter.
+
+Once your post has been published to a social network, the question then
+arises of how to get notified when people interact with your *syndicated*
+post.  In other words, what happens when someone likes your post *on
+Twitter*?  The IndieWeb community calls this process [*backfeed*][22] and
+your options for this vary wildly depending on the APIs that are available
+for the sites you use.  I myself just use Bridgy since it supports backfeed as
+well as syndication.
+
 
 ## It's a Web Page!  It's a Web Service!  It's Both!
 
@@ -214,3 +260,6 @@ website - for example, when posting likes and replies (more on that later).
 [15]: https://indieweb.org/repost
 [16]: https://indieweb.org/like
 [17]: https://indieweb.org/permalink
+[18]: https://indieweb.org/POSSE
+[19]: https://indieweb.org/webmention
+[20]: https://indieweb.org/microformats
