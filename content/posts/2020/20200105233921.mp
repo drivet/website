@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Thank you! The link should work now :-)"], "in-reply-to": ["https://social.johanbove.info/2020/01/05/thanks-for-the-write-up-on-the-indieweb"], "published": ["2020-01-05T23:39:21.103108"]}}
