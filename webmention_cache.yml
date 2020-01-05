@@ -500,6 +500,9 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/SurpriseSparrow/status/1213863363039682560?s=20
       status_code: 201
+  2020/01/05/233921:
+    https://social.johanbove.info/2020/01/05/thanks-for-the-write-up-on-the-indieweb:
+      status_code: 202
   2020/01/05/website-castle:
     https://brid.gy/publish/twitter:
       location: https://twitter.com/desmondrivet/status/1213862104060571648
