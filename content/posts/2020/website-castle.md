@@ -1,6 +1,8 @@
 title: Your Website is Your Castle
 date: 2020-01-05 11:06:35
 modified: 2020-01-05 11:06:35
+blurb: In which I zoom in slightly on the #indieweb
+mp_syndicate_to: twitter_bridgy
 
 In a [previous blog post][1], I gave a very brief introduction to the
 [IndieWeb][2], hopefully giving a sense of what it is and why it matters.
