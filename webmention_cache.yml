@@ -496,6 +496,10 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/ohhelloana/status/1211775220916338689?s=19
       status_code: 201
+  2020/01/05/173051:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/SurpriseSparrow/status/1213863363039682560?s=20
+      status_code: 201
   2020/01/05/website-castle:
     https://brid.gy/publish/twitter:
       location: https://twitter.com/desmondrivet/status/1213862104060571648
