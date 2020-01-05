@@ -6,8 +6,8 @@ status: draft
 In a [previous blog post][1], I gave a very brief introduction to the
 [IndieWeb][2], hopefully giving a sense of what is it and why it matters.
 In this post I'll try and zoom in a tiny bit and explain something of the
-mechanics of how the IndieWeb actually works and what it means to "join", as
-well as what it means to "like" a post or "share" a status update.
+mechanics of how the IndieWeb actually works and what it means to "like" a
+post or "share" a status update.
 
 I'm deliberately trying to avoid too much detail in this post because,
 frankly, there's a lot to write, and it's easy to get lost.  So I'm going to
@@ -45,7 +45,7 @@ IndieWeb.  Ideally, of course, one would *also* like to publish interesting
 content; read on for information on what that looks like in an IndieWeb
 context.
 
-## Posting Content and Avoiding Solipsism
+## Publishing Content and Avoiding Solipsism
 
 At the heart of the IndieWeb is an attempt to unify the ideas behind
 personal websites, blogs and social networks, but in a manner consistent
@@ -54,12 +54,17 @@ with how the world wide web operates.
 Central to this vision is the concept of a [post][7].  A post, roughly
 speaking, is simply a piece of chronologically ordered content appearing on
 your website, identifiable by a unique URL called a [permalink][8].  It's
-hard to underestimate their importance; they are the fundamental building
-blocks from which IndieWeb conversations are built.  They are the main
-apparatus by which one recreates, in a decentralized manner, the kinds of
-online interactions one has come to expect from private social networks.
+hard to underestimate the conceptual importance of posts; they are the
+fundamental building blocks from which IndieWeb conversations are built.
+They are the main apparatus by which one recreates, in a decentralized
+manner, the kinds of online interactions one has come to expect from private
+social networks.
 
-In the IndieWeb, almost all forms of content are considered posts, even
+It should go without saying that publishing a post always happens on your
+own website.  Your website acts much like your wall on Facebook or your
+timeline on Twitter - it's your personal soapbox, your castle on the web.
+
+On the IndieWeb, almost all forms of content are considered posts, even
 things that one would not normally think of as such.  In particular, we
 have, but are not limited to:
 
@@ -84,7 +89,7 @@ sense in the context of that other content.
 The concept of a repost will be familiar to any user of Twitter (where the
 feature is called a *retweet*) and its casting as a new post on *your own*
 site (despite the fact that its content is completely derived from another
-post from another site) probably makes sense in that context.
+site) probably makes sense in that context.
 
 Reply posts, in an IndieWeb context, might require some conceptual
 adjustment if you're used to posting comments on standalone blogs. In the
@@ -122,29 +127,45 @@ deprived of your cutting and insightful posts?
 The IndieWeb's answer to this dilemma is not to prescribe any particular
 technology but rather to coin an acronym: [POSSE][16], or Publish (on your)
 Own Site, Syndicate Elsewhere.  The idea is to publish a post on your own
-site *first* and then, only after it's available there via its permalink,
-copying a version of the post to whatever other social networks you wish.
+site *first* and then, only after it's available there, copying a version of
+the post to whatever other social networks you wish.
 
 There are lots of ways to do this, and it's strongly dependent on what
 software you use to publish your website.  Lots of people do it manually;
 they will just copy the content to wherever it needs to go.  Some blogging
 engines, like Wordpress, support automatic syndication to the social
 networks of your choice.  I myself use a service called [Bridgy][17] to
-syndicate my posts to Twitter via webmention.
+syndicate my posts to Twitter.
 
 Once your post has been published to a social network, the question then
 arises of how to get notified when people interact with your *syndicated*
 post.  In other words, what happens when someone likes your post *on
-Twitter*?  The IndieWeb community calls this process [*backfeed*][18] and
-your options for this vary wildly depending on the APIs that are available
-for the sites you use.  Most solutions I've seen involve some variation of
-polling your syndicated content for changes.  In my case, I just use Bridgy
-(again) since it supports backfeed as well as syndication via webmentions.
+Twitter*?  The process of harvesting these online interactions on private
+social networks for use on your own site is called [*backfeed*][18] by the
+IndieWeb community and your options for doing this vary wildly depending on
+the APIs that are available for the sites you use.  Most solutions I've seen
+involve some variation of polling your syndicated content for changes.  In
+my case, I just use Bridgy (again) since it supports backfeed as well as
+syndication.
 
-Side note: the process of how I manage to get my posts syndicated to
-Twitter, and how I get notified when someone likes or replies to it is
-somewhat interesting considering that the [blogging engine][19] I use
-doesn't make it particularly easy.  More details to come.
+## Filling in the Details
+
+As I said before, I deliberately left a lot of details out of this
+discussion, in an attempt to keep sight of the forest and not be distracted
+by the trees.  For example:
+
+* Exactly what information do you need to embed in your home page to be able
+  to use your domain for sign-in purposes?
+* What does a post look like, exactly?
+* What are webmentions?  How do they work?
+* How do you integrate IndieWeb features into a [Pelican][19] based blog?
+
+Alright, I'll admit that I'm probably the only one who finds that last one
+interesting :-)
+
+In any case, I'm planning on answering these questions with further posts.
+Stay tuned if you want more information.
+
 
 [1]: /2019/intro-to-indieweb
 [2]: https://indieweb.org
