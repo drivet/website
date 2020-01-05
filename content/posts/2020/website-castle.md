@@ -1,34 +1,33 @@
 title: Your Website is Your Castle
-date: 2019-12-15 16:30:11
-modified: 2019-12-15 16:30:11
-status: draft
+date: 2020-01-05 11:06:35
+modified: 2020-01-05 11:06:35
 
 In a [previous blog post][1], I gave a very brief introduction to the
-[IndieWeb][2], hopefully giving a sense of what is it and why it matters.
+[IndieWeb][2], hopefully giving a sense of what it is and why it matters.
 In this post I'll try and zoom in a tiny bit and explain something of the
 mechanics of how the IndieWeb actually works and what it means to "like" a
 post or "share" a status update.
 
 I'm deliberately trying to avoid too much detail in this post because,
 frankly, there's a lot to write, and it's easy to get lost.  So I'm going to
-try and give a sense of what an IndieWeb enabled website *looks like* at a
-very high level, without going into the weeds.  Further posts will go into
+try and give a rough idea of what an IndieWeb enabled website looks like at
+a very high level, without going into the weeds.  Further posts will go into
 more detail.
 
 ## The Bare Minimum: Owning your own Identity
 
 They say a person's home is their castle, and this is especially true when
-it comes to the IndieWeb - except, of course, that with the IndieWeb a
-person's *website* is their castle.
+it comes to the IndieWeb - except, of course, on the IndieWeb, a person's
+*website* is their castle.  Your website is effectively your home on the web
+and needs to be under your control.
 
 So, yes, the first thing you need to join the IndieWeb is, obviously, a
 personal website but, more than that, it has to be *hosted on a domain that
-you control*.  This means that a renting a space under a domain you *don't*
-control (in the style of https://notmydomain.com/~myname, for example) won't
-do.
+you own*.  This means that a renting a space under a domain you *don't* own
+(in the style of https://notmydomain.com/~myname, for example) won't do.
 
 That being said, while hosting your own website on your own domain is a
-necessary first step, it is, on its own, not sufficient.  In addition, you
+necessary first step, it is, by itself, not sufficient.  In addition, you
 need to be able to use that domain to sign into other services using
 [IndieAuth][3], a login protocol based on [OAuth 2.0][4].
 
@@ -42,10 +41,10 @@ authorization endpoint][6], though that is, obviously, more work.
 Hosting a website on a domain that you own, and being able to use that
 domain for sign-in purposes, is the bare minimum required for joining the
 IndieWeb.  Ideally, of course, one would *also* like to publish interesting
-content; read on for information on what that looks like in an IndieWeb
-context.
+content on said website; read on for information on what that looks like in
+an IndieWeb context.
 
-## Publishing Content and Avoiding Solipsism
+## Publishing Content
 
 At the heart of the IndieWeb is an attempt to unify the ideas behind
 personal websites, blogs and social networks, but in a manner consistent
@@ -65,31 +64,31 @@ own website.  Your website acts much like your wall on Facebook or your
 timeline on Twitter - it's your personal soapbox, your castle on the web.
 
 On the IndieWeb, almost all forms of content are considered posts, even
-things that one would not normally think of as such.  In particular, we
+things that one would normally not think of as such.  In particular, we
 have, but are not limited to:
 
-* [*articles*][9].  These are the equivalent of classic blog entries -
+* [*Articles*][9].  These are the equivalent of classic blog entries -
   titled, long-form pieces of writing.
-* [*notes*][10].  These correspond to what other services might call tweets or
+* [*Notes*][10].  These correspond to what other services might call tweets or
   status updates - short, titleless bits of content.
-* [*reposts*][11]. These correspond to what other services might call
+* [*Reposts*][11]. These correspond to what other services might call
   "retweets" or "shares" - posts which re-publish other posts verbatim.
-* [*replies*][12]. These are bits of content written in reply to a post on
+* [*Replies*][12]. These are bits of content written in reply to a post on
   another website.
-* [*likes*][13].  These are posts which represent the act of liking another
+* [*Likes*][13].  These are posts which represent the act of liking another
   post.
 
 Articles and notes are probably the most familiar of these, and are probably
 what most people think of when they think of a "post".  They are pieces of
 writing which make sense "on their own", so to speak; they are not, strictly
-speaking, "about" anything else.  Reposts, replies and likes, on the other
-hand, are collectively "about" other pieces of content and they only make
-sense in the context of that other content.
+speaking, "about" anything other than themselves.  Reposts, replies and
+likes, on the other hand, are collectively "about" other posts and they only
+make sense in the context of those other posts.
 
 The concept of a repost will be familiar to any user of Twitter (where the
 feature is called a *retweet*) and its casting as a new post on *your own*
-site (despite the fact that its content is completely derived from another
-site) probably makes sense in that context.
+site (despite the fact that its content is almost entirely derived from
+another post on another site) probably makes sense in that context.
 
 Reply posts, in an IndieWeb context, might require some conceptual
 adjustment if you're used to posting comments on standalone blogs. In the
@@ -103,12 +102,13 @@ IndieWeb "like" is *also* considered a kind of post.  It's a bit weird to
 formulate it this way, since people tend to think of a "like" as an *action*
 applied to a post on another site, rather than content living on your own.
 The IndieWeb community begs to differ on this point and treats your like as
-if it were just another one of your posts, albeit one who's content refers
-almost entirely to *another* post (in the same fashion as a repost or a
+if it were just another one of your posts, albeit one who's content makes no
+sense without pointing to another post (in a similar manner to a repost or a
 reply).  In that sense, likes, reposts, and replies are all almost exactly
-the same in terms how they're structured on an IndieWeb site (i.e. they are
-all posts which derive the better part of their content by referring to an
-external post) and differ merely in the meaning they are intended to convey.
+the same in terms how they're structured on an IndieWeb enabled website
+(i.e. they are all posts which derive most of their content by referring to
+an external post) and differ merely in the meaning they are intended to
+convey.
 
 An obvious question arises at this point: after you've liked (or reposted,
 or replied to) a post, how do you communicate that fact to the website
@@ -119,16 +119,18 @@ The answer to this issue involves the twin concepts of [webmentions][14] and
 
 ## On Not Losing Your Friends
 
-It's all well and good to talk about owning your own content but the fact
-remains that most people are not on the IndieWeb.  How do you deal with
-people who are using sites like Twitter or Facebook?  Are they forever
-deprived of your cutting and insightful posts?
+It's all well and good to talk about owning your own content and creating a
+social network out of the web itself, but the fact remains that most people
+are not on the IndieWeb.  How do you deal with people who are using sites
+like Twitter or Facebook?  Are they forever deprived of your cutting and
+insightful posts?
 
 The IndieWeb's answer to this dilemma is not to prescribe any particular
 technology but rather to coin an acronym: [POSSE][16], or Publish (on your)
 Own Site, Syndicate Elsewhere.  The idea is to publish a post on your own
 site *first* and then, only after it's available there, copying a version of
-the post to whatever other social networks you wish.
+the post to whatever other social networks you wish.  It's more of an idea
+than a specific methodology, but there you have it.
 
 There are lots of ways to do this, and it's strongly dependent on what
 software you use to publish your website.  Lots of people do it manually;
@@ -151,17 +153,17 @@ syndication.
 ## Filling in the Details
 
 As I said before, I deliberately left a lot of details out of this
-discussion, in an attempt to keep sight of the forest and not be distracted
+discussion, in an attempt to keep the forest in sight and not be distracted
 by the trees.  For example:
 
 * Exactly what information do you need to embed in your home page to be able
   to use your domain for sign-in purposes?
-* What does a post look like, exactly?
-* What are webmentions?  How do they work?
+* What exactly does a post look like?
+* How do webmentions work?
 * How do you integrate IndieWeb features into a [Pelican][19] based blog?
 
-Alright, I'll admit that I'm probably the only one who finds that last one
-interesting :-)
+Alright, I'll admit that I'm probably one of only a small group of people
+who finds that last one interesting :-)
 
 In any case, I'm planning on answering these questions with further posts.
 Stay tuned if you want more information.
