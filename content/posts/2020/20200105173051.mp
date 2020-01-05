@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/SurpriseSparrow/status/1213863363039682560?s=20"], "published": ["2020-01-05T17:30:51.663653"]}}
