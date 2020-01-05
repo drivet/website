@@ -16,7 +16,7 @@ try and give a rough idea of what an IndieWeb enabled website looks like at
 a very high level, without going into the weeds.  Further posts will go into
 more detail.
 
-## The Bare Minimum: Owning your own Identity
+## The Bare Minimum: Owning Your Own Identity
 
 They say a person's home is their castle, and this is especially true when
 it comes to the IndieWeb - except, of course, on the IndieWeb, a person's
@@ -171,7 +171,7 @@ In any case, I'm planning on answering these questions with further posts.
 Stay tuned if you want more information.
 
 
-[1]: /2019/12/08/intro-to-indieweb
+[1]: /2019/12/08/intro-to-indie-web
 [2]: https://indieweb.org
 [3]: https://indieweb.org/IndieAuth
 [4]: https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
