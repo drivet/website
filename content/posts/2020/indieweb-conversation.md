@@ -3,9 +3,6 @@ date: 2019-12-15 16:30:11
 modified: 2019-12-15 16:30:11
 status: draft
 
-
-## It's a Web Page!  It's a Web Service!  It's Both!
-
 Publishing content on your site is great and all, but where do the social
 networking aspects fit in to all of this?  How does one "share" a status
 update, for example?  How does one "reply" to it?  How does one "like" it?

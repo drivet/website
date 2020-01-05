@@ -171,7 +171,7 @@ In any case, I'm planning on answering these questions with further posts.
 Stay tuned if you want more information.
 
 
-[1]: /2019/intro-to-indieweb
+[1]: /2019/12/08/intro-to-indieweb
 [2]: https://indieweb.org
 [3]: https://indieweb.org/IndieAuth
 [4]: https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
