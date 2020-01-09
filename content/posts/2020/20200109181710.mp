@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["It's 2020 so I decided to join the 2010's and replace my desktop hard drive with an SSD. Pretty easy, mostly due to Clonezilla.\n\nIt's...nice. I should probably shake things up more often."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-01-09T18:17:10.566453"]}}
