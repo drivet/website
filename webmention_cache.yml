@@ -555,4 +555,8 @@ results:
     https://indieweb.org/webmention:
       location: https://webmention.io/indiewebcamp/webmention/nwTFGMtkDRm8JSlI58dH
       status_code: 201
+  2020/01/09/181710:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1215337639685115904
+      status_code: 201
 site_url: https://desmondrivet.com
