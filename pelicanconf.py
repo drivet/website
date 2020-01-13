@@ -176,6 +176,7 @@ EDIT_ROOT = r'https://github.com/drivet/website/edit/master/' + PATH
 AUTH_ENDPOINT = r'https://indieauth.com/auth'
 TOKEN_ENDPOINT = r'https://tokens.indieauth.com/token'
 MICROPUB_ENDPOINT = r'https://micropub.desmondrivet.com'
+MICROSUB_ENDPOINT = r'https://aperture.p3k.io/microsub/463'
 WEBMENTION_ENDPOINT = r'https://webmention.desmondrivet.com'
 
 
