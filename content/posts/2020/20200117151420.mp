@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["That's probably a good way to think about it.  Or at least about establishing an alternative."], "in-reply-to": ["https://twitter.com/billbennettnz/status/1217296763071037440?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-01-17T15:14:20.711274"]}}
