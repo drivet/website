@@ -1,1 +1,0 @@
-{"type": ["h-entry"], "properties": {"content": ["That's probably a good way to think about it.  Or at least about establishing an alternative."], "in-reply-to": ["https://twitter.com/desmondrivet/status/1202983401986445314"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-01-17T14:20:35.823801"]}}
