@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Watching Paradise Lost! #CentaurTheatre"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-01-26T20:40:25.832933"]}}
