@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://lefaive.ca/2019/06/territory-acknowledgements/"], "published": ["2020-01-27T18:47:34.534966"]}}
