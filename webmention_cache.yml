@@ -593,4 +593,7 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1221533708483813376
       status_code: 201
+  2020/01/27/184734:
+    https://lefaive.ca/2019/06/territory-acknowledgements/:
+      status_code: 200
 site_url: https://desmondrivet.com
