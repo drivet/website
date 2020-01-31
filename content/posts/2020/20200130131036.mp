@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://charlotteallen.info/2020/01/29/7018/"], "published": ["2020-01-30T13:10:36.048960"]}}
