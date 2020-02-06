@@ -1,6 +1,6 @@
 title: Your Website is Your Passport
-date: 2019-12-15 16:30:11
-modified: 2019-12-15 16:30:11
+date: 2020-02-05 16:30:11
+modified: 2020-02-05 16:30:11
 status: draft
 
 One of the themes that crops up again and again in the IndieWeb community is
@@ -94,13 +94,14 @@ Understanding IndieAuth requires a basic knowledge of OAuth but, that being
 said, you don't need to know any of this if all you're trying to do is get
 IndieAuth working for your domain.  What follows is stricly for the curious.
 
-### What Exactly Does OAuth Do?
+### What Problem Does OAuth Solve?
 
-Let's say you have a blog, and you want to show the latest 10 tweets from
-your twitter timeline on said blog.
+Let's say you want to show your last 10 tweets on your blog.  How would one
+go about doing this?
 
-Easy! Twitter provides a REST API for exactly this purpose.  But you don't
-want just anyone looking at your tweets.  So how is the API secured?
+We are in luck! Twitter provides a REST API for exactly this purpose.  But
+Twitter doesn't want just anyone looking at your tweets.  So how is the API
+secured?
 
 In the past, a problem like this may have been solved by giving your blog
 access to your Twitter username and password, so that it could pass them to
@@ -109,23 +110,25 @@ several problems:
 
 * You need to configure your password somewhere, probably in plain text.
   This is insecure.
-* You're giving your blog full access to your Twitter account, even though
-  all it needs to do it read a few tweets off the top.
+* You're giving your blog full access to your Twitter account, including
+  write access, even though all it needs to do it read a few tweets off the
+  top.
 * What if your password gets compromised?
 
 OAuth is meant to help with these problems.  There's an excellent analogy on
 oauth.net:
 
-    Many luxury cars today come with a valet key. It is a special key you give
-    the parking attendant and unlike your regular key, will not allow the car to
-    drive more than a mile or two. Some valet keys will not open the trunk,
-    while others will block access to your onboard cell phone address
-    book. Regardless of what restrictions the valet key imposes, the idea is
-    very clever. You give someone limited access to your car with a special key,
-    while using your regular key to unlock everything.
+> Many luxury cars today come with a valet key. It is a special key you give
+> the parking attendant and unlike your regular key, will not allow the
+> car to drive more than a mile or two. Some valet keys will not open the
+> trunk, while others will block access to your onboard cell phone address
+> book. Regardless of what restrictions the valet key imposes, the idea is
+> very clever. You give someone limited access to your car with a special
+> key, while using your regular key to unlock everything.
 
 Broadly speaking, OAuth is a protocol or framework for managing access to
-your web resources - resources like tweets.  It defines several actors:
+your own web resources - resources like, for example, you tweets.  It
+defines several actors:
 
 * The *end user*, or the one who owns the resources.  In the above example,
   that would be the person who is trying to put their tweets on their blog.
@@ -134,8 +137,8 @@ your web resources - resources like tweets.  It defines several actors:
 * The *resource service*.  This would be Twitter's API.  It's assumed that
   the end user has an account with Twitter.
 * The *authorization server*, existing alongside the resource service.  This
-  manages the actual OAuth *flow*, or the hoops you have to just through
-  before your blog can acces your tweets.
+  manages the actual OAuth protocol, so your blog can get access to those
+  tweets.
 
 The central idea behind OAuth is that the end user delegates resource access
 to the client application, so that the application can access the resources
