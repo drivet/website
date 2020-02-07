@@ -1,9 +1,9 @@
 title: Your Website is Your Passport
 date: 2020-02-05 16:30:11
 modified: 2020-02-05 16:30:11
-status: draft
 
-One of the themes that crops up again and again in the [IndieWeb][]
+
+One of the themes that crops up again and again in the [IndieWeb][1]
 community is that your personal domain, with attendant website, should form
 the nexus of your online existence.  Of course, people can and do maintain
 separate profiles on a variety of private social media platforms, but these
@@ -16,7 +16,7 @@ kind of universal online passport, allowing you to sign in to various
 services and applications by simply entering your personal URL and hitting
 enter.
 
-How is this accomplished?  There is a short answer and there is a long
+How is this accomplished?  There is a short answer and there is a longer
 answer.
 
 ## For the Impatient
@@ -27,7 +27,7 @@ media profile.
 
 First, add a special "me" anchor tag to your home page detailing where to
 find the profile you want to use.  Let's say, for the sake argument, that
-you want to use your [Github][] account.  The link would look like this:
+you want to use your [Github][2] account.  The link would look like this:
 
     <a href="https://github.com/drivet" rel="me">Github</a>
 
@@ -41,8 +41,8 @@ account to which your homepage is pointing:
 
 <div style="clear: both; text-align: center;">
 <img border="0"
-     src="{attach}github_profile.png" 
-     alt="Github profile" />
+     src="{attach}github_profile.jpg" 
+     alt="Github profile" />2
 </div>
 
 Finally, you add this link tag to the head of your homepage:
@@ -53,18 +53,18 @@ Finally, you add this link tag to the head of your homepage:
     </head>
 
 You should now be able to sign in to, for example, a website like
-[indieweb.org][].  You can try it now by going to the site and clicking the
+[indieweb.org][1].  You can try it now by going to the site and clicking the
 "Log in" link.
 
 You'll be presented with a text box into which you can enter you personal
 domain. The service will look for an authorization_endpoint link in your
 homepage, and will delegate the authentication procedure to the first "me"
 link it finds.  Obviously, if you use this procedure, you are still
-dependant on an external social networking profile for authentication
-purposes, which is less than ideal, but at least the process starts with
-your own domain, and there are ways to detach yourself from your external
-profiles completely if you wish to go that far (see, for example, the
-[selfauth][] project).
+dependant on an external service (indieauth.com) and an existing social
+networking profile for authentication purposes, which is less than ideal,
+but at least the process starts with your own domain, and there are ways to
+detach yourself from your external profiles completely if you wish to go
+that far (see, for example, the [selfauth][4] project).
 
 Please note that what I've just described is an *authentication* procedure.
 It's enough to get you logged into to websites which support the protocol.
@@ -80,87 +80,86 @@ Just add the following link to the head of your website:
         <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
     </head>
 
-And that's pretty much it.  Easy, right?
+Once again, if using an external service bothers you, you can host your own
+token service.
+
+And that's pretty much it.  Easy, right?  You can stop reading right now if
+you're not interested in any of the details, or you can read on if you are.
 
 ## For the Less Impatient: A Brief Detour Into OAuth-land
 
-The process of using your domain to sign in to sites and services is called
-*web sign-in* and is implemented via a protocol called IndieAuth, a specific
-flavour of OAuth allowing for decentralized authentication.
+The process of using your domain to log in to sites and services is called
+*web sign-in* and is implemented via a protocol called [IndieAuth][5], a
+specific flavour of [OAuth][6] allowing for decentralized authentication.
 
-(When I speak of "OAuth", I refer to OAuth 2.  Although there is such a thing
-as OAuth 1, it's rarely used nowadays, and is therefore not pertinent to
-this discussion)
+(When I speak of "OAuth", I refer to OAuth 2, not OAuth 1, as it's rarely
+used nowadays, and is therefore not pertinent to this discussion)
 
-Understanding IndieAuth requires a basic knowledge of OAuth and though there
-are tons of OAuth resources available online, I've had difficulty funding
-any that give me the right level of detail - it's always either too much or
-too little.  Hence the reason for this detour; I will try and outline (what
-I consider to be) the salient features of OAuth from the perspective of
-someone (me) who routinely becomes confused about the topic.  I will then
-try explaining where IndieAuth fits into the picture.
-
-BY the way, you don't need to know any of this if you're just trying to do
-get IndieAuth working for your domain.  What follows is strictly for the
-curious.
+Understanding IndieAuth requires a basic knowledge of OAuth, which is a
+daunting subject if you've never dealt with it before (and even if you
+have).  I'm going to try and give just enough information here to illustrate
+where IndieAuth fits into this landscape, but if you want more information I
+highly recommend reading the resources at [oauth.com][9]; I find they strike
+a good balance of detail, especially if you have a modicum of programming
+and HTTP experience.
 
 ### What Problem Does OAuth Solve?
 
-Let's say you want to show your latest tweet on your blog.  How would one go
-about doing this?
+The "auth" in OAuth stands for *authorization* (*not* authentication) and,
+fundamentally, OAuth is an authorization protocol, not an authentication
+protocol.  What this means is that OAuth is all about managing *access* to
+online resources (like REST APIs) and not about the *identity* of the user
+whose resources are being accessed.
 
-As it turns out, Twitter provides a REST API for exactly this purpose.  But
-Twitter doesn't want just anyone looking at your tweets.  So how is the API
-secured?
+The textbook example is that of a printer application A that prints photos
+from a photo sharing application B (assume that the applications are managed
+by different business entities).  In the past, a problem like this may have
+been solved by configuring your credentials for B somewhere in A, but that
+has several issues, not the least of which is that A now has full access to
+your entire account in B, even though all it needs to do is print out a few
+photos.
 
-In the past, a problem like this may have been solved by giving your blog
-access to your Twitter username and password, so that it could pass them to
-the Twitter API, thus allowing access to your feed.  This works, but has
-several problems:
+OAuth is designed to help with this problem.  It's meant to allow you to
+give application limited access to resources from another service without
+having to give away your full credentials.  It does this by issuing *tokens*
+representing the resources the application wishes to access, along with the
+things the application is allowed to do to with those resources.
 
-* You need to configure your password somewhere, probably in plain text.
-  This is insecure.
-* You're giving your blog full access to your Twitter account, including
-  write access, even though all it needs to do it read a few tweets off the
-  top.
-* What if your password gets compromised?
+The concept of a token is not unlike the concept of hotel room access card.
+The access card lets you into your own room, but it doesn't grant you access
+to the entire hotel; you can't use it to go into another room, for example,
+and you certainly can't use it to go into the staff areas.
 
-OAuth is meant to help with these problems.  There's an excellent analogy on
-oauth.net:
+Also, notably, *your name and photo are not on the access card*.  Your
+access card isn't a piece of identification.  Someone who stole your
+driver's licence would have a hard time using it as a driver's licence
+because their name and face don't match what's on the card.  Someone who
+stole your access card, on the other hand, would have no trouble ransacking
+your room.  This is part of what is meant when people say that OAuth is
+about authorization and *not* authentication.
 
-> Many luxury cars today come with a valet key. It is a special key you give
-> the parking attendant and unlike your regular key, will not allow the
-> car to drive more than a mile or two. Some valet keys will not open the
-> trunk, while others will block access to your onboard cell phone address
-> book. Regardless of what restrictions the valet key imposes, the idea is
-> very clever. You give someone limited access to your car with a special
-> key, while using your regular key to unlock everything.
-
-In other words, OAuth is meant to allow you to give applications limited
-access to resources without having to give away your full credentials.
+And yet, even so, there are subtleties in that distinction that are
+understandably confusing.  The process of obtaining your hotel access key,
+for example, will almost certainly involve an authentication step - you'll
+probably have to show your passport or driver's licence to the front desk,
+for example.
 
 ### The Shape of OAuth
 
-The "auth" in OAuth stands for *authorization*, not *authentication* and,
-fundamentally, OAuth is an authorization protocol, not an authentication
-protocol.
 
-What does this mean, exactly?  Broadly speaking, it means that OAuth is all
-about managing *access* to web resources - like tweets - and *not* about
-managing the *identities* of those trying to access them.
+It can be a confusing distinction, because the OAuth protocol *does* include
+one or two authentication steps, as we'll see, but these steps are strictly
+in the service of obtaining access to a resource.  It's the access that's
+the final goal, not the identity.
 
-It can get confusing because authentication is, as you'll see later, baked
-into the protocol during a couple of key steps.  But these authentication
-steps exist merely in service to
-
-The spec defines several actors:
+The OAuth [spec][8] defines several actors:
 
 * The *end user*, or the one who owns the resources.  In the above example,
   that would be the person who is trying to put their tweets on their blog.
 * The *client* or the application acting on behalf of the user.  This would
   be the blogging application, in the above example.
-* The *resource service*.  This would be Twitter's API.  It's assumed that
-  the end user has an account with Twitter.
+* The *resource service*.  This would be Twitter's API.  This is what the
+  blog wants to access.
 * The *authorization server*, existing alongside the resource service.  This
   manages the actual OAuth protocol, so your blog can get access to those
   tweets.
@@ -169,7 +168,7 @@ The central idea behind OAuth is that the end user delegates resource access
 to the client application, so that the application can access the resources
 on the user's behalf.  The final result of this delegation process is an
 opaque string called an access token that is meant to be included in the API
-calls via the Authorization header:
+calls via the HTTP Authorization header:
 
     GET /api/blah
     Authorization: Bearer 128728364872
@@ -181,7 +180,7 @@ application access to the API.  So how do we go about getting one?
 
 The OAuth standard defines several "flows" or procedures for obtaining an
 access token, but only one of them is really important for our purposes: the
-authorization code flow.  It is, roughly, a two step process.
+authorization code flow.  It is, very roughly, a two step process.
 
 First, the client (i.e. the blogging application, in our example) obtains an
 *authorization code* from the authorization server by providing a client
@@ -206,6 +205,15 @@ information need to be provided:
 * The client identifier. A string used to identify the client.
 * A redirect URL.  The URL to which the browser will be returned once the
   authorization code has been issued.
-* Some implementations require (or generate) a client secret.  This will be
-  used during the final phase of the procedure, when the client trades the
-  authorization code for an access token.
+* Many implementations require (or generate) a client secret.  If present,
+  this will be used during the final phase of the procedure, when the client
+  trades the authorization code for an access token.
+
+[1]: https://indieweb.org/
+[2]: https://github.com/
+[4]: https://github.com/Inklings-io/selfauth
+[5]: https://www.w3.org/TR/indieauth/
+[6]: https://en.wikipedia.org/wiki/OAuth
+[7]: https://oauth.net/about/introduction/
+[8]: https://tools.ietf.org/html/rfc6749
+[9]: https://www.oauth.com/
