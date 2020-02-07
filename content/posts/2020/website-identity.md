@@ -141,28 +141,27 @@ about authorization and *not* authentication.
 And yet, even so, there are subtleties in that distinction that are
 understandably confusing.  The process of obtaining your hotel access key,
 for example, will almost certainly involve an authentication step - you'll
-probably have to show your passport or driver's licence to the front desk,
-for example.
+probably have to show your passport or driver's licence to the front desk.
+In the same vein, and pretty much for the same reason, the OAuth protocol
+*does* include one or two authentication steps as well, before the token is
+issued.
 
-### The Shape of OAuth
+This leads some people to conclude that OAuth can be used as an
+authentication protocol, and they're *almost* right, which makes it all the
+more insidious.  It's actually not that difficult to build an authentication
+protocol on top of OAuth but
 
-
-It can be a confusing distinction, because the OAuth protocol *does* include
-one or two authentication steps, as we'll see, but these steps are strictly
-in the service of obtaining access to a resource.  It's the access that's
-the final goal, not the identity.
+### OAuth's Moving Parts
 
 The OAuth [spec][8] defines several actors:
 
 * The *end user*, or the one who owns the resources.  In the above example,
-  that would be the person who is trying to put their tweets on their blog.
+  that would be the person who is trying to print their photos.
 * The *client* or the application acting on behalf of the user.  This would
-  be the blogging application, in the above example.
-* The *resource service*.  This would be Twitter's API.  This is what the
-  blog wants to access.
+  be the printing application (A), in the above example.
+* The *resource service*.  This would be the photo shraing service (B).
 * The *authorization server*, existing alongside the resource service.  This
-  manages the actual OAuth protocol, so your blog can get access to those
-  tweets.
+  manages the actual OAuth protocol.
 
 The central idea behind OAuth is that the end user delegates resource access
 to the client application, so that the application can access the resources
