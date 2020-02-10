@@ -1,4 +1,4 @@
-title: In the Beginning was the Website
+title: In the Beginning Was the Website
 date: 2019-12-08 12:46:15
 modified: 2019-12-08 12:46:15
 tags: indieweb

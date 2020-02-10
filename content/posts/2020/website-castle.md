@@ -1,4 +1,4 @@
-title: Your Website is Your Castle
+title: Your Website Is Your Castle
 date: 2020-01-05 11:06:35
 modified: 2020-01-05 11:06:35
 blurb: In which I zoom in slightly on the #indieweb
