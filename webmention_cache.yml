@@ -607,4 +607,23 @@ results:
   2020/01/30/131036:
     https://charlotteallen.info/2020/01/29/7018/:
       status_code: 200
+  2020/02/12/website-identity:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1227797594660798465
+      status_code: 201
+    https://indieweb.org/:
+      location: https://webmention.io/indiewebcamp/webmention/eDAPzTcxXBAdyGKd9OO0
+      status_code: 201
+    https://indieweb.org/RelMeAuth:
+      location: https://webmention.io/indiewebcamp/webmention/TRTMuftz87jt7qWlRxqO
+      status_code: 201
+    https://indieweb.org/Web_sign-in:
+      location: https://webmention.io/indiewebcamp/webmention/Jl9ukBqR_hDZs8EQJA2O
+      status_code: 201
+    https://oauth.net/articles/authentication/:
+      location: https://webmention.io/aaronpk/webmention/sc5Sv6v_URjU7sEXsU3k
+      status_code: 201
+    https://quill.p3k.io/:
+      location: https://webmention.io/aaronpk/webmention/WdwQg0k5EGoWN_pCP2_c
+      status_code: 201
 site_url: https://desmondrivet.com
