@@ -1,6 +1,7 @@
 title: Your Website Is Your Castle
 date: 2020-01-05 11:06:35
 modified: 2020-01-05 11:06:35
+tags: indieweb
 blurb: In which I zoom in slightly on the #indieweb
 mp_syndicate_to: twitter_bridgy
 
