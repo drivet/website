@@ -604,8 +604,4 @@ results:
   2020/01/30/131036:
     https://charlotteallen.info/2020/01/29/7018/:
       status_code: 200
-  2020/02/05/website-identity:
-    https://indieweb.org/:
-      location: https://webmention.io/indiewebcamp/webmention/wxP3JYaAdeZ980xyHaft
-      status_code: 201
 site_url: https://desmondrivet.com
