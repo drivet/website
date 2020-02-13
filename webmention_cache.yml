@@ -112,6 +112,9 @@ excluded_domains:
 - www.digitalocean.com
 - tools.ietf.org
 - www.oauth.com
+- indieauth.com
+- openid.net
+- microformats.org
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -604,4 +607,23 @@ results:
   2020/01/30/131036:
     https://charlotteallen.info/2020/01/29/7018/:
       status_code: 200
+  2020/02/05/website-identity:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1227791356082499585
+      status_code: 201
+    https://indieweb.org/:
+      location: https://webmention.io/indiewebcamp/webmention/Uct88h6eorwWp7bVWZxo
+      status_code: 201
+    https://indieweb.org/RelMeAuth:
+      location: https://webmention.io/indiewebcamp/webmention/ocbs8noIJYb_6h8PPREd
+      status_code: 201
+    https://indieweb.org/Web_sign-in:
+      location: https://webmention.io/indiewebcamp/webmention/3UMPZf7C4qe35niAhAFO
+      status_code: 201
+    https://oauth.net/articles/authentication/:
+      location: https://webmention.io/aaronpk/webmention/3FVGoEv95NFAY4Kj_rz4
+      status_code: 201
+    https://quill.p3k.io/:
+      location: https://webmention.io/aaronpk/webmention/3qy8tNEN48No2kDmAgfx
+      status_code: 201
 site_url: https://desmondrivet.com
