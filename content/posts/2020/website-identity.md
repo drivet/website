@@ -1,6 +1,6 @@
 title: Your Website Is Your Passport
-date: 2020-02-05 16:30:11
-modified: 2020-02-05 16:30:11
+date: 2020-02-12 22:27:54
+modified: 2020-02-12 22:27:54
 tags: indieweb
 blurb: Your personal website as a form of identification #indieweb
 mp_syndicate_to: twitter_bridgy
