@@ -1,7 +1,7 @@
 title: Your Website is Your Passport
 date: 2020-02-05 16:30:11
 modified: 2020-02-05 16:30:11
-
+status: draft
 
 One of the themes that crops up again and again in the [IndieWeb][1]
 community is that your personal domain, with attendant website, should form
