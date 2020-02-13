@@ -50,6 +50,7 @@ These two purposes can be somewhat at odds, as we will see.
 One defines a module in Angular by declaring a class with an NgModule
 decorator:
 
+    :::typescript
     @NgModule({
         // stuff goes in here, to be explained later
     })
@@ -94,6 +95,7 @@ So, for example, if you have a component called AwesomeComponent
 AwesomeComponent needs to be declared in a module somewhere (let's call it
 AwesomeModule):
 
+    :::typescript
     @Component({
         selector: 'comp-awesome',
         template: `put your template here`
@@ -120,6 +122,7 @@ to:
 
 The modules in question now look like this:
 
+    :::typescript
     @NgModule({
         declarations: [AwesomeComponent],
         exports: [AwesomeComponent]
@@ -166,6 +169,7 @@ needs to be configured in the *providers* field of a module somewhere (as
 always, read the [docs][1] for the details of how this is done; the easiest
 way is usually just to use the class name directly in the providers field):
 
+    :::typescript
     @NgModule({
         ...
         providers: [AwesomeService]
@@ -299,6 +303,7 @@ module will use the providers and services from the root module, and you'll
 end up using the same service instances across your application.
 
 
+    :::typescript
     @NgModule({
         // declarations and providers
         imports: [ModuleWithComponentsAndServices.forRoot()] 
