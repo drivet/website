@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"repost-of": ["https://twitter.com/susie_dent/status/1230446578323927043?s=19"], "published": ["2020-02-20T21:24:15.126954"]}}
