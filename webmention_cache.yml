@@ -626,6 +626,10 @@ results:
     https://quill.p3k.io/:
       location: https://webmention.io/aaronpk/webmention/WdwQg0k5EGoWN_pCP2_c
       status_code: 201
+  2020/02/20/201200:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1230670503016267778
+      status_code: 201
   2020/02/20/212415:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1230604778885046295
