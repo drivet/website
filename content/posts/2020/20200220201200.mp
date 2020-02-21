@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I think this is my new favorite Twitter account"], "repost-of": ["https://twitter.com/susie_dent/status/1227215536657965058?s=19"], "published": ["2020-02-20T20:12:00-0500"], "post-status": ["published"]}}
