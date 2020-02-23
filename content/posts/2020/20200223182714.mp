@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://twitter.com/emrazz/status/1231477178925187072?s=19"], "published": ["2020-02-23T18:27:14.962840"]}}
