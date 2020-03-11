@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["For me, it was Dune. I can see why people like it, but it just wasn't for me."], "in-reply-to": ["https://twitter.com/TeresaGrabs/status/1237730535159615489?s=19"], "published": ["2020-03-11T22:36:11.264951"]}}
