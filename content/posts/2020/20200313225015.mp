@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I think I'm more afraid of societal breakdown then I am of actually getting infected with the Corona virus."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-03-13T22:50:15.560362"]}}
