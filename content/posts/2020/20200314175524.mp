@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Not crowded at Canadian Tire today. Lacking subtext, I have to say I don't hate it."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-03-14T17:55:24.967905"]}}
