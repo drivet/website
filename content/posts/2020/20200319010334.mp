@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/BBolander/status/1240322283211612161?s=19"], "published": ["2020-03-19T01:03:34.508859"]}}
