@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I cannot imagine what it would be like to self-quarantine without the Internet. Or maybe I just don't want to."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-03-22T18:40:44.110442"]}}
