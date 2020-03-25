@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"repost-of": ["https://twitter.com/dabit3/status/1242450273756479489?s=19"], "published": ["2020-03-25T00:29:14.230943"]}}
