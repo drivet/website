@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I am really not sure what my street is going to look like in 6 months."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-03-28T20:54:13.658823"]}}
