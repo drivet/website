@@ -152,7 +152,7 @@ GA_TRACKING_ID = 'UA-132755534-1'
 # h-card info
 H_CARD_NICKNAME = "desmondrivet"
 H_CARD_EMAIL = "desmond.rivet@gmail.com"
-H_CARD_URL = SITEURL
+H_CARD_URL = 'https://desmondrivet.com'
 H_CARD_PHOTO = "/me02.jpg"
 
 
