@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Remember when outside wasn't dangerous? Good times."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-03-29T01:06:29.175351"]}}
