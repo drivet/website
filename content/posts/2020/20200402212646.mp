@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Cats and boxes, amirite?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-04-02T21:26:46.501698"]}}
