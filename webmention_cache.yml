@@ -699,4 +699,40 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1246495186991095812
       status_code: 201
+  2020/04/04/indieweb-conversation:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1246616554864881664
+      status_code: 201
+    https://desmondrivet.com/2020/02/12/website-identity:
+      status_code: 202
+    https://indieweb.org/:
+      location: https://webmention.io/indiewebcamp/webmention/MBnfYWGNz9K9lHEenA-m
+      status_code: 201
+    https://indieweb.org/Webmention:
+      location: https://webmention.io/indiewebcamp/webmention/QRcZIRne81sZNu9-eQRd
+      status_code: 201
+    https://indieweb.org/article:
+      location: https://webmention.io/indiewebcamp/webmention/a9tqXk90TH2lP2q6felE
+      status_code: 201
+    https://indieweb.org/h-card:
+      location: https://webmention.io/indiewebcamp/webmention/ESGMGKUhgoVquXgWnn2K
+      status_code: 201
+    https://indieweb.org/h-entry:
+      location: https://webmention.io/indiewebcamp/webmention/sElSGiRpYntYWJtm87KD
+      status_code: 201
+    https://indieweb.org/like:
+      location: https://webmention.io/indiewebcamp/webmention/h-UjMrsfwBW7CaJuZcMa
+      status_code: 201
+    https://indieweb.org/microformats:
+      location: https://webmention.io/indiewebcamp/webmention/d6iKRPv9BbEfM3PhDypC
+      status_code: 201
+    https://indieweb.org/note:
+      location: https://webmention.io/indiewebcamp/webmention/Cl-qrX5CevubhN87s0zB
+      status_code: 201
+    https://indieweb.org/reply:
+      location: https://webmention.io/indiewebcamp/webmention/orQT09eRpf-NehKYeI30
+      status_code: 201
+    https://indieweb.org/representative_h-card:
+      location: https://webmention.io/indiewebcamp/webmention/w_mr-zHkSAMMimSRUemF
+      status_code: 201
 site_url: https://desmondrivet.com
