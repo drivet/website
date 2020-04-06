@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Heh. I configured my VoIP landline to show up as Batman on call display :) Particularly funny when I use it to make restaurant reservations.\n\n(Yes, I have a landline. Leave me alone.)"], "in-reply-to": ["https://twitter.com/kvlly/status/1247276903544881152?s=19"], "published": ["2020-04-06T22:54:01.577543"]}}
