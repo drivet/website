@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["It continues"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/04/0_65b4e7d4-1942-4c10-b5c0-48a6e7ae80ec.jpg"], "published": ["2020-04-09T12:39:35.021419"]}}
