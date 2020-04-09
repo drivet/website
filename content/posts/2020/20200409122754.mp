@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Honestly, \"The Fifth Season\" was one of the few examples of second person writing that I actively enjoyed, and that didn't feel unusual for the sake of unusual."], "in-reply-to": ["https://twitter.com/nkjemisin/status/1248093656847917057?s=20"], "published": ["2020-04-09T12:27:54.505456"]}}
