@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"repost-of": ["https://twitter.com/bludelb/status/1249119414647218176?s=20"], "published": ["2020-04-12T19:29:46.766061"]}}
