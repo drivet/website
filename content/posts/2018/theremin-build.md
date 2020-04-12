@@ -78,7 +78,7 @@ have.  The soldered result looks like this:
 <a href="/blog/technical/open_theremin_soldered.jpg" 
    style="margin-left: 1em; margin-right: 1em;">
 <img border="0" height="200" width="266" 
-     src="/blog/technical/open_theremin_soldered_t.jpg" 
+     src="{attach}open_theremin_soldered_t.jpg" 
      alt="Open Theremin Board (Soldered)" />
 </a>
 </div>
