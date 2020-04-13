@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Not a good week.\n\nhttps://xkcd.com/2293/"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-04-13T20:10:03.557991"]}}
