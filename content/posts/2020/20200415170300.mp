@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I'm a big fan of John Mulaney's stand-up. Mike Birbiglia is also really good."], "in-reply-to": ["https://twitter.com/nandini_godara/status/1250467514221355011?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-04-15T17:03:00.919553"]}}
