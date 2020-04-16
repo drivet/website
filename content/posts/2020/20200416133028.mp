@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Excellent :-) I seem to recall enjoying Jen Kirkman and Tig Nataro as well"], "in-reply-to": ["https://twitter.com/nandini_godara/status/1250471342970785795?s=20"], "published": ["2020-04-16T13:30:28.187924"]}}
