@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I love how comiccon isn't cancelled, it's just \"postponed\" until next year."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-04-21T16:42:49.859218"]}}
