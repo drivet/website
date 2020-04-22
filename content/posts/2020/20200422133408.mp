@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://jlelse.blog/posts/why-no-blog/"], "published": ["2020-04-22T13:34:08.327278"]}}
