@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["It ends. Finally."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/04/0_448909a6-a4c2-47e3-b685-18a8be7dca68.jpg"], "published": ["2020-04-26T01:35:10.428738"]}}
