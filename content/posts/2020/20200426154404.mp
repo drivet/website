@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Did you know that the word \"Westmount\" comes from the Greek meaning \"land of houses that Desmond will never own\"? :P"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/04/0_a18c9c7a-0501-418b-8138-290621eed085.jpg"], "published": ["2020-04-26T15:44:04.394199"]}}
