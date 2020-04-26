@@ -790,4 +790,8 @@ results:
   2020/04/23/010611:
     https://janboddez.tech/notes/ab8cca73e5:
       status_code: 202
+  2020/04/26/013510:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1254222776774414338
+      status_code: 201
 site_url: https://desmondrivet.com
