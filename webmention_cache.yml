@@ -115,6 +115,8 @@ excluded_domains:
 - indieauth.com
 - openid.net
 - microformats.org
+- news.ycombinator.com
+- sarahdrasnerdesign.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -806,4 +808,20 @@ results:
       status_code: 201
     https://desmondrivet.com:
       status_code: 202
+  2020/04/28/writing-reasons:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1255166931851673605
+      status_code: 201
+    https://indieweb.org/:
+      location: https://webmention.io/indiewebcamp/webmention/zH1sXiaP-HnElXKgxPiz
+      status_code: 201
+    https://jlelse.blog/:
+      location: https://jlelse.blog/
+      status_code: 201
+    https://jlelse.blog/posts/why-no-blog/:
+      location: https://jlelse.blog/posts/why-no-blog/
+      status_code: 201
+    https://jlelse.dev/:
+      location: https://webmention.io/jlelse.dev/webmention/DT0TeZNh7XcMqPcaxMo-
+      status_code: 201
 site_url: https://desmondrivet.com
