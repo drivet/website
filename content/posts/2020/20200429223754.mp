@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["So it has come to this."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/04/0_257ec0a6-d2b2-41ae-95b6-7aa71430db28.jpg"], "published": ["2020-04-29T22:37:54.305378"]}}
