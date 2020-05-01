@@ -117,6 +117,11 @@ excluded_domains:
 - microformats.org
 - news.ycombinator.com
 - sarahdrasnerdesign.com
+- martinfowler.com
+- wiki.desmondrivet.com
+- chrisaldrich.wordpress.com
+- moinmo.in
+- tiddlywiki.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -827,5 +832,9 @@ results:
   2020/04/29/223754:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1255627806429589509
+      status_code: 201
+  2020/05/01/wikis-and-blogs:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1256169175124447234
       status_code: 201
 site_url: https://desmondrivet.com
