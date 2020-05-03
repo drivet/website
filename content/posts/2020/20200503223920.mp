@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://doubleloop.net/2020/05/03/read-feeder/"], "published": ["2020-05-03T22:39:20.230438"]}}
