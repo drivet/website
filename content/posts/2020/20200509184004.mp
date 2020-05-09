@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"mp-syndicate-to": ["twitter_bridgy_no_link"], "content": ["I wonder about combining static site generators and photo galleries.  I know it's a thing, and yet it feels a bit off, especially when you have 10GB of photos."], "published": ["2020-05-09T18:40:04.224895"]}}
