@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["The pandemic will be over when I can eat in a crowded restaurant again."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-09T20:06:08.585568"]}}
