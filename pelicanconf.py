@@ -41,7 +41,7 @@ SOCIAL = (('Facebook', 'http://www.facebook.com/desmond.rivet', 'fab fa-facebook
           ('Github', 'https://github.com/drivet', 'fab fa-github fa-lg'),
           ('LinkedIn', 'http://ca.linkedin.com/in/desmondrivet', 'fab fa-linkedin-in'))
 
-FAVICON = 'me_200x200.jpg'
+FAVICON = 'me02.jpg'
 
 # Links for the nav bar
 MENUITEMS = (('Lifestream', '/all'),
