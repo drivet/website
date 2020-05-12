@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Cannoli pound cake. Really just an excuse to use leftover ricotta. Smells amazing."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/05/0_6dd3adb1-0a77-4efe-87ee-58ca9cf76367.jpg"], "published": ["2020-05-10T17:45:37.258019"]}}
