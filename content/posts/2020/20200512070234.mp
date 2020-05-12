@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://www.ribbonfarm.com/2020/02/24/a-text-renaissance/"], "published": ["2020-05-12T07:02:34.391710"]}}
