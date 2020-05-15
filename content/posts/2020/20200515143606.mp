@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Annoying how most recipes calling for condensed milk call for a 14 oz can, while the cans in Canada appear to be 300 ml (10 oz)."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-15T14:36:06.738877"]}}
