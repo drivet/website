@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Pot of misir wat, Ethiopian spiced lentils. Delicious."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": [{"value": "https://media.desmondrivet.com/2020/05/0_7b6ae033-ca7b-4cf9-b3f7-708492f24706.jpg", "alt": "Spiced lentils"}], "published": ["2020-05-15T21:45:30.384031"]}}
