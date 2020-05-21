@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://www.csun.io/2020/05/17/gnucash-finance.html"], "published": ["2020-05-21T08:40:09.027419"]}}
