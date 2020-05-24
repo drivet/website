@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["You don't know me, but I have that exact same vermouth and it's delicious!  You made a Boulevardier, right?"], "in-reply-to": ["https://twitter.com/dxnielvaughn/status/1264680744456159234?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-24T18:28:47.687984"]}}
