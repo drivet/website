@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://blog.alexellis.io/deploy-serverless-faasd-with-cloud-init/"], "published": ["2020-05-24T19:28:42.221472"]}}
