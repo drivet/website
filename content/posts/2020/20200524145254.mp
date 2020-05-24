@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["A piece of gingerbread, slightly lopsided. Still delicious. I used Anna Olsen's recipe."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/05/0_59d77f1b-797f-42e9-b49b-e0a6d1e30738.jpg"], "published": ["2020-05-24T14:52:54.814365"]}}
