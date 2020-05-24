@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["http://tttthis.com/blog/if-i-could-bring-one-thing-back-to-the-internet-it-would-be-blogs"], "published": ["2020-05-24T12:12:45.614106"]}}
