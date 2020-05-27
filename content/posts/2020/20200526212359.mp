@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Possibly unpopular opinion: Martinis do not taste very good."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-26T21:23:59.899779"]}}
