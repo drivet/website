@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I didn't know RumChata was a thing, but I want some."], "in-reply-to": ["https://twitter.com/kvlly/status/1265818645294452736?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-27T23:20:51.923706"]}}
