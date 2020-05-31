@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["\"IPA\" stands for \"India Pale Ale\""], "in-reply-to": ["https://twitter.com/SurpriseSparrow/status/1267181319676743682?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-31T16:15:26.385410"]}}
