@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Am I the only one bothered by the term \"black IPA\"? Like, y'all know what the \"P\" stands for, right?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-05-31T14:19:58.428760"]}}
