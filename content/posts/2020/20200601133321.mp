@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://www.sarasoueidan.com/blog/style-settings-with-css-variables/"], "published": ["2020-06-01T13:33:21.988658"]}}
