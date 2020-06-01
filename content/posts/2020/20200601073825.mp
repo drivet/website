@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://neustadt.fr/essays/the-small-web/"], "published": ["2020-06-01T07:38:25.729211"]}}
