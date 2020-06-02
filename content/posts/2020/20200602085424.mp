@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://neustadt.fr/essays/against-a-user-hostile-web/"], "published": ["2020-06-02T08:54:24.339976"]}}
