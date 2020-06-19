@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Astrofotografen/status/1273891275679416321"], "published": ["2020-06-19T10:14:59.088175"]}}
