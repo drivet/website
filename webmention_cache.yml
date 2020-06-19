@@ -902,4 +902,11 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1267188451360858112
       status_code: 201
+  2020/06/01/073825: {}
+  2020/06/01/133321: {}
+  2020/06/02/085424: {}
+  2020/06/19/101459:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/Astrofotografen/status/1273891275679416321
+      status_code: 201
 site_url: https://desmondrivet.com
