@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I always wanted to be G.I. Joe villain..."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/06/0_51b2b25f-dedf-409d-930a-a5a269ee92c3.jpg"], "published": ["2020-06-27T15:56:39.746824"]}}
