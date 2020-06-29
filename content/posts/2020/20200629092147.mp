@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["This is amazing"], "in-reply-to": ["https://twitter.com/tariqkrim/status/1277274078475358215?s=20"], "published": ["2020-06-29T09:21:47.730709"]}}
