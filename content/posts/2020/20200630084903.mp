@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL that \"marshmallow\" is actually a very old word, derived from the Old English word \"mersc-mealwe\" describing a \"kind of mallow plant (Althea officinalis) which grows near salt marshes.\""], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-06-30T08:49:03.445752"]}}
