@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://matthiasott.com/notes/fussy-web-true-meaning"], "published": ["2020-07-01T21:44:48.662801"]}}
