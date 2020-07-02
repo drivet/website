@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://css-tricks.com/in-defense-of-a-fussy-website/"], "published": ["2020-07-01T21:47:06.479065"]}}
