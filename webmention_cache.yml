@@ -122,6 +122,7 @@ excluded_domains:
 - chrisaldrich.wordpress.com
 - moinmo.in
 - tiddlywiki.com
+- youtu.be
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -934,5 +935,9 @@ results:
   2020/07/03/073210:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1279015606415745024
+      status_code: 201
+  2020/07/06/232110:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1280341595292917761
       status_code: 201
 site_url: https://desmondrivet.com
