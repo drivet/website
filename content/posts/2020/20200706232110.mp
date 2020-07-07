@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["One of my favorite versions of it:\nhttps://youtu.be/ajM4vYCZMZk"], "in-reply-to": ["https://twitter.com/FyreByrde/status/1280125461310443520?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-07-06T23:21:10.413721"]}}
