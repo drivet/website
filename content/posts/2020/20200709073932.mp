@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["If you need inspiration to learn how to play: \n\nhttps://www.youtube.com/playlist?list=RDajM4vYCZMZk&feature=share&playnext=1"], "in-reply-to": ["https://twitter.com/helenleigh/status/1280997471636926464?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-07-09T07:39:32.591056"]}}
