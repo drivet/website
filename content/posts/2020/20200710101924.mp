@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/TheAndrewNadeau/status/1281363396496105473?s=20"], "published": ["2020-07-10T10:19:24.953941"]}}
