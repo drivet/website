@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://jvns.ca/blog/2020/06/19/a-little-bit-of-plain-javascript-can-do-a-lot/"], "published": ["2020-07-11T09:24:22.350343"]}}
