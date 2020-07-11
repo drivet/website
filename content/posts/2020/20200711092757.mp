@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://sarahchima.com/blog/css-specificity/"], "published": ["2020-07-11T09:27:57.862625"]}}
