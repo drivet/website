@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["My God, what have I done?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/07/0_4169a7cd-e3b5-4b50-aacd-2895fac92769.jpg"], "published": ["2020-07-12T15:56:21.831667"]}}
