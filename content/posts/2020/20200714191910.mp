@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I will never understand three-seat sofas with two cushions."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-07-14T19:19:10.051519"]}}
