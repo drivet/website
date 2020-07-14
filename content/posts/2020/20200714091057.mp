@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Gemmapolyglot/status/1282394150843887616?s=19"], "published": ["2020-07-14T09:10:57.744881"]}}
