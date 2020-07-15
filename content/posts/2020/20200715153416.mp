@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://matthiasott.com/articles/into-the-personal-website-verse"], "published": ["2020-07-15T15:34:16.507622"]}}
