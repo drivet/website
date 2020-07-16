@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://adactio.com/journal/17140"], "published": ["2020-07-16T14:15:56.155833"]}}
