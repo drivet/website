@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I apparently did not post a photo. Here we go."], "in-reply-to": ["https://twitter.com/desmondrivet/status/1284304050004135937?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/07/0_741a579a-eb78-4734-a5c8-45037d20e692.jpg"], "published": ["2020-07-17T21:52:48.391518"]}}
