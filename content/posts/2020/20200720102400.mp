@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Hmmm... interesting, but I'm honestly not sure what that would even look like."], "in-reply-to": ["https://doubleloop.net/2020/07/19/6961/"], "published": ["2020-07-20T10:24:00-0400"], "post-status": ["published"]}}
