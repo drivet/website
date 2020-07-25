@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I think I'm going to file this one under \"adage\""], "in-reply-to": ["https://twitter.com/rosielefaive/status/1287021487963156480?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-07-25T11:38:14.936124"]}}
