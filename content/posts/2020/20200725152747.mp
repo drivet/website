@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Not usually a fan of graffiti, but sometimes..."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/07/0_44943d9f-0d0a-43e9-b715-2b7af0e0de98.jpg"], "published": ["2020-07-25T15:27:47.217225"]}}
