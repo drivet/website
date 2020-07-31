@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://www.gatsbyjs.org/blog/2020-07-31-the-worlds-sneakiest-route-change/"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-07-31T14:49:52.078900"]}}
