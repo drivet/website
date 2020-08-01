@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://gomakethings.com/the-amazing-power-of-service-workers/"], "published": ["2020-08-01T12:45:16.814266"]}}
