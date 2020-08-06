@@ -1014,4 +1014,12 @@ results:
   2020/07/31/144952:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       status_code: 400
+  2020/07/31/161535: {}
+  2020/08/01/124516: {}
+  2020/08/02/102042: {}
+  2020/08/04/160843: {}
+  2020/08/06/155344:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1291463159572844546
+      status_code: 201
 site_url: https://desmondrivet.com
