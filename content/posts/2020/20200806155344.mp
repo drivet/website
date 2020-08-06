@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["First time in Sherbrooke. Not a bad spot."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/08/0_cda1a719-a736-47c5-8b04-4a72c4a58f11.jpg"], "published": ["2020-08-06T15:53:44.355511"]}}
