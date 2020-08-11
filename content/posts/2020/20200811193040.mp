@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["*pencils Kamala-Pence debate on his calendar*"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-11T19:30:40.437441"]}}
