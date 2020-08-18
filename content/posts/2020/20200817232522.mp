@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/rosielefaive/status/1295498720759500801?s=19"], "published": ["2020-08-17T23:25:22.081924"]}}
