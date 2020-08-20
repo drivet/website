@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://asoftmurmur.com/"], "published": ["2020-08-20T08:41:38.088254"]}}
