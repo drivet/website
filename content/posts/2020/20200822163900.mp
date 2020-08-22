@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Found an interesting side road"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/08/0_c99120fe-5442-4b91-bae1-84d23a1745cb.jpg"], "published": ["2020-08-22T16:39:00.122034"]}}
