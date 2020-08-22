@@ -1059,4 +1059,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/susie_dent/status/1297096339394789378?s=19
       status_code: 201
+  2020/08/22/163900:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1297272404427898880
+      status_code: 201
 site_url: https://desmondrivet.com
