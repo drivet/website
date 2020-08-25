@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Right? Like maybe she was quipping about the exorbitant cost of actual ski trips :-)"], "in-reply-to": ["https://twitter.com/PieAmy/status/1298219404094779394?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-25T07:42:14.560876"]}}
