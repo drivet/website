@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["You (and I) are Xennials!\r\n\r\nhttps://en.wikipedia.org/wiki/Xennials"], "in-reply-to": ["https://twitter.com/Too_Big_To_Fail/status/1298105360302186498?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-25T07:59:17.759979"]}}
