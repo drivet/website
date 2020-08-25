@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/PieAmy/status/1298226845268287489?s=20"], "published": ["2020-08-25T08:03:15.134876"]}}
