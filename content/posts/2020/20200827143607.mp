@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I am not sure what to say about a political figure that points to actual riots happening under his *own* administration and uses them to criticize the guy who's running against him in the next election."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-27T14:36:07.503384"]}}
