@@ -49,22 +49,24 @@ amounts of butter, sugar and flour.  That being said, not everyone has a
 food scale, and this procedure doesn't really give you any guidance on big a
 cake you're going to get, so further instructions are usually necessary.
 Lucky for you, I *do* own a food scale and, as the fates would have it, the
-ingredients for a traditional pound cake are actually really easy to measure
-out.
+ingredients for a traditional pound cake are actually pretty easy to measure
+out.  Please note that the goal here is more to produce easy to remember
+numbers than to be purely exact.
 
-One large egg weighs almost exactly two ounces, or 1/8 of a pound (16
-ounces).  Four eggs, therefore, is eight ounces, or half a pound, and this
-will make enough batter to fill a standard 9 x 5 inch loaf pan.
+One large egg weighs roughly two ounces, or 1/8 of a pound (16 ounces).
+Four eggs, therefore, is eight ounces, or half a pound, and this will make
+enough batter to fill a standard 9 x 5 inch loaf pan.
 
 Butter comes in one pound blocks, so half a pound of butter is half the
-block, which is exactly one cup.
+block, which is roughly one cup.
 
-Sugar, by a weird coincidence, appears to have almost the exact same density
-as butter.  Half a pound of sugar, therefore, is also one cup.
+Sugar, by a weird coincidence, appears to have a similar density to butter.
+Half a pound of sugar, therefore, is also roughly one cup.
 
-Flour, as you may have guessed, is less dense than either butter or sugar.
-According to my measurements, one pound of flour is almost exactly three
-cups, so half a pound is one and a half cups.
+Four, as you may have guessed, is less dense than either butter or sugar.
+According to my measurements, one pound of all-purpose flour (measured by
+scooping it out of the bag and levelling it with a knife) is roughly three
+cups, so half a pound is roughly one and a half cups.
 
 So there you have it.  Here are the ingredients and the procedure for a
 standard 9 x 5 inch loaf of pound cake (I guess you'd call this a half-pound
@@ -73,7 +75,7 @@ cake, but who's counting?  Me, apparently):
 * 4 eggs
 * 1 cup butter
 * 1 cup sugar
-* 1.5 cups flour
+* 1.5 cups all-purpose flour
 
 Before starting, preheat the oven to 325 F.
 
