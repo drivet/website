@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I'm currently in the process of corrupting Marcella Hazan's tomato sauce with the addition of a red bell pepper and I have to say I feel a little naughty. "], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-28T18:36:54.167729"]}}
