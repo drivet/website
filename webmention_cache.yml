@@ -1118,4 +1118,7 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       status_code: 400
   2020/08/28/083712: {}
+  2020/08/28/083941:
+    https://adactio.com/links/17343:
+      status_code: 202
 site_url: https://desmondrivet.com
