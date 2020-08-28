@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Steampunk_T/status/1299297943346966528?s=19"], "published": ["2020-08-28T07:35:33.619804"]}}
