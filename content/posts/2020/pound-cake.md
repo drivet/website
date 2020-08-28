@@ -63,7 +63,7 @@ block, which is roughly one cup.
 Sugar, by a weird coincidence, appears to have a similar density to butter.
 Half a pound of sugar, therefore, is also roughly one cup.
 
-Four, as you may have guessed, is less dense than either butter or sugar.
+Flour, as you may have guessed, is less dense than either butter or sugar.
 According to my measurements, one pound of all-purpose flour (measured by
 scooping it out of the bag and levelling it with a knife) is roughly three
 cups, so half a pound is roughly one and a half cups.
