@@ -126,6 +126,7 @@ excluded_domains:
 - www.savingdessert.com
 - smittenkitchen.com
 - www.thekitchn.com
+- islandinthenet.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1116,4 +1117,5 @@ results:
       status_code: 202
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       status_code: 400
+  2020/08/28/083712: {}
 site_url: https://desmondrivet.com
