@@ -1107,4 +1107,8 @@ results:
     https://brid.gy/publish/twitter:
       location: https://twitter.com/desmondrivet/status/1299026195716214790
       status_code: 201
+  2020/08/28/073533:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/Steampunk_T/status/1299297943346966528?s=19
+      status_code: 201
 site_url: https://desmondrivet.com
