@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"in-reply-to": ["https://adactio.com/links/17343"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "content": ["I enjoy the posts, for what it's worth!"], "published": ["2020-08-28T08:32:01.770574"]}}
