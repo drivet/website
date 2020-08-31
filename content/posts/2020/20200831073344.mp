@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://www.jeremycherfas.net/blog/structured-data-for-book-reviews"], "published": ["2020-08-31T07:33:44.860567"]}}
