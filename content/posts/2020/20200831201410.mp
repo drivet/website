@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL about Sardinian maggot cheese.  I...am not sure what else to say about that.\n\nhttps://en.wikipedia.org/wiki/Casu_marzu"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-08-31T20:14:10.783565"]}}
