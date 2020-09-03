@@ -127,6 +127,8 @@ excluded_domains:
 - smittenkitchen.com
 - www.thekitchn.com
 - islandinthenet.com
+- mysardinianlife.com
+- spinachtiger.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1141,5 +1143,9 @@ results:
   2020/08/31/201410:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1300588181826437121
+      status_code: 201
+  2020/09/02/italian-gatekeeping:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1301348171533225984
       status_code: 201
 site_url: https://desmondrivet.com
