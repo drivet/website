@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://doubleloop.net/2020/09/06/a-home-on-the-web/"], "published": ["2020-09-06T18:42:00-0400"], "post-status": ["published"]}}
