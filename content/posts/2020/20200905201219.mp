@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["A rare selfie! I'm so sorry."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/09/0_adc25f20-1391-4661-ba30-4e720329c4d5.jpg"], "published": ["2020-09-05T20:12:19.700202"]}}
