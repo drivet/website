@@ -1152,4 +1152,7 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1302399720401375233
       status_code: 201
+  2020/09/06/184200:
+    https://doubleloop.net/2020/09/06/a-home-on-the-web/:
+      status_code: 200
 site_url: https://desmondrivet.com
