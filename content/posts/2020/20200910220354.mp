@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL about chicken pudding, a dessert popular in Turkey, made with milk, sugar, vanilla...and actual shredded chicken breast. "], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-09-10T22:03:54.143527"]}}
