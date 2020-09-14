@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/gwisk20/status/1305172143680913409?s=19"], "published": ["2020-09-14T07:08:35.039420"]}}
