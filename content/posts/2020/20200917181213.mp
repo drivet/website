@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I don't think I'm ever going to be a fan of polenta."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-09-17T18:12:13.473470"]}}
