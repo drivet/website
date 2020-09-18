@@ -1,1 +1,0 @@
-{"type": ["h-entry"], "properties": {"content": ["Made Tres Leches cake.  It was good, but I was expecting it to be...I don't know...drippier? "], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/09/0_b78891f6-d218-4193-9dd0-d5189c6ff3c8.jpg"], "published": ["2020-09-18T11:52:58.738346"]}}
