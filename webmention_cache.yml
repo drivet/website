@@ -1202,4 +1202,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1307351144432369664
       status_code: 201
+  2020/09/21/204139: {}
+  2020/09/22/195214:
+    https://stream.jeremycherfas.net/2020/you-may-be-doing-it-wrong:
+      status_code: 202
 site_url: https://desmondrivet.com
