@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I'm not entirely sure that I am. I've fried thick slices so they develop a crust. The result is tasty enough, but not *great*."], "in-reply-to": ["https://stream.jeremycherfas.net/2020/you-may-be-doing-it-wrong"], "published": ["2020-09-22T19:52:14.641231"]}}
