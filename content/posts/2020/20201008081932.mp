@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"mp-syndicate-to": ["twitter_bridgy_no_link"], "content": ["I never fully understood how spot on Maya Rudolph's impression was."], "published": ["2020-10-08T08:19:32.154128"]}}
