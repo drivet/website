@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"mp-syndicate-to": ["twitter_bridgy_no_link"], "content": ["I seriously don't understand the point of the time limits in these debates."], "published": ["2020-10-08T08:10:04.378979"]}}
