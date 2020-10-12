@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://hacdias.com/articles/2015/03/how-to-create-a-node-js-command-line-application/"], "published": ["2020-10-12T16:56:07.177703"]}}
