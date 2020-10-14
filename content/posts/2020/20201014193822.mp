@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://hacdias.com/articles/2020/01/dynamic-static/"], "published": ["2020-10-14T19:38:22.978121"]}}
