@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://obsidian.md/"], "published": ["2020-10-22T15:34:21.630384"]}}
