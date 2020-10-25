@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/ScribblingOn/status/1314665357873999872?s=19"], "published": ["2020-10-10T13:56:24.026017"]}}

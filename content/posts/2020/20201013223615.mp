@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://hacdias.com/articles/2020/01/owning-reading-log/"], "published": ["2020-10-13T22:36:15.871782"]}}

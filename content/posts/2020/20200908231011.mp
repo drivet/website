@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["It's funny how I can suspend my disbelief about most things in movies or on TV except when people in restaurants order \"a beer\" or \"a whiskey\". People never do this! They're always more specific."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-09-08T23:10:11.308820"]}}

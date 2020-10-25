@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["https://asoftmurmur.com/\r\n\r\nI often use this site with custom \"storm\" sounds.\r\n"], "in-reply-to": ["https://twitter.com/ScribblingOn/status/1318905739562405889?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-10-21T09:34:14.650118"]}}

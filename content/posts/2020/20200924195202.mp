@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I have just realized that \"I'd be down for that\" and \"I'd be up for that\" mean the same thing \ud83d\ude2e"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-09-24T19:52:02.685338"]}}

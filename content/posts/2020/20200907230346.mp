@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://neilkakkar.com/things-I-learned-to-become-a-senior-software-engineer.html"], "published": ["2020-09-07T23:03:46.964953"]}}

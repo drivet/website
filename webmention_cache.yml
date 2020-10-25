@@ -127,6 +127,9 @@ excluded_domains:
 - smittenkitchen.com
 - www.thekitchn.com
 - islandinthenet.com
+- mysardinianlife.com
+- spinachtiger.com
+- asoftmurmur.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1141,5 +1144,104 @@ results:
   2020/08/31/201410:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1300588181826437121
+      status_code: 201
+  2020/09/02/italian-gatekeeping:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1301348171533225984
+      status_code: 201
+  2020/09/05/201219:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1302399720401375233
+      status_code: 201
+  2020/09/06/184200:
+    https://doubleloop.net/2020/09/06/a-home-on-the-web/:
+      status_code: 200
+  2020/09/07/230346: {}
+  2020/09/07/231632: {}
+  2020/09/08/231011:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1303531557311918081
+      status_code: 201
+  2020/09/10/220354:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1304239797968474112
+      status_code: 201
+  2020/09/11/090311:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1304405680544194561
+      status_code: 201
+  2020/09/12/144800:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1304854870801948672
+      status_code: 201
+  2020/09/13/225319: {}
+  2020/09/14/070835:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/gwisk20/status/1305172143680913409?s=19
+      status_code: 201
+  2020/09/17/090849:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/spacespng/status/1306344115945254920?s=20
+      status_code: 201
+  2020/09/17/181213:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1306718222432043008
+      status_code: 201
+  2020/09/18/115258:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1306985141605195776
+      status_code: 201
+  2020/09/18/122403:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1306993070379020294
+      status_code: 201
+  2020/09/18/124738:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1306998756219461632
+      status_code: 201
+  2020/09/19/120655:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1307351144432369664
+      status_code: 201
+  2020/09/21/204139: {}
+  2020/09/22/195214:
+    https://stream.jeremycherfas.net/2020/you-may-be-doing-it-wrong:
+      status_code: 202
+  2020/09/23/073708: {}
+  2020/09/24/195202:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1309280360799318016
+      status_code: 201
+  2020/10/06/074455:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/Steampunk_T/status/1313439762993369088?s=20
+      status_code: 201
+  2020/10/08/080501:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1314176017783808000
+      status_code: 201
+  2020/10/08/081004:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1314177119862362113
+      status_code: 201
+  2020/10/08/081932:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1314179327483936768
+      status_code: 201
+  2020/10/10/135624:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/ScribblingOn/status/1314665357873999872?s=19
+      status_code: 201
+  2020/10/12/144609:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1315725950982774787
+      status_code: 201
+  2020/10/12/165607: {}
+  2020/10/13/223615: {}
+  2020/10/14/193822: {}
+  2020/10/17/205543: {}
+  2020/10/21/093414:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1318909112164491266
       status_code: 201
 site_url: https://desmondrivet.com

@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Outdoor popup library, apparently."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/09/0_f83f88bf-fbe8-44b8-b7fd-9873dd01dfb5.jpg"], "published": ["2020-09-12T14:48:00.071275"]}}

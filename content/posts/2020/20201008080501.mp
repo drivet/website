@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"mp-syndicate-to": ["twitter_bridgy_no_link"], "content": ["Does anyone else have a problem with the song \"You're So Vain\"?  The song is not supposed to be about him and yet it's totally about him, right?"], "published": ["2020-10-08T08:05:01.946546"]}}

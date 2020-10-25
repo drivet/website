@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://dzone.com/articles/functional-on-the-frontend-with-fp-ts-and-pipe"], "published": ["2020-09-23T07:37:08.042214"]}}
