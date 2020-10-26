@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Ohhhhh... This looks awesome!"], "in-reply-to": ["https://doubleloop.net/2020/10/25/7224/"], "published": ["2020-10-25T22:16:04.492571"]}}
