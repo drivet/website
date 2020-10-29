@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Finished season 2 of Ozark and I guess Wendy is Walter White, not Marty?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-10-29T08:37:13.960194"]}}
