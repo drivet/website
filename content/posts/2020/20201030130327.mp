@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I learned the word \"magniloquence\" today and I'm warning all of you, I will be using it frequently."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-10-30T13:03:27.780472"]}}
