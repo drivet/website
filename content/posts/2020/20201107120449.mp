@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Did anyone else learn where Pennsylvania was just this week?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-11-07T12:04:49.580974"]}}
