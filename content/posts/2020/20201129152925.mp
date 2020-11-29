@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://jlelse.blog/links/2020/11/stupid-light-software"], "published": ["2020-11-29T15:29:25.827719"]}}
