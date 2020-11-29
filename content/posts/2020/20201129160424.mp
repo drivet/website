@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Rue Coursol, Little Burgundy, Montreal"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/11/0_b4e65344-1320-4520-9164-e679c522deed.jpg"], "published": ["2020-11-29T16:04:24.828056"]}}
