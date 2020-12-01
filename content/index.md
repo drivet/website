@@ -13,9 +13,8 @@ hope you enjoy your stay.
 
 ## About Me
 
-I'm a full-stack developer residing in Montreal, Canada.  I'm currently
-employed by a [medical imaging company][10] where I do work on their next
-generation image viewer.
+I currently reside in Montreal, Canada where I work for [Unity
+Technologies][10] as a full-stack developer.
 
 Apart from programming, I also enjoy writing, reading, cooking and mixing
 drinks (you can blame [Mad Men][11] for that last one).
@@ -42,7 +41,7 @@ things, this site sports:
 [3]: https://photos.desmondrivet.com
 [4]: https://wiki.desmondrivet.com
 [5]: /oldsite
-[10]: https://www.intelerad.com/en/
+[10]: https://unity.com/
 [11]: https://en.wikipedia.org/wiki/Mad_Men
 [12]: https://indieweb.org/
 [13]: /notes
