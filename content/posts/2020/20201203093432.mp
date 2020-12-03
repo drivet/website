@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["*eyes wide* Is it possible to learn this power?"], "in-reply-to": ["https://twitter.com/JessicaValenti/status/1334367667042586626?s=20"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-12-03T09:34:32.982684"]}}
