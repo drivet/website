@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Tacos Victor and the Good Lovelies. Not the worst birthday."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/12/0_e8e8579a-1fcb-40cb-8abb-b8888d2d7292.jpg"], "published": ["2020-12-10T19:26:49.838713"]}}
