@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/12/0_f689b2f3-9bf1-4d2f-a91a-fc7d4b4f869e.jpg"], "published": ["2020-12-13T12:50:29.020133"]}}
