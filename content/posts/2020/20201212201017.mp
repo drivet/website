@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL about George Appel, a convicted murderer executed by electric chair in 1928, who's last words were \"Well, gentlemen, you are about the see a baked Appel\".\r\n\r\nA tip of the hat to you, sir."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-12-12T20:10:17.697035"]}}
