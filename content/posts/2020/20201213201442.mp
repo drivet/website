@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/ashhhhhhole/status/1337865017975336974?s=19"], "published": ["2020-12-13T20:14:42.054749"]}}
