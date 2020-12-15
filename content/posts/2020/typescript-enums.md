@@ -5,64 +5,74 @@ tags: typescript
 blurb: Typescript enums are kind of weird
 mp_syndicate_to: twitter_bridgy
 
-At one time in my career, I developed web applications using the Google Web
-Toolkit (GWT), a Java to JavaScript transpiler, and I learned to dislike the
-experience thoroughly.
+I'm a pretty big fan of [TypeScript][1], probably best described as a
+statically typed language that transpiles to standard JavaScript.  I've
+[written about it][2] before.
 
-GWT was truly a product of its time, and that time viewed JavaScript as a
-necessary evil at best.  We're talking about the years roughly before 2010,
-when JavaScript was mostly considered a "toy" language, replete with warts
-and inconsistencies, and relegated to the implementation of cute web browser
-effects.  Anything which enabled you to avoid writing it was considered a
-boon.  This was roughly the same era that produced CoffeeScript, another
-famous attempt to avoid writing JavaScript at all costs.
+People who have worked with me in the past may be surprised at my
+admiration, given the rancour I sometimes direct at something like the
+[Google Web Toolkit (GWT)][3], a Java-to-JavaScript transpiler, which to the
+casual eye seems to be in a similar vein.
 
-As someone who used to hate JavaScript as much as the next guy, I understand
-the rationale, but JavaScript-transpiled languages come with a batch of
-problems that are sometimes not entirely obvious to someone blinded by an
-agenda.  One of them is impedance mismatch, so to speak.  More often than
-not, the source language contains features which simply don't translate well
-to JavaScript.  GWT was notorious for this.  It was a bit misleading, in
-fact, to call it a Java to JavaScript transpiler at all; more accurately, it
-transpiled a *subset* of Java into JavaScript.  The entire Java threading
-package, for example, was off limits as such a thing didn't make any sense
-in the context of a web browser.  A related issue is the availability of
-supporting libraries.  The GWT team provided JavaScript versions of most of
-the standard Java libraries as of version 1.3, but they started to run out
-of steam after version 1.5, and it's not as if you can just use any
-third-party library to compensate. Most libraries are provided as jar files,
-which won't work in this context; full source code is needed to convert it
-to JavaScript, and there is no guarantee that the writer of the library
-restricted themselves to the supported subset of the language.
+The similarities, however, are superficial; TypeScript and GWT are quite
+different beasts.  Something like GWT is used in web development in order to
+*avoid* writing JavaScript.  TypeScript, on the other hand, is best viewed
+as JavaScript extended with an optional static typing system.  The optional
+part is key; in theory, any JavaScript program is also a valid TypeScript
+program.  In other words, TypeScript doesn't try to hide the fact that it's
+merely an enhanced version of JavaScript.
 
-The impedance mismatch I mentioned before surfaces in other ways as well.
-Although arrays and object and classes exist (to some extent) in JavaScript,
-they are not directly related to the Lists and Classes that one find in
-Java.  Certainly
+To put it another way, GWT adopts the attitude that JavaScript is
+fundamentally broken and should be avoided in shame, while TypeScript adopts
+the attitude that JavaScript is elegant and should be used with pride.
 
-One aspect of using these languages that usually wasn't considered a problem
-but which sometimes made me vaguely uncomfortable was the quality of
-JavaScript produced.  It was generally pretty unreadable, mostly because it
-wasn't meant to be read.  In these kinds of applications, JavaScript is
-often treated as the "assembly language of the web" and isn't manipulated
-directly.
+Granted, the latter attitude is much easier to adopt with the advent of
+EcmaScript 6 (ES6), the official name of the latest version of JavaScript.
+ES6 fixes most of the shortcomings of previous versions of JavaScript, many
+of which are the reasons that GWT became a thing in the first place.
 
-In any case, JavaScript has evolved significantly since those early days and
-EcmaScript 6, the latest version, fixes a lot of the problems that made
-people want to use different languages.  The rationale for using these kinds
-of transpiled languages has mostly disappeared.
+Because Java and JavaScript are so different, using GWT comes at the expense
+of an "impedance mismatch".  Although JavaScript includes arrays,
+dictionaries and something resembling classes, these features are nothing
+like the analogous features in Java.  Implementing a Java-to-JavaScript
+transpiler like GWT means implementing basic constructs like Java classes
+and specific implementations of things like ArrayLists and HashMaps - all in
+JavaScript.
 
-## Why TypeScript is Different
+You don't have to pull these kinds of shenanigans with a TypeScript
+transpiler because Typescript isn't pretending to be anything other than a
+somewhat safer version of JavaScript.  TypeScript doesn't provide a
+specialized list implementation, for example, because JavaScript already
+gives you perfectly good arrays.  TypeScript's class construct maps directly
+to ES6's class construct which is, itself, mere syntactic sugar over the
+somewhat more cumbersome EcmaScript 5 class construct.
 
-I'm a fan of TypeScript, a typed programming language which transpiles to
-standard JavaScript.
+TypeScript really is just "JavaScript with types" which is why my hackles go
+up every time I hear someone describe it as an attempt to make JavaScript
+more "Java-like".  This is criminally misleading, and misses the point
+entirely.
 
-One exception to this general trend is Typescript.  Typescript is different.
+It's also why I dislike TypeScript enums.
 
-Typescript is different because it tries very hard to be compatible with
-standard JavaScript.  While Typescript adds some welcome features to the
-language, such as type checking, these features are entirely optional. In
-theory, a pure JavaScript program is parseable by the Typescript compiler.
-Typescript embodies the idea that Javascript is actually pretty good on its
-own, and only needs a few extra features to make it even better.
+## TypeScript Enums Are Weird
 
+The fundamental design strategy behind TypeScript is to re-use to JavaScript
+concepts wherever possible.  Constructs like imports, classes, Arrays, Maps,
+Sets will all be perfectly familar to anyone who has used ES6 - because they
+are the exact same constructs.
+
+That being said, one construct that will *not* be familiar to JavaScript
+users are TypeScript enums, for the simple reason that they don't exist in
+any version of JavaScript.  TypeScript enums are similar in concept to enums
+from other languages.  They provide a convenient way to represent a list of
+related, labelled values - think of the days of the week, or the months of
+the year.
+
+More to the point, enums are a pure TypeScript construct.  They don't exist
+in any version of JavaScript.  And that makes them, in my opinion, somewhat
+anathema to the entire idea of TypeScript.
+
+
+[1]: https://www.typescriptlang.org/
+[2]: /2018/01/18/static-typing
+[3]: http://www.gwtproject.org/
