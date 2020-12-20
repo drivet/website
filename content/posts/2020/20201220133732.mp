@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I still think it's kind of cool that trains run through my neighborhood."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/12/0_66635d1c-7be1-4bf0-93bc-20886219c923.jpg"], "published": ["2020-12-20T13:37:32.520713"]}}
