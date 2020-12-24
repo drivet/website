@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Merry Christmas everyone!"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/12/0_b4314768-1989-40a7-a73a-78bd7335e08e.jpg"], "published": ["2020-12-24T17:35:04.394435"]}}
