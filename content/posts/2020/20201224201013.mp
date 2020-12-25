@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I like egg nog way too much"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-12-24T20:10:13.740445"]}}
