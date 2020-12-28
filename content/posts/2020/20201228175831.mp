@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I am currently reading this tweet in Avasarala's voice and it's pretty awesome."], "in-reply-to": ["https://twitter.com/SAghdashloo/status/1343671563489574915?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2020-12-28T17:58:31.786790"]}}
