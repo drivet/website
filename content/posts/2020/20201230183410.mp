@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://evanstoner.com/posts/2020/indieweb-revisited/"], "published": ["2020-12-30T18:34:10.400030"]}}
