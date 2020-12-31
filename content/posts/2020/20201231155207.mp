@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Fully brag-worthy when a cat likes you and, apparently, no one else."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2020/12/0_124fb95c-3a8c-4cbb-b32e-ad2607f63220.jpg"], "published": ["2020-12-31T15:52:07.071116"]}}
