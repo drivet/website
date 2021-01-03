@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["How does this work, exactly? Is he rebinding old books or is he making new (blank, I guess?) books? Either way, looks really cool."], "in-reply-to": ["https://twitter.com/mina_hamedi/status/1345076903103836160?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-01-03T10:37:42.032292"]}}
