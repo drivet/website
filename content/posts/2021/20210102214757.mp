@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Okay, so duolingo is kind of fun."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-01-02T21:47:57.092149"]}}
