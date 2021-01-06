@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["My my, that duolingo owl is aggressive, isn't it."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-01-06T12:44:46.458957"]}}
