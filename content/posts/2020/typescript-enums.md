@@ -10,7 +10,7 @@ statically typed language that transpiles to standard JavaScript.  I've
 [written about it][2] before.
 
 People who have worked with me in the past may be surprised at my
-admiration, given the rancour I sometimes direct at something like the
+admiration, given the rancour I occasionally direct at something like the
 [Google Web Toolkit (GWT)][3], a Java-to-JavaScript transpiler, which to the
 casual eye seems to be in a similar vein.
 
@@ -43,10 +43,10 @@ JavaScript.
 You don't have to pull these kinds of shenanigans with a TypeScript
 transpiler because Typescript isn't pretending to be anything other than a
 somewhat safer version of JavaScript.  TypeScript doesn't provide a
-specialized list implementation, for example, because JavaScript already
-gives you perfectly good arrays.  TypeScript's class construct maps directly
-to ES6's class construct which is, itself, mere syntactic sugar over the
-somewhat more cumbersome EcmaScript 5 class construct.
+specialized list implementation, for example, because JavaScript (especially
+ES6) already gives you perfectly good arrays.  TypeScript's class construct
+maps directly to ES6's class construct which is, itself, mere syntactic
+sugar over the somewhat more cumbersome ES5 class construct.
 
 What I'm trying to say is that TypeScript really is just "JavaScript with
 types" which is why my hackles go up every time I hear someone describe it
@@ -55,21 +55,13 @@ misleading, and misses the point entirely.
 
 It also cuts right to the core of why I dislike TypeScript enums.
 
-## TypeScript's Enum Problem
+## Enums in TypeScript
 
-The fundamental design strategy behind TypeScript is to re-use to JavaScript
-concepts wherever possible.  Constructs like imports, classes, Arrays, Maps,
-Sets will all be perfectly familar to anyone who has used ES6 - because they
-are the exact same constructs.
-
-That being said, one construct that might *not* be familiar to JavaScript
-developers are [TypeScript enums][4], for the simple reason that they don't
-exist in any version of JavaScript.  TypeScript enums are similar in concept
-to enums from other languages, but if all you've ever used is JavaScript,
-the idea might be foreign.  They provide a convenient, type-safe way to
-describe a variable who's value can only be taken from a constrained list of
-related values - think of a variable to hold the day of the week, or the
-month of the year.
+TypeScript enums are similar in concept to enums from other languages, but
+if all you've ever used is JavaScript, the idea might be foreign.  They
+provide a convenient, type-safe way to describe a variable who's value can
+only be taken from a constrained list - think of a variable to represent the
+day of the week, or the month of the year.
 
 You define an enum in TypeScript like this:
 
@@ -88,7 +80,7 @@ enum DayOfWeek {
 This is what's called a *numeric enum*; the values of Sunday through
 Saturday are literally represented by the numbers 0 through 6.
 
-An enum definition like the one above can be used as a type, like this:
+The DayOfWeek enum label is usually used as a type, like this:
 
 ```
 function doSomethingWithDay(day: DayOfWeek) {
@@ -96,39 +88,243 @@ function doSomethingWithDay(day: DayOfWeek) {
 }
 ```
 
-This is basically saying that the day variable in this function is a number
-between 0-6.
+This allows to call the function like this:
 
-And you can access the individual enum values like this:
+```
+doSomethiWithDay(DayOfWeek.Monday)
+```
+
+Writing code like this makes two things clear.  For one thing, while
+DayOfWeek is an enum type, but it's really little more than an alias for
+`number`.  For example, you can call the function like this:
+
+```
+doSomethingWithDay(10)
+```
+
+And the compiler won't complain.  Secondly, the values of an enum have a
+real, tangible existence in the transiled JavaScript code, and you can
+access them like this:
 
 ```
 const m = DayOfWeek.Monday;
 ```
 
-In JavaScript, the type of m would be number.
+In other words, an enum is more than just a type; it's an actual runtime
+object that can be manipulated in actual code.  In the above example, the
+type of `m` would be number (and value of `m` would be 1).
 
-As I mentioned before, enums are a pure TypeScript construct.  Unlike arrays
-and Maps, they don't exist in any version of JavaScript.  In that sense
-they're a bit like [TypeScript interfaces][5], constructs which also exist
-purely in the TypeScript realm - the difference being that, unlike
-interfaces, which get completely compiled away from the final, resulting
-JavaScript, enums very much stay behind. And that makes them, in my opinion,
-somewhat anathema to the entire idea of TypeScript.  One of the main perks
-of TypeScript development is that it is not entirely disimilar to JavaScript
-development, and the use of TypeScript enums definitely runs counter to that
-advantage.
+Enums also come in string variants like this:
 
-## Enums Are Weird
+enum D {
+   Stuff = 'Blah',
+   Foo = 'Hello'
+}
 
-So what's the problem, exactly?  Why are TypeScript enums weird?  I mean,
-it's kind of hard to imagine that JavaScript developers are unfamiliar with
-the idea of a variable that can only hold one of a list of values.
-
-The issue is that a JavaScript developer would probably just use a simple
-string or number for this purpose - not a full blown object
+This is used in basically the same as the numeric variant, except that in a
+statement like this:
 
 
+```
+const m = D.Stuff;
+```
 
+The type of `m` would be string (and the value of `m` would be 'Blah').
+
+## Philosophical Discomfort
+
+Okay, so what's the problem, exactly?  Why are TypeScript enums weird?  I
+mean, it's kind of hard to imagine that JavaScript developers are unfamiliar
+with the idea of a variable that can only hold one of a finite list of
+values, so why does this blog entry even exist?
+
+The objection is more philosophical than anything else, I suppose.  The
+fundamental design strategy behind TypeScript is to re-use to JavaScript
+concepts wherever possible.  Constructs like imports, classes, Arrays, Maps,
+Sets will all be perfectly familar to any ES6 developer - because they are
+the exact same constructs.
+
+Enums, on the other hand, do not explicitly exist in any version of
+JavaScript; they are pure TypeScript constructs.  In that sense they're a
+bit like [TypeScript interfaces][5], which also exist purely in the
+TypeScript realm, the difference being that, unlike interfaces, which get
+completely compiled away from the final, resulting JavaScript, enums very
+much stay behind.  And that makes them, in my opinion, somewhat anathema to
+the entire idea of TypeScript.  One of the main perks of TypeScript
+development is that it is not entirely dissimilar to JavaScript development,
+and the use of TypeScript enums undermines that advantage.
+
+## Practical Considerations
+
+Another problem is that enums are awkward for certain use cases that would
+*seem* to be a natural fit.  Consider the case of a dictionary with a
+limited set of strings for keys.  For example, imagine you had a JavaScript
+object to represent a number of widgets for each day of the week:
+
+
+```
+const widgetsPerDay = {
+    'Sunday': 4,
+    'Monday': 10,
+    'Tuesday': 3,
+    'Wednesday': 6,
+    'Thursday': 9,
+    'Friday': 1,
+    'Saturday': 5
+}
+```
+
+You'd like to define a type to represent the keys of this object, and you
+might think that a vanilla (numeric) enum would do the trick:
+
+
+```
+enum DayOfWeek {
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+}
+```
+
+And you'd be right, but not without some fairly significant syntactic
+acrobatics.  For one thing, the enum values are numbers, not strings, so
+this doesn't work the way you might think:
+
+
+```
+const totalForMonday = widgetsPerDay[DayOfWeek.Monday]
+console.log(totalForMonday)
+```
+
+This will print undefined, because we're actually looking up the total with
+a key value of 1, i.e. the value of DayOfWeek.Monday, and there is obviously
+no value attached to that key in the widgetsPerDay object.  Making this work
+requires looking up the name from the enum object itself, like this:
+
+
+```
+const mondayKey = DayOfWeek[DayOfWeek.Monday] // mondayKey = 'Monday';
+const totalForMonday = widgetsPerDay[mondayKey];
+console.log(totalForMonday);
+```
+
+This prints the expected 10, but I don't believe I'm the only one to find
+the need to lookup up the value of the key in the enum object somewhat
+distasteful.
+
+You can make all this work somewhat more naturally with a string enum:
+
+
+```
+enum DayOfWeek {
+    Sunday = 'Sunday',
+    Monday = 'Monday',
+    Tuesday = 'Tuesday',
+    Wednesday = 'Wednesday',
+    Thursday = 'Thursday',
+    Friday = 'Friday',
+    Saturday = 'Saturday'
+}
+```
+
+in which case this statement
+
+
+```
+const totalForMonday = widgetsPerDay[DayOfWeek.Monday]
+console.log(totalForMonday)
+```
+
+will print out the expected 10.  This is, in fact, pretty close to how you
+would solve this in a language like, say, Java.  You'd probably define
+static string constants in a class somewhere like this:
+
+
+```
+public class DayOfWeek {
+    public static String Sunday = "Sunday";
+    public static String Monday = "Monday";
+    // ...and the rest
+}
+```
+
+This is also probably pretty close to how you would do this in pure
+JavaScript.  In ES6, we'd probably just define a file with the key labels
+defined as such:
+
+```
+export const Sunday = 'Sunday';
+export const Monday = 'Monday';
+// ...and the rest
+```
+
+But...it's all a bit verbose and redundant, isn't it?  You're repeating the
+name of the day in the variable and its value.  One might ask why we're
+bothering with this at all.  It's almost enough to make me want to skip the
+enum construct entirely and just do this:
+
+
+```
+const totalForMonday = widgetsPerDay['Monday'];
+console.log(totalForMonday);
+```
+
+Easier, yeah?  And maybe even good enough for this particular case, where
+the keys are very constrained and very well-known.  That being said, if the
+values of the keys were to suddenly change, you'd be in trouble.  If the
+widgetsPerDay object were to suddenly look like this, for example:
+
+
+```
+const widgetsPerDay = {
+    'Sun': 4,
+    'Mon': 10,
+    'Tue': 3,
+    'Wed': 6,
+    'Thu': 9,
+    'Fri': 1,
+    'Sat': 5
+}
+```
+
+then this code will fail:
+
+
+```
+const totalForMonday = widgetsPerDay['Monday'];
+console.log(totalForMonday);
+```
+
+You would have to go and change every instance of 'Monday' (that was being
+used as a key to widgetsPerDay) to 'Mon' (and then do the same for all the
+other days of the week).  This may or may not be a big deal depending on how
+often you're using the key.  The desire to avoid this and to protect
+yourself from such a possibility is what leads us to the apparent verbosity
+of the other solutions.  If you were to use a string enum, all you would
+have to do is redefine the values like this:
+
+
+```
+enum DayOfWeek {
+    Sunday = 'Sun',
+    Monday = 'Mon',
+    Tuesday = 'Tue',
+    Wednesday = 'Wed',
+    Thursday = 'Thu',
+    Friday = 'Fri',
+    Saturday = 'Sat'
+}
+```
+
+And nothing else needs to change, as long as the keys are always referenced
+via the enum.  The apparent redundancy, it turns out, buys us a certain
+amount of protection from change.
+
+## Alternatives to Enums
 
 
 [1]: https://www.typescriptlang.org/
