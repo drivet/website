@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://hiddedevries.nl/en/blog/2021-01-04-how-i-turned-my-goodreads-data-into-a-self-hosted-website-with-eleventy"], "published": ["2021-01-07T13:31:29.706783"]}}
