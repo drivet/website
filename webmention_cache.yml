@@ -1317,4 +1317,8 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1338180088446193665
       status_code: 201
+  2020/12/12/201017:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1337928598938939392
+      status_code: 201
 site_url: https://desmondrivet.com
