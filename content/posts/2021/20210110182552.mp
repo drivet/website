@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I used to use the Big Brother Database from Emacs but these days I don't use anything in particular and I'd like to change that."], "in-reply-to": ["https://social.johanbove.info/2021/01/09/what-do-you-use-to-manage-your"], "published": ["2021-01-10T18:25:52.714617"]}}
