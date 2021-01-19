@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90"], "published": ["2021-01-19T07:38:07.448780"]}}
