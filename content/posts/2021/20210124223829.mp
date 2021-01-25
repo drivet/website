@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Wait... did I miss something? What's wrong with shortbread?"], "in-reply-to": ["https://twitter.com/jlhbrain/status/1353536703059746816?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-01-24T22:38:29.299624"]}}
