@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/philosophytweet/status/1355283086980874241?s=19"], "published": ["2021-01-29T19:24:16.009197"]}}
