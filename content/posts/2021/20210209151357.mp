@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL that the chinese word for penguin literally translates as \"business goose\"."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-02-09T15:13:57.476772"]}}
