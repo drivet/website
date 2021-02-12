@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I love how the media is covering this impeachment trial as if a conviction were an actual possibility."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-02-12T12:24:09.516597"]}}
