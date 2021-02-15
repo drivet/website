@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I don't organize my bookmarks, though I've always meant to. That being said, isn't the point of IndieWeb's bookmark entry type to avoid relying on an external service for this?"], "in-reply-to": ["https://social.johanbove.info/2021/02/15/testing-a-new-browser-gave-me-the"], "published": ["2021-02-15T12:17:59.609284"]}}
