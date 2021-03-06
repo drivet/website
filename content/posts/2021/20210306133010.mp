@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I apparently own all six cancelled Dr. Seuss books"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-03-06T13:30:10.636685"]}}
