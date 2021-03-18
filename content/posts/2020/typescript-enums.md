@@ -95,7 +95,7 @@ doSomethiWithDay(DayOfWeek.Monday)
 ```
 
 Writing code like this makes two things clear.  For one thing, while
-DayOfWeek is an enum type, but it's really little more than an alias for
+DayOfWeek is an enum type, it's really little more than an alias for
 `number`.  For example, you can call the function like this:
 
 ```
@@ -141,7 +141,7 @@ values, so why does this blog entry even exist?
 The objection is more philosophical than anything else, I suppose.  The
 fundamental design strategy behind TypeScript is to re-use to JavaScript
 concepts wherever possible.  Constructs like imports, classes, Arrays, Maps,
-Sets will all be perfectly familar to any ES6 developer - because they are
+Sets will all be perfectly familiar to any ES6 developer - because they are
 the exact same constructs.
 
 Enums, on the other hand, do not explicitly exist in any version of
