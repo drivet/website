@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Thinking of trying eleventy.  But I've put some much effort into my pelican setup.  Hrm."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-03-19T20:04:03.903859"]}}
