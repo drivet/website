@@ -9,7 +9,7 @@ jobs:
       only:
         - master
     docker:
-      - image: circleci/python:3.6.8-node
+      - image: circleci/python:3.8.5-node
         
     working_directory: ~/repo
 
