@@ -19,7 +19,7 @@ jobs:
       - restore_cache:
           name: Restore pip cache
           keys:
-            - v1-dependencies-{{ checksum "requirements.txt" }}
+            - v2-dependencies-{{ checksum "requirements.txt" }}
 
       - run:
           name: Install pip requirements
@@ -32,7 +32,7 @@ jobs:
           name: Save pip cache
           paths:
             - ./venv
-          key: v1-dependencies-{{ checksum "requirements.txt" }}
+          key: v2-dependencies-{{ checksum "requirements.txt" }}
 
       - run:
           name: Clone required git repos
