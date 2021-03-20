@@ -1270,7 +1270,9 @@ results:
       location: https://twitter.com/desmondrivet/status/1325122870348042240
       status_code: 201
   2020/11/17/072906:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/chrtucci/status/1328405825463873536
+      status_code: 201
   2020/11/17/160853:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1328807984982609925
@@ -1286,9 +1288,13 @@ results:
       location: https://twitter.com/desmondrivet/status/1333155462410334213
       status_code: 201
   2020/12/01/085510:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/mxbck/status/1333673939017592832
+      status_code: 201
   2020/12/01/085704:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/emrazz/status/1333654085095055360
+      status_code: 201
   2020/12/03/093432:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1334507014630895616
@@ -1306,9 +1312,13 @@ results:
       location: https://twitter.com/desmondrivet/status/1338180088446193665
       status_code: 201
   2020/12/13/201442:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/ashhhhhhole/status/1337865017975336974
+      status_code: 201
   2020/12/15/075553:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/susie_dent/status/1338781237406740482
+      status_code: 201
   2020/12/20/133732:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1340728721838403588
@@ -1326,7 +1336,9 @@ results:
       location: https://twitter.com/desmondrivet/status/1342276963122237443
       status_code: 201
   2020/12/24/205506:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/PavelASamsonov/status/1341881125053071368
+      status_code: 201
   2020/12/28/175831:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1343693471828357129
@@ -1349,26 +1361,42 @@ results:
       location: https://twitter.com/desmondrivet/status/1346876083526901763
       status_code: 201
   2021/01/06/204329:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/susie_dent/status/1346915538698727428
+      status_code: 201
   2021/01/07/133129: {}
   2021/01/10/182552:
     https://social.johanbove.info/2021/01/09/what-do-you-use-to-manage-your: null
   2021/01/19/073807: {}
   2021/01/24/223829:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/jlhbrain/status/1353536703059746816
+      status_code: 201
   2021/01/27/102038: {}
   2021/01/29/192416:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/philosophytweet/status/1355283086980874241
+      status_code: 201
   2021/02/08/232414:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/AstroKatie/status/1358833824252190723
+      status_code: 201
   2021/02/09/151357:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1359234627404247040
+      status_code: 201
   2021/02/12/122409:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1360279113429360647
+      status_code: 201
   2021/02/15/121759:
     https://social.johanbove.info/2021/02/15/testing-a-new-browser-gave-me-the: null
   2021/03/06/133010:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1368402156114546691
+      status_code: 201
   2021/03/19/200403:
-    https://brid.gy/publish/twitter?bridgy_omit_link=true: null
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1373361797823090689
+      status_code: 201
 site_url: https://desmondrivet.com
