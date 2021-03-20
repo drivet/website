@@ -1366,7 +1366,8 @@ results:
       status_code: 201
   2021/01/07/133129: {}
   2021/01/10/182552:
-    https://social.johanbove.info/2021/01/09/what-do-you-use-to-manage-your: null
+    https://social.johanbove.info/2021/01/09/what-do-you-use-to-manage-your:
+      status_code: 202
   2021/01/19/073807: {}
   2021/01/24/223829:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
@@ -1390,7 +1391,8 @@ results:
       location: https://twitter.com/desmondrivet/status/1360279113429360647
       status_code: 201
   2021/02/15/121759:
-    https://social.johanbove.info/2021/02/15/testing-a-new-browser-gave-me-the: null
+    https://social.johanbove.info/2021/02/15/testing-a-new-browser-gave-me-the:
+      status_code: 202
   2021/03/06/133010:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1368402156114546691
