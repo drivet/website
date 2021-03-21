@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Zack Snyder's Justice League.  A better movie, but not a good movie."], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-03-21T10:05:51.798318"]}}
