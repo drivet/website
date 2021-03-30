@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["First practical duolingo result: I now understand that the chihuahua was saying \"I want Taco Bell\""], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-03-29T23:53:21.171514"]}}
