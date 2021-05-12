@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Got my first shot #HousePfizer !"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-05-11T22:33:38.342138"]}}
