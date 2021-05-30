@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://doubleloop.net/2021/05/29/when-did-you-join-the-indieweb/"], "published": ["2021-05-30T11:07:00-0400"], "post-status": ["published"]}}
