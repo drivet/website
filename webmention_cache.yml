@@ -130,6 +130,7 @@ excluded_domains:
 - mysardinianlife.com
 - spinachtiger.com
 - asoftmurmur.com
+- poets.org
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1430,4 +1431,5 @@ results:
   2021/05/30/110700:
     https://doubleloop.net/2021/05/29/when-did-you-join-the-indieweb/:
       status_code: 200
+  2021/06/14/205334: {}
 site_url: https://desmondrivet.com
