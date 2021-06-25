@@ -1432,4 +1432,8 @@ results:
     https://doubleloop.net/2021/05/29/when-did-you-join-the-indieweb/:
       status_code: 200
   2021/06/14/205334: {}
+  2021/06/25/174918:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/philippawarr/status/1408258565945663491?s=19
+      status_code: 201
 site_url: https://desmondrivet.com
