@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I thought I read that they were developing boosters for the delta variant but I'm not sure."], "in-reply-to": ["https://twitter.com/segacs/status/1412239044617060354?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-07-05T22:54:09.219564"]}}
