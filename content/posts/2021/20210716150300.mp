@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["The Expanse is an awesome series of books but am I the only one who loves the fact that each and every chapter is almost exactly ten pages long?"], "published": ["2021-07-16T15:03:00-0400"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy_no_link"]}}
