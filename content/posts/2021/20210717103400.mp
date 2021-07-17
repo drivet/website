@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I don't know about awesome, but I usually find myself enjoying SQL more than I think I will."], "in-reply-to": ["https://jlelse.blog/micro/2021/07/2021-07-17-dspcx"], "published": ["2021-07-17T10:34:00-0400"], "post-status": ["published"]}}
