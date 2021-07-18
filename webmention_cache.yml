@@ -131,6 +131,7 @@ excluded_domains:
 - spinachtiger.com
 - asoftmurmur.com
 - poets.org
+- staltz.com
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1459,4 +1460,5 @@ results:
   2021/07/17/103400:
     https://jlelse.blog/micro/2021/07/2021-07-17-dspcx:
       status_code: 202
+  2021/07/18/193600: {}
 site_url: https://desmondrivet.com
