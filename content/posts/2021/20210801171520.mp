@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://www.jvt.me/posts/2021/08/01/books-microformats/#demo"], "published": ["2021-08-01T17:15:20.262905"]}}
