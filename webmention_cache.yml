@@ -1461,4 +1461,8 @@ results:
     https://jlelse.blog/micro/2021/07/2021-07-17-dspcx:
       status_code: 202
   2021/07/18/193600: {}
+  2021/08/01/171520:
+    https://www.jvt.me/posts/2021/08/01/books-microformats/#demo:
+      location: https://webmention.io/www.jvt.me/webmention/5P5iSZbjPSwNJgg73uXg
+      status_code: 201
 site_url: https://desmondrivet.com
