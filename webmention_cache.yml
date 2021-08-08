@@ -1465,4 +1465,8 @@ results:
     https://www.jvt.me/posts/2021/08/01/books-microformats/#demo:
       location: https://webmention.io/www.jvt.me/webmention/5P5iSZbjPSwNJgg73uXg
       status_code: 201
+  2021/08/08/195700:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      location: https://twitter.com/desmondrivet/status/1424520445194289153
+      status_code: 201
 site_url: https://desmondrivet.com
