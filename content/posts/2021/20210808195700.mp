@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I find the Spanish tendency to drop the subject of a sentence when it's implied by the format of the verb to be both jarring and admirably efficient"], "published": ["2021-08-08T19:57:00-0400"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy_no_link"]}}
