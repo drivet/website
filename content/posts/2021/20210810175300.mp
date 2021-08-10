@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Drambuie has a bad reputation, but for what it is worth it's pretty good in a sour - 2 parts Drambuie, 1 part lemon juice, shaken over ice and strained.  This is from a guy who actually likes Rusty Nails."], "published": ["2021-08-10T17:53:00-0400"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy_no_link"]}}
