@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Aha, so THAT'S what a crab pinch feels like"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-08-18T13:26:18.385284"]}}
