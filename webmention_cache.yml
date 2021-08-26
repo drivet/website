@@ -132,6 +132,7 @@ excluded_domains:
 - asoftmurmur.com
 - poets.org
 - staltz.com
+- www.ioccc.org
 results:
   2007/06/01/blogging: {}
   2007/06/11/careers: {}
@@ -1488,5 +1489,9 @@ results:
   2021/08/25/121325:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1430564412637814789
+      status_code: 201
+  2021/08/25/git-warts:
+    https://brid.gy/publish/twitter:
+      location: https://twitter.com/desmondrivet/status/1430701984336723970
       status_code: 201
 site_url: https://desmondrivet.com
