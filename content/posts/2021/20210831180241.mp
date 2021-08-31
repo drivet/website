@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I've been doing Spanish on Duolingo since December of last year, and I STILL have trouble mentally translating \"Yo tengo\" as \"I have\" as opposed to \"You tango?\""], "location": ["geo:45.48745,-73.57458;u=1268"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-08-31T18:02:41.288370"]}}
