@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I'll admit I gave up on the aeries after...book11?  Still excited, though :-)\nhttps://www.youtube.com/watch?v=3Fus4Xb_TLg"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-09-02T13:30:34.357542"]}}
