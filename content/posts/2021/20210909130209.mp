@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Cool. I think I remember reading that Moderna was also developing an mRNA HIV vaccine too."], "in-reply-to": ["https://twitter.com/segacs/status/1435996480561688582?s=19"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-09-09T13:02:09.959973"]}}
