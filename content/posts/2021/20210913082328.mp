@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Mansonville, Quebec"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "photo": ["https://media.desmondrivet.com/2021/09/0_9a6211c0-7b0a-4cea-8fb5-e2ea7730117a.jpg"], "published": ["2021-09-13T08:23:28.339814"]}}
