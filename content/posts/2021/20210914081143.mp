@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Unoaked whiskey.  Isn't that just...vodka?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-09-14T08:11:43.432030"]}}
