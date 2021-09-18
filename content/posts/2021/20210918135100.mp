@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["I know this sounds patronizing but the Spanish word for small (peque\u00f1o/a) is super cute."], "published": ["2021-09-18T13:51:00-0400"], "post-status": ["published"]}}
