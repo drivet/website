@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL that Betty White is older than sliced bread. Also, her and Rue McClanahan were originally offered their respective parts on The Golden Girls."], "published": ["2021-10-07T10:14:00-0400"], "post-status": ["published"]}}
