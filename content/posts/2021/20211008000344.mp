@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"bookmark-of": ["https://css-tricks.com/considerations-for-using-markdown-writing-apps-on-static-sites/"], "published": ["2021-10-08T00:03:44.932466"]}}
