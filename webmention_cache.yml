@@ -1530,4 +1530,10 @@ results:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       location: https://twitter.com/desmondrivet/status/1437751520926343172
       status_code: 201
+  2021/09/18/135100: {}
+  2021/10/07/101400: {}
+  2021/10/08/000344: {}
+  2021/10/23/211009:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      status_code: 400
 site_url: https://desmondrivet.com
