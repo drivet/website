@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://boffosocko.com/2021/10/27/55797602/"], "published": ["2021-10-29T10:25:00-0400"], "post-status": ["published"]}}
