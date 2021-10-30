@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["TIL I learned that the word \"senate\" is derived from the Latin word \"senex\" meaning \"old man\"."], "published": ["2021-10-30T11:12:00-0400"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy_no_link"]}}
