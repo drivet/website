@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Sotherans/status/1454894992103821314?t=P5jft_MC8RUIoIgP-UVLZQ&s=19"], "published": ["2021-10-31T16:11:00-0400"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy_no_link"]}}
