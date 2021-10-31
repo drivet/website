@@ -1542,4 +1542,7 @@ results:
   2021/10/30/111200:
     https://brid.gy/publish/twitter?bridgy_omit_link=true:
       status_code: 400
+  2021/10/31/161100:
+    https://brid.gy/publish/twitter?bridgy_omit_link=true:
+      status_code: 400
 site_url: https://desmondrivet.com
