@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"like-of": ["https://twitter.com/Elzo_/status/1455949934449111040?t=cMc-bQB9UD6EksduuE6e-g&s=19"], "published": ["2021-11-07T21:03:00-0500"], "post-status": ["published"], "mp-syndicate-to": ["twitter_bridgy"]}}
