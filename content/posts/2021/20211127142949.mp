@@ -1,0 +1,1 @@
+{"type": ["h-entry"], "properties": {"content": ["Why does every Greek letter sound so ominous?"], "mp-syndicate-to": ["twitter_bridgy_no_link"], "published": ["2021-11-27T14:29:49.961862"]}}
