@@ -20,7 +20,7 @@ mf2util==0.5.1
 micawber==0.5.1
 paragraphed-summary==1.0.1
 pelican==4.1.0
-Pillow==7.0.0
+Pillow==9.3.0
 Pygments==2.4.2
 python-dateutil==2.8.0
 pytz==2019.2
